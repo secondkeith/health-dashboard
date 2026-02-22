@@ -9,6 +9,8 @@ import {
   LineChart,
   Pie,
   PieChart,
+  ReferenceArea,
+  ReferenceLine,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -49,7 +51,11 @@ type Day = {
 type View = 'Dashboard' | 'Nutrition' | 'Activity' | 'Workouts' | 'Next Workout';
 
 const views: View[] = ['Dashboard', 'Nutrition', 'Activity', 'Workouts', 'Next Workout'];
-const targetCalories = { min: 1600, max: 2200 };
+// Caloric targets based on Keith's stats: Male, 48yo, 5'9", 285 lbs
+// BMR (Mifflin-St Jeor): ~2,150 cal | TDEE (sedentary): ~3,010 cal
+// Moderate deficit zone: 2,000 - 2,500 cal/day for steady weight loss
+const targetCalories = { min: 2000, max: 2500 };
+const bmr = 2150;
 
 const formatShortDate = (date: string) =>
   new Date(`${date}T00:00:00`).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
@@ -266,8 +272,13 @@ const App = () => {
                     <BarChart data={caloriesData} margin={{ top: 10, right: 12, left: -10, bottom: 0 }}>
                       <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
                       <XAxis dataKey="date" stroke="#94a3b8" />
-                      <YAxis stroke="#94a3b8" />
+                      <YAxis stroke="#94a3b8" domain={[0, 3200]} />
                       <Tooltip contentStyle={{ background: '#0f172a', border: '1px solid #1e293b' }} />
+                      {/* Ideal caloric intake zone */}
+                      <ReferenceArea y1={targetCalories.min} y2={targetCalories.max} fill="#22d3ee" fillOpacity={0.08} />
+                      <ReferenceLine y={targetCalories.min} stroke="#22d3ee" strokeDasharray="4 4" strokeOpacity={0.5} label={{ value: `${targetCalories.min} min`, position: 'right', fill: '#22d3ee', fontSize: 11 }} />
+                      <ReferenceLine y={targetCalories.max} stroke="#22d3ee" strokeDasharray="4 4" strokeOpacity={0.5} label={{ value: `${targetCalories.max} max`, position: 'right', fill: '#22d3ee', fontSize: 11 }} />
+                      <ReferenceLine y={bmr} stroke="#f43f5e" strokeDasharray="6 3" strokeOpacity={0.4} label={{ value: `BMR ${bmr}`, position: 'left', fill: '#f43f5e', fontSize: 11 }} />
                       <Bar dataKey="calories" radius={[6, 6, 0, 0]}>
                         {caloriesData.map((entry) => (
                           <Cell key={entry.date} fill={entry.inRange ? '#06b6d4' : '#f97316'} />
@@ -315,6 +326,9 @@ const App = () => {
                     <div className="rounded-lg bg-slate-800/80 p-3">
                       <p className="text-slate-400">Calories</p>
                       <p className="text-xl font-semibold text-cyan-300">{latestDay.calories}</p>
+                      <p className={`text-xs mt-1 ${latestDay.calories >= targetCalories.min && latestDay.calories <= targetCalories.max ? 'text-green-400' : latestDay.calories < targetCalories.min ? 'text-amber-400' : 'text-red-400'}`}>
+                        {latestDay.calories < targetCalories.min ? `${targetCalories.min - latestDay.calories} under target` : latestDay.calories > targetCalories.max ? `${latestDay.calories - targetCalories.max} over target` : 'In target zone ✓'}
+                      </p>
                     </div>
                     <div className="rounded-lg bg-slate-800/80 p-3">
                       <p className="text-slate-400">Meals</p>
