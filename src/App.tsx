@@ -46,9 +46,9 @@ type Day = {
   workouts: Workout[];
 };
 
-type View = 'Dashboard' | 'Nutrition' | 'Activity' | 'Workouts';
+type View = 'Dashboard' | 'Nutrition' | 'Activity' | 'Workouts' | 'Next Workout';
 
-const views: View[] = ['Dashboard', 'Nutrition', 'Activity', 'Workouts'];
+const views: View[] = ['Dashboard', 'Nutrition', 'Activity', 'Workouts', 'Next Workout'];
 const targetCalories = { min: 1600, max: 2200 };
 
 const formatShortDate = (date: string) =>
@@ -154,6 +154,83 @@ const App = () => {
   }, [days]);
 
   const exercises = Array.from(new Set(volumeData.map((item) => item.exercise)));
+
+  // Build next workout recommendations based on progressive overload
+  const nextWorkoutRecs = useMemo(() => {
+    // Collect all workouts across all days, most recent first
+    const allWorkouts: { date: string; workout: Workout }[] = [];
+    for (const day of [...days].reverse()) {
+      for (const w of day.workouts) {
+        allWorkouts.push({ date: day.date, workout: w });
+      }
+    }
+
+    // Group by exercise name, get the most recent entry for each
+    const latestByExercise = new Map<string, { date: string; workout: Workout; history: { date: string; workout: Workout }[] }>();
+    for (const entry of allWorkouts) {
+      const name = entry.workout.name;
+      if (!latestByExercise.has(name)) {
+        latestByExercise.set(name, { ...entry, history: [] });
+      }
+      latestByExercise.get(name)!.history.push(entry);
+    }
+
+    // Generate recommendations using progressive overload principles
+    return Array.from(latestByExercise.entries()).map(([name, { date, workout, history }]) => {
+      const lastReps = workout.reps;
+      const lastWeight = workout.weight;
+      const lastSets = workout.sets;
+
+      // Parse reps — if all sets hit target (10), recommend weight increase
+      // If some sets fell short, recommend same weight with target reps
+      let repValues: number[];
+      if (typeof lastReps === 'string') {
+        repValues = lastReps.split(',').map(r => parseInt(r.trim(), 10));
+      } else {
+        repValues = Array(lastSets).fill(lastReps);
+      }
+
+      const targetReps = 10;
+      const allSetsHitTarget = repValues.every(r => r >= targetReps);
+      const avgReps = repValues.reduce((a, b) => a + b, 0) / repValues.length;
+
+      let recWeight = lastWeight;
+      let recReps = `${targetReps}`;
+      let recSets = lastSets;
+      let note = '';
+
+      if (allSetsHitTarget) {
+        // All sets hit target — increase weight by ~5-10%
+        const increment = lastWeight < 100 ? 5 : 10;
+        recWeight = lastWeight + increment;
+        recReps = `${targetReps}`;
+        note = `✅ Hit all ${targetReps} reps last time — increase weight by ${increment} lbs`;
+      } else if (avgReps >= targetReps - 2) {
+        // Close to target — same weight, push for full reps
+        recWeight = lastWeight;
+        recReps = `${targetReps}`;
+        note = `🔄 Almost there (avg ${avgReps.toFixed(0)} reps) — same weight, aim for all ${targetReps}s`;
+      } else {
+        // Struggling — consider dropping weight or same weight with fewer reps target
+        recWeight = lastWeight;
+        recReps = `${Math.min(targetReps, Math.ceil(avgReps) + 1)}`;
+        note = `⚠️ Avg ${avgReps.toFixed(0)} reps — hold weight, build up reps`;
+      }
+
+      return {
+        name,
+        lastDate: date,
+        lastWeight,
+        lastSets,
+        lastReps,
+        recWeight,
+        recSets,
+        recReps,
+        note,
+        sessionCount: history.length,
+      };
+    });
+  }, [days]);
 
   return (
     <div className="min-h-screen text-slate-100">
@@ -398,6 +475,67 @@ const App = () => {
                     <Line type="monotone" dataKey="restingHR" stroke="#a78bfa" strokeWidth={3} />
                   </LineChart>
                 </ResponsiveContainer>
+              </div>
+            </section>
+          )}
+
+          {view === 'Next Workout' && (
+            <section className="space-y-4 md:space-y-6">
+              <div className="card">
+                <h2 className="mb-1 text-lg font-medium">🏋️ Next Workout Plan</h2>
+                <p className="mb-4 text-sm text-slate-400">
+                  Progressive overload recommendations based on your last session. Pull this up at the gym!
+                </p>
+                {nextWorkoutRecs.length === 0 ? (
+                  <p className="text-slate-400">No workout data yet. Log your first session!</p>
+                ) : (
+                  <div className="space-y-3">
+                    {nextWorkoutRecs.map((rec, idx) => (
+                      <div key={rec.name} className="rounded-xl border border-slate-700/60 bg-slate-800/60 p-4">
+                        <div className="flex items-start justify-between gap-3">
+                          <div>
+                            <h3 className="text-base font-semibold text-cyan-200">
+                              {idx + 1}. {rec.name}
+                            </h3>
+                            <p className="mt-1 text-xs text-slate-500">
+                              Last: {formatFullDate(rec.lastDate)} — {rec.lastWeight} lbs × {rec.lastSets} sets × {rec.lastReps} reps
+                            </p>
+                          </div>
+                          <span className="rounded-md bg-slate-700/80 px-2 py-1 text-xs text-slate-300">
+                            {rec.sessionCount} session{rec.sessionCount !== 1 ? 's' : ''}
+                          </span>
+                        </div>
+                        <div className="mt-3 grid grid-cols-3 gap-3">
+                          <div className="rounded-lg bg-slate-900/60 p-3 text-center">
+                            <p className="text-xs text-slate-400">Weight</p>
+                            <p className="text-2xl font-bold text-cyan-300">{rec.recWeight}</p>
+                            <p className="text-xs text-slate-500">lbs</p>
+                          </div>
+                          <div className="rounded-lg bg-slate-900/60 p-3 text-center">
+                            <p className="text-xs text-slate-400">Sets</p>
+                            <p className="text-2xl font-bold text-cyan-300">{rec.recSets}</p>
+                          </div>
+                          <div className="rounded-lg bg-slate-900/60 p-3 text-center">
+                            <p className="text-xs text-slate-400">Reps</p>
+                            <p className="text-2xl font-bold text-cyan-300">{rec.recReps}</p>
+                            <p className="text-xs text-slate-500">per set</p>
+                          </div>
+                        </div>
+                        <p className="mt-3 text-sm text-slate-300">{rec.note}</p>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              <div className="card">
+                <h2 className="mb-3 text-lg font-medium">💡 How This Works</h2>
+                <div className="space-y-2 text-sm text-slate-400">
+                  <p>• <span className="text-green-400">✅ All sets hit 10 reps?</span> → Increase weight (5 lbs if under 100, 10 lbs if over)</p>
+                  <p>• <span className="text-cyan-400">🔄 Averaged 8-9 reps?</span> → Same weight, push for all 10s</p>
+                  <p>• <span className="text-amber-400">⚠️ Averaged below 8?</span> → Hold weight, focus on building up reps</p>
+                  <p className="mt-2 text-slate-500">Recommendations update automatically as you log workouts.</p>
+                </div>
               </div>
             </section>
           )}
