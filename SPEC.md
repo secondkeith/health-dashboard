@@ -1,0 +1,162 @@
+# Health Dashboard — GitHub Pages
+
+## Overview
+A static React app deployed to GitHub Pages that visualizes Keith's health data: macros, activity, and weight trends.
+
+## Tech Stack
+- **React** (Vite)
+- **TypeScript**
+- **Recharts** for visualizations (or Chart.js if preferred)
+- **Tailwind CSS** for styling
+- **GitHub Pages** for hosting (static build via `gh-pages` branch)
+
+## Data
+Data is stored as a JSON file (`src/data/health-data.json`) that gets updated manually or via script. No backend needed — pure static site.
+
+### Data Schema
+```json
+{
+  "days": [
+    {
+      "date": "2026-02-17",
+      "weight": null,
+      "calories": 1810,
+      "protein": 100,
+      "fat": 70,
+      "carbs": 160,
+      "steps": 2839,
+      "caloriesBurned": 2336,
+      "restingHR": 71,
+      "meals": [
+        { "time": "lunch", "name": "Chick-fil-A nuggets x30 + sauces", "calories": 1560, "protein": 100, "fat": 70, "carbs": 95 },
+        { "time": "earlier", "name": "Vanilla Coke 20oz", "calories": 250, "protein": 0, "fat": 0, "carbs": 65 }
+      ],
+      "workouts": []
+    },
+    {
+      "date": "2026-02-18",
+      "weight": 285.3,
+      "calories": 1616,
+      "protein": 100,
+      "fat": 45,
+      "carbs": 80,
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "meals": [
+        { "time": "11pm", "name": "Wegmans King Salmon sushi family pack", "calories": 980, "protein": 60, "fat": 30, "carbs": 60 },
+        { "time": "12:30am", "name": "Siggi's yogurt", "calories": 140, "protein": 13, "fat": 4.5, "carbs": 11 },
+        { "time": "12:15am", "name": "Wegmans King Salmon sashimi 6.4oz", "calories": 496, "protein": 40, "fat": 20, "carbs": 0 }
+      ],
+      "workouts": []
+    },
+    {
+      "date": "2026-02-19",
+      "weight": null,
+      "calories": 2245,
+      "protein": 115,
+      "fat": 101,
+      "carbs": 157,
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "meals": [
+        { "time": "9:30am", "name": "Coke Zero 20oz", "calories": 0, "protein": 0, "fat": 0, "carbs": 0 },
+        { "time": "11:30am", "name": "Spinach Dijon Salad + honey mustard", "calories": 300, "protein": 10, "fat": 19, "carbs": 35 },
+        { "time": "12:25pm", "name": "Diet Ginger Ale", "calories": 10, "protein": 0, "fat": 0, "carbs": 0 },
+        { "time": "1:50pm", "name": "Prosciutto & Mozzarella pack", "calories": 120, "protein": 11, "fat": 8, "carbs": 1 },
+        { "time": "3:05pm", "name": "Mixed olives 100g + Babybel x3", "calories": 355, "protein": 16, "fat": 29, "carbs": 4 },
+        { "time": "6:25pm", "name": "Beef & cheese quesadilla x2", "calories": 700, "protein": 40, "fat": 36, "carbs": 50 },
+        { "time": "6:35pm", "name": "Papa John's meat lovers (1 slice)", "calories": 330, "protein": 15, "fat": 16, "carbs": 30 },
+        { "time": "6:50pm", "name": "Papa John's cheesesticks x2", "calories": 280, "protein": 10, "fat": 12, "carbs": 32 },
+        { "time": "10:30pm", "name": "Siggi's yogurt + Diet Ginger Ale", "calories": 150, "protein": 13, "fat": 4.5, "carbs": 11 }
+      ],
+      "workouts": []
+    },
+    {
+      "date": "2026-02-20",
+      "weight": null,
+      "calories": 1187,
+      "protein": 80,
+      "fat": 66,
+      "carbs": 58,
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "meals": [
+        { "time": "12:45am", "name": "Pistachios ~40 pieces", "calories": 170, "protein": 6, "fat": 14, "carbs": 8 },
+        { "time": "11:45am", "name": "Oikos Triple Zero yogurt", "calories": 110, "protein": 15, "fat": 0, "carbs": 14 },
+        { "time": "12:05pm", "name": "Prosciutto & Mozzarella pack", "calories": 120, "protein": 11, "fat": 8, "carbs": 1 },
+        { "time": "1:30pm", "name": "Cobb Salad + ranch", "calories": 386, "protein": 15, "fat": 32, "carbs": 11 },
+        { "time": "6pm", "name": "Turkey wrap (tortilla, mayo, mustard, turkey, cheese)", "calories": 401, "protein": 33, "fat": 23, "carbs": 24 }
+      ],
+      "workouts": [
+        { "name": "Pectoral Fly", "weight": 70, "sets": 4, "reps": 10 },
+        { "name": "Triceps Extension", "weight": 80, "sets": 4, "reps": 10 },
+        { "name": "Lateral Raise", "weight": 80, "sets": 3, "reps": "10,10,6" },
+        { "name": "Low Back", "weight": 345, "sets": 3, "reps": 10 },
+        { "name": "Shoulder Press", "weight": 58, "sets": 3, "reps": "10,10,5" },
+        { "name": "Biceps Curl", "weight": 85, "sets": 3, "reps": 10 }
+      ]
+    },
+    {
+      "date": "2026-02-21",
+      "weight": null,
+      "calories": 1145,
+      "protein": 68,
+      "fat": 56,
+      "carbs": 97,
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "meals": [
+        { "time": "4:30pm", "name": "Prosciutto & Mozzarella pack", "calories": 120, "protein": 11, "fat": 8, "carbs": 1 },
+        { "time": "4:30pm", "name": "Pistachios ~1 serving", "calories": 160, "protein": 6, "fat": 13, "carbs": 8 },
+        { "time": "5:15pm", "name": "Spinach Dijon Salad Bowl + extra dressing", "calories": 335, "protein": 11, "fat": 21, "carbs": 26 },
+        { "time": "5:15pm", "name": "Zevia soda", "calories": 0, "protein": 0, "fat": 0, "carbs": 0 },
+        { "time": "6:45pm", "name": "Canned spinach x2 (drained) + balsamic", "calories": 210, "protein": 18, "fat": 0, "carbs": 38 },
+        { "time": "7:30pm", "name": "Whole milk vanilla skyr x2", "calories": 320, "protein": 22, "fat": 14, "carbs": 24 }
+      ],
+      "workouts": []
+    }
+  ]
+}
+```
+
+## Pages / Views
+
+### 1. Dashboard (Home)
+- **Daily calorie bar chart** (last 7 days, color-coded by target range if set)
+- **Macro breakdown** — stacked bar or pie chart (protein/fat/carbs per day)
+- **Weight trend line** (only days with weigh-ins, interpolate or skip gaps)
+- **Today's summary card** — total cals, macros, meals listed
+
+### 2. Nutrition Detail
+- Expandable daily view showing individual meals
+- Macro percentage breakdown per day
+- Running averages (7-day rolling)
+
+### 3. Activity
+- Steps per day (bar chart)
+- Calories burned vs consumed (dual line chart)
+- Resting heart rate trend
+
+### 4. Workouts
+- Exercise log table grouped by date
+- Volume tracking (sets × reps × weight) per exercise over time
+
+## Design
+- **Dark mode** default (Keith's preference)
+- Clean, minimal, data-forward
+- Mobile-responsive (Keith will check this on his phone)
+- Use a sidebar or tab navigation
+
+## Deployment
+- Build to `dist/` folder
+- Deploy via `gh-pages` npm package or GitHub Actions
+- Repo: `secondkeith/health-dashboard` (create if needed)
+
+## Important Notes
+- This is a STATIC site — no backend, no API calls
+- Data updates happen by editing the JSON file and rebuilding
+- Future: could add a script that parses the markdown health logs into JSON automatically
