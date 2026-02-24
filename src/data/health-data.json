@@ -7,19 +7,30 @@
       "protein": 100,
       "fat": 70,
       "carbs": 160,
-      "steps": 2939,
-      "caloriesBurned": 2557,
-      "restingHR": 71,
-      "activeMinutes": 0,
-      "sleepMinutes": 0,
       "meals": [
         {
           "time": "lunch",
-          "name": "Chick-fil-A nuggets x30 + sauces",
-          "calories": 1560,
+          "name": "Chick-fil-A nuggets x30 (fried)",
+          "calories": 950,
           "protein": 100,
-          "fat": 70,
-          "carbs": 95
+          "fat": 33,
+          "carbs": 33
+        },
+        {
+          "time": "lunch",
+          "name": "Polynesian sauce x3",
+          "calories": 330,
+          "protein": 0,
+          "fat": 15,
+          "carbs": 48
+        },
+        {
+          "time": "lunch",
+          "name": "Chick-fil-A sauce x2",
+          "calories": 280,
+          "protein": 0,
+          "fat": 22,
+          "carbs": 14
         },
         {
           "time": "earlier",
@@ -30,7 +41,12 @@
           "carbs": 65
         }
       ],
-      "workouts": []
+      "workouts": [],
+      "steps": 2939,
+      "caloriesBurned": 2557,
+      "restingHR": 71,
+      "activeMinutes": 0,
+      "sleepMinutes": 0
     },
     {
       "date": "2026-02-18",
@@ -39,14 +55,9 @@
       "protein": 100,
       "fat": 45,
       "carbs": 80,
-      "steps": 2328,
-      "caloriesBurned": 2476,
-      "restingHR": 69,
-      "activeMinutes": 0,
-      "sleepMinutes": 563,
       "meals": [
         {
-          "time": "11pm",
+          "time": "11:00 PM",
           "name": "Wegmans King Salmon sushi family pack",
           "calories": 980,
           "protein": 60,
@@ -54,7 +65,7 @@
           "carbs": 60
         },
         {
-          "time": "12:30am",
+          "time": "12:30 AM",
           "name": "Siggi's yogurt",
           "calories": 140,
           "protein": 13,
@@ -62,7 +73,7 @@
           "carbs": 11
         },
         {
-          "time": "12:15am",
+          "time": "12:15 AM",
           "name": "Wegmans King Salmon sashimi 6.4oz",
           "calories": 496,
           "protein": 40,
@@ -70,111 +81,100 @@
           "carbs": 0
         }
       ],
-      "workouts": []
+      "workouts": [],
+      "steps": 2328,
+      "caloriesBurned": 2476,
+      "restingHR": 69,
+      "activeMinutes": 0,
+      "sleepMinutes": 563
     },
     {
       "date": "2026-02-19",
       "weight": null,
       "calories": 2245,
       "protein": 115,
-      "fat": 124,
-      "carbs": 163,
-      "steps": 1468,
-      "caloriesBurned": 2396,
-      "restingHR": 70,
-      "activeMinutes": 0,
-      "sleepMinutes": 247,
+      "fat": 101,
+      "carbs": 157,
       "meals": [
         {
-          "time": "",
-          "name": "~9:30 AM",
+          "time": "9:30 AM",
+          "name": "Coke Zero 20oz",
           "calories": 0,
           "protein": 0,
           "fat": 0,
           "carbs": 0
         },
         {
-          "time": "",
-          "name": "~11:30 AM",
+          "time": "11:30 AM",
+          "name": "Spinach Dijon Salad + honey mustard",
           "calories": 300,
           "protein": 10,
-          "fat": 19.0,
+          "fat": 19,
           "carbs": 35
         },
         {
-          "time": "",
-          "name": "~12:25 PM",
+          "time": "12:25 PM",
+          "name": "Diet Ginger Ale",
           "calories": 10,
           "protein": 0,
           "fat": 0,
           "carbs": 0
         },
         {
-          "time": "",
-          "name": "~1:50 PM",
+          "time": "1:50 PM",
+          "name": "Prosciutto & Mozzarella pack",
           "calories": 120,
           "protein": 11,
-          "fat": 8.0,
+          "fat": 8,
           "carbs": 1
         },
         {
-          "time": "",
-          "name": "~3:05 PM",
-          "calories": 145,
-          "protein": 1,
-          "fat": 14.0,
+          "time": "3:05 PM",
+          "name": "Mixed olives 100g + Babybel x3",
+          "calories": 355,
+          "protein": 16,
+          "fat": 29,
           "carbs": 4
         },
         {
-          "time": "",
-          "name": "~3:05 PM",
-          "calories": 210,
-          "protein": 15,
-          "fat": 15.0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "~6:25 PM",
+          "time": "6:25 PM",
+          "name": "Beef & cheese quesadilla x2",
           "calories": 700,
           "protein": 40,
-          "fat": 36.0,
+          "fat": 36,
           "carbs": 50
         },
         {
-          "time": "",
-          "name": "~6:35 PM",
+          "time": "6:35 PM",
+          "name": "Papa John's meat lovers (1 slice)",
           "calories": 330,
           "protein": 15,
-          "fat": 16.0,
+          "fat": 16,
           "carbs": 30
         },
         {
-          "time": "",
-          "name": "~6:50 PM",
+          "time": "6:50 PM",
+          "name": "Papa John's cheesesticks x2",
           "calories": 280,
           "protein": 10,
-          "fat": 12.0,
+          "fat": 12,
           "carbs": 32
         },
         {
-          "time": "",
-          "name": "~10:30 PM",
-          "calories": 140,
+          "time": "10:30 PM",
+          "name": "Siggi's yogurt + Diet Ginger Ale",
+          "calories": 150,
           "protein": 13,
           "fat": 4.5,
           "carbs": 11
-        },
-        {
-          "time": "",
-          "name": "~10:40 PM",
-          "calories": 10,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 0
         }
       ],
-      "workouts": []
+      "workouts": [],
+      "steps": 1468,
+      "caloriesBurned": 2396,
+      "restingHR": 70,
+      "activeMinutes": 0,
+      "sleepMinutes": 247
     },
     {
       "date": "2026-02-20",
@@ -183,14 +183,9 @@
       "protein": 80,
       "fat": 66,
       "carbs": 58,
-      "steps": 2722,
-      "caloriesBurned": 2675,
-      "restingHR": 69,
-      "activeMinutes": 19,
-      "sleepMinutes": 298,
       "meals": [
         {
-          "time": "12:45am",
+          "time": "12:45 AM",
           "name": "Pistachios ~40 pieces",
           "calories": 170,
           "protein": 6,
@@ -198,7 +193,7 @@
           "carbs": 8
         },
         {
-          "time": "11:45am",
+          "time": "11:45 AM",
           "name": "Oikos Triple Zero yogurt",
           "calories": 110,
           "protein": 15,
@@ -206,7 +201,7 @@
           "carbs": 14
         },
         {
-          "time": "12:05pm",
+          "time": "12:05 PM",
           "name": "Prosciutto & Mozzarella pack",
           "calories": 120,
           "protein": 11,
@@ -214,7 +209,7 @@
           "carbs": 1
         },
         {
-          "time": "1:30pm",
+          "time": "1:30 PM",
           "name": "Cobb Salad + ranch",
           "calories": 386,
           "protein": 15,
@@ -222,7 +217,7 @@
           "carbs": 11
         },
         {
-          "time": "6pm",
+          "time": "6:00 PM",
           "name": "Turkey wrap (tortilla, mayo, mustard, turkey, cheese)",
           "calories": 401,
           "protein": 33,
@@ -247,7 +242,7 @@
           "name": "Lateral Raise",
           "weight": 80,
           "sets": 3,
-          "reps": "10,10,6"
+          "reps": "10, 10, 6"
         },
         {
           "name": "Low Back",
@@ -259,7 +254,7 @@
           "name": "Shoulder Press",
           "weight": 58,
           "sets": 3,
-          "reps": "10,10,5"
+          "reps": "10, 10, 5"
         },
         {
           "name": "Biceps Curl",
@@ -267,55 +262,47 @@
           "sets": 3,
           "reps": 10
         }
-      ]
+      ],
+      "steps": 2722,
+      "caloriesBurned": 2675,
+      "restingHR": 69,
+      "activeMinutes": 19,
+      "sleepMinutes": 298
     },
     {
       "date": "2026-02-21",
       "weight": null,
-      "calories": 1465,
-      "protein": 90,
-      "fat": 70,
-      "carbs": 121,
-      "steps": 1486,
-      "caloriesBurned": 2305,
-      "restingHR": 69,
-      "activeMinutes": 0,
-      "sleepMinutes": 0,
+      "calories": 1145,
+      "protein": 68,
+      "fat": 56,
+      "carbs": 97,
       "meals": [
         {
-          "time": "",
-          "name": "Wegmans Prosciutto & Mozzarella snack pack",
+          "time": "4:30 PM",
+          "name": "Prosciutto & Mozzarella pack",
           "calories": 120,
           "protein": 11,
-          "fat": 8.0,
+          "fat": 8,
           "carbs": 1
         },
         {
-          "time": "",
-          "name": "Pistachios (in-shell, ~1 serving)",
+          "time": "4:30 PM",
+          "name": "Pistachios ~1 serving",
           "calories": 160,
           "protein": 6,
-          "fat": 13.0,
+          "fat": 13,
           "carbs": 8
         },
         {
-          "time": "",
-          "name": "Wegmans Spinach Dijon Salad Bowl",
-          "calories": 290,
-          "protein": 10,
-          "fat": 19.0,
-          "carbs": 21
+          "time": "5:15 PM",
+          "name": "Spinach Dijon Salad Bowl + extra dressing",
+          "calories": 335,
+          "protein": 11,
+          "fat": 21,
+          "carbs": 26
         },
         {
-          "time": "",
-          "name": "Dressing (extra, 31g)",
-          "calories": 45,
-          "protein": 1,
-          "fat": 2.0,
-          "carbs": 5
-        },
-        {
-          "time": "",
+          "time": "5:15 PM",
           "name": "Zevia soda",
           "calories": 0,
           "protein": 0,
@@ -323,55 +310,47 @@
           "carbs": 0
         },
         {
-          "time": "",
-          "name": "Canned spinach (2 cans, drained)",
-          "calories": 150,
+          "time": "6:45 PM",
+          "name": "Canned spinach x2 + balsamic",
+          "calories": 210,
           "protein": 18,
-          "fat": 0.0,
-          "carbs": 24
+          "fat": 0,
+          "carbs": 38
         },
         {
-          "time": "",
-          "name": "Balsamic vinegar (30g)",
-          "calories": 60,
-          "protein": 0,
-          "fat": 0.0,
-          "carbs": 14
-        },
-        {
-          "time": "",
+          "time": "7:30 PM",
           "name": "Whole milk vanilla skyr x2",
           "calories": 320,
           "protein": 22,
-          "fat": 14.0,
-          "carbs": 24
-        },
-        {
-          "time": "",
-          "name": "Whole milk vanilla skyr x2",
-          "calories": 320,
-          "protein": 22,
-          "fat": 14.0,
+          "fat": 14,
           "carbs": 24
         }
       ],
-      "workouts": []
+      "workouts": [],
+      "steps": 1486,
+      "caloriesBurned": 2305,
+      "restingHR": 69,
+      "activeMinutes": 0,
+      "sleepMinutes": 0
     },
     {
       "date": "2026-02-22",
       "weight": 279.8,
-      "calories": 850,
-      "protein": 66,
-      "fat": 50,
-      "carbs": 40,
-      "steps": 1096,
-      "caloriesBurned": 2301,
-      "restingHR": 66,
-      "activeMinutes": 0,
-      "sleepMinutes": 359,
+      "calories": 1350,
+      "protein": 106,
+      "fat": 68,
+      "carbs": 45,
       "meals": [
         {
-          "time": "",
+          "time": "lunch",
+          "name": "Turkey wrap (Mission Zero, double mayo, double honey mustard, extra turkey, 2 cheese)",
+          "calories": 500,
+          "protein": 40,
+          "fat": 28,
+          "carbs": 24
+        },
+        {
+          "time": "lunch",
           "name": "Zevia Orange soda",
           "calories": 0,
           "protein": 0,
@@ -379,247 +358,205 @@
           "carbs": 0
         },
         {
-          "time": "",
+          "time": "snack",
           "name": "Oikos Greek yogurt",
           "calories": 90,
           "protein": 15,
-          "fat": 0.0,
+          "fat": 0,
           "carbs": 7
         },
         {
-          "time": "",
-          "name": "Olives Jubilee** (20 olives)",
+          "time": "snack",
+          "name": "Olives Jubilee (20 olives)",
           "calories": 150,
           "protein": 2,
-          "fat": 14.0,
+          "fat": 14,
           "carbs": 2
         },
         {
-          "time": "",
-          "name": "Wegmans Prosciutto & Mozzarella pack",
+          "time": "snack",
+          "name": "Prosciutto & Mozzarella pack",
           "calories": 120,
           "protein": 11,
-          "fat": 8.0,
+          "fat": 8,
           "carbs": 1
         },
         {
-          "time": "",
+          "time": "snack",
           "name": "Polly-O string cheese x2",
           "calories": 160,
           "protein": 12,
-          "fat": 12.0,
+          "fat": 12,
           "carbs": 2
         },
         {
-          "time": "",
+          "time": "snack",
           "name": "Oikos Greek yogurt",
           "calories": 90,
           "protein": 15,
-          "fat": 0.0,
+          "fat": 0,
           "carbs": 7
         },
         {
-          "time": "",
+          "time": "snack",
           "name": "Olipop soda",
           "calories": 35,
           "protein": 0,
-          "fat": 0.0,
+          "fat": 0,
           "carbs": 13
         },
         {
-          "time": "",
-          "name": "Pistachios (in-shell, ~1oz/49 kernels)",
+          "time": "snack",
+          "name": "Pistachios (in-shell, ~1oz)",
           "calories": 160,
           "protein": 6,
-          "fat": 13.0,
+          "fat": 13,
           "carbs": 8
         },
         {
-          "time": "",
-          "name": "Babybel Reduced Fat** (1 piece)",
+          "time": "snack",
+          "name": "Babybel Reduced Fat",
           "calories": 45,
           "protein": 5,
-          "fat": 3.0,
+          "fat": 3,
           "carbs": 0
         }
       ],
-      "workouts": []
+      "workouts": [],
+      "steps": 1096,
+      "caloriesBurned": 2301,
+      "restingHR": 66,
+      "activeMinutes": 0,
+      "sleepMinutes": 359
     },
     {
       "date": "2026-02-23",
       "weight": 278.9,
-      "calories": 2935,
-      "protein": 201,
-      "fat": 182,
-      "carbs": 64,
+      "calories": 1590,
+      "protein": 110,
+      "fat": 99,
+      "carbs": 48,
+      "meals": [
+        {
+          "time": "breakfast",
+          "name": "Hard boiled eggs x3",
+          "calories": 210,
+          "protein": 18,
+          "fat": 15,
+          "carbs": 1.5
+        },
+        {
+          "time": "breakfast",
+          "name": "Celsius powder stick (Strawberry)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 1
+        },
+        {
+          "time": "lunch",
+          "name": "Wegmans Chef Salad Bowl",
+          "calories": 255,
+          "protein": 16,
+          "fat": 21,
+          "carbs": 3
+        },
+        {
+          "time": "lunch",
+          "name": "Bolthouse Farms ranch 30g",
+          "calories": 35,
+          "protein": 1,
+          "fat": 2.5,
+          "carbs": 3
+        },
+        {
+          "time": "lunch",
+          "name": "Babybel Light x2",
+          "calories": 100,
+          "protein": 10,
+          "fat": 6,
+          "carbs": 0
+        },
+        {
+          "time": "dinner",
+          "name": "Sprouts meal (11.2oz)",
+          "calories": 570,
+          "protein": 30,
+          "fat": 42,
+          "carbs": 17
+        },
+        {
+          "time": "dinner",
+          "name": "Bolthouse Farms ranch ~30g",
+          "calories": 35,
+          "protein": 1,
+          "fat": 2.5,
+          "carbs": 3
+        },
+        {
+          "time": "dinner",
+          "name": "Applegate Turkey Pepperoni",
+          "calories": 80,
+          "protein": 10,
+          "fat": 4,
+          "carbs": 0
+        },
+        {
+          "time": "dinner",
+          "name": "Olipop (fruit punch)",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 13
+        },
+        {
+          "time": "snack",
+          "name": "Organic Vanilla Yogurt",
+          "calories": 100,
+          "protein": 13,
+          "fat": 0,
+          "carbs": 10
+        },
+        {
+          "time": "snack",
+          "name": "Whole Milk Vanilla Skyr",
+          "calories": 160,
+          "protein": 11,
+          "fat": 7,
+          "carbs": 12
+        }
+      ],
+      "workouts": [
+        {
+          "name": "Diverging Lat Pulldown",
+          "weight": 60,
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "name": "Hoist Mid Row",
+          "weight": 245,
+          "sets": 4,
+          "reps": "8, 8, 8, 6"
+        },
+        {
+          "name": "Matrix Arm Curl",
+          "weight": 60,
+          "sets": 4,
+          "reps": "8, 8, 8, 7"
+        },
+        {
+          "name": "Life Fitness Rear Deltoid",
+          "weight": 70,
+          "sets": 4,
+          "reps": "8, 8, 8, 5"
+        }
+      ],
       "steps": 2782,
       "caloriesBurned": 2770,
       "restingHR": 66,
       "activeMinutes": 36,
-      "sleepMinutes": 159,
-      "meals": [
-        {
-          "time": "",
-          "name": "Hard boiled eggs x3",
-          "calories": 210,
-          "protein": 18,
-          "fat": 15.0,
-          "carbs": 5
-        },
-        {
-          "time": "",
-          "name": "Celsius powder stick (Strawberry)",
-          "calories": 10,
-          "protein": 0,
-          "fat": 0.0,
-          "carbs": 1
-        },
-        {
-          "time": "",
-          "name": "Wegmans Chef Salad Bowl",
-          "calories": 255,
-          "protein": 16,
-          "fat": 21.0,
-          "carbs": 3
-        },
-        {
-          "time": "",
-          "name": "Babybel Light x2",
-          "calories": 100,
-          "protein": 10,
-          "fat": 6.0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "Sprouts meal",
-          "calories": 570,
-          "protein": 30,
-          "fat": 42.0,
-          "carbs": 17
-        },
-        {
-          "time": "",
-          "name": "Bolthouse Farms ranch",
-          "calories": 35,
-          "protein": 1,
-          "fat": 2.5,
-          "carbs": 3
-        },
-        {
-          "time": "",
-          "name": "Applegate Turkey Uncured Pepperoni",
-          "calories": 80,
-          "protein": 10,
-          "fat": 4.0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "Olipop",
-          "calories": 35,
-          "protein": 0,
-          "fat": 0.0,
-          "carbs": 13
-        },
-        {
-          "time": "",
-          "name": "Organic Vanilla Yogurt",
-          "calories": 100,
-          "protein": 13,
-          "fat": 0.0,
-          "carbs": 10
-        },
-        {
-          "time": "",
-          "name": "Whole Milk Vanilla Skyr",
-          "calories": 160,
-          "protein": 11,
-          "fat": 7.0,
-          "carbs": 12
-        },
-        {
-          "time": "",
-          "name": "**Celsius powder stick (Strawberry)** in usual glass, half ice (~5-6oz water)",
-          "calories": 10,
-          "protein": 0,
-          "fat": 0.0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "**Wegmans Chef Salad Bowl** (220g \u2014 iceberg, romaine, uncured ham, grilled chicken, Swiss, ranch, croutons removed)",
-          "calories": 255,
-          "protein": 16,
-          "fat": 21.0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "+ **30g Bolthouse Farms ranch**",
-          "calories": 35,
-          "protein": 1,
-          "fat": 2.5,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "**Babybel Light x2**",
-          "calories": 100,
-          "protein": 10,
-          "fat": 6.0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "**Sprouts meal** (11.2 oz/318g)",
-          "calories": 570,
-          "protein": 30,
-          "fat": 42.0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "**Bolthouse Farms ranch** (~30g)",
-          "calories": 35,
-          "protein": 1,
-          "fat": 2.5,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "**Applegate Turkey Uncured Pepperoni** (1 serving/30g)",
-          "calories": 80,
-          "protein": 10,
-          "fat": 4.0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "**Olipop** (1 can/355ml, fruit punch)",
-          "calories": 35,
-          "protein": 0,
-          "fat": 0.0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "**Organic Vanilla Yogurt** (4.4 oz/125g)",
-          "calories": 100,
-          "protein": 13,
-          "fat": 0.0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "**Whole Milk Vanilla Skyr** (4.4 oz/125g)",
-          "calories": 160,
-          "protein": 11,
-          "fat": 7.0,
-          "carbs": 0
-        }
-      ],
-      "workouts": []
+      "sleepMinutes": 159
     },
     {
       "date": "2026-02-24",
@@ -628,30 +565,30 @@
       "protein": 12,
       "fat": 10,
       "carbs": 15,
-      "steps": 592,
-      "caloriesBurned": 1191,
-      "restingHR": 67,
-      "activeMinutes": 0,
-      "sleepMinutes": 0,
       "meals": [
         {
-          "time": "",
-          "name": "2 hard boiled eggs",
+          "time": "11:30 AM",
+          "name": "Hard boiled eggs x2",
           "calories": 140,
           "protein": 12,
-          "fat": 10.0,
+          "fat": 10,
           "carbs": 0
         },
         {
-          "time": "",
-          "name": "Prebiotic soda (355ml can)",
+          "time": "11:30 AM",
+          "name": "Prebiotic soda (355ml)",
           "calories": 40,
           "protein": 0,
           "fat": 0,
           "carbs": 15
         }
       ],
-      "workouts": []
+      "workouts": [],
+      "steps": 592,
+      "caloriesBurned": 1191,
+      "restingHR": 67,
+      "activeMinutes": 0,
+      "sleepMinutes": 0
     }
   ]
 }
