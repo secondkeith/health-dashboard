@@ -561,34 +561,82 @@
     {
       "date": "2026-02-24",
       "weight": null,
-      "calories": 180,
-      "protein": 12,
-      "fat": 10,
-      "carbs": 15,
+      "calories": 713,
+      "protein": 53,
+      "fat": 39,
+      "carbs": 47,
+      "steps": 1014,
+      "caloriesBurned": 1479,
+      "restingHR": 67,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
       "meals": [
         {
-          "time": "11:30 AM",
+          "time": "",
           "name": "Hard boiled eggs x2",
           "calories": 140,
           "protein": 12,
-          "fat": 10,
+          "fat": 10.0,
           "carbs": 0
         },
         {
-          "time": "11:30 AM",
+          "time": "",
           "name": "Prebiotic soda (355ml)",
           "calories": 40,
           "protein": 0,
-          "fat": 0,
+          "fat": 0.0,
           "carbs": 15
+        },
+        {
+          "time": "",
+          "name": "Mission Zero Net Carbs tortilla",
+          "calories": 80,
+          "protein": 5,
+          "fat": 4.0,
+          "carbs": 14
+        },
+        {
+          "time": "",
+          "name": "Wegmans Honey Mustard (16.6g)",
+          "calories": 54,
+          "protein": 0,
+          "fat": 0.0,
+          "carbs": 11
+        },
+        {
+          "time": "",
+          "name": "Duke's Mayo (20.1g)",
+          "calories": 67,
+          "protein": 0,
+          "fat": 7.0,
+          "carbs": 1
+        },
+        {
+          "time": "",
+          "name": "Oven Roasted Turkey Breast (160.6g)",
+          "calories": 172,
+          "protein": 26,
+          "fat": 4.0,
+          "carbs": 6
+        },
+        {
+          "time": "",
+          "name": "Wegmans cheese x2 slices",
+          "calories": 160,
+          "protein": 10,
+          "fat": 14.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "Zevia soda",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0.0,
+          "carbs": 0
         }
       ],
-      "workouts": [],
-      "steps": 592,
-      "caloriesBurned": 1191,
-      "restingHR": 67,
-      "activeMinutes": 0,
-      "sleepMinutes": 0
+      "workouts": []
     }
   ]
 }
