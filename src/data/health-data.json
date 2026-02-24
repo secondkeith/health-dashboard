@@ -578,6 +578,38 @@
         }
       ],
       "workouts": []
+    },
+    {
+      "date": "2026-02-24",
+      "weight": null,
+      "calories": 180,
+      "protein": 12,
+      "fat": 10,
+      "carbs": 15,
+      "steps": 592,
+      "caloriesBurned": 1191,
+      "restingHR": 67,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [
+        {
+          "time": "",
+          "name": "2 hard boiled eggs",
+          "calories": 140,
+          "protein": 12,
+          "fat": 10.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "Prebiotic soda (355ml can)",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 15
+        }
+      ],
+      "workouts": []
     }
   ]
 }
