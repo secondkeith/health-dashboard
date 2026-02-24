@@ -17,42 +17,17 @@
     },
     {
       "date": "2026-02-18",
-      "weight": 285.3,
-      "calories": 1616,
-      "protein": 100,
-      "fat": 45,
-      "carbs": 80,
+      "weight": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
       "steps": 2328,
       "caloriesBurned": 2476,
       "restingHR": 69,
       "activeMinutes": 0,
       "sleepMinutes": 563,
-      "meals": [
-        {
-          "time": "11pm",
-          "name": "Wegmans King Salmon sushi family pack",
-          "calories": 980,
-          "protein": 60,
-          "fat": 30,
-          "carbs": 60
-        },
-        {
-          "time": "12:30am",
-          "name": "Siggi's yogurt",
-          "calories": 140,
-          "protein": 13,
-          "fat": 4.5,
-          "carbs": 11
-        },
-        {
-          "time": "12:15am",
-          "name": "Wegmans King Salmon sashimi 6.4oz",
-          "calories": 496,
-          "protein": 40,
-          "fat": 20,
-          "carbs": 0
-        }
-      ],
+      "meals": [],
       "workouts": []
     },
     {
