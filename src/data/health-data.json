@@ -35,8 +35,8 @@
       "weight": null,
       "calories": 2245,
       "protein": 115,
-      "fat": 101,
-      "carbs": 157,
+      "fat": 124,
+      "carbs": 163,
       "steps": 1468,
       "caloriesBurned": 2396,
       "restingHR": 70,
@@ -44,76 +44,92 @@
       "sleepMinutes": 247,
       "meals": [
         {
-          "time": "9:30am",
-          "name": "Coke Zero 20oz",
+          "time": "",
+          "name": "~9:30 AM",
           "calories": 0,
           "protein": 0,
           "fat": 0,
           "carbs": 0
         },
         {
-          "time": "11:30am",
-          "name": "Spinach Dijon Salad + honey mustard",
+          "time": "",
+          "name": "~11:30 AM",
           "calories": 300,
           "protein": 10,
-          "fat": 19,
+          "fat": 19.0,
           "carbs": 35
         },
         {
-          "time": "12:25pm",
-          "name": "Diet Ginger Ale",
+          "time": "",
+          "name": "~12:25 PM",
           "calories": 10,
           "protein": 0,
           "fat": 0,
           "carbs": 0
         },
         {
-          "time": "1:50pm",
-          "name": "Prosciutto & Mozzarella pack",
+          "time": "",
+          "name": "~1:50 PM",
           "calories": 120,
           "protein": 11,
-          "fat": 8,
+          "fat": 8.0,
           "carbs": 1
         },
         {
-          "time": "3:05pm",
-          "name": "Mixed olives 100g + Babybel x3",
-          "calories": 355,
-          "protein": 16,
-          "fat": 29,
+          "time": "",
+          "name": "~3:05 PM",
+          "calories": 145,
+          "protein": 1,
+          "fat": 14.0,
           "carbs": 4
         },
         {
-          "time": "6:25pm",
-          "name": "Beef & cheese quesadilla x2",
+          "time": "",
+          "name": "~3:05 PM",
+          "calories": 210,
+          "protein": 15,
+          "fat": 15.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "~6:25 PM",
           "calories": 700,
           "protein": 40,
-          "fat": 36,
+          "fat": 36.0,
           "carbs": 50
         },
         {
-          "time": "6:35pm",
-          "name": "Papa John's meat lovers (1 slice)",
+          "time": "",
+          "name": "~6:35 PM",
           "calories": 330,
           "protein": 15,
-          "fat": 16,
+          "fat": 16.0,
           "carbs": 30
         },
         {
-          "time": "6:50pm",
-          "name": "Papa John's cheesesticks x2",
+          "time": "",
+          "name": "~6:50 PM",
           "calories": 280,
           "protein": 10,
-          "fat": 12,
+          "fat": 12.0,
           "carbs": 32
         },
         {
-          "time": "10:30pm",
-          "name": "Siggi's yogurt + Diet Ginger Ale",
-          "calories": 150,
+          "time": "",
+          "name": "~10:30 PM",
+          "calories": 140,
           "protein": 13,
           "fat": 4.5,
           "carbs": 11
+        },
+        {
+          "time": "",
+          "name": "~10:40 PM",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
         }
       ],
       "workouts": []
