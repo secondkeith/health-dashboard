@@ -163,57 +163,16 @@
     {
       "date": "2026-02-20",
       "weight": null,
-      "calories": 1187,
-      "protein": 80,
-      "fat": 66,
-      "carbs": 58,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
       "steps": 2722,
       "caloriesBurned": 2675,
       "restingHR": 69,
       "activeMinutes": 19,
       "sleepMinutes": 298,
-      "meals": [
-        {
-          "time": "12:45am",
-          "name": "Pistachios ~40 pieces",
-          "calories": 170,
-          "protein": 6,
-          "fat": 14,
-          "carbs": 8
-        },
-        {
-          "time": "11:45am",
-          "name": "Oikos Triple Zero yogurt",
-          "calories": 110,
-          "protein": 15,
-          "fat": 0,
-          "carbs": 14
-        },
-        {
-          "time": "12:05pm",
-          "name": "Prosciutto & Mozzarella pack",
-          "calories": 120,
-          "protein": 11,
-          "fat": 8,
-          "carbs": 1
-        },
-        {
-          "time": "1:30pm",
-          "name": "Cobb Salad + ranch",
-          "calories": 386,
-          "protein": 15,
-          "fat": 32,
-          "carbs": 11
-        },
-        {
-          "time": "6pm",
-          "name": "Turkey wrap (tortilla, mayo, mustard, turkey, cheese)",
-          "calories": 401,
-          "protein": 33,
-          "fat": 23,
-          "carbs": 24
-        }
-      ],
+      "meals": [],
       "workouts": [
         {
           "name": "Pectoral Fly",
@@ -228,28 +187,28 @@
           "reps": 10
         },
         {
-          "name": "Lateral Raise",
-          "weight": 80,
-          "sets": 3,
-          "reps": "10,10,6"
-        },
-        {
           "name": "Low Back",
           "weight": 345,
           "sets": 3,
           "reps": 10
         },
         {
-          "name": "Shoulder Press",
-          "weight": 58,
-          "sets": 3,
-          "reps": "10,10,5"
-        },
-        {
           "name": "Biceps Curl",
           "weight": 85,
           "sets": 3,
           "reps": 10
+        },
+        {
+          "name": "Lateral Raise",
+          "weight": 80,
+          "sets": 3,
+          "reps": "10, 10, 6"
+        },
+        {
+          "name": "Shoulder Press",
+          "weight": 58,
+          "sets": 3,
+          "reps": "10, 10, 5"
         }
       ]
     },
