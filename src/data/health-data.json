@@ -163,16 +163,57 @@
     {
       "date": "2026-02-20",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "calories": 820,
+      "protein": 51,
+      "fat": 55,
+      "carbs": 44,
       "steps": 2722,
       "caloriesBurned": 2675,
       "restingHR": 69,
       "activeMinutes": 19,
       "sleepMinutes": 298,
-      "meals": [],
+      "meals": [
+        {
+          "time": "",
+          "name": "(item)",
+          "calories": 170,
+          "protein": 6,
+          "fat": 14.0,
+          "carbs": 8
+        },
+        {
+          "time": "",
+          "name": "(item)",
+          "calories": 110,
+          "protein": 15,
+          "fat": 0.0,
+          "carbs": 14
+        },
+        {
+          "time": "",
+          "name": "(item)",
+          "calories": 120,
+          "protein": 11,
+          "fat": 8.0,
+          "carbs": 1
+        },
+        {
+          "time": "",
+          "name": "(item)",
+          "calories": 340,
+          "protein": 14,
+          "fat": 29.0,
+          "carbs": 7
+        },
+        {
+          "time": "",
+          "name": "(item)",
+          "calories": 80,
+          "protein": 5,
+          "fat": 4.0,
+          "carbs": 14
+        }
+      ],
       "workouts": [
         {
           "name": "Pectoral Fly",
