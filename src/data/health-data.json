@@ -318,30 +318,86 @@
     {
       "date": "2026-02-22",
       "weight": 279.8,
-      "calories": 500,
-      "protein": 40,
-      "fat": 28,
-      "carbs": 24,
-      "steps": 444,
-      "caloriesBurned": 1409,
+      "calories": 850,
+      "protein": 66,
+      "fat": 50,
+      "carbs": 40,
+      "steps": 1096,
+      "caloriesBurned": 2301,
       "restingHR": 66,
-      "activeMinutes": 40,
+      "activeMinutes": 0,
       "sleepMinutes": 359,
       "meals": [
         {
-          "time": "Lunch",
-          "name": "Turkey wrap",
-          "calories": 500,
-          "protein": 40,
-          "fat": 28,
-          "carbs": 24
-        },
-        {
-          "time": "Lunch",
+          "time": "",
           "name": "Zevia Orange soda",
           "calories": 0,
           "protein": 0,
           "fat": 0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "Oikos Greek yogurt",
+          "calories": 90,
+          "protein": 15,
+          "fat": 0.0,
+          "carbs": 7
+        },
+        {
+          "time": "",
+          "name": "Olives Jubilee** (20 olives)",
+          "calories": 150,
+          "protein": 2,
+          "fat": 14.0,
+          "carbs": 2
+        },
+        {
+          "time": "",
+          "name": "Wegmans Prosciutto & Mozzarella pack",
+          "calories": 120,
+          "protein": 11,
+          "fat": 8.0,
+          "carbs": 1
+        },
+        {
+          "time": "",
+          "name": "Polly-O string cheese x2",
+          "calories": 160,
+          "protein": 12,
+          "fat": 12.0,
+          "carbs": 2
+        },
+        {
+          "time": "",
+          "name": "Oikos Greek yogurt",
+          "calories": 90,
+          "protein": 15,
+          "fat": 0.0,
+          "carbs": 7
+        },
+        {
+          "time": "",
+          "name": "Olipop soda",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0.0,
+          "carbs": 13
+        },
+        {
+          "time": "",
+          "name": "Pistachios (in-shell, ~1oz/49 kernels)",
+          "calories": 160,
+          "protein": 6,
+          "fat": 13.0,
+          "carbs": 8
+        },
+        {
+          "time": "",
+          "name": "Babybel Reduced Fat** (1 piece)",
+          "calories": 45,
+          "protein": 5,
+          "fat": 3.0,
           "carbs": 0
         }
       ],
