@@ -319,15 +319,15 @@
     },
     {
       "date": "2026-02-22",
-      "weight": null,
+      "weight": 279.8,
       "calories": 500,
       "protein": 40,
       "fat": 28,
       "carbs": 24,
-      "steps": 370,
-      "caloriesBurned": 1143,
+      "steps": 444,
+      "caloriesBurned": 1409,
       "restingHR": 66,
-      "activeMinutes": 0,
+      "activeMinutes": 40,
       "sleepMinutes": 359,
       "meals": [
         {
@@ -344,6 +344,182 @@
           "calories": 0,
           "protein": 0,
           "fat": 0,
+          "carbs": 0
+        }
+      ],
+      "workouts": []
+    },
+    {
+      "date": "2026-02-23",
+      "weight": 278.9,
+      "calories": 2935,
+      "protein": 201,
+      "fat": 182,
+      "carbs": 64,
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "activeMinutes": null,
+      "sleepMinutes": null,
+      "meals": [
+        {
+          "time": "",
+          "name": "Hard boiled eggs x3",
+          "calories": 210,
+          "protein": 18,
+          "fat": 15.0,
+          "carbs": 5
+        },
+        {
+          "time": "",
+          "name": "Celsius powder stick (Strawberry)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0.0,
+          "carbs": 1
+        },
+        {
+          "time": "",
+          "name": "Wegmans Chef Salad Bowl",
+          "calories": 255,
+          "protein": 16,
+          "fat": 21.0,
+          "carbs": 3
+        },
+        {
+          "time": "",
+          "name": "Babybel Light x2",
+          "calories": 100,
+          "protein": 10,
+          "fat": 6.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "Sprouts meal",
+          "calories": 570,
+          "protein": 30,
+          "fat": 42.0,
+          "carbs": 17
+        },
+        {
+          "time": "",
+          "name": "Bolthouse Farms ranch",
+          "calories": 35,
+          "protein": 1,
+          "fat": 2.5,
+          "carbs": 3
+        },
+        {
+          "time": "",
+          "name": "Applegate Turkey Uncured Pepperoni",
+          "calories": 80,
+          "protein": 10,
+          "fat": 4.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "Olipop",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0.0,
+          "carbs": 13
+        },
+        {
+          "time": "",
+          "name": "Organic Vanilla Yogurt",
+          "calories": 100,
+          "protein": 13,
+          "fat": 0.0,
+          "carbs": 10
+        },
+        {
+          "time": "",
+          "name": "Whole Milk Vanilla Skyr",
+          "calories": 160,
+          "protein": 11,
+          "fat": 7.0,
+          "carbs": 12
+        },
+        {
+          "time": "",
+          "name": "**Celsius powder stick (Strawberry)** in usual glass, half ice (~5-6oz water)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "**Wegmans Chef Salad Bowl** (220g \u2014 iceberg, romaine, uncured ham, grilled chicken, Swiss, ranch, croutons removed)",
+          "calories": 255,
+          "protein": 16,
+          "fat": 21.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "+ **30g Bolthouse Farms ranch**",
+          "calories": 35,
+          "protein": 1,
+          "fat": 2.5,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "**Babybel Light x2**",
+          "calories": 100,
+          "protein": 10,
+          "fat": 6.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "**Sprouts meal** (11.2 oz/318g)",
+          "calories": 570,
+          "protein": 30,
+          "fat": 42.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "**Bolthouse Farms ranch** (~30g)",
+          "calories": 35,
+          "protein": 1,
+          "fat": 2.5,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "**Applegate Turkey Uncured Pepperoni** (1 serving/30g)",
+          "calories": 80,
+          "protein": 10,
+          "fat": 4.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "**Olipop** (1 can/355ml, fruit punch)",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "**Organic Vanilla Yogurt** (4.4 oz/125g)",
+          "calories": 100,
+          "protein": 13,
+          "fat": 0.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "**Whole Milk Vanilla Skyr** (4.4 oz/125g)",
+          "calories": 160,
+          "protein": 11,
+          "fat": 7.0,
           "carbs": 0
         }
       ],
