@@ -3,33 +3,16 @@
     {
       "date": "2026-02-17",
       "weight": null,
-      "calories": 1810,
-      "protein": 100,
-      "fat": 70,
-      "carbs": 160,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
       "steps": 2939,
       "caloriesBurned": 2557,
       "restingHR": 71,
       "activeMinutes": 0,
       "sleepMinutes": 0,
-      "meals": [
-        {
-          "time": "lunch",
-          "name": "Chick-fil-A nuggets x30 + sauces",
-          "calories": 1560,
-          "protein": 100,
-          "fat": 70,
-          "carbs": 95
-        },
-        {
-          "time": "earlier",
-          "name": "Vanilla Coke 20oz",
-          "calories": 250,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 65
-        }
-      ],
+      "meals": [],
       "workouts": []
     },
     {
