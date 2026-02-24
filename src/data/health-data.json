@@ -230,42 +230,50 @@
     {
       "date": "2026-02-21",
       "weight": null,
-      "calories": 1145,
-      "protein": 68,
-      "fat": 56,
-      "carbs": 97,
-      "steps": 1411,
-      "caloriesBurned": 2085,
+      "calories": 1465,
+      "protein": 90,
+      "fat": 70,
+      "carbs": 121,
+      "steps": 1486,
+      "caloriesBurned": 2305,
       "restingHR": 69,
       "activeMinutes": 0,
       "sleepMinutes": 0,
       "meals": [
         {
-          "time": "4:30pm",
-          "name": "Prosciutto & Mozzarella pack",
+          "time": "",
+          "name": "Wegmans Prosciutto & Mozzarella snack pack",
           "calories": 120,
           "protein": 11,
-          "fat": 8,
+          "fat": 8.0,
           "carbs": 1
         },
         {
-          "time": "4:30pm",
-          "name": "Pistachios ~1 serving",
+          "time": "",
+          "name": "Pistachios (in-shell, ~1 serving)",
           "calories": 160,
           "protein": 6,
-          "fat": 13,
+          "fat": 13.0,
           "carbs": 8
         },
         {
-          "time": "5:15pm",
-          "name": "Spinach Dijon Salad Bowl + extra dressing",
-          "calories": 335,
-          "protein": 11,
-          "fat": 21,
-          "carbs": 26
+          "time": "",
+          "name": "Wegmans Spinach Dijon Salad Bowl",
+          "calories": 290,
+          "protein": 10,
+          "fat": 19.0,
+          "carbs": 21
         },
         {
-          "time": "5:15pm",
+          "time": "",
+          "name": "Dressing (extra, 31g)",
+          "calories": 45,
+          "protein": 1,
+          "fat": 2.0,
+          "carbs": 5
+        },
+        {
+          "time": "",
           "name": "Zevia soda",
           "calories": 0,
           "protein": 0,
@@ -273,19 +281,35 @@
           "carbs": 0
         },
         {
-          "time": "6:45pm",
-          "name": "Canned spinach x2 (drained) + balsamic",
-          "calories": 210,
+          "time": "",
+          "name": "Canned spinach (2 cans, drained)",
+          "calories": 150,
           "protein": 18,
-          "fat": 0,
-          "carbs": 38
+          "fat": 0.0,
+          "carbs": 24
         },
         {
-          "time": "7:30pm",
+          "time": "",
+          "name": "Balsamic vinegar (30g)",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0.0,
+          "carbs": 14
+        },
+        {
+          "time": "",
           "name": "Whole milk vanilla skyr x2",
           "calories": 320,
           "protein": 22,
-          "fat": 14,
+          "fat": 14.0,
+          "carbs": 24
+        },
+        {
+          "time": "",
+          "name": "Whole milk vanilla skyr x2",
+          "calories": 320,
+          "protein": 22,
+          "fat": 14.0,
           "carbs": 24
         }
       ],
