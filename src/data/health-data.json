@@ -3,31 +3,73 @@
     {
       "date": "2026-02-17",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "calories": 1810,
+      "protein": 100,
+      "fat": 70,
+      "carbs": 160,
       "steps": 2939,
       "caloriesBurned": 2557,
       "restingHR": 71,
       "activeMinutes": 0,
       "sleepMinutes": 0,
-      "meals": [],
+      "meals": [
+        {
+          "time": "lunch",
+          "name": "Chick-fil-A nuggets x30 + sauces",
+          "calories": 1560,
+          "protein": 100,
+          "fat": 70,
+          "carbs": 95
+        },
+        {
+          "time": "earlier",
+          "name": "Vanilla Coke 20oz",
+          "calories": 250,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 65
+        }
+      ],
       "workouts": []
     },
     {
       "date": "2026-02-18",
-      "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "weight": 285.3,
+      "calories": 1616,
+      "protein": 100,
+      "fat": 45,
+      "carbs": 80,
       "steps": 2328,
       "caloriesBurned": 2476,
       "restingHR": 69,
       "activeMinutes": 0,
       "sleepMinutes": 563,
-      "meals": [],
+      "meals": [
+        {
+          "time": "11pm",
+          "name": "Wegmans King Salmon sushi family pack",
+          "calories": 980,
+          "protein": 60,
+          "fat": 30,
+          "carbs": 60
+        },
+        {
+          "time": "12:30am",
+          "name": "Siggi's yogurt",
+          "calories": 140,
+          "protein": 13,
+          "fat": 4.5,
+          "carbs": 11
+        },
+        {
+          "time": "12:15am",
+          "name": "Wegmans King Salmon sashimi 6.4oz",
+          "calories": 496,
+          "protein": 40,
+          "fat": 20,
+          "carbs": 0
+        }
+      ],
       "workouts": []
     },
     {
@@ -137,10 +179,10 @@
     {
       "date": "2026-02-20",
       "weight": null,
-      "calories": 820,
-      "protein": 51,
-      "fat": 55,
-      "carbs": 44,
+      "calories": 1187,
+      "protein": 80,
+      "fat": 66,
+      "carbs": 58,
       "steps": 2722,
       "caloriesBurned": 2675,
       "restingHR": 69,
@@ -148,44 +190,44 @@
       "sleepMinutes": 298,
       "meals": [
         {
-          "time": "",
-          "name": "(item)",
+          "time": "12:45am",
+          "name": "Pistachios ~40 pieces",
           "calories": 170,
           "protein": 6,
-          "fat": 14.0,
+          "fat": 14,
           "carbs": 8
         },
         {
-          "time": "",
-          "name": "(item)",
+          "time": "11:45am",
+          "name": "Oikos Triple Zero yogurt",
           "calories": 110,
           "protein": 15,
-          "fat": 0.0,
+          "fat": 0,
           "carbs": 14
         },
         {
-          "time": "",
-          "name": "(item)",
+          "time": "12:05pm",
+          "name": "Prosciutto & Mozzarella pack",
           "calories": 120,
           "protein": 11,
-          "fat": 8.0,
+          "fat": 8,
           "carbs": 1
         },
         {
-          "time": "",
-          "name": "(item)",
-          "calories": 340,
-          "protein": 14,
-          "fat": 29.0,
-          "carbs": 7
+          "time": "1:30pm",
+          "name": "Cobb Salad + ranch",
+          "calories": 386,
+          "protein": 15,
+          "fat": 32,
+          "carbs": 11
         },
         {
-          "time": "",
-          "name": "(item)",
-          "calories": 80,
-          "protein": 5,
-          "fat": 4.0,
-          "carbs": 14
+          "time": "6pm",
+          "name": "Turkey wrap (tortilla, mayo, mustard, turkey, cheese)",
+          "calories": 401,
+          "protein": 33,
+          "fat": 23,
+          "carbs": 24
         }
       ],
       "workouts": [
@@ -202,28 +244,28 @@
           "reps": 10
         },
         {
+          "name": "Lateral Raise",
+          "weight": 80,
+          "sets": 3,
+          "reps": "10,10,6"
+        },
+        {
           "name": "Low Back",
           "weight": 345,
           "sets": 3,
           "reps": 10
         },
         {
+          "name": "Shoulder Press",
+          "weight": 58,
+          "sets": 3,
+          "reps": "10,10,5"
+        },
+        {
           "name": "Biceps Curl",
           "weight": 85,
           "sets": 3,
           "reps": 10
-        },
-        {
-          "name": "Lateral Raise",
-          "weight": 80,
-          "sets": 3,
-          "reps": "10, 10, 6"
-        },
-        {
-          "name": "Shoulder Press",
-          "weight": 58,
-          "sets": 3,
-          "reps": "10, 10, 5"
         }
       ]
     },
