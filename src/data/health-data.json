@@ -356,11 +356,11 @@
       "protein": 201,
       "fat": 182,
       "carbs": 64,
-      "steps": null,
-      "caloriesBurned": null,
-      "restingHR": null,
-      "activeMinutes": null,
-      "sleepMinutes": null,
+      "steps": 2782,
+      "caloriesBurned": 2770,
+      "restingHR": 66,
+      "activeMinutes": 36,
+      "sleepMinutes": 159,
       "meals": [
         {
           "time": "",
