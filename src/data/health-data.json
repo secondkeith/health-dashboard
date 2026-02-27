@@ -637,6 +637,36 @@
         }
       ],
       "workouts": []
+    },
+    {
+      "date": "2026-02-25",
+      "weight": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": 0,
+      "caloriesBurned": 0,
+      "restingHR": null,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [],
+      "workouts": []
+    },
+    {
+      "date": "2026-02-26",
+      "weight": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": 2257,
+      "caloriesBurned": 2646,
+      "restingHR": 66,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [],
+      "workouts": []
     }
   ]
 }
