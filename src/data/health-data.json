@@ -667,6 +667,46 @@
       "sleepMinutes": 0,
       "meals": [],
       "workouts": []
+    },
+    {
+      "date": "2026-02-27",
+      "weight": null,
+      "calories": 275,
+      "protein": 31,
+      "fat": 10,
+      "carbs": 26,
+      "steps": 1372,
+      "caloriesBurned": 1674,
+      "restingHR": 65,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [
+        {
+          "time": "",
+          "name": "Oikos Triple Zero Vanilla",
+          "calories": 120,
+          "protein": 15,
+          "fat": 0.0,
+          "carbs": 15
+        },
+        {
+          "time": "",
+          "name": "Hard boiled eggs x2",
+          "calories": 140,
+          "protein": 12,
+          "fat": 10.0,
+          "carbs": 1
+        },
+        {
+          "time": "",
+          "name": "Energy drink (L-Carnitine)",
+          "calories": 15,
+          "protein": 4,
+          "fat": 0.0,
+          "carbs": 10
+        }
+      ],
+      "workouts": []
     }
   ]
 }
