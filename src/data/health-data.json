@@ -655,17 +655,90 @@
     },
     {
       "date": "2026-02-26",
-      "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "weight": 279.1,
+      "calories": 1760,
+      "protein": 108,
+      "fat": 72,
+      "carbs": 180,
       "steps": 2257,
       "caloriesBurned": 2646,
       "restingHR": 66,
       "activeMinutes": 0,
       "sleepMinutes": 0,
-      "meals": [],
+      "meals": [
+        {
+          "time": "12:00 AM",
+          "name": "Canada Dry Zero Sugar Ginger Ale",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "time": "12:10 AM",
+          "name": "Jerky (4 servings)",
+          "calories": 280,
+          "protein": 44,
+          "fat": 0,
+          "carbs": 24
+        },
+        {
+          "time": "12:20 AM",
+          "name": "Prebiotic soda (5% juice)",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 15
+        },
+        {
+          "time": "12:24 AM",
+          "name": "Reren pork dumplings x3",
+          "calories": 270,
+          "protein": 12,
+          "fat": 12,
+          "carbs": 27
+        },
+        {
+          "time": "12:28 AM",
+          "name": "General Tso's chicken + rice (half rice)",
+          "calories": 900,
+          "protein": 35,
+          "fat": 45,
+          "carbs": 85
+        },
+        {
+          "time": "12:31 AM",
+          "name": "Soy-braised/tea egg (half)",
+          "calories": 40,
+          "protein": 3,
+          "fat": 3,
+          "carbs": 1
+        },
+        {
+          "time": "2:37 AM",
+          "name": "OLIPOP Tropical Punch",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 16
+        },
+        {
+          "time": "2:37 AM",
+          "name": "Polly-O mozzarella string cheese x2",
+          "calories": 160,
+          "protein": 14,
+          "fat": 12,
+          "carbs": 2
+        },
+        {
+          "time": "10:05 AM",
+          "name": "Monster (24 oz)",
+          "calories": 15,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 10
+        }
+      ],
       "workouts": []
     }
   ]
