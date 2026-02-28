@@ -671,13 +671,13 @@
     {
       "date": "2026-02-27",
       "weight": null,
-      "calories": 275,
-      "protein": 31,
-      "fat": 10,
-      "carbs": 26,
-      "steps": 1372,
-      "caloriesBurned": 1674,
-      "restingHR": 65,
+      "calories": 1275,
+      "protein": 130,
+      "fat": 108,
+      "carbs": 207,
+      "steps": 3423,
+      "caloriesBurned": 2695,
+      "restingHR": 66,
       "activeMinutes": 0,
       "sleepMinutes": 0,
       "meals": [
@@ -704,6 +704,22 @@
           "protein": 4,
           "fat": 0.0,
           "carbs": 10
+        },
+        {
+          "time": "",
+          "name": "Bottle Caps candy (whole box, 6 servings)",
+          "calories": 360,
+          "protein": 0,
+          "fat": 0.0,
+          "carbs": 84
+        },
+        {
+          "time": "",
+          "name": "Walking taco: Sweet Spicy Chili Doritos bag (2.5 oz, full) + rice + 1 scoop original chicken + 2 scoops ground beef + cheese + fried onions + white sauce + hive sauce",
+          "calories": 640,
+          "protein": 99,
+          "fat": 97.5,
+          "carbs": 97
         }
       ],
       "workouts": []
