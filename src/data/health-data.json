@@ -727,16 +727,33 @@
     {
       "date": "2026-02-28",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "calories": 275,
+      "protein": 22,
+      "fat": 14.5,
+      "carbs": 19,
       "steps": 244,
       "caloriesBurned": 2107,
       "restingHR": 67,
       "activeMinutes": 0,
       "sleepMinutes": 441,
-      "meals": [],
+      "meals": [
+        {
+          "time": "afternoon",
+          "name": "Turkey Pepperoni + Bolthouse Farms Dressing + Fiber Beverage",
+          "calories": 155,
+          "protein": 11,
+          "fat": 6.5,
+          "carbs": 18
+        },
+        {
+          "time": "6:58 PM",
+          "name": "Prosciutto & Mozzarella pack",
+          "calories": 120,
+          "protein": 11,
+          "fat": 8,
+          "carbs": 1
+        }
+      ],
       "workouts": []
     }
   ]
