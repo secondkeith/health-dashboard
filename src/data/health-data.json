@@ -755,6 +755,21 @@
         }
       ],
       "workouts": []
+    },
+    {
+      "date": "2026-03-01",
+      "weight": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": 1896,
+      "caloriesBurned": 2382,
+      "restingHR": 66,
+      "activeMinutes": 0,
+      "sleepMinutes": 217,
+      "meals": [],
+      "workouts": []
     }
   ]
 }
