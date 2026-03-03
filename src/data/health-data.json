@@ -774,16 +774,57 @@
     {
       "date": "2026-03-02",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "calories": 1200,
+      "protein": 82,
+      "fat": 59,
+      "carbs": 23,
       "steps": 1430,
       "caloriesBurned": 2298,
       "restingHR": 64,
       "activeMinutes": 0,
       "sleepMinutes": 412,
-      "meals": [],
+      "meals": [
+        {
+          "time": "",
+          "name": "2 Eggs",
+          "calories": 140,
+          "protein": 12,
+          "fat": 10.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "Salad with extra dressing",
+          "calories": 300,
+          "protein": 5,
+          "fat": 20.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "Meat/cheese roll up",
+          "calories": 350,
+          "protein": 25,
+          "fat": 20.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "2\u00d7 Oikos Triple Zero yogurt",
+          "calories": 200,
+          "protein": 30,
+          "fat": 0.0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "Protein bar (35g)",
+          "calories": 210,
+          "protein": 10,
+          "fat": 9.0,
+          "carbs": 23
+        }
+      ],
       "workouts": []
     }
   ]
