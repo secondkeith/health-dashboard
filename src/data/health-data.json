@@ -810,7 +810,7 @@
         },
         {
           "time": "10:59 PM",
-          "name": "2× Oikos Triple Zero yogurt",
+          "name": "2\u00d7 Oikos Triple Zero yogurt",
           "calories": 200,
           "protein": 30,
           "fat": 0.0,
@@ -823,6 +823,54 @@
           "protein": 10,
           "fat": 9.0,
           "carbs": 23
+        }
+      ],
+      "workouts": []
+    },
+    {
+      "date": "2026-03-03",
+      "weight": 275.1,
+      "calories": 536,
+      "protein": 38,
+      "fat": 33,
+      "carbs": 28,
+      "steps": 1158,
+      "caloriesBurned": 1627,
+      "restingHR": 64,
+      "activeMinutes": 0,
+      "sleepMinutes": 71,
+      "meals": [
+        {
+          "time": "",
+          "name": "L-Carnitine drink (1 can)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0.0,
+          "carbs": 6
+        },
+        {
+          "time": "",
+          "name": "Mission Zero tortilla (1 tortilla, 40g)",
+          "calories": 80,
+          "protein": 5,
+          "fat": 4.0,
+          "carbs": 14
+        },
+        {
+          "time": "",
+          "name": "Kirkland basil pesto (48g)",
+          "calories": 264,
+          "protein": 6,
+          "fat": 24.0,
+          "carbs": 2
+        },
+        {
+          "time": "",
+          "name": "Oven roasted turkey breast (170g)",
+          "calories": 182,
+          "protein": 27,
+          "fat": 5.0,
+          "carbs": 6
         }
       ],
       "workouts": []
