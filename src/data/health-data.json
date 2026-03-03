@@ -785,7 +785,7 @@
       "sleepMinutes": 412,
       "meals": [
         {
-          "time": "",
+          "time": "breakfast",
           "name": "2 Eggs",
           "calories": 140,
           "protein": 12,
@@ -793,7 +793,7 @@
           "carbs": 0
         },
         {
-          "time": "",
+          "time": "lunch",
           "name": "Salad with extra dressing",
           "calories": 300,
           "protein": 5,
@@ -801,7 +801,7 @@
           "carbs": 0
         },
         {
-          "time": "",
+          "time": "dinner",
           "name": "Meat/cheese roll up",
           "calories": 350,
           "protein": 25,
@@ -809,15 +809,15 @@
           "carbs": 0
         },
         {
-          "time": "",
-          "name": "2\u00d7 Oikos Triple Zero yogurt",
+          "time": "10:59 PM",
+          "name": "2× Oikos Triple Zero yogurt",
           "calories": 200,
           "protein": 30,
           "fat": 0.0,
           "carbs": 0
         },
         {
-          "time": "",
+          "time": "11:12 PM",
           "name": "Protein bar (35g)",
           "calories": 210,
           "protein": 10,
