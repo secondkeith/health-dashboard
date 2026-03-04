@@ -830,14 +830,14 @@
     {
       "date": "2026-03-03",
       "weight": 275.1,
-      "calories": 536,
-      "protein": 38,
-      "fat": 33,
-      "carbs": 28,
-      "steps": 1158,
-      "caloriesBurned": 1627,
+      "calories": 1906,
+      "protein": 104,
+      "fat": 126,
+      "carbs": 81,
+      "steps": 3183,
+      "caloriesBurned": 2384,
       "restingHR": 64,
-      "activeMinutes": 0,
+      "activeMinutes": 8,
       "sleepMinutes": 71,
       "meals": [
         {
@@ -871,6 +871,38 @@
           "protein": 27,
           "fat": 5.0,
           "carbs": 6
+        },
+        {
+          "time": "",
+          "name": "Half hot crab & artichoke dip",
+          "calories": 550,
+          "protein": 22,
+          "fat": 42.0,
+          "carbs": 18
+        },
+        {
+          "time": "",
+          "name": "4 garlic black pepper wings",
+          "calories": 380,
+          "protein": 32,
+          "fat": 26.0,
+          "carbs": 8
+        },
+        {
+          "time": "",
+          "name": "1 kung pao chicken dumpling",
+          "calories": 90,
+          "protein": 5,
+          "fat": 5.0,
+          "carbs": 9
+        },
+        {
+          "time": "",
+          "name": "Farmers salad with extra dressing",
+          "calories": 350,
+          "protein": 7,
+          "fat": 20.0,
+          "carbs": 18
         }
       ],
       "workouts": []
