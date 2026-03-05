@@ -910,16 +910,57 @@
     {
       "date": "2026-03-04",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "calories": 545,
+      "protein": 23,
+      "fat": 6,
+      "carbs": 100,
       "steps": 0,
       "caloriesBurned": 1991,
       "restingHR": null,
       "activeMinutes": 0,
       "sleepMinutes": 0,
-      "meals": [],
+      "meals": [
+        {
+          "time": "11:45 AM",
+          "name": "Organic vanilla yogurt (3/4 cup)",
+          "calories": 100,
+          "protein": 13,
+          "fat": 0,
+          "carbs": 10
+        },
+        {
+          "time": "11:54 AM",
+          "name": "L-Carnitine drink (1 can)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4
+        },
+        {
+          "time": "2:29 PM",
+          "name": "Cheese (2 pieces, 40g)",
+          "calories": 100,
+          "protein": 10,
+          "fat": 6,
+          "carbs": 0
+        },
+        {
+          "time": "5:06 PM",
+          "name": "Caffeine-free soda (1 bottle)",
+          "calories": 210,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 56
+        },
+        {
+          "time": "11:57 PM",
+          "name": "Li Hing Mui dried plums (5 pieces)",
+          "calories": 125,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 30
+        }
+      ],
       "workouts": []
     },
     {
