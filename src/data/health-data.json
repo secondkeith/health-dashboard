@@ -810,7 +810,7 @@
         },
         {
           "time": "10:59 PM",
-          "name": "2× Oikos Triple Zero yogurt",
+          "name": "2\u00d7 Oikos Triple Zero yogurt",
           "calories": 200,
           "protein": 30,
           "fat": 0.0,
@@ -908,6 +908,21 @@
       "workouts": []
     },
     {
+      "date": "2026-03-04",
+      "weight": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": 0,
+      "caloriesBurned": 1991,
+      "restingHR": null,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [],
+      "workouts": []
+    },
+    {
       "date": "2026-03-05",
       "weight": null,
       "calories": null,
@@ -926,36 +941,36 @@
           "weight": 80,
           "sets": 3,
           "reps": 10,
-          "warmup": "1×15 @ 40 lbs",
+          "warmup": "1\u00d715 @ 40 lbs",
           "notes": "Total 30 reps (up from 26 on Feb 20). Held form through all sets.",
-          "nextTarget": "3×12 @ 80 lbs before increasing to 85 lbs"
+          "nextTarget": "3\u00d712 @ 80 lbs before increasing to 85 lbs"
         },
         {
           "name": "Triceps Extension (Matrix)",
           "weight": 85,
           "sets": 4,
           "reps": 10,
-          "warmup": "1×15 @ 40 lbs",
+          "warmup": "1\u00d715 @ 40 lbs",
           "notes": "Weight increase from 80 lbs",
-          "nextTarget": "4×12 @ 85 lbs before increasing to 90 lbs"
+          "nextTarget": "4\u00d712 @ 85 lbs before increasing to 90 lbs"
         },
         {
           "name": "Low Back (Hoist Roc-It)",
           "weight": 345,
           "sets": 3,
           "reps": 10,
-          "warmup": "1×? @ 185 lbs",
+          "warmup": "1\u00d7? @ 185 lbs",
           "notes": "Machine max weight. Maintained volume from Feb 20.",
-          "nextTarget": "3×12 @ 345 lbs (volume progression)"
+          "nextTarget": "3\u00d712 @ 345 lbs (volume progression)"
         },
         {
           "name": "Pectoral Fly (Life Fitness)",
           "weight": 75,
           "sets": 3,
           "reps": 10,
-          "warmup": "1×? @ 40 lbs",
+          "warmup": "1\u00d7? @ 40 lbs",
           "notes": "Weight increase from 70 lbs. Dropped from 4 sets to 3.",
-          "nextTarget": "3×12 @ 75 lbs, then add 4th set before increasing weight"
+          "nextTarget": "3\u00d712 @ 75 lbs, then add 4th set before increasing weight"
         }
       ]
     }
