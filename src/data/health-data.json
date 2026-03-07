@@ -1014,6 +1014,21 @@
           "nextTarget": "3\u00d712 @ 75 lbs, then add 4th set before increasing weight"
         }
       ]
+    },
+    {
+      "date": "2026-03-06",
+      "weight": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": 2438,
+      "caloriesBurned": 2171,
+      "restingHR": 64,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [],
+      "workouts": []
     }
   ]
 }
