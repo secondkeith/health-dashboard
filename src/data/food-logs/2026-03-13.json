@@ -17,6 +17,14 @@
       "protein": 0,
       "fat": 8.0,
       "carbs": 1
+    },
+    {
+      "time": "12:32 PM",
+      "name": "Mustard packet",
+      "calories": 5,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 1
     }
   ],
   "workouts": []
