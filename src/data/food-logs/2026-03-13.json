@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-13",
+  "weight": null,
+  "items": [
+    {
+      "time": "02:24 PM",
+      "name": "Test item",
+      "calories": 100,
+      "protein": 10,
+      "fat": 5.0,
+      "carbs": 12
+    }
+  ],
+  "workouts": []
+}
