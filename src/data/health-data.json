@@ -1154,89 +1154,16 @@
     {
       "date": "2026-03-10",
       "weight": null,
-      "calories": 813,
-      "protein": 71,
-      "fat": 43,
-      "carbs": 42,
-      "steps": 0,
-      "caloriesBurned": 0,
-      "restingHR": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": 3190,
+      "caloriesBurned": 2668,
+      "restingHR": 65,
       "activeMinutes": 0,
       "sleepMinutes": 0,
-      "meals": [
-        {
-          "time": "Breakfast",
-          "name": "2 hard boiled eggs",
-          "calories": 140,
-          "protein": 12,
-          "fat": 10,
-          "carbs": 1
-        },
-        {
-          "time": "12:49 PM",
-          "name": "3 Babybel Semi-Soft Cheese (reduced fat, 0.71 oz each)",
-          "calories": 150,
-          "protein": 18,
-          "fat": 9,
-          "carbs": 0
-        },
-        {
-          "time": "1:53 PM",
-          "name": "1 can (355 mL) juice drink",
-          "calories": 35,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 13
-        },
-        {
-          "time": "2:10 PM",
-          "name": "3 containers gelatin/snack cups",
-          "calories": 45,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 3
-        },
-        {
-          "time": "2:43 PM",
-          "name": "1 high-fiber tortilla (40g)",
-          "calories": 60,
-          "protein": 7,
-          "fat": 3,
-          "carbs": 14
-        },
-        {
-          "time": "2:43 PM",
-          "name": "13g honey mustard (~2 servings)",
-          "calories": 40,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 8
-        },
-        {
-          "time": "2:43 PM",
-          "name": "25g mayo/condiment (~1.67 servings)",
-          "calories": 83,
-          "protein": 0,
-          "fat": 8,
-          "carbs": 1
-        },
-        {
-          "time": "2:43 PM",
-          "name": "4 slices Applegate turkey breast (2 servings)",
-          "calories": 100,
-          "protein": 22,
-          "fat": 1,
-          "carbs": 2
-        },
-        {
-          "time": "2:43 PM",
-          "name": "2 slices cheese (46g)",
-          "calories": 160,
-          "protein": 12,
-          "fat": 12,
-          "carbs": 0
-        }
-      ],
+      "meals": [],
       "workouts": []
     },
     {
