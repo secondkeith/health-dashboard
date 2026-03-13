@@ -1139,25 +1139,16 @@
     {
       "date": "2026-03-09",
       "weight": null,
-      "calories": 170,
-      "protein": 6,
-      "fat": 13,
-      "carbs": 7,
-      "steps": 0,
-      "caloriesBurned": 0,
-      "restingHR": null,
-      "activeMinutes": 0,
-      "sleepMinutes": 0,
-      "meals": [
-        {
-          "time": "3:48 PM",
-          "name": "28g nuts (1 serving)",
-          "calories": 170,
-          "protein": 6,
-          "fat": 13,
-          "carbs": 7
-        }
-      ],
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": 4277,
+      "caloriesBurned": 2683,
+      "restingHR": 65,
+      "activeMinutes": 8,
+      "sleepMinutes": 235,
+      "meals": [],
       "workouts": []
     },
     {
