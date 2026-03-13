@@ -41,6 +41,14 @@
       "protein": 4,
       "fat": 1.5,
       "carbs": 24
+    },
+    {
+      "time": "4:45 PM",
+      "name": "Old Trapper Smoked jerky (whole bag, 4 oz)",
+      "calories": 280,
+      "protein": 44,
+      "fat": 0.0,
+      "carbs": 24
     }
   ],
   "workouts": []
