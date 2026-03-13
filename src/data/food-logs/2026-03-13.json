@@ -33,6 +33,14 @@
       "protein": 0,
       "fat": 0.0,
       "carbs": 2
+    },
+    {
+      "time": "12:32 PM",
+      "name": "Hot dog bun",
+      "calories": 120,
+      "protein": 4,
+      "fat": 1.5,
+      "carbs": 24
     }
   ],
   "workouts": []
