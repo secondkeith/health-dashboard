@@ -1169,105 +1169,16 @@
     {
       "date": "2026-03-11",
       "weight": null,
-      "calories": 1860,
-      "protein": 166,
-      "fat": 93,
-      "carbs": 93,
-      "steps": 0,
-      "caloriesBurned": 0,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": 233,
+      "caloriesBurned": 2070,
       "restingHR": null,
       "activeMinutes": 0,
       "sleepMinutes": 0,
-      "meals": [
-        {
-          "time": "",
-          "name": "Breakfast",
-          "calories": 140,
-          "protein": 12,
-          "fat": 10,
-          "carbs": 1
-        },
-        {
-          "time": "",
-          "name": "Bolthouse Farms Blue Cheese dressing: 34.5g (~45 cal, 1g protein, 3g carbs, 3.5g fat)",
-          "calories": 340,
-          "protein": 20,
-          "fat": 25,
-          "carbs": 11
-        },
-        {
-          "time": "",
-          "name": "Snack",
-          "calories": 255,
-          "protein": 36,
-          "fat": 5,
-          "carbs": 16
-        },
-        {
-          "time": "",
-          "name": "Snack",
-          "calories": 210,
-          "protein": 6,
-          "fat": 4,
-          "carbs": 35
-        },
-        {
-          "time": "",
-          "name": "Note: High sodium (590mg = 26% DV)",
-          "calories": 100,
-          "protein": 0,
-          "fat": 10,
-          "carbs": 2
-        },
-        {
-          "time": "",
-          "name": "Honey mustard: 17g/~2.7 tsp (55 cal, 0g protein, 11g carbs, 0g fat)",
-          "calories": 100,
-          "protein": 22,
-          "fat": 1,
-          "carbs": 2
-        },
-        {
-          "time": "",
-          "name": "Note: High sodium (940mg = 41% DV)",
-          "calories": 111,
-          "protein": 16,
-          "fat": 5,
-          "carbs": 1
-        },
-        {
-          "time": "",
-          "name": "Note: High sodium (745mg = 32% DV)",
-          "calories": 84,
-          "protein": 16,
-          "fat": 1,
-          "carbs": 1
-        },
-        {
-          "time": "",
-          "name": "Note: High sodium (798mg = 35% DV)",
-          "calories": 120,
-          "protein": 10,
-          "fat": 12,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "Note: High saturated fat (12g = 60% DV)",
-          "calories": 80,
-          "protein": 6,
-          "fat": 6,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "Snack",
-          "calories": 320,
-          "protein": 22,
-          "fat": 14,
-          "carbs": 24
-        }
-      ],
+      "meals": [],
       "workouts": []
     },
     {
