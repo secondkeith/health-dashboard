@@ -1184,16 +1184,81 @@
     {
       "date": "2026-03-12",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "calories": 1141,
+      "protein": 56,
+      "fat": 81,
+      "carbs": 70,
       "steps": 1261,
       "caloriesBurned": 2464,
       "restingHR": 67,
       "activeMinutes": 0,
       "sleepMinutes": 390,
-      "meals": [],
+      "meals": [
+        {
+          "time": "6:41 PM",
+          "name": "Tortilla",
+          "calories": 60,
+          "protein": 7,
+          "fat": 3.5,
+          "carbs": 14
+        },
+        {
+          "time": "6:42 PM",
+          "name": "Condiment/Spread",
+          "calories": 100,
+          "protein": 0,
+          "fat": 10.0,
+          "carbs": 2
+        },
+        {
+          "time": "6:45 PM",
+          "name": "Honey Mustard",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0.0,
+          "carbs": 8
+        },
+        {
+          "time": "6:46 PM",
+          "name": "Turkey Pastrami",
+          "calories": 135,
+          "protein": 19,
+          "fat": 6.8,
+          "carbs": 1
+        },
+        {
+          "time": "6:48 PM",
+          "name": "Cajun Turkey Breast",
+          "calories": 53,
+          "protein": 10,
+          "fat": 0.9,
+          "carbs": 0
+        },
+        {
+          "time": "6:49 PM",
+          "name": "Cheese (Sprouts)",
+          "calories": 168,
+          "protein": 10,
+          "fat": 16.8,
+          "carbs": 0
+        },
+        {
+          "time": "9:03 PM",
+          "name": "Salad (whole bag)",
+          "calories": 525,
+          "protein": 10,
+          "fat": 42.0,
+          "carbs": 35
+        },
+        {
+          "time": "9:04 PM",
+          "name": "Salad Dressing",
+          "calories": 60,
+          "protein": 0,
+          "fat": 1.0,
+          "carbs": 10
+        }
+      ],
       "workouts": []
     }
   ]
