@@ -1,0 +1,320 @@
+Updating health dashboard for 2026-02-22...
+2026-02-22 already in dashboard, skipping.
+
+> health-dashboard@0.1.0 build
+> tsc -b && vite build
+
+vite v6.4.1 building for production...
+transforming...
+✓ 647 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.48 kB │ gzip:   0.31 kB
+dist/assets/index-CN9-mKP0.css   10.80 kB │ gzip:   2.92 kB
+dist/assets/index-C0khfl38.js   588.40 kB │ gzip: 165.91 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 9.03s
+
+> health-dashboard@0.1.0 deploy
+> gh-pages -d dist
+
+Published
+Updating health dashboard for 2026-02-23...
+Added 2026-02-23 to health-data.json
+Building dashboard...
+Deploying to GitHub Pages...
+Done!
+Updating health dashboard for 2026-02-24...
+2026-02-24 already in dashboard, skipping.
+
+> health-dashboard@0.1.0 build
+> tsc -b && vite build
+
+vite v6.4.1 building for production...
+transforming...
+✓ 647 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.48 kB │ gzip:   0.31 kB
+dist/assets/index-CN9-mKP0.css   10.80 kB │ gzip:   2.92 kB
+dist/assets/index-CeGTXhvF.js   591.12 kB │ gzip: 166.54 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 12.65s
+
+> health-dashboard@0.1.0 deploy
+> gh-pages -d dist
+
+Published
+Updating health dashboard for 2026-02-25...
+Fitbit API error: 'FITBIT_CLIENT_ID'
+Added 2026-02-25 to health-data.json
+Building dashboard...
+Deploying to GitHub Pages...
+Done!
+
+> health-dashboard@0.1.0 build
+> tsc -b && vite build
+
+vite v6.4.1 building for production...
+transforming...
+✓ 647 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.48 kB │ gzip:   0.31 kB
+dist/assets/index-CN9-mKP0.css   10.80 kB │ gzip:   2.92 kB
+dist/assets/index-D3fnm9WQ.js   591.28 kB │ gzip: 166.55 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 8.18s
+npm notice
+npm notice New major version of npm available! 10.9.4 -> 11.11.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.11.0
+npm notice To update run: npm install -g npm@11.11.0
+npm notice
+
+> health-dashboard@0.1.0 deploy
+> gh-pages -d dist
+
+Published
+Updating health dashboard for 2026-02-26...
+Fitbit API error: 'FITBIT_CLIENT_ID'
+Added 2026-02-26 to health-data.json
+Building dashboard...
+Deploying to GitHub Pages...
+Done!
+Updating health dashboard for 2026-02-27...
+2026-02-27 already in dashboard, skipping.
+
+> health-dashboard@0.1.0 build
+> tsc -b && vite build
+
+vite v6.4.1 building for production...
+transforming...
+✓ 647 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.48 kB │ gzip:   0.31 kB
+dist/assets/index-CN9-mKP0.css   10.80 kB │ gzip:   2.92 kB
+dist/assets/index-BZRg6j8c.js   592.21 kB │ gzip: 166.80 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 9.64s
+
+> health-dashboard@0.1.0 deploy
+> gh-pages -d dist
+
+Published
+Updating health dashboard for 2026-02-28...
+Fitbit API error: 'FITBIT_CLIENT_ID'
+Added 2026-02-28 to health-data.json
+Building dashboard...
+Deploying to GitHub Pages...
+Done!
+/home/secondkeith/Projects/monitoring/scripts/cron-wrapper.sh: line 54: warning: here-document at line 46 delimited by end-of-file (wanted `EOF')
+Updating health dashboard for 2026-03-01...
+No food log found for 2026-03-01
+No data for 2026-03-01, skipping.
+/home/secondkeith/Projects/monitoring/scripts/cron-wrapper.sh: line 54: warning: here-document at line 46 delimited by end-of-file (wanted `EOF')
+Updating health dashboard for 2026-03-02...
+No food log found for 2026-03-02
+No data for 2026-03-02, skipping.
+/home/secondkeith/Projects/monitoring/scripts/cron-wrapper.sh: line 54: warning: here-document at line 46 delimited by end-of-file (wanted `EOF')
+Updating health dashboard for 2026-03-03...
+2026-03-03 already in dashboard, skipping.
+/home/secondkeith/Projects/monitoring/scripts/cron-wrapper.sh: line 54: warning: here-document at line 46 delimited by end-of-file (wanted `EOF')
+
+> health-dashboard@0.1.0 build
+> tsc -b && vite build
+
+vite v6.4.1 building for production...
+transforming...
+✓ 647 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.48 kB │ gzip:   0.31 kB
+dist/assets/index-CN9-mKP0.css   10.80 kB │ gzip:   2.92 kB
+dist/assets/index-3EDDB511.js   596.75 kB │ gzip: 167.71 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 8.04s
+
+> health-dashboard@0.1.0 deploy
+> gh-pages -d dist
+
+Published
+Updating health dashboard for 2026-03-04...
+Fitbit API error: 'FITBIT_CLIENT_ID'
+Added 2026-03-04 to health-data.json
+Building dashboard...
+Deploying to GitHub Pages...
+Done!
+/home/secondkeith/Projects/monitoring/scripts/cron-wrapper.sh: line 54: warning: here-document at line 46 delimited by end-of-file (wanted `EOF')
+Updating health dashboard for 2026-03-05...
+2026-03-05 already in dashboard, skipping.
+/home/secondkeith/Projects/monitoring/scripts/cron-wrapper.sh: line 54: warning: here-document at line 46 delimited by end-of-file (wanted `EOF')
+Updating health dashboard for 2026-03-06...
+2026-03-06 already in dashboard, skipping.
+
+> health-dashboard@0.1.0 build
+> tsc -b && vite build
+
+vite v6.4.1 building for production...
+transforming...
+✓ 647 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.48 kB │ gzip:   0.31 kB
+dist/assets/index-CN9-mKP0.css   10.80 kB │ gzip:   2.92 kB
+dist/assets/index-DvMr4aeS.js   597.65 kB │ gzip: 167.88 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 7.81s
+
+> health-dashboard@0.1.0 deploy
+> gh-pages -d dist
+
+Published
+Updating health dashboard for 2026-03-07...
+Fitbit API error: 'FITBIT_CLIENT_ID'
+Added 2026-03-07 to health-data.json
+Building dashboard...
+Deploying to GitHub Pages...
+Done!
+
+> health-dashboard@0.1.0 build
+> tsc -b && vite build
+
+vite v6.4.1 building for production...
+transforming...
+✓ 647 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.48 kB │ gzip:   0.31 kB
+dist/assets/index-CN9-mKP0.css   10.80 kB │ gzip:   2.92 kB
+dist/assets/index-BLoFKiQn.js   597.83 kB │ gzip: 167.89 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 8.02s
+
+> health-dashboard@0.1.0 deploy
+> gh-pages -d dist
+
+Published
+Updating health dashboard for 2026-03-08...
+Fitbit API error: 'FITBIT_CLIENT_ID'
+Added 2026-03-08 to health-data.json
+Building dashboard...
+Deploying to GitHub Pages...
+Done!
+
+> health-dashboard@0.1.0 build
+> tsc -b && vite build
+
+vite v6.4.1 building for production...
+transforming...
+✓ 647 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.48 kB │ gzip:   0.31 kB
+dist/assets/index-CN9-mKP0.css   10.80 kB │ gzip:   2.92 kB
+dist/assets/index-BruIRCrJ.js   598.02 kB │ gzip: 167.89 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 8.37s
+
+> health-dashboard@0.1.0 deploy
+> gh-pages -d dist
+
+Published
+Updating health dashboard for 2026-03-09...
+Fitbit API error: 'FITBIT_CLIENT_ID'
+Added 2026-03-09 to health-data.json
+Building dashboard...
+Deploying to GitHub Pages...
+Done!
+Updating health dashboard for 2026-03-10...
+2026-03-10 already in dashboard, skipping.
+
+> health-dashboard@0.1.0 build
+> tsc -b && vite build
+
+vite v6.4.1 building for production...
+transforming...
+✓ 647 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.48 kB │ gzip:   0.31 kB
+dist/assets/index-CN9-mKP0.css   10.80 kB │ gzip:   2.92 kB
+dist/assets/index-Ba_K-byr.js   601.91 kB │ gzip: 168.65 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 9.23s
+
+> health-dashboard@0.1.0 deploy
+> gh-pages -d dist
+
+Published
+Updating health dashboard for 2026-03-11...
+Fitbit API error: 'FITBIT_CLIENT_ID'
+Added 2026-03-11 to health-data.json
+Building dashboard...
+Deploying to GitHub Pages...
+Done!
+
+> health-dashboard@0.1.0 build
+> tsc -b && vite build
+
+vite v6.4.1 building for production...
+transforming...
+✓ 647 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.48 kB │ gzip:   0.31 kB
+dist/assets/index-CN9-mKP0.css   10.80 kB │ gzip:   2.92 kB
+dist/assets/index-C6HG-5hh.js   603.03 kB │ gzip: 168.80 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 8.25s
+
+> health-dashboard@0.1.0 deploy
+> gh-pages -d dist
+
+Published
+Updating health dashboard for 2026-03-12...
+Fitbit API error: 'FITBIT_CLIENT_ID'
+Added 2026-03-12 to health-data.json
+Building dashboard...
+Deploying to GitHub Pages...
+Done!

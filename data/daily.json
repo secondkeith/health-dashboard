@@ -1,0 +1,41 @@
+{
+  "2026-03-06": {
+    "food": [
+      {
+        "time": "17:23",
+        "description": "5 Li Hing Mui (red dried plum candies)",
+        "calories": 90,
+        "protein": 0,
+        "carbs": 22,
+        "fat": 0,
+        "note": "Estimated nutrition (no facts on package)"
+      }
+    ],
+    "fitbit": {}
+  },
+  "2026-03-12": {
+    "food": [
+      {
+        "time": "21:03",
+        "description": "Salad (romaine lettuce, maple bourbon dressing) - whole bag",
+        "calories": 525,
+        "protein": 10.5,
+        "carbs": 35,
+        "fat": 42,
+        "fiber": 7,
+        "note": "3.5 servings, 150 cal/serving"
+      },
+      {
+        "time": "21:04",
+        "description": "Salad dressing (60g)",
+        "calories": 60,
+        "protein": 0,
+        "carbs": 10,
+        "fat": 1,
+        "sodium": 300,
+        "note": "2 servings, 30 cal/serving"
+      }
+    ],
+    "fitbit": {}
+  }
+}

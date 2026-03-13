@@ -23,6 +23,32 @@ def get_yesterday():
     return (date.today() - timedelta(days=1)).isoformat()
 
 
+def parse_nutrition_line(name, nut_text, time):
+    """Extract calories/protein/fat/carbs from a nutrition string."""
+    cal_match = re.search(r'~?([\d,]+)\s*cal', nut_text, re.IGNORECASE)
+    if not cal_match:
+        return None  # Skip items without calories
+    
+    cal = int(cal_match.group(1).replace(",", ""))
+    
+    p_match = re.search(r'([\d.]+)g?\s*protein', nut_text, re.IGNORECASE)
+    f_match = re.search(r'([\d.]+)g?\s*fat', nut_text, re.IGNORECASE)
+    c_match = re.search(r'([\d.]+)g?\s*carb', nut_text, re.IGNORECASE)
+    
+    protein = int(float(p_match.group(1))) if p_match else 0
+    fat = int(float(f_match.group(1))) if f_match else 0
+    carbs = int(float(c_match.group(1))) if c_match else 0
+    
+    return {
+        "time": time,
+        "name": name,
+        "calories": cal,
+        "protein": protein,
+        "fat": fat,
+        "carbs": carbs
+    }
+
+
 def parse_food_log(date_str):
     """Parse a memory/health/YYYY-MM-DD.md file into meals and totals."""
     log_file = MEMORY_HEALTH_DIR / f"{date_str}.md"
@@ -57,80 +83,115 @@ def parse_food_log(date_str):
     if carbs_match:
         totals["carbs"] = int(float(carbs_match.group(1)))
 
-    # Parse individual meal items: lines starting with "- **item name**"
+    # Parse individual meal items in multiple formats:
+    # Format A (old): ## Section\n- **Item** — Xcal, Xg protein
+    # Format B (new): ### HH:MM\n- Item\n  - Xcal, Xg protein
+    # Format C (newer): ### HH:MM — Item\n- Xcal, Xg protein
+    
+    lines = content.split('\n')
+    i = 0
     current_time = ""
-    # Find section headers with times like "## Lunch" or "## Evening Snacks (~4:30 PM)"
-    sections = re.split(r'^## ', content, flags=re.MULTILINE)
-
-    for section in sections:
-        # Extract time from section header
-        time_match = re.match(r'.*?\(~?([\d:]+\s*(?:AM|PM|am|pm)?)\)', section)
-        section_name_match = re.match(r'(\w[\w\s&]*)', section)
-
-        if time_match:
-            current_time = time_match.group(1).strip()
-        elif section_name_match:
-            current_time = section_name_match.group(1).strip()
-
-        # Find food items in two formats:
-        # Format 1: "- **name** — Xcal, Xg protein, ..."
-        # Format 2: "- **name** (...)\n  - ~Xcal, ~Xg protein, ..."
-        lines = section.split('\n')
-        i = 0
-        while i < len(lines):
-            line = lines[i]
-
-            # Match a bold food item
-            item_match = re.match(r'\s*-\s+\*\*(.+?)\*\*', line)
-            if item_match:
-                name = item_match.group(1).strip()
-                cal = 0
-                protein = 0
-                fat = 0
-                carbs = 0
-
-                # Check if calories are on this line (Format 1)
-                cal_on_line = re.search(r'[—\-]+\s*~?([\d,]+)\s*cal', line)
-                if cal_on_line:
-                    parse_line = line
-                    cal = int(cal_on_line.group(1).replace(",", ""))
-                else:
-                    # Check next line for sub-bullet with calories (Format 2)
-                    if i + 1 < len(lines):
-                        next_line = lines[i + 1]
-                        sub_cal = re.match(r'\s+-\s+~?([\d,]+)\s*cal', next_line)
-                        if sub_cal:
-                            parse_line = next_line
-                            cal = int(sub_cal.group(1).replace(",", ""))
-                            i += 1  # consume the sub-bullet
-                        else:
-                            # No calories found, skip (e.g. "Ice water")
-                            i += 1
-                            continue
-                    else:
-                        i += 1
+    
+    while i < len(lines):
+        line = lines[i].strip()
+        
+        # Check for section headers with times
+        # ### 12:49 PM or ### Afternoon (12:49 PM) or ## Lunch
+        time_header = re.match(r'^###+\s*(.+?)(?:\s*—\s*(.+?))?$', line)
+        if time_header:
+            header_text = time_header.group(1).strip()
+            item_on_header = time_header.group(2)  # For "### 12:49 — Item" format
+            
+            # Extract time from header
+            time_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM|am|pm)?)', header_text)
+            if time_match:
+                current_time = time_match.group(1).strip()
+            else:
+                # Use header text as section name if no time
+                current_time = header_text
+            
+            # If item is on the same line as the header (Format C or D)
+            if item_on_header:
+                # Look for nutrition on next line(s)
+                if i + 1 < len(lines):
+                    next_line = lines[i + 1].strip()
+                    
+                    # Format D: - **Calories:** 320 (multi-line with bold labels)
+                    if next_line.startswith('- **'):
+                        cal = protein = fat = carbs = 0
+                        j = i + 1
+                        while j < len(lines) and lines[j].strip().startswith('- **'):
+                            nutrient_line = lines[j].strip()
+                            cal_match = re.search(r'\*\*Calories:\*\*\s*([\d,]+)', nutrient_line)
+                            pro_match = re.search(r'\*\*Protein:\*\*\s*([\d.]+)g?', nutrient_line)
+                            fat_match = re.search(r'\*\*Fat:\*\*\s*([\d.]+)g?', nutrient_line)
+                            carb_match = re.search(r'\*\*Carbs:\*\*\s*([\d.]+)g?', nutrient_line)
+                            
+                            if cal_match:
+                                cal = int(cal_match.group(1).replace(",", ""))
+                            if pro_match:
+                                protein = int(float(pro_match.group(1)))
+                            if fat_match:
+                                fat = int(float(fat_match.group(1)))
+                            if carb_match:
+                                carbs = int(float(carb_match.group(1)))
+                            j += 1
+                        
+                        if cal > 0:
+                            meals.append({
+                                "time": current_time,
+                                "name": item_on_header,
+                                "calories": cal,
+                                "protein": protein,
+                                "fat": fat,
+                                "carbs": carbs
+                            })
+                        i = j
                         continue
-
-                p_match = re.search(r'([\d.]+)g\s*protein', parse_line)
-                f_match = re.search(r'([\d.]+)g\s*fat', parse_line)
-                c_match = re.search(r'([\d.]+)g\s*carb', parse_line)
-
-                if p_match:
-                    protein = int(float(p_match.group(1)))
-                if f_match:
-                    fat = int(float(f_match.group(1)))
-                if c_match:
-                    carbs = int(float(c_match.group(1)))
-
-                meals.append({
-                    "time": current_time,
-                    "name": name,
-                    "calories": cal,
-                    "protein": protein,
-                    "fat": fat,
-                    "carbs": carbs
-                })
+                    
+                    # Format C: - Xcal, Xg protein (single line)
+                    nut_match = re.match(r'^-\s*(.+)', next_line)
+                    if nut_match:
+                        nut_text = nut_match.group(1)
+                        meal = parse_nutrition_line(item_on_header, nut_text, current_time)
+                        if meal:
+                            meals.append(meal)
+                        i += 2
+                        continue
             i += 1
+            continue
+        
+        # Format A: - **Item** — Xcal, Xg protein (bold item, nutrition on same line)
+        bold_item = re.match(r'^-\s+\*\*(.+?)\*\*\s*[—\-]+\s*(.+)', line)
+        if bold_item:
+            name = bold_item.group(1).strip()
+            nut_text = bold_item.group(2)
+            meal = parse_nutrition_line(name, nut_text, current_time)
+            if meal:
+                meals.append(meal)
+            i += 1
+            continue
+        
+        # Format B: - Item (not bold, nutrition on next line as sub-bullet)
+        # or **Time** - Item (with time prefix)
+        item_match = re.match(r'^(?:\*\*[\d:APM\s]+\*\*\s*-\s*|\*\*[\d:APM\s]+\*\*|\-\s+)(.+?)$', line)
+        if item_match and not line.startswith('  -'):
+            name = item_match.group(1).strip()
+            # Remove trailing dashes if present
+            name = re.sub(r'\s*—.*$', '', name)
+            
+            # Look for nutrition on next line (sub-bullet)
+            if i + 1 < len(lines):
+                next_line = lines[i + 1].strip()
+                if next_line.startswith('-'):
+                    nut_text = next_line.lstrip('- ').strip()
+                    meal = parse_nutrition_line(name, nut_text, current_time)
+                    if meal:
+                        meals.append(meal)
+                    i += 2
+                    continue
+        
+        i += 1
 
     # Fill in any missing totals from meal sums
     if meals:
@@ -191,6 +252,25 @@ def parse_workouts(date_str):
             })
 
     return workouts
+
+
+def parse_weight(date_str):
+    """Extract weight from markdown file if present."""
+    log_file = MEMORY_HEALTH_DIR / f"{date_str}.md"
+    if not log_file.exists():
+        return None
+    
+    content = log_file.read_text()
+    
+    # Look for weight patterns:
+    # ## Weight\n**Morning:** 277.6 lbs
+    # ## Weight\n- 277.6 lbs
+    # **Weight:** 277.6 lbs
+    weight_match = re.search(r'(?:##\s*Weight|Weight:)[^\d]*([\d.]+)\s*lbs?', content, re.IGNORECASE)
+    if weight_match:
+        return float(weight_match.group(1))
+    
+    return None
 
 
 def get_fitbit_data(date_str):
@@ -256,10 +336,15 @@ def update_dashboard(date_str):
     # Get Fitbit data
     fitbit = get_fitbit_data(date_str)
 
+    # Get weight from Fitbit or fall back to markdown
+    weight = fitbit["weight"]
+    if weight is None:
+        weight = parse_weight(date_str)
+
     # Build entry
     entry = {
         "date": date_str,
-        "weight": fitbit["weight"],
+        "weight": weight,
         "calories": totals["calories"],
         "protein": totals["protein"],
         "fat": totals["fat"],
