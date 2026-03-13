@@ -1,6 +1,21 @@
 {
   "days": [
     {
+      "date": "--date",
+      "weight": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "activeMinutes": null,
+      "sleepMinutes": null,
+      "meals": [],
+      "workouts": []
+    },
+    {
       "date": "2026-02-17",
       "weight": null,
       "calories": 1810,
@@ -910,124 +925,601 @@
     {
       "date": "2026-03-04",
       "weight": null,
-      "calories": 545,
-      "protein": 23,
-      "fat": 6,
-      "carbs": 100,
+      "calories": 645,
+      "protein": 25,
+      "fat": 14,
+      "carbs": 6,
       "steps": 0,
-      "caloriesBurned": 1991,
+      "caloriesBurned": 0,
       "restingHR": null,
       "activeMinutes": 0,
       "sleepMinutes": 0,
       "meals": [
         {
-          "time": "11:45 AM",
-          "name": "Organic vanilla yogurt (3/4 cup)",
+          "time": "",
+          "name": "Organic vanilla yogurt (3/4 cup serving)",
           "calories": 100,
           "protein": 13,
           "fat": 0,
-          "carbs": 10
+          "carbs": 0
         },
         {
-          "time": "11:54 AM",
+          "time": "",
           "name": "L-Carnitine drink (1 can)",
           "calories": 10,
           "protein": 0,
           "fat": 0,
-          "carbs": 4
+          "carbs": 0
         },
         {
-          "time": "2:29 PM",
-          "name": "Cheese (2 pieces, 40g)",
+          "time": "",
+          "name": "Cheese (2 pieces, 40g total)",
           "calories": 100,
           "protein": 10,
           "fat": 6,
           "carbs": 0
         },
         {
-          "time": "5:06 PM",
-          "name": "Caffeine-free soda (1 bottle)",
+          "time": "",
+          "name": "Caffeine-free soda (7UP or similar, 1 bottle)",
           "calories": 210,
           "protein": 0,
           "fat": 0,
-          "carbs": 56
+          "carbs": 0
         },
         {
-          "time": "11:57 PM",
-          "name": "Li Hing Mui dried plums (5 pieces)",
+          "time": "",
+          "name": "Li Hing Mui dried preserved plums (5 pieces)",
           "calories": 125,
           "protein": 0,
           "fat": 0,
-          "carbs": 30
+          "carbs": 0
+        },
+        {
+          "time": "Pectoral Fly (Life Fitness)",
+          "name": "Cobb salad (deli-prepared, 0.790 lb)",
+          "calories": 100,
+          "protein": 2,
+          "fat": 8,
+          "carbs": 6
         }
       ],
       "workouts": []
     },
     {
       "date": "2026-03-05",
-      "weight": null,
-      "calories": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null,
-      "steps": null,
-      "caloriesBurned": null,
+      "weight": 277.6,
+      "calories": 1356,
+      "protein": 121,
+      "fat": 67,
+      "carbs": 55,
+      "steps": 0,
+      "caloriesBurned": 0,
       "restingHR": null,
-      "activeMinutes": null,
-      "sleepMinutes": null,
-      "meals": [],
-      "workouts": [
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [
         {
-          "name": "Lateral Raise (Matrix)",
-          "weight": 80,
-          "sets": 3,
-          "reps": 10,
-          "warmup": "1\u00d715 @ 40 lbs",
-          "notes": "Total 30 reps (up from 26 on Feb 20). Held form through all sets.",
-          "nextTarget": "3\u00d712 @ 80 lbs before increasing to 85 lbs"
+          "time": "Late Night (after midnight)",
+          "name": "La Fermi\u00e8re vanilla yogurt (1 container)",
+          "calories": 190,
+          "protein": 4,
+          "fat": 12,
+          "carbs": 17
         },
         {
-          "name": "Triceps Extension (Matrix)",
-          "weight": 85,
-          "sets": 4,
-          "reps": 10,
-          "warmup": "1\u00d715 @ 40 lbs",
-          "notes": "Weight increase from 80 lbs",
-          "nextTarget": "4\u00d712 @ 85 lbs before increasing to 90 lbs"
+          "time": "Breakfast/Lunch",
+          "name": "Hard-boiled eggs (2 large)",
+          "calories": 140,
+          "protein": 12,
+          "fat": 10,
+          "carbs": 1
         },
         {
-          "name": "Low Back (Hoist Roc-It)",
-          "weight": 345,
-          "sets": 3,
-          "reps": 10,
-          "warmup": "1\u00d7? @ 185 lbs",
-          "notes": "Machine max weight. Maintained volume from Feb 20.",
-          "nextTarget": "3\u00d712 @ 345 lbs (volume progression)"
+          "time": "Breakfast/Lunch",
+          "name": "L-Carnitine drink (1 can)",
+          "calories": 10,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
         },
         {
-          "name": "Pectoral Fly (Life Fitness)",
-          "weight": 75,
-          "sets": 3,
-          "reps": 10,
-          "warmup": "1\u00d7? @ 40 lbs",
-          "notes": "Weight increase from 70 lbs. Dropped from 4 sets to 3.",
-          "nextTarget": "3\u00d712 @ 75 lbs, then add 4th set before increasing weight"
+          "time": "Lunch",
+          "name": "Extreme Wellness tortilla (1): 80 cal, 5g protein, 4g fat, 0g net carbs, 260mg sodium",
+          "calories": 65,
+          "protein": 0,
+          "fat": 6,
+          "carbs": 1
+        },
+        {
+          "time": "Lunch",
+          "name": "Honey mustard (8g): 26 cal, 0g protein, 0g fat, 5g carbs, 32mg sodium",
+          "calories": 150,
+          "protein": 33,
+          "fat": 1,
+          "carbs": 3
+        },
+        {
+          "time": "Lunch",
+          "name": "American cheese (2 slices): 160 cal, 12g protein, 12g fat, 0g carbs, 400mg sodium",
+          "calories": 481,
+          "protein": 50,
+          "fat": 24,
+          "carbs": 9
+        },
+        {
+          "time": "Snack",
+          "name": "Skyr yogurt (2 containers, 4.4oz each)",
+          "calories": 320,
+          "protein": 22,
+          "fat": 14,
+          "carbs": 24
         }
-      ]
+      ],
+      "workouts": []
     },
     {
       "date": "2026-03-06",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
-      "steps": 2438,
-      "caloriesBurned": 2171,
-      "restingHR": 64,
+      "calories": 615,
+      "protein": 44,
+      "fat": 41,
+      "carbs": 20,
+      "steps": 0,
+      "caloriesBurned": 0,
+      "restingHR": null,
       "activeMinutes": 0,
       "sleepMinutes": 0,
-      "meals": [],
+      "meals": [
+        {
+          "time": "",
+          "name": "22:26",
+          "calories": 280,
+          "protein": 10,
+          "fat": 26,
+          "carbs": 3
+        },
+        {
+          "time": "",
+          "name": "22:26",
+          "calories": 100,
+          "protein": 4,
+          "fat": 8,
+          "carbs": 4
+        },
+        {
+          "time": "",
+          "name": "22:27",
+          "calories": 190,
+          "protein": 30,
+          "fat": 4,
+          "carbs": 10
+        },
+        {
+          "time": "",
+          "name": "22:30",
+          "calories": 45,
+          "protein": 0,
+          "fat": 3,
+          "carbs": 3
+        }
+      ],
+      "workouts": []
+    },
+    {
+      "date": "2026-03-07",
+      "weight": null,
+      "calories": 790,
+      "protein": 49,
+      "fat": 34,
+      "carbs": 75,
+      "steps": 0,
+      "caloriesBurned": 0,
+      "restingHR": null,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [
+        {
+          "time": "00:20",
+          "name": "Vanilla Yogurt (2 containers)",
+          "calories": 320,
+          "protein": 22,
+          "fat": 14,
+          "carbs": 24
+        },
+        {
+          "time": "12:15",
+          "name": "Oat Milk Dessert (1 container, 456g)",
+          "calories": 290,
+          "protein": 15,
+          "fat": 10,
+          "carbs": 40
+        },
+        {
+          "time": "12:29",
+          "name": "Hard Boiled Eggs (2 large)",
+          "calories": 140,
+          "protein": 12,
+          "fat": 10,
+          "carbs": 2
+        },
+        {
+          "time": "12:49",
+          "name": "Juice Drink (1 can, 355mL, 5% juice)",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 9
+        }
+      ],
+      "workouts": []
+    },
+    {
+      "date": "2026-03-08",
+      "weight": null,
+      "calories": 747,
+      "protein": 39,
+      "fat": 16,
+      "carbs": 40,
+      "steps": 0,
+      "caloriesBurned": 0,
+      "restingHR": null,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [
+        {
+          "time": "",
+          "name": "Snack (whole bag, 4 servings)",
+          "calories": 280,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "Wrap",
+          "calories": 150,
+          "protein": 33,
+          "fat": 1,
+          "carbs": 3
+        },
+        {
+          "time": "",
+          "name": "Cheese (3 slices): 240 cal, 18g protein, 0g carbs, 18g fat, 600mg sodium",
+          "calories": 107,
+          "protein": 0,
+          "fat": 11,
+          "carbs": 2
+        },
+        {
+          "time": "",
+          "name": "Honey mustard (19g, ~3 servings): 61 cal, 0g protein, 12g carbs, 0g fat, 77mg sodium",
+          "calories": 210,
+          "protein": 6,
+          "fat": 4,
+          "carbs": 35
+        }
+      ],
+      "workouts": []
+    },
+    {
+      "date": "2026-03-09",
+      "weight": null,
+      "calories": 170,
+      "protein": 6,
+      "fat": 13,
+      "carbs": 7,
+      "steps": 0,
+      "caloriesBurned": 0,
+      "restingHR": null,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [
+        {
+          "time": "3:48 PM",
+          "name": "28g nuts (1 serving)",
+          "calories": 170,
+          "protein": 6,
+          "fat": 13,
+          "carbs": 7
+        }
+      ],
+      "workouts": []
+    },
+    {
+      "date": "2026-03-10",
+      "weight": null,
+      "calories": 813,
+      "protein": 71,
+      "fat": 43,
+      "carbs": 42,
+      "steps": 0,
+      "caloriesBurned": 0,
+      "restingHR": null,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [
+        {
+          "time": "Breakfast",
+          "name": "2 hard boiled eggs",
+          "calories": 140,
+          "protein": 12,
+          "fat": 10,
+          "carbs": 1
+        },
+        {
+          "time": "12:49 PM",
+          "name": "3 Babybel Semi-Soft Cheese (reduced fat, 0.71 oz each)",
+          "calories": 150,
+          "protein": 18,
+          "fat": 9,
+          "carbs": 0
+        },
+        {
+          "time": "1:53 PM",
+          "name": "1 can (355 mL) juice drink",
+          "calories": 35,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 13
+        },
+        {
+          "time": "2:10 PM",
+          "name": "3 containers gelatin/snack cups",
+          "calories": 45,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 3
+        },
+        {
+          "time": "2:43 PM",
+          "name": "1 high-fiber tortilla (40g)",
+          "calories": 60,
+          "protein": 7,
+          "fat": 3,
+          "carbs": 14
+        },
+        {
+          "time": "2:43 PM",
+          "name": "13g honey mustard (~2 servings)",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 8
+        },
+        {
+          "time": "2:43 PM",
+          "name": "25g mayo/condiment (~1.67 servings)",
+          "calories": 83,
+          "protein": 0,
+          "fat": 8,
+          "carbs": 1
+        },
+        {
+          "time": "2:43 PM",
+          "name": "4 slices Applegate turkey breast (2 servings)",
+          "calories": 100,
+          "protein": 22,
+          "fat": 1,
+          "carbs": 2
+        },
+        {
+          "time": "2:43 PM",
+          "name": "2 slices cheese (46g)",
+          "calories": 160,
+          "protein": 12,
+          "fat": 12,
+          "carbs": 0
+        }
+      ],
+      "workouts": []
+    },
+    {
+      "date": "2026-03-11",
+      "weight": null,
+      "calories": 1860,
+      "protein": 166,
+      "fat": 93,
+      "carbs": 93,
+      "steps": 0,
+      "caloriesBurned": 0,
+      "restingHR": null,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [
+        {
+          "time": "",
+          "name": "Breakfast",
+          "calories": 140,
+          "protein": 12,
+          "fat": 10,
+          "carbs": 1
+        },
+        {
+          "time": "",
+          "name": "Bolthouse Farms Blue Cheese dressing: 34.5g (~45 cal, 1g protein, 3g carbs, 3.5g fat)",
+          "calories": 340,
+          "protein": 20,
+          "fat": 25,
+          "carbs": 11
+        },
+        {
+          "time": "",
+          "name": "Snack",
+          "calories": 255,
+          "protein": 36,
+          "fat": 5,
+          "carbs": 16
+        },
+        {
+          "time": "",
+          "name": "Snack",
+          "calories": 210,
+          "protein": 6,
+          "fat": 4,
+          "carbs": 35
+        },
+        {
+          "time": "",
+          "name": "Note: High sodium (590mg = 26% DV)",
+          "calories": 100,
+          "protein": 0,
+          "fat": 10,
+          "carbs": 2
+        },
+        {
+          "time": "",
+          "name": "Honey mustard: 17g/~2.7 tsp (55 cal, 0g protein, 11g carbs, 0g fat)",
+          "calories": 100,
+          "protein": 22,
+          "fat": 1,
+          "carbs": 2
+        },
+        {
+          "time": "",
+          "name": "Note: High sodium (940mg = 41% DV)",
+          "calories": 111,
+          "protein": 16,
+          "fat": 5,
+          "carbs": 1
+        },
+        {
+          "time": "",
+          "name": "Note: High sodium (745mg = 32% DV)",
+          "calories": 84,
+          "protein": 16,
+          "fat": 1,
+          "carbs": 1
+        },
+        {
+          "time": "",
+          "name": "Note: High sodium (798mg = 35% DV)",
+          "calories": 120,
+          "protein": 10,
+          "fat": 12,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "Note: High saturated fat (12g = 60% DV)",
+          "calories": 80,
+          "protein": 6,
+          "fat": 6,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "Snack",
+          "calories": 320,
+          "protein": 22,
+          "fat": 14,
+          "carbs": 24
+        }
+      ],
+      "workouts": []
+    },
+    {
+      "date": "2026-03-12",
+      "weight": null,
+      "calories": 1608,
+      "protein": 62,
+      "fat": 70,
+      "carbs": 69,
+      "steps": 0,
+      "caloriesBurned": 0,
+      "restingHR": null,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [
+        {
+          "time": "",
+          "name": "Lunch",
+          "calories": 290,
+          "protein": 10,
+          "fat": 19,
+          "carbs": 21
+        },
+        {
+          "time": "",
+          "name": "Added sugars: 10g (20% DV)",
+          "calories": 30,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 5
+        },
+        {
+          "time": "",
+          "name": "Snack",
+          "calories": 320,
+          "protein": 22,
+          "fat": 14,
+          "carbs": 24
+        },
+        {
+          "time": "",
+          "name": "Snack",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4
+        },
+        {
+          "time": "",
+          "name": "Snack",
+          "calories": 240,
+          "protein": 9,
+          "fat": 19,
+          "carbs": 12
+        },
+        {
+          "time": "",
+          "name": "Fiber: 4.5g",
+          "calories": 240,
+          "protein": 21,
+          "fat": 18,
+          "carbs": 3
+        },
+        {
+          "time": "",
+          "name": "1 tortilla (40g)",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "30g (2 Tbsp)",
+          "calories": 100,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "13g (approximately 2 tsp)",
+          "calories": 40,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "44g (approximately 2.1 servings, 21g per serving)",
+          "calories": 168,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        },
+        {
+          "time": "",
+          "name": "60g (2 servings, 30g per serving)",
+          "calories": 60,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0
+        }
+      ],
       "workouts": []
     }
   ]
