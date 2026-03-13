@@ -1184,105 +1184,16 @@
     {
       "date": "2026-03-12",
       "weight": null,
-      "calories": 1608,
-      "protein": 62,
-      "fat": 70,
-      "carbs": 69,
-      "steps": 0,
-      "caloriesBurned": 0,
-      "restingHR": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": 1261,
+      "caloriesBurned": 2464,
+      "restingHR": 67,
       "activeMinutes": 0,
-      "sleepMinutes": 0,
-      "meals": [
-        {
-          "time": "",
-          "name": "Lunch",
-          "calories": 290,
-          "protein": 10,
-          "fat": 19,
-          "carbs": 21
-        },
-        {
-          "time": "",
-          "name": "Added sugars: 10g (20% DV)",
-          "calories": 30,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 5
-        },
-        {
-          "time": "",
-          "name": "Snack",
-          "calories": 320,
-          "protein": 22,
-          "fat": 14,
-          "carbs": 24
-        },
-        {
-          "time": "",
-          "name": "Snack",
-          "calories": 60,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 4
-        },
-        {
-          "time": "",
-          "name": "Snack",
-          "calories": 240,
-          "protein": 9,
-          "fat": 19,
-          "carbs": 12
-        },
-        {
-          "time": "",
-          "name": "Fiber: 4.5g",
-          "calories": 240,
-          "protein": 21,
-          "fat": 18,
-          "carbs": 3
-        },
-        {
-          "time": "",
-          "name": "1 tortilla (40g)",
-          "calories": 60,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "30g (2 Tbsp)",
-          "calories": 100,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "13g (approximately 2 tsp)",
-          "calories": 40,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "44g (approximately 2.1 servings, 21g per serving)",
-          "calories": 168,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "60g (2 servings, 30g per serving)",
-          "calories": 60,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 0
-        }
-      ],
+      "sleepMinutes": 390,
+      "meals": [],
       "workouts": []
     }
   ]
