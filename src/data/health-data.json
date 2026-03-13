@@ -1109,49 +1109,16 @@
     {
       "date": "2026-03-07",
       "weight": null,
-      "calories": 790,
-      "protein": 49,
-      "fat": 34,
-      "carbs": 75,
-      "steps": 0,
-      "caloriesBurned": 0,
-      "restingHR": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": 317,
+      "caloriesBurned": 2099,
+      "restingHR": 64,
       "activeMinutes": 0,
-      "sleepMinutes": 0,
-      "meals": [
-        {
-          "time": "00:20",
-          "name": "Vanilla Yogurt (2 containers)",
-          "calories": 320,
-          "protein": 22,
-          "fat": 14,
-          "carbs": 24
-        },
-        {
-          "time": "12:15",
-          "name": "Oat Milk Dessert (1 container, 456g)",
-          "calories": 290,
-          "protein": 15,
-          "fat": 10,
-          "carbs": 40
-        },
-        {
-          "time": "12:29",
-          "name": "Hard Boiled Eggs (2 large)",
-          "calories": 140,
-          "protein": 12,
-          "fat": 10,
-          "carbs": 2
-        },
-        {
-          "time": "12:49",
-          "name": "Juice Drink (1 can, 355mL, 5% juice)",
-          "calories": 40,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 9
-        }
-      ],
+      "sleepMinutes": 415,
+      "meals": [],
       "workouts": []
     },
     {
