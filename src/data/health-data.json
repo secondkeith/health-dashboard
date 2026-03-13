@@ -1124,49 +1124,16 @@
     {
       "date": "2026-03-08",
       "weight": null,
-      "calories": 747,
-      "protein": 39,
-      "fat": 16,
-      "carbs": 40,
-      "steps": 0,
-      "caloriesBurned": 0,
-      "restingHR": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": 1551,
+      "caloriesBurned": 2234,
+      "restingHR": 63,
       "activeMinutes": 0,
       "sleepMinutes": 0,
-      "meals": [
-        {
-          "time": "",
-          "name": "Snack (whole bag, 4 servings)",
-          "calories": 280,
-          "protein": 0,
-          "fat": 0,
-          "carbs": 0
-        },
-        {
-          "time": "",
-          "name": "Wrap",
-          "calories": 150,
-          "protein": 33,
-          "fat": 1,
-          "carbs": 3
-        },
-        {
-          "time": "",
-          "name": "Cheese (3 slices): 240 cal, 18g protein, 0g carbs, 18g fat, 600mg sodium",
-          "calories": 107,
-          "protein": 0,
-          "fat": 11,
-          "carbs": 2
-        },
-        {
-          "time": "",
-          "name": "Honey mustard (19g, ~3 servings): 61 cal, 0g protein, 12g carbs, 0g fat, 77mg sodium",
-          "calories": 210,
-          "protein": 6,
-          "fat": 4,
-          "carbs": 35
-        }
-      ],
+      "meals": [],
       "workouts": []
     },
     {
