@@ -1264,10 +1264,10 @@
     {
       "date": "2026-03-13",
       "weight": null,
-      "calories": 150,
-      "protein": 8,
-      "fat": 10,
-      "carbs": 12,
+      "calories": 100,
+      "protein": 5,
+      "fat": 3,
+      "carbs": 8,
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
@@ -1275,12 +1275,12 @@
       "sleepMinutes": null,
       "meals": [
         {
-          "time": "02:33 PM",
-          "name": "Test Salad",
-          "calories": 150,
-          "protein": 8,
-          "fat": 10.0,
-          "carbs": 12
+          "time": "02:42 PM",
+          "name": "Test automation",
+          "calories": 100,
+          "protein": 5,
+          "fat": 3.0,
+          "carbs": 8
         }
       ],
       "workouts": []
