@@ -80,14 +80,18 @@ if changed:
         json.dump(health_data, f, indent=2)
         f.write('\n')
     
-    # Git commit and push
-    subprocess.run(['git', 'add', 'src/data/'], cwd=REPO_DIR, check=True)
-    result = subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=REPO_DIR)
-    if result.returncode != 0:
-        subprocess.run(['git', 'commit', '-m', f'Auto-sync food logs {datetime.now().strftime("%Y-%m-%d %H:%M")}'], cwd=REPO_DIR, check=True)
-        subprocess.run(['git', 'push'], cwd=REPO_DIR, check=True)
-        print(f"✓ Synced and pushed food logs to dashboard")
+    # Git commit and push (skip in CI - GitHub Actions will handle the build)
+    import os as os_module
+    if not os_module.environ.get('CI'):
+        subprocess.run(['git', 'add', 'src/data/'], cwd=REPO_DIR, check=True)
+        result = subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=REPO_DIR)
+        if result.returncode != 0:
+            subprocess.run(['git', 'commit', '-m', f'Auto-sync food logs {datetime.now().strftime("%Y-%m-%d %H:%M")}'], cwd=REPO_DIR, check=True)
+            subprocess.run(['git', 'push'], cwd=REPO_DIR, check=True)
+            print(f"✓ Synced and pushed food logs to dashboard")
+        else:
+            print("No changes to sync")
     else:
-        print("No changes to sync")
+        print("✓ Generated health-data.json (CI mode - no git operations)")
 else:
     print("No changes to sync")

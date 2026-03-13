@@ -19,6 +19,9 @@ jobs:
           
       - name: Install dependencies
         run: npm ci
+      
+      - name: Generate health-data.json from daily logs
+        run: python3 scripts/sync-food-logs.py
         
       - name: Build
         run: npm run build
