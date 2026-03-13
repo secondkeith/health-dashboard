@@ -9,6 +9,14 @@
       "protein": 11,
       "fat": 24.0,
       "carbs": 2
+    },
+    {
+      "time": "12:32 PM",
+      "name": "Heinz mayonnaise packet",
+      "calories": 80,
+      "protein": 0,
+      "fat": 8.0,
+      "carbs": 1
     }
   ],
   "workouts": []
