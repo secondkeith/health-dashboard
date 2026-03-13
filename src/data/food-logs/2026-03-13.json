@@ -25,6 +25,14 @@
       "protein": 0,
       "fat": 0.0,
       "carbs": 1
+    },
+    {
+      "time": "12:32 PM",
+      "name": "Pickle relish packet",
+      "calories": 10,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 2
     }
   ],
   "workouts": []
