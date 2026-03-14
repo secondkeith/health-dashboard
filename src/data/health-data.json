@@ -1264,25 +1264,16 @@
     {
       "date": "2026-03-13",
       "weight": null,
-      "calories": 100,
-      "protein": 5,
-      "fat": 3,
-      "carbs": 8,
-      "steps": null,
-      "caloriesBurned": null,
-      "restingHR": null,
-      "activeMinutes": null,
-      "sleepMinutes": null,
-      "meals": [
-        {
-          "time": "02:42 PM",
-          "name": "Test automation",
-          "calories": 100,
-          "protein": 5,
-          "fat": 3.0,
-          "carbs": 8
-        }
-      ],
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": 2469,
+      "caloriesBurned": 2567,
+      "restingHR": 67,
+      "activeMinutes": 0,
+      "sleepMinutes": 0,
+      "meals": [],
       "workouts": []
     }
   ]
