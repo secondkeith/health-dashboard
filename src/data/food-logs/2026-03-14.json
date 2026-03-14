@@ -9,6 +9,14 @@
       "protein": 95,
       "fat": 41.0,
       "carbs": 115
+    },
+    {
+      "time": "04:22 PM",
+      "name": "Coca-Cola (20 oz bottle)",
+      "calories": 240,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 65
     }
   ],
   "workouts": []
