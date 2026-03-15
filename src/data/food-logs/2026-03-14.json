@@ -41,6 +41,14 @@
       "protein": -4,
       "fat": -7.0,
       "carbs": -8
+    },
+    {
+      "time": "08:38 PM",
+      "name": "Fruit salad adjustment (leftovers)",
+      "calories": -80,
+      "protein": -1,
+      "fat": -0.25,
+      "carbs": -20
     }
   ],
   "workouts": []
