@@ -17,6 +17,14 @@
       "protein": 0,
       "fat": 0.0,
       "carbs": 65
+    },
+    {
+      "time": "08:14 PM",
+      "name": "Spanakopita with tzatziki sauce",
+      "calories": 450,
+      "protein": 15,
+      "fat": 28.0,
+      "carbs": 33
     }
   ],
   "workouts": []
