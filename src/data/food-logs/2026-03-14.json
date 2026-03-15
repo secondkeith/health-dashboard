@@ -33,6 +33,14 @@
       "protein": 2,
       "fat": 0.5,
       "carbs": 40
+    },
+    {
+      "time": "08:37 PM",
+      "name": "Spanakopita adjustment (leftovers)",
+      "calories": -110,
+      "protein": -4,
+      "fat": -7.0,
+      "carbs": -8
     }
   ],
   "workouts": []
