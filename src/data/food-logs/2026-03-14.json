@@ -25,6 +25,14 @@
       "protein": 15,
       "fat": 28.0,
       "carbs": 33
+    },
+    {
+      "time": "08:15 PM",
+      "name": "Fruit salad (cantaloupe, honeydew, grapes, apple)",
+      "calories": 160,
+      "protein": 2,
+      "fat": 0.5,
+      "carbs": 40
     }
   ],
   "workouts": []
