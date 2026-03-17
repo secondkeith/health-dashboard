@@ -318,3 +318,30 @@ Added 2026-03-12 to health-data.json
 Building dashboard...
 Deploying to GitHub Pages...
 Done!
+Updating health dashboard for 2026-03-13...
+2026-03-13 already in dashboard, skipping.
+Updating health dashboard for 2026-03-14...
+Traceback (most recent call last):
+  File "/home/secondkeith/Projects/health-dashboard/scripts/daily-update.py", line 381, in <module>
+    update_dashboard(target_date)
+  File "/home/secondkeith/Projects/health-dashboard/scripts/daily-update.py", line 319, in update_dashboard
+    data = json.load(f)
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Updating health dashboard for 2026-03-15...
+No food log found for 2026-03-15
+No data for 2026-03-15, skipping.
+Updating health dashboard for 2026-03-16...
+No food log found for 2026-03-16
+No data for 2026-03-16, skipping.
