@@ -68,9 +68,29 @@
     }
   ],
   "workouts": [
-    "Diverging Lat Pulldown \u2014 60 lbs, 3\u00d710",
-    "Hoist Mid Row \u2014 245 lbs, 1\u00d78, then 225 lbs, 2\u00d78, 1\u00d76",
-    "Matrix Arm Curl \u2014 60 lbs, 1\u00d78, then 50 lbs, 2\u00d78, 1\u00d77",
-    "Life Fitness Rear Deltoid \u2014 70 lbs, 1\u00d78, then 55 lbs, 2\u00d78, 1\u00d75"
+    {
+      "name": "Diverging Lat Pulldown",
+      "weight": 60,
+      "sets": 3,
+      "reps": 10
+    },
+    {
+      "name": "Hoist Mid Row",
+      "weight": 245,
+      "sets": 1,
+      "reps": 8
+    },
+    {
+      "name": "Matrix Arm Curl",
+      "weight": 60,
+      "sets": 1,
+      "reps": 8
+    },
+    {
+      "name": "Life Fitness Rear Deltoid",
+      "weight": 70,
+      "sets": 1,
+      "reps": 8
+    }
   ]
 }

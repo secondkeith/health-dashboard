@@ -60,9 +60,29 @@
     }
   ],
   "workouts": [
-    "Lateral Raise (Matrix) \u2014 40 lbs, 1\u00d715 (warmup), then 80 lbs, 3\u00d710",
-    "Triceps Extension (Matrix) \u2014 40 lbs, 1\u00d715 (warmup), then 85 lbs, 4\u00d710",
-    "Low Back (Hoist Roc-It) \u2014 185 lbs, 1\u00d7? (warmup), then 345 lbs, 3\u00d710",
-    "Pectoral Fly (Life Fitness) \u2014 40 lbs, 1\u00d7? (warmup), then 75 lbs, 3\u00d710"
+    {
+      "name": "Lateral Raise (Matrix)",
+      "weight": 40,
+      "sets": 1,
+      "reps": 15
+    },
+    {
+      "name": "Triceps Extension (Matrix)",
+      "weight": 40,
+      "sets": 1,
+      "reps": 15
+    },
+    {
+      "name": "Low Back (Hoist Roc-It)",
+      "weight": 345,
+      "sets": 3,
+      "reps": 10
+    },
+    {
+      "name": "Pectoral Fly (Life Fitness)",
+      "weight": 75,
+      "sets": 3,
+      "reps": 10
+    }
   ]
 }

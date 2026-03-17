@@ -76,6 +76,11 @@
     }
   ],
   "workouts": [
-    "Lateral Raise (Matrix) \u2014 40 lbs, 1\u00d715 (warmup), then 80 lbs, 1\u00d712, 2\u00d78"
+    {
+      "name": "Lateral Raise (Matrix)",
+      "weight": 40,
+      "sets": 1,
+      "reps": 15
+    }
   ]
 }

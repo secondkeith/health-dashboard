@@ -84,11 +84,29 @@
     }
   ],
   "workouts": [
-    "Pectoral Fly (Life Fitness) \u2014 70 lbs, 4\u00d710",
-    "Triceps Extension (Matrix) \u2014 80 lbs, 4\u00d710",
-    "Lateral Raise (Matrix) \u2014 80 lbs, 3 sets (10, 10, 6)",
-    "Low Back (Hoist Roc-It) \u2014 345 lbs, 3\u00d710",
-    "Shoulder Press (Hoist Roc-It) \u2014 58 lbs, 3 sets (10, 10, 5)",
-    "Biceps Curl (Hoist Roc-It) \u2014 85 lbs, 3\u00d710"
+    {
+      "name": "Pectoral Fly (Life Fitness)",
+      "weight": 70,
+      "sets": 4,
+      "reps": 10
+    },
+    {
+      "name": "Triceps Extension (Matrix)",
+      "weight": 80,
+      "sets": 4,
+      "reps": 10
+    },
+    {
+      "name": "Low Back (Hoist Roc-It)",
+      "weight": 345,
+      "sets": 3,
+      "reps": 10
+    },
+    {
+      "name": "Biceps Curl (Hoist Roc-It)",
+      "weight": 85,
+      "sets": 3,
+      "reps": 10
+    }
   ]
 }
