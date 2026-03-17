@@ -25,6 +25,14 @@
       "protein": 0,
       "fat": 0.0,
       "carbs": 16
+    },
+    {
+      "time": "03:41 PM",
+      "name": "Dressing/sauce (25g)",
+      "calories": 84,
+      "protein": 0,
+      "fat": 8.4,
+      "carbs": 2
     }
   ],
   "workouts": []
