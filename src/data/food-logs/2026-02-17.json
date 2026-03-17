@@ -1,0 +1,39 @@
+{
+  "date": "2026-02-17",
+  "weight": null,
+  "items": [
+    {
+      "time": "02:00 PM",
+      "name": "30 Chick-fil-A nuggets (fried)",
+      "calories": 950,
+      "protein": 100,
+      "fat": 33.0,
+      "carbs": 33
+    },
+    {
+      "time": "02:00 PM",
+      "name": "3x Polynesian sauce",
+      "calories": 330,
+      "protein": 0,
+      "fat": 15.0,
+      "carbs": 48
+    },
+    {
+      "time": "02:00 PM",
+      "name": "2x Chick-fil-A sauce",
+      "calories": 280,
+      "protein": 0,
+      "fat": 22.0,
+      "carbs": 14
+    },
+    {
+      "time": "12:00 PM",
+      "name": "20oz Vanilla Coke",
+      "calories": 250,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 65
+    }
+  ],
+  "workouts": []
+}

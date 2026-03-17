@@ -1,0 +1,39 @@
+{
+  "date": "2026-02-28",
+  "weight": null,
+  "items": [
+    {
+      "time": "04:00 PM",
+      "name": "Turkey Pepperoni (17 slices)",
+      "calories": 80,
+      "protein": 10,
+      "fat": 4.0,
+      "carbs": 0
+    },
+    {
+      "time": "04:00 PM",
+      "name": "Bolthouse Farms Dressing (31g)",
+      "calories": 35,
+      "protein": 1,
+      "fat": 2.5,
+      "carbs": 3
+    },
+    {
+      "time": "04:00 PM",
+      "name": "Fiber Beverage (355mL)",
+      "calories": 40,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 15
+    },
+    {
+      "time": "06:58 PM",
+      "name": "Prosciutto & Mozzarella (43g)",
+      "calories": 120,
+      "protein": 11,
+      "fat": 8.0,
+      "carbs": 1
+    }
+  ],
+  "workouts": []
+}

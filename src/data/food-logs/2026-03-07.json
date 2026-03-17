@@ -1,0 +1,39 @@
+{
+  "date": "2026-03-07",
+  "weight": null,
+  "items": [
+    {
+      "time": "00:20 AM",
+      "name": "Vanilla Yogurt (2 containers)",
+      "calories": 320,
+      "protein": 22,
+      "fat": 14.0,
+      "carbs": 24
+    },
+    {
+      "time": "12:15 PM",
+      "name": "Oat Milk Dessert (456g)",
+      "calories": 290,
+      "protein": 15,
+      "fat": 10.0,
+      "carbs": 40
+    },
+    {
+      "time": "12:29 PM",
+      "name": "Hard Boiled Eggs (2 large)",
+      "calories": 140,
+      "protein": 12,
+      "fat": 10.0,
+      "carbs": 2
+    },
+    {
+      "time": "12:49 PM",
+      "name": "Juice Drink (355mL)",
+      "calories": 40,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 9
+    }
+  ],
+  "workouts": []
+}

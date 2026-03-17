@@ -1,0 +1,71 @@
+{
+  "date": "2026-03-16",
+  "weight": null,
+  "items": [
+    {
+      "time": "12:00 PM",
+      "name": "Greek yogurt (190g)",
+      "calories": 140,
+      "protein": 20,
+      "fat": 6.0,
+      "carbs": 10
+    },
+    {
+      "time": "01:00 PM",
+      "name": "Turkey wrap (tortilla, honey mustard, mayo, pastrami, turkey breast, cheese)",
+      "calories": 682,
+      "protein": 47,
+      "fat": 33.45,
+      "carbs": 51
+    },
+    {
+      "time": "05:37 PM",
+      "name": "Chicken & Uncured Bacon Cobb Salad Bowl",
+      "calories": 340,
+      "protein": 14,
+      "fat": 20.0,
+      "carbs": 7
+    },
+    {
+      "time": "05:39 PM",
+      "name": "Ranch dressing (43g)",
+      "calories": 50,
+      "protein": 0,
+      "fat": 3.6,
+      "carbs": 4
+    },
+    {
+      "time": "09:52 PM",
+      "name": "Philly California Roll (Wegmans, 5.0 oz)",
+      "calories": 300,
+      "protein": 10,
+      "fat": 8.0,
+      "carbs": 42
+    },
+    {
+      "time": "09:53 PM",
+      "name": "Sashimi Selection Large (7.0 oz)",
+      "calories": 340,
+      "protein": 50,
+      "fat": 8.0,
+      "carbs": 0
+    },
+    {
+      "time": "10:19 PM",
+      "name": "Wegmans Mild Triple Creme (1 oz)",
+      "calories": 110,
+      "protein": 3,
+      "fat": 10.0,
+      "carbs": 0
+    },
+    {
+      "time": "10:41 PM",
+      "name": "Wegmans Mild Brie (3.75 oz)",
+      "calories": 375,
+      "protein": 23,
+      "fat": 30.0,
+      "carbs": 2
+    }
+  ],
+  "workouts": []
+}
