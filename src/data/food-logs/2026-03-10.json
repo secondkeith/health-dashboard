@@ -1,0 +1,79 @@
+{
+  "date": "2026-03-10",
+  "weight": null,
+  "items": [
+    {
+      "time": "12:00 PM",
+      "name": "140 cal, 12g protein, 10g fat, 1g carbs",
+      "calories": 140,
+      "protein": 12,
+      "fat": 10.0,
+      "carbs": 1
+    },
+    {
+      "time": "12:00 PM",
+      "name": "150 cal, 18g protein, 9g fat, 0g carbs",
+      "calories": 150,
+      "protein": 18,
+      "fat": 9.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "35 cal, 0g protein, 0g fat, 13g carbs",
+      "calories": 35,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 13
+    },
+    {
+      "time": "12:00 PM",
+      "name": "45 cal, 0g protein, 0g fat, 3g carbs",
+      "calories": 45,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 3
+    },
+    {
+      "time": "12:00 PM",
+      "name": "60 cal, 7g protein, 3.5g fat, 14g carbs",
+      "calories": 60,
+      "protein": 7,
+      "fat": 3.5,
+      "carbs": 14
+    },
+    {
+      "time": "12:00 PM",
+      "name": "40 cal, 0g protein, 0g fat, 8g carbs",
+      "calories": 40,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 8
+    },
+    {
+      "time": "12:00 PM",
+      "name": "83 cal, 0g protein, 8.3g fat, 1.7g carbs",
+      "calories": 83,
+      "protein": 0,
+      "fat": 8.3,
+      "carbs": 1
+    },
+    {
+      "time": "12:00 PM",
+      "name": "100 cal, 22g protein, 1g fat, 2g carbs",
+      "calories": 100,
+      "protein": 22,
+      "fat": 1.0,
+      "carbs": 2
+    },
+    {
+      "time": "12:00 PM",
+      "name": "160 cal, 12g protein, 12g fat, 0g carbs",
+      "calories": 160,
+      "protein": 12,
+      "fat": 12.0,
+      "carbs": 0
+    }
+  ],
+  "workouts": []
+}

@@ -1,0 +1,87 @@
+{
+  "date": "2026-02-19",
+  "weight": null,
+  "items": [
+    {
+      "time": "12:00 PM",
+      "name": "~11:30 AM",
+      "calories": 300,
+      "protein": 10,
+      "fat": 19.0,
+      "carbs": 35
+    },
+    {
+      "time": "12:00 PM",
+      "name": "~12:25 PM",
+      "calories": 10,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "~1:50 PM",
+      "calories": 120,
+      "protein": 11,
+      "fat": 8.0,
+      "carbs": 1
+    },
+    {
+      "time": "12:00 PM",
+      "name": "~3:05 PM",
+      "calories": 145,
+      "protein": 1,
+      "fat": 14.0,
+      "carbs": 4
+    },
+    {
+      "time": "12:00 PM",
+      "name": "~3:05 PM",
+      "calories": 210,
+      "protein": 15,
+      "fat": 15.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "~6:25 PM",
+      "calories": 700,
+      "protein": 40,
+      "fat": 36.0,
+      "carbs": 50
+    },
+    {
+      "time": "12:00 PM",
+      "name": "~6:35 PM",
+      "calories": 330,
+      "protein": 15,
+      "fat": 16.0,
+      "carbs": 30
+    },
+    {
+      "time": "12:00 PM",
+      "name": "~6:50 PM",
+      "calories": 280,
+      "protein": 10,
+      "fat": 12.0,
+      "carbs": 32
+    },
+    {
+      "time": "12:00 PM",
+      "name": "~10:30 PM",
+      "calories": 140,
+      "protein": 13,
+      "fat": 4.5,
+      "carbs": 11
+    },
+    {
+      "time": "12:00 PM",
+      "name": "~10:40 PM",
+      "calories": 10,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    }
+  ],
+  "workouts": []
+}

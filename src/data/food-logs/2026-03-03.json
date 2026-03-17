@@ -1,0 +1,71 @@
+{
+  "date": "2026-03-03",
+  "weight": 275.1,
+  "items": [
+    {
+      "time": "12:00 PM",
+      "name": "L-Carnitine drink (1 can)",
+      "calories": 10,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 6
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Mission Zero tortilla (1 tortilla, 40g)",
+      "calories": 80,
+      "protein": 5,
+      "fat": 4.0,
+      "carbs": 14
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Kirkland basil pesto (48g)",
+      "calories": 264,
+      "protein": 6,
+      "fat": 24.0,
+      "carbs": 2
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Oven roasted turkey breast (170g)",
+      "calories": 182,
+      "protein": 27,
+      "fat": 5.0,
+      "carbs": 6
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Half hot crab & artichoke dip",
+      "calories": 550,
+      "protein": 22,
+      "fat": 42.0,
+      "carbs": 18
+    },
+    {
+      "time": "12:00 PM",
+      "name": "4 garlic black pepper wings",
+      "calories": 380,
+      "protein": 32,
+      "fat": 26.0,
+      "carbs": 8
+    },
+    {
+      "time": "12:00 PM",
+      "name": "1 kung pao chicken dumpling",
+      "calories": 90,
+      "protein": 5,
+      "fat": 5.0,
+      "carbs": 9
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Farmers salad with extra dressing",
+      "calories": 350,
+      "protein": 7,
+      "fat": 20.0,
+      "carbs": 18
+    }
+  ],
+  "workouts": []
+}

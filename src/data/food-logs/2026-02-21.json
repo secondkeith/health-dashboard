@@ -1,0 +1,47 @@
+{
+  "date": "2026-02-21",
+  "weight": null,
+  "items": [
+    {
+      "time": "4:30 PM",
+      "name": "**Wegmans Prosciutto & Mozzarella snack pack** \u2014 120 cal, 8g fat, 1g carb, 11g protein, 550mg sodium",
+      "calories": 120,
+      "protein": 11,
+      "fat": 8.0,
+      "carbs": 1
+    },
+    {
+      "time": "5:15 PM",
+      "name": "**Wegmans Spinach Dijon Salad Bowl** \u2014 290 cal, 19g fat, 21g carb",
+      "calories": 290,
+      "protein": 10,
+      "fat": 19.0,
+      "carbs": 21
+    },
+    {
+      "time": "6:45 PM",
+      "name": "**Canned spinach",
+      "calories": 150,
+      "protein": 18,
+      "fat": 0.0,
+      "carbs": 24
+    },
+    {
+      "time": "7:00 PM",
+      "name": "**Whole milk vanilla skyr x2** \u2014 320 cal, 14g fat, 24g carb",
+      "calories": 320,
+      "protein": 22,
+      "fat": 14.0,
+      "carbs": 24
+    },
+    {
+      "time": "12:50 AM",
+      "name": "**Whole milk vanilla skyr x2** \u2014 320 cal, 14g fat, 24g carb",
+      "calories": 320,
+      "protein": 22,
+      "fat": 14.0,
+      "carbs": 24
+    }
+  ],
+  "workouts": []
+}

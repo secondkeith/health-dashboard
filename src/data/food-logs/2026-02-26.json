@@ -1,0 +1,79 @@
+{
+  "date": "2026-02-26",
+  "weight": null,
+  "items": [
+    {
+      "time": "12:00 PM",
+      "name": "00:00 | Canada Dry Zero Sugar Ginger Ale | 1 bottle | 10 cal | P0/C0/F0 | sodium",
+      "calories": 10,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "00:10 | Jerky | 1 whole bag",
+      "calories": 280,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "00:20 | Prebiotic soda",
+      "calories": 40,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "00:24 | Reren pork dumplings | 3 dumplings | 270 cal | P12/C27/F12 |",
+      "calories": 270,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "00:28 | General Tso\u2019s chicken + rice",
+      "calories": 900,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "00:31 | Soy-braised/tea egg half | 1/2 egg | 40 cal | P3/C1/F3 |",
+      "calories": 40,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "02:37 | OLIPOP Tropical Punch",
+      "calories": 45,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "02:37 | Polly-O low-moisture part-skim mozzarella string cheese | 2 sticks | 160 cal | P14/C2/F12 | sodium",
+      "calories": 160,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "10:05 | Monster",
+      "calories": 15,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    }
+  ],
+  "workouts": []
+}

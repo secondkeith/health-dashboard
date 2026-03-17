@@ -1,0 +1,79 @@
+{
+  "date": "2026-02-22",
+  "weight": 279.8,
+  "items": [
+    {
+      "time": "12:00 PM",
+      "name": "",
+      "calories": 500,
+      "protein": 40,
+      "fat": 28.0,
+      "carbs": 24
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Oikos Greek yogurt",
+      "calories": 90,
+      "protein": 15,
+      "fat": 0.0,
+      "carbs": 7
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Olives Jubilee",
+      "calories": 150,
+      "protein": 2,
+      "fat": 14.0,
+      "carbs": 2
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Wegmans Prosciutto & Mozzarella pack",
+      "calories": 120,
+      "protein": 11,
+      "fat": 8.0,
+      "carbs": 1
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Polly-O string cheese x2",
+      "calories": 160,
+      "protein": 12,
+      "fat": 12.0,
+      "carbs": 2
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Oikos Greek yogurt",
+      "calories": 90,
+      "protein": 15,
+      "fat": 0.0,
+      "carbs": 7
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Olipop soda",
+      "calories": 35,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 13
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Pistachios (in-shell, ~1oz/49 kernels)",
+      "calories": 160,
+      "protein": 6,
+      "fat": 13.0,
+      "carbs": 8
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Babybel Reduced Fat",
+      "calories": 45,
+      "protein": 5,
+      "fat": 3.0,
+      "carbs": 0
+    }
+  ],
+  "workouts": []
+}

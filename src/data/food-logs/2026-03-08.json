@@ -1,0 +1,55 @@
+{
+  "date": "2026-03-08",
+  "weight": null,
+  "items": [
+    {
+      "time": "12:00 PM",
+      "name": "280 cal",
+      "calories": 280,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Deli meat",
+      "calories": 150,
+      "protein": 33,
+      "fat": 1.5,
+      "carbs": 3
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Cheese",
+      "calories": 240,
+      "protein": 18,
+      "fat": 18.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Mayo/spread",
+      "calories": 107,
+      "protein": 0,
+      "fat": 11.0,
+      "carbs": 2
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Honey mustard",
+      "calories": 61,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 12
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Tortilla",
+      "calories": 210,
+      "protein": 6,
+      "fat": 4.5,
+      "carbs": 35
+    }
+  ],
+  "workouts": []
+}

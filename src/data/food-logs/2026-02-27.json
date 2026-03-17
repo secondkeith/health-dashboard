@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-27",
+  "weight": 276.9,
+  "items": [
+    {
+      "time": "11:01 PM",
+      "name": "Walking taco",
+      "calories": 640,
+      "protein": 99,
+      "fat": 97.5,
+      "carbs": 97
+    }
+  ],
+  "workouts": []
+}

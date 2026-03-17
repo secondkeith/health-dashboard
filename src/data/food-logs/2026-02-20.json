@@ -1,0 +1,87 @@
+{
+  "date": "2026-02-20",
+  "weight": null,
+  "items": [
+    {
+      "time": "12:00 PM",
+      "name": "Per label",
+      "calories": 170,
+      "protein": 6,
+      "fat": 14.0,
+      "carbs": 8
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Per cup: 110 cal | 15g protein | 0g fat | 14g carbs",
+      "calories": 110,
+      "protein": 15,
+      "fat": 0.0,
+      "carbs": 14
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Per package",
+      "calories": 120,
+      "protein": 11,
+      "fat": 8.0,
+      "carbs": 1
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Per container",
+      "calories": 340,
+      "protein": 14,
+      "fat": 29.0,
+      "carbs": 7
+    },
+    {
+      "time": "12:00 PM",
+      "name": "+ Bolthouse Farms Ranch, 39g",
+      "calories": 46,
+      "protein": 1,
+      "fat": 3.3,
+      "carbs": 4
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Per tortilla",
+      "calories": 80,
+      "protein": 5,
+      "fat": 4.0,
+      "carbs": 14
+    },
+    {
+      "time": "12:00 PM",
+      "name": "+ Duke's Mayo, 10g",
+      "calories": 33,
+      "protein": 0,
+      "fat": 3.3,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "+ Wegmans Honey Mustard, 8g",
+      "calories": 26,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 5
+    },
+    {
+      "time": "12:00 PM",
+      "name": "+ Oven Roasted Turkey Breast, 4.1 oz",
+      "calories": 102,
+      "protein": 18,
+      "fat": 2.0,
+      "carbs": 4
+    },
+    {
+      "time": "12:00 PM",
+      "name": "+ Wegmans Cheese, 2 slices: 160 cal | 10g protein | 14g fat",
+      "calories": 160,
+      "protein": 10,
+      "fat": 14.0,
+      "carbs": 0
+    }
+  ],
+  "workouts": []
+}

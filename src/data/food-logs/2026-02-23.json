@@ -1,0 +1,71 @@
+{
+  "date": "2026-02-23",
+  "weight": 278.9,
+  "items": [
+    {
+      "time": "12:00 PM",
+      "name": "Hard boiled eggs x3",
+      "calories": 210,
+      "protein": 18,
+      "fat": 15.0,
+      "carbs": 1
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Celsius powder stick (Strawberry)",
+      "calories": 10,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 1
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Wegmans Chef Salad Bowl",
+      "calories": 255,
+      "protein": 16,
+      "fat": 21.0,
+      "carbs": 3
+    },
+    {
+      "time": "12:00 PM",
+      "name": "+ **30g Bolthouse Farms ranch**",
+      "calories": 35,
+      "protein": 1,
+      "fat": 2.5,
+      "carbs": 3
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Lunch total: 325 cal, 17g protein, 24.5g fat, 11g carbs",
+      "calories": 325,
+      "protein": 17,
+      "fat": 24.5,
+      "carbs": 11
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Babybel Light x2",
+      "calories": 100,
+      "protein": 10,
+      "fat": 6.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Organic Vanilla Yogurt",
+      "calories": 100,
+      "protein": 13,
+      "fat": 0.0,
+      "carbs": 10
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Whole Milk Vanilla Skyr",
+      "calories": 160,
+      "protein": 11,
+      "fat": 7.0,
+      "carbs": 12
+    }
+  ],
+  "workouts": []
+}

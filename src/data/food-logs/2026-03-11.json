@@ -1,0 +1,111 @@
+{
+  "date": "2026-03-11",
+  "weight": null,
+  "items": [
+    {
+      "time": "12:00 PM",
+      "name": "2 hard boiled eggs",
+      "calories": 140,
+      "protein": 12,
+      "fat": 10.0,
+      "carbs": 1
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Bolthouse Farms Blue Cheese dressing: 34.5g",
+      "calories": 45,
+      "protein": 1,
+      "fat": 3.5,
+      "carbs": 3
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Estimated total: 340 cal, 20g protein, 11g carbs, 25g fat",
+      "calories": 340,
+      "protein": 20,
+      "fat": 25.0,
+      "carbs": 11
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Dairy",
+      "calories": 255,
+      "protein": 36,
+      "fat": 5.0,
+      "carbs": 16
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Flour tortilla: 1 tortilla/71g",
+      "calories": 210,
+      "protein": 6,
+      "fat": 4.5,
+      "carbs": 35
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Spread/dressing: 30g/2 Tbsp",
+      "calories": 100,
+      "protein": 0,
+      "fat": 10.0,
+      "carbs": 2
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Honey mustard: 17g/",
+      "calories": 55,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 11
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Deli turkey/chicken breast: 4 slices/110g",
+      "calories": 100,
+      "protein": 22,
+      "fat": 1.0,
+      "carbs": 2
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Turkey pastrami",
+      "calories": 111,
+      "protein": 16,
+      "fat": 5.5,
+      "carbs": 1
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Cajun turkey breast",
+      "calories": 84,
+      "protein": 16,
+      "fat": 1.4,
+      "carbs": 1
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Cheese",
+      "calories": 120,
+      "protein": 10,
+      "fat": 12.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Cheese: 1 slice/23g",
+      "calories": 80,
+      "protein": 6,
+      "fat": 6.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Vanilla yogurt",
+      "calories": 320,
+      "protein": 22,
+      "fat": 14.0,
+      "carbs": 24
+    }
+  ],
+  "workouts": []
+}

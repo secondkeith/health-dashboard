@@ -1,0 +1,95 @@
+{
+  "date": "2026-02-24",
+  "weight": 277.6,
+  "items": [
+    {
+      "time": "12:00 PM",
+      "name": "Hard boiled eggs x2",
+      "calories": 140,
+      "protein": 12,
+      "fat": 10.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Prebiotic soda",
+      "calories": 40,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 15
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Mission Zero Net Carbs tortilla",
+      "calories": 80,
+      "protein": 5,
+      "fat": 4.0,
+      "carbs": 14
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Wegmans Honey Mustard",
+      "calories": 54,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 11
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Duke's Mayo",
+      "calories": 67,
+      "protein": 0,
+      "fat": 7.0,
+      "carbs": 1
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Oven Roasted Turkey Breast",
+      "calories": 172,
+      "protein": 26,
+      "fat": 4.0,
+      "carbs": 6
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Wegmans cheese x2 slices",
+      "calories": 160,
+      "protein": 10,
+      "fat": 14.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Oikos Triple Zero yogurt",
+      "calories": 90,
+      "protein": 15,
+      "fat": 0.0,
+      "carbs": 7
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Icelandic Provisions Extra Creamy Skyr Vanilla x2",
+      "calories": 340,
+      "protein": 24,
+      "fat": 12.0,
+      "carbs": 36
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Icelandic Provisions Skyr Vanilla",
+      "calories": 100,
+      "protein": 13,
+      "fat": 0.0,
+      "carbs": 10
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Spring mix salad bowl w/ sweet onion dijon vinaigrette",
+      "calories": 250,
+      "protein": 9,
+      "fat": 14.0,
+      "carbs": 21
+    }
+  ],
+  "workouts": []
+}

@@ -1,0 +1,63 @@
+{
+  "date": "2026-03-04",
+  "weight": null,
+  "items": [
+    {
+      "time": "12:00 PM",
+      "name": "100 cal, 13g protein, 0g fat, 10g net carbs, 8g sugar, 50mg sodium",
+      "calories": 100,
+      "protein": 13,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "10 cal, 0g protein, 0g fat, 4g net carbs, 0g sugar, 380mg sodium",
+      "calories": 10,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "100 cal, 10g protein, 6g fat",
+      "calories": 100,
+      "protein": 10,
+      "fat": 6.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "100 cal, 10g protein, 6g fat, 0g carbs",
+      "calories": 100,
+      "protein": 10,
+      "fat": 6.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "210 cal, 0g protein, 0g fat, 56g net carbs, 55g sugar, 80mg sodium",
+      "calories": 210,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "190 cal, 4g protein, 12g fat, 17g carbs, 60mg sodium",
+      "calories": 190,
+      "protein": 4,
+      "fat": 12.0,
+      "carbs": 17
+    },
+    {
+      "time": "12:00 PM",
+      "name": "125 cal, 0g protein, 0g fat, 30g net carbs,",
+      "calories": 125,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    }
+  ],
+  "workouts": []
+}

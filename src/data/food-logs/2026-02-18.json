@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-18",
+  "weight": null,
+  "items": [
+    {
+      "time": "12:00 PM",
+      "name": "Est.",
+      "calories": 980,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    },
+    {
+      "time": "12:00 PM",
+      "name": "140 cal | 13g protein, 4.5g fat, 11g carbs",
+      "calories": 140,
+      "protein": 13,
+      "fat": 4.5,
+      "carbs": 11
+    },
+    {
+      "time": "12:00 PM",
+      "name": "",
+      "calories": 310,
+      "protein": 0,
+      "fat": 0.0,
+      "carbs": 0
+    }
+  ],
+  "workouts": []
+}
