@@ -1,0 +1,23 @@
+{
+  "date": "2026-03-17",
+  "weight": null,
+  "items": [
+    {
+      "time": "10:22 AM",
+      "name": "2x Skyr yogurt (whole milk, vanilla)",
+      "calories": 320,
+      "protein": 22,
+      "fat": 14,
+      "carbs": 24
+    },
+    {
+      "time": "03:40 PM",
+      "name": "Mission flour tortilla",
+      "calories": 210,
+      "protein": 6,
+      "fat": 4.5,
+      "carbs": 35
+    }
+  ],
+  "workouts": []
+}
