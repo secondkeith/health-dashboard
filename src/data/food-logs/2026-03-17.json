@@ -41,6 +41,38 @@
       "protein": 40,
       "fat": 18.0,
       "carbs": 4
+    },
+    {
+      "time": "08:57 PM",
+      "name": "Wegmans Spinach Dijon Salad Bowl",
+      "calories": 290,
+      "protein": 10,
+      "fat": 19,
+      "carbs": 21
+    },
+    {
+      "time": "08:58 PM",
+      "name": "Avocado (84g, edible portion)",
+      "calories": 134,
+      "protein": 2,
+      "fat": 13,
+      "carbs": 8
+    },
+    {
+      "time": "09:01 PM",
+      "name": "Buttermilk ranch dressing (46g)",
+      "calories": 69,
+      "protein": 1.5,
+      "fat": 3,
+      "carbs": 8
+    },
+    {
+      "time": "11:54 PM",
+      "name": "2x Vanilla yogurt (whole milk)",
+      "calories": 320,
+      "protein": 22,
+      "fat": 14,
+      "carbs": 24
     }
   ],
   "workouts": []
