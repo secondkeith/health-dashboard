@@ -9,6 +9,14 @@
       "protein": 18,
       "fat": 22,
       "carbs": 8
+    },
+    {
+      "time": "01:20 PM",
+      "name": "Bolthouse Farms dressing (50g)",
+      "calories": 58,
+      "protein": 1.7,
+      "fat": 4.2,
+      "carbs": 5
     }
   ],
   "workouts": []
