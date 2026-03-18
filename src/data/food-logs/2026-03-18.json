@@ -1,6 +1,15 @@
 {
   "date": "2026-03-18",
   "weight": 278.0,
-  "items": [],
+  "items": [
+    {
+      "time": "01:19 PM",
+      "name": "Chef salad bowl",
+      "calories": 290,
+      "protein": 18,
+      "fat": 22,
+      "carbs": 8
+    }
+  ],
   "workouts": []
 }
