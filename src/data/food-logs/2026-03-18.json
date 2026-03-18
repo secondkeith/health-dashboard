@@ -25,6 +25,14 @@
       "protein": 17,
       "fat": 2.5,
       "carbs": 3.4
+    },
+    {
+      "time": "06:51 PM",
+      "name": "Fuddruckers 1/2 lb brown sugar bacon burger combo (estimated via Gemini)",
+      "calories": 1895,
+      "protein": 68,
+      "fat": 115,
+      "carbs": 140
     }
   ],
   "workouts": []
