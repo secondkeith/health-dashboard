@@ -1,0 +1,23 @@
+{
+  "date": "2026-03-20",
+  "weight": null,
+  "items": [
+    {
+      "time": "Breakfast",
+      "name": "Celsius energy drink (12 fl oz)",
+      "calories": 10,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    {
+      "time": "Breakfast",
+      "name": "Old Trapper teriyaki beef jerky (1/4 lb bag)",
+      "calories": 280,
+      "protein": 44,
+      "fat": 2,
+      "carbs": 24
+    }
+  ],
+  "workouts": []
+}
