@@ -65,6 +65,14 @@
       "protein": 24.5,
       "fat": 3.7,
       "carbs": 4.9
+    },
+    {
+      "time": "09:45 PM",
+      "name": "Muenster cheese (3 slices, standard)",
+      "calories": 312,
+      "protein": 21,
+      "fat": 25.5,
+      "carbs": 0.9
     }
   ],
   "workouts": []
