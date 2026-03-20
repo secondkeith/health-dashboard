@@ -41,6 +41,14 @@
       "protein": 0,
       "fat": 0,
       "carbs": 16.8
+    },
+    {
+      "time": "09:33 PM",
+      "name": "Avocado (116g edible portion from 173.7g whole)",
+      "calories": 186,
+      "protein": 2.3,
+      "fat": 17.4,
+      "carbs": 10.4
     }
   ],
   "workouts": []
