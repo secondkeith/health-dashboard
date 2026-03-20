@@ -57,6 +57,14 @@
       "protein": 33,
       "fat": 15,
       "carbs": 3
+    },
+    {
+      "time": "09:42 PM",
+      "name": "Mesquite smoked turkey breast (137g)",
+      "calories": 147,
+      "protein": 24.5,
+      "fat": 3.7,
+      "carbs": 4.9
     }
   ],
   "workouts": []
