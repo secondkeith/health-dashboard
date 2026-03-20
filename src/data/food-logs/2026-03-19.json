@@ -33,6 +33,14 @@
       "protein": 6,
       "fat": 4.5,
       "carbs": 35
+    },
+    {
+      "time": "09:30 PM",
+      "name": "Honey mustard (26g)",
+      "calories": 84,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 16.8
     }
   ],
   "workouts": []
