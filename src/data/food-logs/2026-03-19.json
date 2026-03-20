@@ -49,6 +49,14 @@
       "protein": 2.3,
       "fat": 17.4,
       "carbs": 10.4
+    },
+    {
+      "time": "09:40 PM",
+      "name": "Wegmans Kobe corned beef (170g)",
+      "calories": 330,
+      "protein": 33,
+      "fat": 15,
+      "carbs": 3
     }
   ],
   "workouts": []
