@@ -25,6 +25,14 @@
       "protein": 16,
       "fat": 20,
       "carbs": 72
+    },
+    {
+      "time": "08:19 PM",
+      "name": "Baked potato crisps (2 servings)",
+      "calories": 240,
+      "protein": 2,
+      "fat": 8,
+      "carbs": 42
     }
   ],
   "workouts": []
