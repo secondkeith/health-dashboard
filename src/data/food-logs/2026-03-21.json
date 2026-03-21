@@ -9,6 +9,14 @@
       "protein": 2,
       "fat": 8,
       "carbs": 42
+    },
+    {
+      "time": "02:46 PM",
+      "name": "Amtrak breakfast: omelet (ham & cheese), home fries, English muffin, butter (estimated via GPT-4o)",
+      "calories": 730,
+      "protein": 31,
+      "fat": 45,
+      "carbs": 49
     }
   ],
   "workouts": []
