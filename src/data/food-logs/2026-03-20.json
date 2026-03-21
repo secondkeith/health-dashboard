@@ -33,6 +33,38 @@
       "protein": 2,
       "fat": 8,
       "carbs": 42
+    },
+    {
+      "time": "09:00 PM",
+      "name": "Amtrak Auto Train steak dinner: flat iron steak with sides (estimated via Gemini)",
+      "calories": 825,
+      "protein": 50,
+      "fat": 45,
+      "carbs": 50
+    },
+    {
+      "time": "09:00 PM",
+      "name": "Dinner roll with butter (estimated via Gemini)",
+      "calories": 143,
+      "protein": 3.5,
+      "fat": 6,
+      "carbs": 19
+    },
+    {
+      "time": "09:00 PM",
+      "name": "Small salad with creamy French dressing (estimated via Gemini)",
+      "calories": 200,
+      "protein": 1,
+      "fat": 15.5,
+      "carbs": 15
+    },
+    {
+      "time": "09:00 PM",
+      "name": "Chocolate spoon cake dessert (estimated via Gemini)",
+      "calories": 805,
+      "protein": 9.5,
+      "fat": 39.5,
+      "carbs": 79
     }
   ],
   "workouts": []
