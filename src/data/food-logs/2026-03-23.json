@@ -17,6 +17,30 @@
       "protein": 40,
       "fat": 32,
       "carbs": 8
+    },
+    {
+      "time": "08:30 PM",
+      "name": "Royal Caribbean dinner: dinner roll with 2 pats butter (estimated via GPT-4o)",
+      "calories": 275,
+      "protein": 4,
+      "fat": 17,
+      "carbs": 24
+    },
+    {
+      "time": "08:30 PM",
+      "name": "Royal Caribbean dinner: crab cake appetizer with aioli (estimated via GPT-4o)",
+      "calories": 405,
+      "protein": 18,
+      "fat": 28,
+      "carbs": 20
+    },
+    {
+      "time": "08:30 PM",
+      "name": "Royal Caribbean dinner: slow-roasted prime rib with mashed potatoes, vegetables, au jus, horseradish (estimated via GPT-4o)",
+      "calories": 1080,
+      "protein": 75,
+      "fat": 65,
+      "carbs": 43
     }
   ],
   "workouts": []
