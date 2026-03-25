@@ -9,6 +9,30 @@
       "protein": 69,
       "fat": 64.5,
       "carbs": 4
+    },
+    {
+      "time": "08:30 PM",
+      "name": "Royal Caribbean dinner: Caesar salad with extra dressing (estimated via GPT-4o)",
+      "calories": 225,
+      "protein": 7,
+      "fat": 18,
+      "carbs": 11
+    },
+    {
+      "time": "08:30 PM",
+      "name": "Royal Caribbean dinner: French onion soup with Gruyère and bread (estimated via GPT-4o)",
+      "calories": 360,
+      "protein": 18,
+      "fat": 19,
+      "carbs": 27
+    },
+    {
+      "time": "08:30 PM",
+      "name": "Royal Caribbean dinner: steak au poivre with mashed potatoes, asparagus, peppercorn cream sauce (estimated via GPT-4o)",
+      "calories": 865,
+      "protein": 67,
+      "fat": 52,
+      "carbs": 30
     }
   ],
   "workouts": []
