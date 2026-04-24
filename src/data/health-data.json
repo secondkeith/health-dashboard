@@ -479,6 +479,21 @@
       "sleepMinutes": 461,
       "meals": [],
       "workouts": []
+    },
+    {
+      "date": "2026-04-22",
+      "weight": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "steps": 3393,
+      "caloriesBurned": 2796,
+      "restingHR": 66,
+      "activeMinutes": 11,
+      "sleepMinutes": 452,
+      "meals": [],
+      "workouts": []
     }
   ]
 }
