@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-06",
+  "weight": null,
+  "items": [
+    {
+      "id": "salad-kit-with-additions",
+      "time": "Not specified",
+      "name": "Salad kit without croutons, included dressing, extra dressing, blue cheese, chicken and toppings (macros pending)",
+      "calories": 1065,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "source": "Keith's food descriptions and prior conversational photo-label readings",
+      "estimated": true,
+      "note": "Date assigned from current America/New_York date; user called this today's salad. Meal time unknown. Calories: kit 420 minus estimated croutons 100, plus extra dressing 100 (2 fluid ounces), blue cheese 200 (2 oz, estimated), chicken 275 (whole bag), toppings 170 (1/4 cup). Kit includes original dressing; extra dressing is additional. Complete macros unknown; null is not zero. Prior label readings have not been independently reverified in this update. No snacks or drinks carried forward from yesterday.",
+      "components": [
+        {"name": "Full salad kit", "calories": 420},
+        {"name": "Omitted croutons", "calories": -100, "estimated": true},
+        {"name": "Extra dressing, 2 fluid ounces", "calories": 100},
+        {"name": "Blue cheese, 2 ounces", "calories": 200, "estimated": true},
+        {"name": "Chicken, whole bag", "calories": 275},
+        {"name": "Toppings, 1/4 cup", "calories": 170}
+      ]
+    }
+  ],
+  "workouts": [],
+  "complete_day": false
+}

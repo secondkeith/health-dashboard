@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "sync:food": "python3 scripts/sync-food-logs.py",
+    "prebuild": "npm run sync:food",
     "build": "tsc -b && vite build",
+    "test": "python3 -m unittest discover -s tests -v && node --test tests/nutrition.test.mjs",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },

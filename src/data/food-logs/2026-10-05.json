@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-05",
+  "weight": null,
+  "complete_day": false,
+  "note": "Backfilled from Keith's conversation by request: yesterday relative to October 6 Eastern. Only reported consumed items, no cruise meals. Times unknown. Previously discussed estimates retained, not independently reverified label values.",
+  "items": [
+    {
+      "id": "salad-kit-with-additions",
+      "time": "Not specified",
+      "name": "Salad kit without croutons, included dressing, extra dressing, blue cheese, chicken and toppings (macros pending)",
+      "calories": 935,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "estimated": true,
+      "source": "Conversation: food photos, portion reports and corrections",
+      "note": "Whole kit 330 minus estimated croutons 100, plus extra dressing 60 (4 tbsp), blue cheese estimated 200 (2 oz), chicken 275 (whole bag), toppings 170 (1/4 cup). Final corrected topping amount replaces initial whole bag. Dressing is additional to kit dressing. Unknown complete macros are null, not zero.",
+      "components": [
+        {"name": "Full salad kit", "calories": 330},
+        {"name": "Omitted croutons", "calories": -100, "estimated": true},
+        {"name": "Extra dressing, 4 tbsp", "calories": 60},
+        {"name": "Blue cheese, 2 oz", "calories": 200, "estimated": true},
+        {"name": "Chicken, whole bag", "calories": 275},
+        {"name": "Toppings, 1/4 cup", "calories": 170}
+      ]
+    },
+    {
+      "id": "baby-dill-pickles-5",
+      "time": "Not specified",
+      "name": "Vlasic baby dill pickles, 5",
+      "calories": 25,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "estimated": true,
+      "note": "Label reports zero calories; Keith explicitly preferred retaining conservative 25-calorie estimate for all five. Actual macros not verified."
+    },
+    {
+      "id": "string-cheese-3",
+      "time": "Not specified",
+      "name": "String cheese, 3 sticks",
+      "calories": 270,
+      "protein": 21,
+      "fat": 21,
+      "carbs": 0,
+      "source": "Prior conversational label reading; not independently reverified"
+    },
+    {
+      "id": "zero-sugar-sodas-4",
+      "time": "Not specified",
+      "name": "Dirty Mountain Dew Zero Sugar, two 12 oz cans; A&W Root Beer Zero Sugar, two cans",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "estimated": true,
+      "note": "Zero-calorie assumption retained from conversation; exact product labels not verified. A&W can size not specified."
+    },
+    {
+      "id": "babybel-3",
+      "time": "Not specified",
+      "name": "Babybel Original, Monterey Jack and White Cheddar, one each",
+      "calories": 210,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "estimated": true,
+      "note": "Assumed all three pictured cheeses consumed, as in prior tally. Estimated 70 calories each; nutrition panels unavailable."
+    }
+  ],
+  "workouts": []
+}

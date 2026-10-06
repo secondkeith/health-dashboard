@@ -17,14 +17,11 @@ import {
   YAxis,
 } from 'recharts';
 import healthData from './data/health-data.json';
+import { averageNutrient, formatMacro, macroPercentages, rollingWindow, type Nutrients } from './nutrition';
 
-type Meal = {
+type Meal = Nutrients & {
   time: string;
   name: string;
-  calories: number;
-  protein: number;
-  fat: number;
-  carbs: number;
 };
 
 type Workout = {
@@ -34,13 +31,10 @@ type Workout = {
   reps: number | string;
 };
 
-type Day = {
+type Day = Nutrients & {
   date: string;
   weight: number | null;
-  calories: number;
-  protein: number;
-  fat: number;
-  carbs: number;
+  complete_day?: boolean;
   steps: number | null;
   caloriesBurned: number | null;
   restingHR: number | null;
@@ -80,18 +74,6 @@ const parseReps = (value: number | string): number => {
     .reduce((sum, n) => sum + n, 0);
 };
 
-const macroPercentages = (day: Day) => {
-  const total = day.protein + day.fat + day.carbs;
-  if (!total) {
-    return { protein: 0, fat: 0, carbs: 0 };
-  }
-
-  return {
-    protein: (day.protein / total) * 100,
-    fat: (day.fat / total) * 100,
-    carbs: (day.carbs / total) * 100,
-  };
-};
 
 const App = () => {
   const [view, setView] = useState<View>('Dashboard');
@@ -104,10 +86,10 @@ const App = () => {
 
   const latestDay = days[days.length - 1];
 
-  const caloriesData = days.slice(-7).map((day) => ({
+  const caloriesData = rollingWindow(days, latestDay.date).map((day) => ({
     date: formatShortDate(day.date),
     calories: day.calories,
-    inRange: day.calories >= targetCalories.min && day.calories <= targetCalories.max,
+    inRange: day.complete_day !== false && day.calories !== null && day.calories >= targetCalories.min && day.calories <= targetCalories.max,
   }));
 
   const macroTrendData = days.map((day) => ({
@@ -132,18 +114,15 @@ const App = () => {
     restingHR: day.restingHR,
   }));
 
-  const rollingAverages = days.map((_, idx) => {
-    const start = Math.max(0, idx - 6);
-    const window = days.slice(start, idx + 1);
-    const avg = (field: keyof Pick<Day, 'calories' | 'protein' | 'fat' | 'carbs'>) =>
-      window.reduce((sum, day) => sum + day[field], 0) / window.length;
+  const rollingAverages = days.map((day) => {
+    const window = rollingWindow(days, day.date);
 
     return {
-      date: formatShortDate(days[idx].date),
-      calories: Number(avg('calories').toFixed(1)),
-      protein: Number(avg('protein').toFixed(1)),
-      fat: Number(avg('fat').toFixed(1)),
-      carbs: Number(avg('carbs').toFixed(1)),
+      date: formatShortDate(day.date),
+      calories: averageNutrient(window, 'calories'),
+      protein: averageNutrient(window, 'protein'),
+      fat: averageNutrient(window, 'fat'),
+      carbs: averageNutrient(window, 'carbs'),
     };
   });
 
@@ -289,7 +268,7 @@ const App = () => {
                 </div>
 
                 <div className="card h-80">
-                  <h2 className="mb-3 text-lg font-medium">Macro Trend (g)</h2>
+                  <h2 className="mb-3 text-lg font-medium">Macro Trend (g) — pending values omitted</h2>
                   <ResponsiveContainer width="100%" height="100%">
                     <BarChart data={macroTrendData} margin={{ top: 10, right: 12, left: -10, bottom: 0 }}>
                       <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
@@ -320,15 +299,16 @@ const App = () => {
                 </div>
 
                 <div className="card">
-                  <h2 className="text-lg font-medium">Today&apos;s Summary</h2>
+                  <h2 className="text-lg font-medium">Latest Logged Day</h2>
                   <p className="mt-1 text-sm text-slate-400">{formatFullDate(latestDay.date)}</p>
+                  {latestDay.complete_day === false && <p className="text-sm text-slate-400">Incomplete day — logged intake only</p>}
                   <div className="mt-4 grid grid-cols-2 gap-3 text-sm">
                     <div className="rounded-lg bg-slate-800/80 p-3">
                       <p className="text-slate-400">Calories</p>
-                      <p className="text-xl font-semibold text-cyan-300">{latestDay.calories}</p>
-                      <p className={`text-xs mt-1 ${latestDay.calories >= targetCalories.min && latestDay.calories <= targetCalories.max ? 'text-green-400' : latestDay.calories < targetCalories.min ? 'text-amber-400' : 'text-red-400'}`}>
+                      <p className="text-xl font-semibold text-cyan-300">{latestDay.calories ?? 'Pending'}</p>
+                      {latestDay.complete_day !== false && latestDay.calories !== null && <p className={`text-xs mt-1 ${latestDay.calories >= targetCalories.min && latestDay.calories <= targetCalories.max ? 'text-green-400' : latestDay.calories < targetCalories.min ? 'text-amber-400' : 'text-red-400'}`}>
                         {latestDay.calories < targetCalories.min ? `${targetCalories.min - latestDay.calories} under target` : latestDay.calories > targetCalories.max ? `${latestDay.calories - targetCalories.max} over target` : 'In target zone ✓'}
-                      </p>
+                      </p>}
                     </div>
                     <div className="rounded-lg bg-slate-800/80 p-3">
                       <p className="text-slate-400">Meals</p>
@@ -337,7 +317,7 @@ const App = () => {
                     <div className="rounded-lg bg-slate-800/80 p-3">
                       <p className="text-slate-400">Protein / Fat / Carbs</p>
                       <p className="text-sm font-semibold text-slate-100">
-                        {latestDay.protein}g / {latestDay.fat}g / {latestDay.carbs}g
+                        {formatMacro(latestDay.protein)} / {formatMacro(latestDay.fat)} / {formatMacro(latestDay.carbs)}
                       </p>
                     </div>
                     <div className="rounded-lg bg-slate-800/80 p-3">
@@ -350,7 +330,7 @@ const App = () => {
                       <div key={`${meal.time}-${index}`} className="rounded-lg border border-slate-800 bg-slate-800/60 p-2">
                         <p className="text-xs text-slate-400">{meal.time}</p>
                         <p className="text-sm">{meal.name}</p>
-                        <p className="text-xs text-slate-400">{meal.calories} kcal</p>
+                        <p className="text-xs text-slate-400">{meal.calories ?? 'Pending'} kcal</p>
                       </div>
                     ))}
                   </div>
@@ -364,12 +344,12 @@ const App = () => {
               <div className="grid gap-4 lg:grid-cols-2">
                 <div className="card h-80">
                   <h2 className="mb-3 text-lg font-medium">Macro % by Latest Day</h2>
-                  <ResponsiveContainer width="100%" height="100%">
+                  {macroPercentages(latestDay) === null ? <p className="text-slate-400">Macro breakdown unavailable — macros pending or no macro intake recorded.</p> : <ResponsiveContainer width="100%" height="100%">
                     <PieChart>
                       <Tooltip contentStyle={{ background: '#0f172a', border: '1px solid #1e293b' }} />
                       <Legend />
                       <Pie
-                        data={Object.entries(macroPercentages(latestDay)).map(([key, value]) => ({ name: key, value }))}
+                        data={Object.entries(macroPercentages(latestDay)!).map(([key, value]) => ({ name: key, value }))}
                         dataKey="value"
                         nameKey="name"
                         cx="50%"
@@ -382,11 +362,12 @@ const App = () => {
                         <Cell fill="#34d399" />
                       </Pie>
                     </PieChart>
-                  </ResponsiveContainer>
+                  </ResponsiveContainer>}
                 </div>
 
                 <div className="card h-80">
                   <h2 className="mb-3 text-lg font-medium">7-Day Rolling Averages</h2>
+                  <p className="text-xs text-slate-400">Known values only; incomplete days excluded. Gaps mean no eligible data.</p>
                   <ResponsiveContainer width="100%" height="100%">
                     <LineChart data={rollingAverages} margin={{ top: 10, right: 12, left: -10, bottom: 0 }}>
                       <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
@@ -420,10 +401,10 @@ const App = () => {
                         >
                           <div>
                             <p className="text-sm text-slate-400">{formatFullDate(day.date)}</p>
-                            <p className="font-medium">{day.calories} kcal</p>
+                            <p className="font-medium">{day.calories ?? 'Pending'} kcal{day.complete_day === false ? ' — incomplete day' : ''}</p>
                           </div>
                           <p className="text-sm text-cyan-300">
-                            P {pct.protein.toFixed(0)}% • F {pct.fat.toFixed(0)}% • C {pct.carbs.toFixed(0)}%
+                            {pct ? `P ${pct.protein.toFixed(0)}% • F ${pct.fat.toFixed(0)}% • C ${pct.carbs.toFixed(0)}%` : 'Macro breakdown unavailable'}
                           </p>
                         </button>
                         {expanded && (
@@ -435,7 +416,7 @@ const App = () => {
                                   <p className="text-slate-400">{meal.time}</p>
                                 </div>
                                 <p className="mt-1 text-slate-300">
-                                  {meal.calories} kcal • P {meal.protein}g • F {meal.fat}g • C {meal.carbs}g
+                                  {meal.calories ?? 'Pending'} kcal • P {formatMacro(meal.protein)} • F {formatMacro(meal.fat)} • C {formatMacro(meal.carbs)}
                                 </p>
                               </div>
                             ))}

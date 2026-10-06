@@ -1,97 +1,26 @@
-#!/usr/bin/env python3
-"""
-Sync food-logs/*.json into health-data.json
-Runs automatically to keep dashboard current.
-"""
-import json, subprocess
+"""Refresh dashboard nutrition from canonical food logs; preserve activity and legacy days."""
+import json
 from pathlib import Path
-from datetime import datetime
 
-REPO_DIR = Path(__file__).parent.parent
-FOOD_DIR = REPO_DIR / "src/data/food-logs"
-DATA_FILE = REPO_DIR / "src/data/health-data.json"
-
-# Load health data
-with open(DATA_FILE) as f:
-    health_data = json.load(f)
-
-# Process all food log files
-changed = False
-for log_file in sorted(FOOD_DIR.glob("*.json")):
-    with open(log_file) as f:
-        food_log = json.load(f)
-    
-    target_date = food_log['date']
-    
-    # Find or create day entry
-    day_entry = None
-    for day in health_data['days']:
-        if day['date'] == target_date:
-            day_entry = day
-            break
-    
-    if not day_entry:
-        # Create new entry with empty Fitbit data
-        day_entry = {
-            'date': target_date,
-            'weight': None,
-            'calories': 0,
-            'protein': 0,
-            'fat': 0,
-            'carbs': 0,
-            'steps': None,
-            'caloriesBurned': None,
-            'restingHR': None,
-            'activeMinutes': None,
-            'sleepMinutes': None,
-            'meals': [],
-            'workouts': []
-        }
-        health_data['days'].append(day_entry)
-        health_data['days'].sort(key=lambda d: d['date'])
-    
-    # Update from food log
-    if food_log.get('weight'):
-        if day_entry['weight'] != food_log['weight']:
-            day_entry['weight'] = food_log['weight']
-            changed = True
-    
-    # Calculate totals
-    total_cal = sum(item['calories'] for item in food_log['items'])
-    total_prot = sum(item['protein'] for item in food_log['items'])
-    total_fat = sum(item['fat'] for item in food_log['items'])
-    total_carbs = sum(item['carbs'] for item in food_log['items'])
-    
-    if (day_entry['calories'] != total_cal or 
-        day_entry['protein'] != total_prot or
-        day_entry['meals'] != food_log['items'] or
-        day_entry['workouts'] != food_log['workouts']):
-        day_entry['calories'] = total_cal
-        day_entry['protein'] = total_prot
-        day_entry['fat'] = round(total_fat)
-        day_entry['carbs'] = total_carbs
-        day_entry['meals'] = food_log['items']
-        day_entry['workouts'] = food_log['workouts']
-        changed = True
-
-if changed:
-    # Write updated health data
-    with open(DATA_FILE, 'w') as f:
-        json.dump(health_data, f, indent=2)
-        f.write('\n')
-    
-    # Git commit and push (skip in CI - GitHub Actions will handle the build)
-    import os as os_module
-    if not os_module.environ.get('CI'):
-        subprocess.run(['git', 'add', 'src/data/'], cwd=REPO_DIR, check=True)
-        result = subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=REPO_DIR)
-        if result.returncode != 0:
-            subprocess.run(['git', 'commit', '-m', f'Auto-sync food logs {datetime.now().strftime("%Y-%m-%d %H:%M")}'], cwd=REPO_DIR, check=True)
-            subprocess.run(['git', 'push'], cwd=REPO_DIR, check=True)
-            print(f"✓ Synced and pushed food logs to dashboard")
-        else:
-            print("No changes to sync")
-    else:
-        print("✓ Generated health-data.json (CI mode - no git operations)")
-else:
-    print("No changes to sync")
+root = Path(__file__).resolve().parents[1]
+data_path = root / 'src/data/health-data.json'
+data = json.loads(data_path.read_text())
+days = {day['date']: day for day in data['days']}
+for path in sorted((root / 'src/data/food-logs').glob('*.json')):
+    log = json.loads(path.read_text())
+    assert path.stem == log['date'], f'Date mismatch: {path}'
+    items = log['items']
+    day = days.setdefault(log['date'], {'date': log['date'], 'steps': None, 'caloriesBurned': None, 'restingHR': None})
+    for nutrient in ('calories', 'protein', 'fat', 'carbs'):
+        values = [item.get(nutrient) for item in items]
+        day[nutrient] = sum(values) if all(isinstance(v, (float, int)) for v in values) else None
+    day['meals'] = items
+    if log.get('weight') is not None or 'weight' not in day:
+        day['weight'] = log.get('weight')
+    day.setdefault('workouts', log.get('workouts', []))
+    day['nutrition_source'] = f'food-logs/{path.name}'
+    day['macros_complete'] = all(day[n] is not None for n in ('protein', 'fat', 'carbs'))
+    day['complete_day'] = log.get('complete_day', False)
+data['days'] = sorted(days.values(), key=lambda day: day['date'])
+data_path.write_text(json.dumps(data, indent=2) + '\n')
+print(f'Synced food logs; {len(days)} dashboard days retained.')
