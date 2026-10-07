@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-07",
+  "weight": null,
+  "items": [
+    {
+      "id": "chick-fil-a-grilled-club-meal",
+      "time": "Not specified",
+      "name": "Chick-fil-A grilled chicken club, no tomatoes; fruit cup; Coke Zero; one Chick-fil-A sauce",
+      "calories": 730,
+      "protein": 38,
+      "fat": 35,
+      "carbs": 67,
+      "estimated": true,
+      "source": "Official Chick-fil-A product nutrition pages retrieved 2026-10-07",
+      "note": "Standard Colby Jack club; no tomato deduction. Fruit cup treated as large per user request, not confirmed visually. Retained 70 calories: current official fruit page lists 70 without size distinction, and FastFoodNutrition large-specific listing also reports 70 (updated 2020; not current size verification). Official current macros retained provisionally. One Chick-fil-A sauce packet; Coke Zero; no fries or additional sauce.",
+      "components": [
+        {
+          "name": "Grilled Chicken Club without tomatoes (standard nutrition retained)",
+          "calories": 520
+        },
+        {
+          "name": "Large fruit cup (size assumed per user)",
+          "calories": 70
+        },
+        {
+          "name": "Chick-fil-A sauce, one packet",
+          "calories": 140
+        },
+        {
+          "name": "Coke Zero",
+          "calories": 0
+        }
+      ]
+    }
+  ],
+  "workouts": [],
+  "complete_day": false
+}

@@ -2982,7 +2982,7 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1065,
+      "calories": 1627,
       "protein": null,
       "fat": null,
       "carbs": null,
@@ -3026,12 +3026,74 @@
               "calories": 170
             }
           ]
+        },
+        {
+          "id": "flagship-small-buttered-popcorn",
+          "time": "Not specified",
+          "name": "Flagship small movie popcorn with added butter topping, about 3/4 bag eaten",
+          "calories": 562,
+          "protein": null,
+          "fat": null,
+          "carbs": null,
+          "estimated": true,
+          "calorie_range": [
+            412,
+            638
+          ],
+          "note": "User confirmed about 3/4 bag eaten. Scaled original 750-calorie whole-bag working estimate by 0.75, rounded to nearest calorie. Generic theater estimate, not official nutrition; butter amount unknown. Replaces full-bag entry, no duplicate."
         }
       ],
       "weight": null,
       "workouts": [],
       "nutrition_source": "food-logs/2026-10-06.json",
       "macros_complete": false,
+      "complete_day": false
+    },
+    {
+      "date": "2026-10-07",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 730,
+      "protein": 38,
+      "fat": 35,
+      "carbs": 67,
+      "meals": [
+        {
+          "id": "chick-fil-a-grilled-club-meal",
+          "time": "Not specified",
+          "name": "Chick-fil-A grilled chicken club, no tomatoes; fruit cup; Coke Zero; one Chick-fil-A sauce",
+          "calories": 730,
+          "protein": 38,
+          "fat": 35,
+          "carbs": 67,
+          "estimated": true,
+          "source": "Official Chick-fil-A product nutrition pages retrieved 2026-10-07",
+          "note": "Standard Colby Jack club; no tomato deduction. Fruit cup treated as large per user request, not confirmed visually. Retained 70 calories: current official fruit page lists 70 without size distinction, and FastFoodNutrition large-specific listing also reports 70 (updated 2020; not current size verification). Official current macros retained provisionally. One Chick-fil-A sauce packet; Coke Zero; no fries or additional sauce.",
+          "components": [
+            {
+              "name": "Grilled Chicken Club without tomatoes (standard nutrition retained)",
+              "calories": 520
+            },
+            {
+              "name": "Large fruit cup (size assumed per user)",
+              "calories": 70
+            },
+            {
+              "name": "Chick-fil-A sauce, one packet",
+              "calories": 140
+            },
+            {
+              "name": "Coke Zero",
+              "calories": 0
+            }
+          ]
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-10-07.json",
+      "macros_complete": true,
       "complete_day": false
     }
   ]

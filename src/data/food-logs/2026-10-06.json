@@ -14,13 +14,48 @@
       "estimated": true,
       "note": "Date assigned from current America/New_York date; user called this today's salad. Meal time unknown. Calories: kit 420 minus estimated croutons 100, plus extra dressing 100 (2 fluid ounces), blue cheese 200 (2 oz, estimated), chicken 275 (whole bag), toppings 170 (1/4 cup). Kit includes original dressing; extra dressing is additional. Complete macros unknown; null is not zero. Prior label readings have not been independently reverified in this update. No snacks or drinks carried forward from yesterday.",
       "components": [
-        {"name": "Full salad kit", "calories": 420},
-        {"name": "Omitted croutons", "calories": -100, "estimated": true},
-        {"name": "Extra dressing, 2 fluid ounces", "calories": 100},
-        {"name": "Blue cheese, 2 ounces", "calories": 200, "estimated": true},
-        {"name": "Chicken, whole bag", "calories": 275},
-        {"name": "Toppings, 1/4 cup", "calories": 170}
+        {
+          "name": "Full salad kit",
+          "calories": 420
+        },
+        {
+          "name": "Omitted croutons",
+          "calories": -100,
+          "estimated": true
+        },
+        {
+          "name": "Extra dressing, 2 fluid ounces",
+          "calories": 100
+        },
+        {
+          "name": "Blue cheese, 2 ounces",
+          "calories": 200,
+          "estimated": true
+        },
+        {
+          "name": "Chicken, whole bag",
+          "calories": 275
+        },
+        {
+          "name": "Toppings, 1/4 cup",
+          "calories": 170
+        }
       ]
+    },
+    {
+      "id": "flagship-small-buttered-popcorn",
+      "time": "Not specified",
+      "name": "Flagship small movie popcorn with added butter topping, about 3/4 bag eaten",
+      "calories": 562,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "estimated": true,
+      "calorie_range": [
+        412,
+        638
+      ],
+      "note": "User confirmed about 3/4 bag eaten. Scaled original 750-calorie whole-bag working estimate by 0.75, rounded to nearest calorie. Generic theater estimate, not official nutrition; butter amount unknown. Replaces full-bag entry, no duplicate."
     }
   ],
   "workouts": [],
