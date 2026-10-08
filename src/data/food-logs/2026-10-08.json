@@ -26,6 +26,18 @@
         }
       ],
       "note": "User confirmed Oct 8. Salad: prior photo reading 3 x 110 = 330 kcal including dressing/cheese; estimated 50 kcal deduction for unweighed croutons yields high-side 280 kcal. Beans: prior estimate 157.5 rounded up to 160 kcal for half can; exact variety unspecified. Olives: photo label about 7 servings x 20 kcal = 140 kcal. Complete meal macros pending, not zero. No additional ingredients assumed."
+    },
+    {
+      "id": "litehouse-cheese-half-container",
+      "name": "Litehouse cheese, half container (2 oz / 56 g)",
+      "time": "Not specified",
+      "calories": 180,
+      "protein": 12,
+      "fat": 14,
+      "carbs": 4,
+      "sodium_mg": 840,
+      "estimated": false,
+      "note": "Photo label: four 1-oz servings per container. Half container is two servings. Exact cheese variety not visible. Additional to kit cheese."
     }
   ],
   "workouts": [],
