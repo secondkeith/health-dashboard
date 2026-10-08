@@ -3054,10 +3054,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 730,
-      "protein": 38,
-      "fat": 35,
-      "carbs": 67,
+      "calories": 1020,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
       "meals": [
         {
           "id": "chick-fil-a-grilled-club-meal",
@@ -3088,12 +3088,34 @@
               "calories": 0
             }
           ]
+        },
+        {
+          "id": "babybel-3",
+          "time": "Not specified",
+          "name": "Babybel cheeses, 3",
+          "calories": 210,
+          "protein": null,
+          "fat": null,
+          "carbs": null,
+          "estimated": true,
+          "note": "Assumes regular mini Babybel varieties like previous report, 70 calories each. Exact varieties/macros unverified."
+        },
+        {
+          "id": "half-and-half-4tbsp",
+          "time": "Not specified",
+          "name": "Regular half-and-half, about 4 tablespoons",
+          "calories": 80,
+          "protein": 2,
+          "fat": 7,
+          "carbs": 2,
+          "estimated": true,
+          "note": "Generic regular dairy half-and-half estimate: 40 calories per 2 tbsp. Brand not specified; excludes any coffee sugar or other additions."
         }
       ],
       "weight": null,
       "workouts": [],
       "nutrition_source": "food-logs/2026-10-07.json",
-      "macros_complete": true,
+      "macros_complete": false,
       "complete_day": false
     }
   ]
