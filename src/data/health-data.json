@@ -3054,7 +3054,7 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1020,
+      "calories": 1345,
       "protein": null,
       "fat": null,
       "carbs": null,
@@ -3110,6 +3110,19 @@
           "carbs": 2,
           "estimated": true,
           "note": "Generic regular dairy half-and-half estimate: 40 calories per 2 tbsp. Brand not specified; excludes any coffee sugar or other additions."
+        },
+        {
+          "id": "marinated-artichokes-13-quarters",
+          "time": "Not specified",
+          "name": "Marinated artichoke hearts, 13 quarters",
+          "calories": 325,
+          "protein": 4.3,
+          "fat": 28.2,
+          "carbs": 17.3,
+          "fiber": 8.7,
+          "sodium_mg": 1257,
+          "estimated": true,
+          "note": "Reported retrospectively on Oct 8 for Oct 7. Photo label: 1/2 cup (110 g), 150 kcal, 2g protein, 13g fat, 8g carbs, 4g fiber, 580mg sodium. Uses prior rough high-side portion assumption of 6 larger quarters per half cup; 13 quarters = 13/6 servings. Piece sizes and oil retention unmeasured; exact calories not established."
         }
       ],
       "weight": 288,
