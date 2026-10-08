@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-08",
+  "weight": null,
+  "items": [
+    {
+      "id": "salad-beans-olives",
+      "time": "Not specified",
+      "name": "Whole salad kit without croutons, half can of beans, whole can of DeLallo ripe olives",
+      "calories": 580,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "estimated": true,
+      "components": [
+        {
+          "name": "Whole salad kit without croutons",
+          "calories": 280
+        },
+        {
+          "name": "Half can of beans",
+          "calories": 160
+        },
+        {
+          "name": "Whole can of DeLallo ripe olives",
+          "calories": 140
+        }
+      ],
+      "note": "User confirmed Oct 8. Salad: prior photo reading 3 x 110 = 330 kcal including dressing/cheese; estimated 50 kcal deduction for unweighed croutons yields high-side 280 kcal. Beans: prior estimate 157.5 rounded up to 160 kcal for half can; exact variety unspecified. Olives: photo label about 7 servings x 20 kcal = 140 kcal. Complete meal macros pending, not zero. No additional ingredients assumed."
+    }
+  ],
+  "workouts": [],
+  "complete_day": false
+}
