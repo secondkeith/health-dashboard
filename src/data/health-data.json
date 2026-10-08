@@ -3149,7 +3149,7 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1520,
+      "calories": 1420,
       "protein": null,
       "fat": null,
       "carbs": null,
@@ -3207,22 +3207,22 @@
           "id": "weis-tuna-salmon-portions",
           "time": "Not specified",
           "name": "Weis tuna steak and salmon portion, one piece each",
-          "calories": 700,
+          "calories": 600,
           "protein": null,
           "fat": null,
           "carbs": null,
           "estimated": true,
           "components": [
             {
-              "name": "Tuna steak, assumed roughly 8 oz",
-              "calories": 300
+              "name": "Tuna steak, assumed 6 oz cooked",
+              "calories": 250
             },
             {
-              "name": "Salmon portion, provisional 6 oz assumption",
-              "calories": 400
+              "name": "Salmon portion, estimated as 6 oz cooked fillet",
+              "calories": 350
             }
           ],
-          "note": "User reports tuna steak priced at 5 dollars and salmon portion at 6 dollars, sold by piece at Weis. Salmon was NOT sold as a fillet; separate salmon fillets cost twice as much. Price does not establish weight. Prior provisional high-side estimate retained at 700 kcal combined; assumed weights 8 oz tuna and 6 oz salmon are unverified, not retailer facts. Cooking oil/butter not included; macros pending."
+          "note": "User requests average salmon fillet and tuna steak estimates and confirms air-fried with no added oil or butter. Uses typical 6 oz cooked serving assumption for each, not measured weights or a verified Weis product size. Generic high-side rounded tuna 250 kcal and salmon 350 kcal. Replaces previous 700 kcal estimate, not an additional serving. User-described products: 5-dollar tuna steak, 6-dollar salmon portion sold individually. Macros remain pending."
         }
       ],
       "weight": null,
