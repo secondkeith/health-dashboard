@@ -66,6 +66,19 @@
       "sodium_mg": 1257,
       "estimated": true,
       "note": "Reported retrospectively on Oct 8 for Oct 7. Photo label: 1/2 cup (110 g), 150 kcal, 2g protein, 13g fat, 8g carbs, 4g fiber, 580mg sodium. Uses prior rough high-side portion assumption of 6 larger quarters per half cup; 13 quarters = 13/6 servings. Piece sizes and oil retention unmeasured; exact calories not established."
+    },
+    {
+      "id": "black-olives-full-can",
+      "time": "Not specified",
+      "name": "Black olives, whole can",
+      "calories": 180,
+      "protein": 0,
+      "fat": 18.0,
+      "carbs": 12,
+      "sodium_mg": 1500,
+      "estimated": true,
+      "source": "User-provided nutrition label photo",
+      "note": "Whole can confirmed; about 12 servings. Per 2 tbsp (16 g): 15 kcal, 1.5g fat, 1g carbs, 0g protein, 125mg sodium. Totals scaled from rounded label values. Consumed Oct 7, reported Oct 8."
     }
   ],
   "workouts": [],
