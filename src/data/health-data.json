@@ -3149,7 +3149,7 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 820,
+      "calories": 1520,
       "protein": null,
       "fat": null,
       "carbs": null,
@@ -3202,6 +3202,27 @@
           "sodium_mg": 300,
           "estimated": true,
           "note": "User explicitly added this in addition to kit dressing; kit dressing remains counted once in salad estimate. Assumes fluid ounces as in prior dressing reports: 2 fl oz = 4 tbsp = 2 label servings. Photo label per 2 tbsp: 30 kcal, 0.5g fat, 5g carbs, 0g protein."
+        },
+        {
+          "id": "weis-tuna-salmon-portions",
+          "time": "Not specified",
+          "name": "Weis tuna steak and salmon portion, one piece each",
+          "calories": 700,
+          "protein": null,
+          "fat": null,
+          "carbs": null,
+          "estimated": true,
+          "components": [
+            {
+              "name": "Tuna steak, assumed roughly 8 oz",
+              "calories": 300
+            },
+            {
+              "name": "Salmon portion, provisional 6 oz assumption",
+              "calories": 400
+            }
+          ],
+          "note": "User reports tuna steak priced at 5 dollars and salmon portion at 6 dollars, sold by piece at Weis. Salmon was NOT sold as a fillet; separate salmon fillets cost twice as much. Price does not establish weight. Prior provisional high-side estimate retained at 700 kcal combined; assumed weights 8 oz tuna and 6 oz salmon are unverified, not retailer facts. Cooking oil/butter not included; macros pending."
         }
       ],
       "weight": null,
