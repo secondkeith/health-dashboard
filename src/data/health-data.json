@@ -3112,7 +3112,7 @@
           "note": "Generic regular dairy half-and-half estimate: 40 calories per 2 tbsp. Brand not specified; excludes any coffee sugar or other additions."
         }
       ],
-      "weight": null,
+      "weight": 288,
       "workouts": [],
       "nutrition_source": "food-logs/2026-10-07.json",
       "macros_complete": false,

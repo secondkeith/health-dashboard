@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "weight": null,
+  "weight": 288,
   "items": [
     {
       "id": "chick-fil-a-grilled-club-meal",
@@ -56,5 +56,6 @@
     }
   ],
   "workouts": [],
-  "complete_day": false
+  "complete_day": false,
+  "weight_note": "User-reported weigh-in today, pounds; time and conditions unspecified."
 }
