@@ -3149,7 +3149,7 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 760,
+      "calories": 820,
       "protein": null,
       "fat": null,
       "carbs": null,
@@ -3190,6 +3190,18 @@
           "sodium_mg": 840,
           "estimated": false,
           "note": "Photo label: four 1-oz servings per container. Half container is two servings. Exact cheese variety not visible. Additional to kit cheese."
+        },
+        {
+          "id": "extra-balsamic-dressing-2floz",
+          "time": "Not specified",
+          "name": "Bolthouse Farms balsamic dressing, extra 2 fl oz (4 tbsp)",
+          "calories": 60,
+          "protein": 0,
+          "fat": 1.0,
+          "carbs": 10,
+          "sodium_mg": 300,
+          "estimated": true,
+          "note": "User explicitly added this in addition to kit dressing; kit dressing remains counted once in salad estimate. Assumes fluid ounces as in prior dressing reports: 2 fl oz = 4 tbsp = 2 label servings. Photo label per 2 tbsp: 30 kcal, 0.5g fat, 5g carbs, 0g protein."
         }
       ],
       "weight": null,
