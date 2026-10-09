@@ -3149,7 +3149,7 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1420,
+      "calories": 1690,
       "protein": null,
       "fat": null,
       "carbs": null,
@@ -3223,6 +3223,18 @@
             }
           ],
           "note": "User requests average salmon fillet and tuna steak estimates and confirms air-fried with no added oil or butter. Uses typical 6 oz cooked serving assumption for each, not measured weights or a verified Weis product size. Generic high-side rounded tuna 250 kcal and salmon 350 kcal. Replaces previous 700 kcal estimate, not an additional serving. User-described products: 5-dollar tuna steak, 6-dollar salmon portion sold individually. Macros remain pending."
+        },
+        {
+          "id": "string-cheese-three",
+          "time": "Not specified",
+          "name": "String cheese, 3 sticks (84 g)",
+          "calories": 270,
+          "protein": 21,
+          "fat": 21,
+          "carbs": 0,
+          "sodium_mg": 510,
+          "estimated": false,
+          "note": "User photo label per 28g stick: 90 kcal, 7g protein, 7g fat, 0g carbs, 170mg sodium. Three sticks consumed."
         }
       ],
       "weight": null,
