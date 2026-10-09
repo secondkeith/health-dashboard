@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "weight": null,
+  "weight": 284.2,
   "items": [
     {
       "id": "beans-remaining-half-can",
@@ -15,5 +15,6 @@
     }
   ],
   "workouts": [],
-  "complete_day": false
+  "complete_day": false,
+  "weight_note": "User-reported weight in pounds on Oct 9; weigh-in conditions unspecified."
 }
