@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-09",
+  "weight": null,
+  "items": [
+    {
+      "id": "beans-remaining-half-can",
+      "time": "Not specified",
+      "name": "Beans, remaining half of can opened October 8",
+      "calories": 160,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "estimated": true,
+      "note": "User confirms remaining half of yesterday\u2019s can. Reuses canonical Oct 8 half-can estimate: 90 kcal x 3.5 servings / 2 = 157.5, rounded up to 160. Logged Oct 9 only; original Oct 8 portion unchanged. Exact variety/macros unverified."
+    }
+  ],
+  "workouts": [],
+  "complete_day": false
+}
