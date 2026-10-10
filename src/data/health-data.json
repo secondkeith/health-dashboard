@@ -3248,7 +3248,7 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1810,
+      "calories": 2200,
       "protein": null,
       "fat": null,
       "carbs": null,
@@ -3299,6 +3299,17 @@
           "carbs": null,
           "estimated": true,
           "note": "Reported Oct 10 for Oct 9. Generic high-side restaurant nacho estimate assuming a full platter around 1800 kcal, quarter eaten. Actual platter size and toppings not verified; not official restaurant nutrition."
+        },
+        {
+          "id": "icy-ocean-yellowfin-tuna-whole-pack",
+          "time": "Not specified",
+          "name": "Icy Ocean yellowfin tuna medallions, whole pack",
+          "calories": 390,
+          "protein": 78,
+          "fat": 4.5,
+          "carbs": 0,
+          "estimated": false,
+          "note": "Reported Oct 10 for Oct 9. Package lists 3 servings, each cooked 3 oz (84g): 130 calories, 26g protein, 1.5g fat, 0g carbs. Whole-pack totals use printed serving count. Raw net weight is 1 lb; raw weight not divided by cooked serving weight. No added cooking fat or sauce included; preparation unconfirmed."
         }
       ],
       "weight": 284.2,
