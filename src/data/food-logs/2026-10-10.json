@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-10",
+  "weight": null,
+  "items": [
+    {
+      "id": "ikea-stockholm-salmon-meatballs",
+      "time": "Not specified",
+      "name": "IKEA Stockholm salad, extra side salmon, 8 meatballs and half balsamic dressing packet",
+      "calories": 1070.0,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "estimated": true,
+      "components": [
+        {
+          "name": "Stockholm salad including standard marinated salmon, no packet dressing",
+          "calories": 350
+        },
+        {
+          "name": "Additional salmon side, assumed typical 4\u20135 oz portion",
+          "calories": 300
+        },
+        {
+          "name": "8 Swedish meatballs, assumed standard meat version, no gravy or sides",
+          "calories": 350
+        },
+        {
+          "name": "Half Newman\u2019s Own balsamic vinaigrette pouch",
+          "calories": 70,
+          "fat": 7.5,
+          "carbs": 1.5,
+          "protein": 0
+        }
+      ],
+      "note": "User reports today October 10. Official IKEA US restaurant page describes Stockholm salad as mixed greens with marinated salmon (https://www.ikea.com/us/en/stores/restaurant/); user said added side salmon, counted in addition. No official calories verified for restaurant components: provisional reasonable high-side estimates 350 salad, 300 added salmon, 350 eight meatballs. Dressing photo label: 1 pouch 42.5g =140 kcal, 15g fat,3g carbs,0g protein; half is70 kcal. Assumes no other dressing, gravy, potatoes or jam consumed. Meal macros pending, not zero."
+    }
+  ],
+  "workouts": [],
+  "complete_day": false
+}
