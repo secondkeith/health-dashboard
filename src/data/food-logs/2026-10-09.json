@@ -12,6 +12,42 @@
       "carbs": null,
       "estimated": true,
       "note": "User confirms remaining half of yesterday\u2019s can. Reuses canonical Oct 8 half-can estimate: 90 kcal x 3.5 servings / 2 = 157.5, rounded up to 160. Logged Oct 9 only; original Oct 8 portion unchanged. Exact variety/macros unverified."
+    },
+    {
+      "id": "clydes-apple-salad-chicken-extra-dressing",
+      "time": "Not specified",
+      "name": "Clyde\u2019s Honeycrisp apple salad with chicken and extra dressing",
+      "calories": 1200,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "estimated": true,
+      "components": [
+        {
+          "name": "Apple salad including standard vinaigrette, cheese and candied walnuts",
+          "calories": 750
+        },
+        {
+          "name": "Chicken addition",
+          "calories": 250
+        },
+        {
+          "name": "Extra vinaigrette, assumed about 2 tbsp",
+          "calories": 200
+        }
+      ],
+      "note": "Reported Oct 10 for Oct 9. Full salad assumed consumed. Generic high-side estimates, not official Clyde\u2019s nutrition. Extra dressing assumed about 2 tbsp of oil-rich vinaigrette; actual amount unknown. Standard dressing already included in base salad."
+    },
+    {
+      "id": "clydes-nachos-quarter",
+      "time": "Not specified",
+      "name": "Clyde\u2019s nacho appetizer, about one-quarter",
+      "calories": 450,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "estimated": true,
+      "note": "Reported Oct 10 for Oct 9. Generic high-side restaurant nacho estimate assuming a full platter around 1800 kcal, quarter eaten. Actual platter size and toppings not verified; not official restaurant nutrition."
     }
   ],
   "workouts": [],
