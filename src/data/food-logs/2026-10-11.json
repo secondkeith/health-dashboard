@@ -5,8 +5,8 @@
     {
       "id": "glory-days-shrimp-strawberry-salmon-extra-dressing",
       "time": "Lunch",
-      "name": "Glory Days full Knockout Shrimp appetizer and Strawberry Salmon Salad with extra dressing",
-      "calories": 1390,
+      "name": "Glory Days full Knockout Shrimp appetizer and Strawberry Salmon Salad, no extra dressing",
+      "calories": 1090,
       "protein": null,
       "fat": null,
       "carbs": null,
@@ -19,13 +19,9 @@
         {
           "name": "Strawberry Salmon Salad, full serving",
           "calories": 540
-        },
-        {
-          "name": "Extra vinaigrette, assumed additional 2 fl oz cup",
-          "calories": 300
         }
       ],
-      "note": "User chose full portions and requested extra dressing. Official South-region menu lists shrimp 550 kcal and salad 540 kcal with cane vinaigrette; local applicability and inclusion of standard dressing not independently confirmed. Keeps published salad figure as baseline, adds only explicitly requested EXTRA dressing using generic high-side 300 kcal per assumed 2 fl oz oil-based vinaigrette. Actual extra volume unconfirmed. Sources: https://www.glorydaysgrill.com/menus/ and https://www.glorydaysgrill.com/nutrition/. Meal macros pending."
+      "note": "User cancelled extra dressing; removed previous provisional 300 kcal allowance. Full shrimp 550 kcal and salad 540 kcal use official South-region menu figures. Local applicability and standard dressing inclusion remain unverified. No extra dressing counted; does not imply dressing-free salad. Sources: https://www.glorydaysgrill.com/menus/ and https://www.glorydaysgrill.com/nutrition/. Macros pending."
     }
   ],
   "workouts": [],
