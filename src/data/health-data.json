@@ -3323,7 +3323,7 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1070.0,
+      "calories": 1790.0,
       "protein": null,
       "fat": null,
       "carbs": null,
@@ -3359,6 +3359,17 @@
             }
           ],
           "note": "User reports today October 10. Official IKEA US restaurant page describes Stockholm salad as mixed greens with marinated salmon (https://www.ikea.com/us/en/stores/restaurant/); user said added side salmon, counted in addition. No official calories verified for restaurant components: provisional reasonable high-side estimates 350 salad, 300 added salmon, 350 eight meatballs. Dressing photo label: 1 pouch 42.5g =140 kcal, 15g fat,3g carbs,0g protein; half is70 kcal. Assumes no other dressing, gravy, potatoes or jam consumed. Meal macros pending, not zero."
+        },
+        {
+          "id": "taco-bell-four-soft-tacos",
+          "time": "Before midnight",
+          "name": "Taco Bell, four regular beef soft tacos",
+          "calories": 720,
+          "protein": null,
+          "fat": null,
+          "carbs": null,
+          "estimated": true,
+          "note": "User chose four tacos following recommendation of regular beef soft tacos and explicitly confirmed eaten before midnight October 10. Assumes standard beef soft tacos, not Supreme or another variant. Uses prior approximate 180 kcal per taco; current official nutrition could not be verified. No unreported sides or drinks included."
         }
       ],
       "weight": null,
