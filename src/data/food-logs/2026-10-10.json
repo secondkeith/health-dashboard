@@ -44,6 +44,28 @@
       "carbs": null,
       "estimated": true,
       "note": "User chose four tacos following recommendation of regular beef soft tacos and explicitly confirmed eaten before midnight October 10. Assumes standard beef soft tacos, not Supreme or another variant. Uses prior approximate 180 kcal per taco; current official nutrition could not be verified. No unreported sides or drinks included."
+    },
+    {
+      "id": "coke-zero-two-cans",
+      "time": "Not specified",
+      "name": "Coca-Cola Zero Sugar, two cans",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "estimated": false,
+      "note": "User reported two cans on October 10. Standard Coke Zero Sugar zero-calorie nutrition; can size unspecified."
+    },
+    {
+      "id": "fresca-two-20oz-bottles",
+      "time": "Not specified",
+      "name": "Fresca, two 20 fl oz bottles",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "estimated": true,
+      "note": "User reported two 20 fl oz bottles on October 10. Assumes standard zero-calorie nonalcoholic Fresca soda; flavor unspecified."
     }
   ],
   "workouts": [],
