@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-12",
+  "weight": null,
+  "items": [
+    {
+      "id": "taco-bell-three-soft-tacos-sour-cream-red-sauce",
+      "time": "Not specified",
+      "name": "Taco Bell: 3 beef soft tacos with reduced-fat sour cream and red sauce",
+      "calories": 630,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "estimated": true,
+      "note": "Assumes regular beef soft tacos as in prior reported order, plus one standard Taco Bell portion each of reduced-fat sour cream and red sauce per taco. Estimate: 180 + 20 + 10 = 210 kcal each. Official Taco Bell lookup failed via browser and curl; provisional nutrition, not verified current menu values. No additional hack modifications known."
+    },
+    {
+      "id": "red-bull-sugarfree-20oz",
+      "time": "Morning",
+      "name": "Red Bull Sugarfree, 20 fl oz",
+      "calories": 20,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "estimated": true,
+      "note": "User reported 20 fl oz Sugarfree, not Red Bull Zero. Estimated 20 kcal per can; official product page confirms size but displayed no calorie panel. Macros pending label verification."
+    }
+  ],
+  "workouts": [],
+  "complete_day": false
+}
