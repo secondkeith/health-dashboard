@@ -22,6 +22,17 @@
         }
       ],
       "note": "User cancelled extra dressing; removed previous provisional 300 kcal allowance. Full shrimp 550 kcal and salad 540 kcal use official South-region menu figures. Local applicability and standard dressing inclusion remain unverified. No extra dressing counted; does not imply dressing-free salad. Sources: https://www.glorydaysgrill.com/menus/ and https://www.glorydaysgrill.com/nutrition/. Macros pending."
+    },
+    {
+      "id": "wendys-daves-single-small-chili-sprite-zero",
+      "time": "Dinner",
+      "name": "Wendy\u2019s Dave\u2019s Single, small chili with hot chili sauce and three saltine packets, Sprite Zero Sugar",
+      "calories": 980,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "estimated": true,
+      "note": "Base meal retains previously accepted high-side estimate of 900 kcal, not freshly verified official nutrition. User added one hot chili sauce packet (provisional 5 kcal) and three included saltine packets (provisional 25 kcal each, assuming standard two-cracker packets). Add-ons 80 kcal; revise if label differs. Sprite Zero Sugar 0 kcal; size unspecified. No fries or other unreported toppings. Macros pending."
     }
   ],
   "workouts": [],
