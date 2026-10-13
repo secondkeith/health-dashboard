@@ -34,6 +34,17 @@
       "carbs": 13.3,
       "estimated": true,
       "note": "Assumes same product as October 7 label: half cup (110 g) = 150 kcal, 2g protein, 13g fat, 8g carbs. Reuses prior high-side estimate of 6 larger quarters per half cup; piece size and retained oil unmeasured. Piece-to-serving conversion is estimated, not measured."
+    },
+    {
+      "id": "babybel-3",
+      "time": "Not specified",
+      "name": "Babybel cheeses, 3",
+      "calories": 210,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "estimated": true,
+      "note": "Assumes regular mini Babybel varieties as in previous reports, estimated 70 kcal each, not Light. Exact varieties and macros unverified."
     }
   ],
   "workouts": [],
