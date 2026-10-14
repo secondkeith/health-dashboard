@@ -3570,6 +3570,35 @@
       "nutrition_source": "food-logs/2026-10-13.json",
       "macros_complete": false,
       "complete_day": false
+    },
+    {
+      "date": "2026-10-14",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 6,
+      "meals": [
+        {
+          "id": "pickles-six",
+          "name": "6 pickles (label serving: 1 pickle, 28 g)",
+          "time": "Not specified",
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 6,
+          "sodium_mg": 1680,
+          "estimated": false,
+          "note": "User reported six pickles. Photo label per pickle (28 g): 0 calories, 0 g fat, 1 g carbohydrate, 0 g protein, 280 mg sodium. Multiplied by six. Calories recorded as labeled; rounded label-zero does not mean literally calorie-free. Brand/variant not visible."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-10-14.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
