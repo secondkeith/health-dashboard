@@ -40,6 +40,23 @@
       "fiber": 30,
       "added_sugar": 66,
       "sugar": 72
+    },
+    {
+      "id": "dilly-bar-one",
+      "name": "DQ Dilly Bar, 1 bar (88 g)",
+      "time": "Not specified",
+      "calories": 210,
+      "protein": 3,
+      "fat": 12,
+      "carbs": 24,
+      "saturated_fat": 9,
+      "sodium_mg": 70,
+      "cholesterol_mg": 15,
+      "fiber": 0,
+      "sugar": 21,
+      "added_sugar": 15,
+      "estimated": false,
+      "note": "One bar consumed; nutrition from user-provided package photo, serving size 1 bar (88 g)."
     }
   ],
   "workouts": [],
