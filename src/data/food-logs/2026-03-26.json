@@ -1,0 +1,39 @@
+{
+  "date": "2026-03-26",
+  "weight": null,
+  "items": [
+    {
+      "time": "06:38 PM",
+      "name": "Corn chips (green bag, 58g)",
+      "calories": 276,
+      "protein": 4.1,
+      "fat": 13.2,
+      "carbs": 35.4
+    },
+    {
+      "time": "06:38 PM",
+      "name": "Corn chips (orange bag, 55g)",
+      "calories": 308,
+      "protein": 2.6,
+      "fat": 20.2,
+      "carbs": 29
+    },
+    {
+      "time": "06:38 PM",
+      "name": "Three street tacos (2 pork al pastor, 1 beef) with grilled pineapple and avocado crema (estimated)",
+      "calories": 575,
+      "protein": 29,
+      "fat": 28,
+      "carbs": 52
+    },
+    {
+      "time": "12:41 AM",
+      "name": "Pizza: 3 slices pepperoni, 2 slices Caribbean (ham, pineapple, BBQ sauce) - personal/medium size (estimated)",
+      "calories": 1115,
+      "protein": 47,
+      "fat": 44,
+      "carbs": 133
+    }
+  ],
+  "workouts": []
+}

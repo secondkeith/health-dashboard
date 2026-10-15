@@ -1,0 +1,52 @@
+{
+  "date": "2026-06-29",
+  "weight": null,
+  "items": [
+    {
+      "time": "09:34 AM",
+      "name": "Steel cut oatmeal with maple syrup and fresh blueberries",
+      "calories": 350,
+      "protein": 8,
+      "fat": 5,
+      "carbs": 66,
+      "source": "menu photo",
+      "meal": "breakfast"
+    },
+    {
+      "time": "09:45 AM",
+      "name": "Milk (1 cup, assumed whole milk)",
+      "calories": 150,
+      "protein": 8,
+      "fat": 8,
+      "carbs": 12,
+      "source": "photo + user report",
+      "meal": "breakfast",
+      "note": "Assumed 8 fl oz whole milk; adjust if skim/2%/non-dairy."
+    },
+    {
+      "time": "12:45 PM",
+      "name": "Big League Chew gum (whole pack)",
+      "calories": 200,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 40,
+      "sugar": 40,
+      "added_sugar": 40,
+      "source": "nutrition label photo",
+      "meal": "snack",
+      "note": "Whole pack = 20 servings; label shows 10 cal and 2g carbs/sugar per serving."
+    },
+    {
+      "time": "05:30 PM",
+      "name": "Chipotle burrito bowl: brown rice, black beans, double Chipotle Honey Chicken, roasted chili-corn salsa, sour cream, cheese, and guacamole",
+      "calories": 1290,
+      "protein": 67,
+      "fat": 64,
+      "carbs": 111,
+      "source": "Chipotle official nutrition metadata (web/US)",
+      "meal": "dinner",
+      "note": "Double Chipotle Honey Chicken counted as two 4 oz portions; other ingredients counted as standard portions."
+    }
+  ],
+  "workouts": []
+}

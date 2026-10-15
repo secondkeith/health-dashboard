@@ -1,0 +1,23 @@
+{
+  "date": "2026-03-27",
+  "weight": null,
+  "items": [
+    {
+      "time": "12:39 PM",
+      "name": "Loaded salad: mixed greens, hard boiled egg, tuna, garbanzo beans, corn, black olives, feta, parmesan, thousand island dressing (estimated)",
+      "calories": 610,
+      "protein": 44,
+      "fat": 35,
+      "carbs": 28
+    },
+    {
+      "time": "05:37 PM",
+      "name": "Loaded nachos: chili, nacho cheese sauce, shredded cheese, sour cream, guacamole, tortilla chips (estimated)",
+      "calories": 1080,
+      "protein": 43,
+      "fat": 75,
+      "carbs": 60
+    }
+  ],
+  "workouts": []
+}

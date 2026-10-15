@@ -1,0 +1,58 @@
+{
+  "date": "2026-06-30",
+  "weight": null,
+  "items": [
+    {
+      "time": "12:32 PM",
+      "name": "Snack bag for lunch (whole bag; nutrition label visible, estimated from 3.5 servings)",
+      "calories": 525,
+      "protein": 11,
+      "fat": 14,
+      "carbs": 88,
+      "fiber": 3.5,
+      "sugar": 10.5,
+      "added_sugar": 7.0,
+      "sodium_mg": 1225,
+      "source": "nutrition label photo",
+      "meal": "lunch",
+      "note": "Per label: about 3.5 servings/container; per serving 150 cal, 4g fat, 25g carbs, 3g protein."
+    },
+    {
+      "time": "05:53 PM",
+      "name": "Johnsonville smoked cheddar sausage in a bun with mayo, mustard, and relish (estimated)",
+      "calories": 450,
+      "protein": 12,
+      "fat": 30,
+      "carbs": 30,
+      "sodium_mg": 1250,
+      "source": "brand nutrition lookup + standard bun/condiment estimates",
+      "meal": "snack",
+      "note": "Assumes 1 Johnsonville Beddar w/ Cheddar smoked sausage link, standard hot dog bun, ~1 tbsp mayo, mustard, and ~1 tbsp relish."
+    },
+    {
+      "time": "05:59 PM",
+      "name": "Additional Johnsonville smoked cheddar sausage, no bun or toppings",
+      "calories": 210,
+      "protein": 8,
+      "fat": 18,
+      "carbs": 3,
+      "sodium_mg": 630,
+      "source": "Johnsonville Beddar w/ Cheddar smoked sausage nutrition lookup",
+      "meal": "snack",
+      "note": "No bun or toppings; counted as 1 sausage link."
+    },
+    {
+      "time": "06:01 PM",
+      "name": "Sargento low moisture part-skim mozzarella natural string cheese sticks (3)",
+      "calories": 270,
+      "protein": 21,
+      "fat": 18,
+      "carbs": 3,
+      "sodium_mg": 570,
+      "source": "Sargento official nutrition page",
+      "meal": "snack",
+      "note": "3 sticks; per stick/28g: 90 cal, 7g protein, 6g fat, 1g carbs."
+    }
+  ],
+  "workouts": []
+}

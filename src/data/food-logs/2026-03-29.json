@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-29",
+  "weight": null,
+  "items": [
+    {
+      "time": "09:47 AM",
+      "name": "Oatmeal with butter (estimated)",
+      "calories": 430,
+      "protein": 8,
+      "fat": 27,
+      "carbs": 40
+    },
+    {
+      "time": "09:47 AM",
+      "name": "Scrambled eggs with ketchup and 2 sausage patties (estimated)",
+      "calories": 420,
+      "protein": 23,
+      "fat": 33,
+      "carbs": 8
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Buc-ee's Chopped Brisket Sandwich (8oz) (estimated)",
+      "calories": 650,
+      "protein": 35,
+      "fat": 28,
+      "carbs": 55
+    }
+  ],
+  "workouts": []
+}

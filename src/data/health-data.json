@@ -2490,107 +2490,279 @@
     {
       "date": "2026-03-26",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "calories": 2274,
+      "protein": 82.7,
+      "fat": 105.4,
+      "carbs": 249.4,
       "steps": 22282,
       "caloriesBurned": 6467,
       "restingHR": 67,
       "activeMinutes": 169,
       "sleepMinutes": 475,
-      "meals": [],
-      "workouts": []
+      "meals": [
+        {
+          "time": "06:38 PM",
+          "name": "Corn chips (green bag, 58g)",
+          "calories": 276,
+          "protein": 4.1,
+          "fat": 13.2,
+          "carbs": 35.4
+        },
+        {
+          "time": "06:38 PM",
+          "name": "Corn chips (orange bag, 55g)",
+          "calories": 308,
+          "protein": 2.6,
+          "fat": 20.2,
+          "carbs": 29
+        },
+        {
+          "time": "06:38 PM",
+          "name": "Three street tacos (2 pork al pastor, 1 beef) with grilled pineapple and avocado crema (estimated)",
+          "calories": 575,
+          "protein": 29,
+          "fat": 28,
+          "carbs": 52
+        },
+        {
+          "time": "12:41 AM",
+          "name": "Pizza: 3 slices pepperoni, 2 slices Caribbean (ham, pineapple, BBQ sauce) - personal/medium size (estimated)",
+          "calories": 1115,
+          "protein": 47,
+          "fat": 44,
+          "carbs": 133
+        }
+      ],
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-03-26.json",
+      "macros_complete": true,
+      "complete_day": false
     },
     {
       "date": "2026-03-27",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "calories": 1690,
+      "protein": 87,
+      "fat": 110,
+      "carbs": 88,
       "steps": 6839,
       "caloriesBurned": 5040,
       "restingHR": 66,
       "activeMinutes": 94,
       "sleepMinutes": 487,
-      "meals": [],
-      "workouts": []
+      "meals": [
+        {
+          "time": "12:39 PM",
+          "name": "Loaded salad: mixed greens, hard boiled egg, tuna, garbanzo beans, corn, black olives, feta, parmesan, thousand island dressing (estimated)",
+          "calories": 610,
+          "protein": 44,
+          "fat": 35,
+          "carbs": 28
+        },
+        {
+          "time": "05:37 PM",
+          "name": "Loaded nachos: chili, nacho cheese sauce, shredded cheese, sour cream, guacamole, tortilla chips (estimated)",
+          "calories": 1080,
+          "protein": 43,
+          "fat": 75,
+          "carbs": 60
+        }
+      ],
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-03-27.json",
+      "macros_complete": true,
+      "complete_day": false
     },
     {
       "date": "2026-03-28",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "calories": 3080,
+      "protein": 129.5,
+      "fat": 192,
+      "carbs": 199,
       "steps": 6577,
       "caloriesBurned": 4029,
       "restingHR": 67,
       "activeMinutes": 41,
       "sleepMinutes": 291,
-      "meals": [],
-      "workouts": []
+      "meals": [
+        {
+          "time": "08:09 AM",
+          "name": "Oatmeal with raisins, brown sugar, and butter (estimated)",
+          "calories": 490,
+          "protein": 8.5,
+          "fat": 21,
+          "carbs": 67
+        },
+        {
+          "time": "08:15 AM",
+          "name": "Breakfast plate: spinach wrap with eggs and cheese, 5 bacon strips, 3 sausage links, hash browns, salsa, sour cream (estimated)",
+          "calories": 1425,
+          "protein": 71,
+          "fat": 97,
+          "carbs": 65
+        },
+        {
+          "time": "09:07 PM",
+          "name": "One large pizza slice (ham, sausage, bacon, pepperoni) - Satchel's Pizza (estimated)",
+          "calories": 450,
+          "protein": 22,
+          "fat": 22,
+          "carbs": 40
+        },
+        {
+          "time": "09:07 PM",
+          "name": "Satch Salad (small) with ham and feta add-ons, no tomato - Satchel's Pizza (estimated)",
+          "calories": 715,
+          "protein": 28,
+          "fat": 52,
+          "carbs": 27
+        }
+      ],
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-03-28.json",
+      "macros_complete": true,
+      "complete_day": false
     },
     {
       "date": "2026-03-29",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "calories": 1500,
+      "protein": 66,
+      "fat": 88,
+      "carbs": 103,
       "steps": 3929,
       "caloriesBurned": 2540,
       "restingHR": 64,
       "activeMinutes": 26,
       "sleepMinutes": 609,
-      "meals": [],
-      "workouts": []
+      "meals": [
+        {
+          "time": "09:47 AM",
+          "name": "Oatmeal with butter (estimated)",
+          "calories": 430,
+          "protein": 8,
+          "fat": 27,
+          "carbs": 40
+        },
+        {
+          "time": "09:47 AM",
+          "name": "Scrambled eggs with ketchup and 2 sausage patties (estimated)",
+          "calories": 420,
+          "protein": 23,
+          "fat": 33,
+          "carbs": 8
+        },
+        {
+          "time": "12:00 PM",
+          "name": "Buc-ee's Chopped Brisket Sandwich (8oz) (estimated)",
+          "calories": 650,
+          "protein": 35,
+          "fat": 28,
+          "carbs": 55
+        }
+      ],
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-03-29.json",
+      "macros_complete": true,
+      "complete_day": false
     },
     {
       "date": "2026-03-30",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "calories": 1570,
+      "protein": 64,
+      "fat": 78.5,
+      "carbs": 144.5,
       "steps": 1802,
       "caloriesBurned": 2365,
       "restingHR": 63,
       "activeMinutes": 0,
       "sleepMinutes": 430,
-      "meals": [],
-      "workouts": []
+      "meals": [
+        {
+          "time": "08:33 AM",
+          "name": "Oatmeal with butter and brown sugar (estimated)",
+          "calories": 304,
+          "protein": 5,
+          "fat": 15,
+          "carbs": 40
+        },
+        {
+          "time": "08:33 AM",
+          "name": "English muffin sandwich with fried egg and Swiss cheese (estimated)",
+          "calories": 326,
+          "protein": 19,
+          "fat": 16,
+          "carbs": 27
+        },
+        {
+          "time": "01:04 PM",
+          "name": "H&H Soul Food lunch: half beef tips over rice, mac and cheese, half dinner roll, 2 deviled egg halves (saved half beef/rice for dinner) (estimated)",
+          "calories": 940,
+          "protein": 40,
+          "fat": 47.5,
+          "carbs": 77.5
+        }
+      ],
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-03-30.json",
+      "macros_complete": true,
+      "complete_day": false
     },
     {
       "date": "2026-03-31",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "calories": 1375,
+      "protein": 75,
+      "fat": 99,
+      "carbs": 43,
       "steps": 2562,
       "caloriesBurned": 2690,
       "restingHR": 64,
       "activeMinutes": 0,
       "sleepMinutes": 475,
-      "meals": [],
-      "workouts": []
+      "meals": [
+        {
+          "time": "07:18 PM",
+          "name": "Lewis BBQ: brisket (~4.5 oz), 1.5 beef ribs, half sausage link, mac and cheese, collard greens, pickles, BBQ sauce (leftovers saved) (estimated)",
+          "calories": 1375,
+          "protein": 75,
+          "fat": 99,
+          "carbs": 43
+        }
+      ],
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-03-31.json",
+      "macros_complete": true,
+      "complete_day": false
     },
     {
       "date": "2026-04-01",
       "weight": null,
-      "calories": 0,
-      "protein": 0,
-      "fat": 0,
-      "carbs": 0,
+      "calories": 855,
+      "protein": 53,
+      "fat": 44,
+      "carbs": 58,
       "steps": 13645,
       "caloriesBurned": 3465,
       "restingHR": 65,
       "activeMinutes": 107,
       "sleepMinutes": 619,
-      "meals": [],
-      "workouts": []
+      "meals": [
+        {
+          "time": "09:49 AM",
+          "name": "Scrambled eggs with hot sauce, 5 bacon strips, 5 slices chicken apple sausage, big bowl oatmeal with blueberry compote (no butter/sugar) (estimated)",
+          "calories": 855,
+          "protein": 53,
+          "fat": 44,
+          "carbs": 58
+        }
+      ],
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-04-01.json",
+      "macros_complete": true,
+      "complete_day": false
     },
     {
       "date": "2026-04-02",
@@ -2876,6 +3048,136 @@
       "sleepMinutes": 415,
       "meals": [],
       "workouts": []
+    },
+    {
+      "date": "2026-06-29",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 1990,
+      "protein": 83,
+      "fat": 77,
+      "carbs": 229,
+      "meals": [
+        {
+          "time": "09:34 AM",
+          "name": "Steel cut oatmeal with maple syrup and fresh blueberries",
+          "calories": 350,
+          "protein": 8,
+          "fat": 5,
+          "carbs": 66,
+          "source": "menu photo",
+          "meal": "breakfast"
+        },
+        {
+          "time": "09:45 AM",
+          "name": "Milk (1 cup, assumed whole milk)",
+          "calories": 150,
+          "protein": 8,
+          "fat": 8,
+          "carbs": 12,
+          "source": "photo + user report",
+          "meal": "breakfast",
+          "note": "Assumed 8 fl oz whole milk; adjust if skim/2%/non-dairy."
+        },
+        {
+          "time": "12:45 PM",
+          "name": "Big League Chew gum (whole pack)",
+          "calories": 200,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 40,
+          "sugar": 40,
+          "added_sugar": 40,
+          "source": "nutrition label photo",
+          "meal": "snack",
+          "note": "Whole pack = 20 servings; label shows 10 cal and 2g carbs/sugar per serving."
+        },
+        {
+          "time": "05:30 PM",
+          "name": "Chipotle burrito bowl: brown rice, black beans, double Chipotle Honey Chicken, roasted chili-corn salsa, sour cream, cheese, and guacamole",
+          "calories": 1290,
+          "protein": 67,
+          "fat": 64,
+          "carbs": 111,
+          "source": "Chipotle official nutrition metadata (web/US)",
+          "meal": "dinner",
+          "note": "Double Chipotle Honey Chicken counted as two 4 oz portions; other ingredients counted as standard portions."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-06-29.json",
+      "macros_complete": true,
+      "complete_day": false
+    },
+    {
+      "date": "2026-06-30",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 1455,
+      "protein": 52,
+      "fat": 80,
+      "carbs": 124,
+      "meals": [
+        {
+          "time": "12:32 PM",
+          "name": "Snack bag for lunch (whole bag; nutrition label visible, estimated from 3.5 servings)",
+          "calories": 525,
+          "protein": 11,
+          "fat": 14,
+          "carbs": 88,
+          "fiber": 3.5,
+          "sugar": 10.5,
+          "added_sugar": 7.0,
+          "sodium_mg": 1225,
+          "source": "nutrition label photo",
+          "meal": "lunch",
+          "note": "Per label: about 3.5 servings/container; per serving 150 cal, 4g fat, 25g carbs, 3g protein."
+        },
+        {
+          "time": "05:53 PM",
+          "name": "Johnsonville smoked cheddar sausage in a bun with mayo, mustard, and relish (estimated)",
+          "calories": 450,
+          "protein": 12,
+          "fat": 30,
+          "carbs": 30,
+          "sodium_mg": 1250,
+          "source": "brand nutrition lookup + standard bun/condiment estimates",
+          "meal": "snack",
+          "note": "Assumes 1 Johnsonville Beddar w/ Cheddar smoked sausage link, standard hot dog bun, ~1 tbsp mayo, mustard, and ~1 tbsp relish."
+        },
+        {
+          "time": "05:59 PM",
+          "name": "Additional Johnsonville smoked cheddar sausage, no bun or toppings",
+          "calories": 210,
+          "protein": 8,
+          "fat": 18,
+          "carbs": 3,
+          "sodium_mg": 630,
+          "source": "Johnsonville Beddar w/ Cheddar smoked sausage nutrition lookup",
+          "meal": "snack",
+          "note": "No bun or toppings; counted as 1 sausage link."
+        },
+        {
+          "time": "06:01 PM",
+          "name": "Sargento low moisture part-skim mozzarella natural string cheese sticks (3)",
+          "calories": 270,
+          "protein": 21,
+          "fat": 18,
+          "carbs": 3,
+          "sodium_mg": 570,
+          "source": "Sargento official nutrition page",
+          "meal": "snack",
+          "note": "3 sticks; per stick/28g: 90 cal, 7g protein, 6g fat, 1g carbs."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-06-30.json",
+      "macros_complete": true,
+      "complete_day": false
     },
     {
       "date": "2026-10-05",

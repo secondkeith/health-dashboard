@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-30",
+  "weight": null,
+  "items": [
+    {
+      "time": "08:33 AM",
+      "name": "Oatmeal with butter and brown sugar (estimated)",
+      "calories": 304,
+      "protein": 5,
+      "fat": 15,
+      "carbs": 40
+    },
+    {
+      "time": "08:33 AM",
+      "name": "English muffin sandwich with fried egg and Swiss cheese (estimated)",
+      "calories": 326,
+      "protein": 19,
+      "fat": 16,
+      "carbs": 27
+    },
+    {
+      "time": "01:04 PM",
+      "name": "H&H Soul Food lunch: half beef tips over rice, mac and cheese, half dinner roll, 2 deviled egg halves (saved half beef/rice for dinner) (estimated)",
+      "calories": 940,
+      "protein": 40,
+      "fat": 47.5,
+      "carbs": 77.5
+    }
+  ],
+  "workouts": []
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-03-28",
+  "weight": null,
+  "items": [
+    {
+      "time": "08:09 AM",
+      "name": "Oatmeal with raisins, brown sugar, and butter (estimated)",
+      "calories": 490,
+      "protein": 8.5,
+      "fat": 21,
+      "carbs": 67
+    },
+    {
+      "time": "08:15 AM",
+      "name": "Breakfast plate: spinach wrap with eggs and cheese, 5 bacon strips, 3 sausage links, hash browns, salsa, sour cream (estimated)",
+      "calories": 1425,
+      "protein": 71,
+      "fat": 97,
+      "carbs": 65
+    },
+    {
+      "time": "09:07 PM",
+      "name": "One large pizza slice (ham, sausage, bacon, pepperoni) - Satchel's Pizza (estimated)",
+      "calories": 450,
+      "protein": 22,
+      "fat": 22,
+      "carbs": 40
+    },
+    {
+      "time": "09:07 PM",
+      "name": "Satch Salad (small) with ham and feta add-ons, no tomato - Satchel's Pizza (estimated)",
+      "calories": 715,
+      "protein": 28,
+      "fat": 52,
+      "carbs": 27
+    }
+  ],
+  "workouts": []
+}
