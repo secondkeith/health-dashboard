@@ -3643,6 +3643,50 @@
       "nutrition_source": "food-logs/2026-10-14.json",
       "macros_complete": true,
       "complete_day": false
+    },
+    {
+      "date": "2026-10-15",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 540,
+      "protein": 69,
+      "fat": 21.0,
+      "carbs": 8,
+      "meals": [
+        {
+          "id": "salmon-remaining-half-bag",
+          "name": "Weis keta salmon, remaining half bag",
+          "time": "Lunch",
+          "calories": 420,
+          "protein": 69,
+          "fat": 12,
+          "carbs": 0,
+          "sodium_mg": 180,
+          "estimated": false,
+          "note": "Remaining half of same six-serving bag from October 14: three 4-oz label servings. Inherits air-fried preparation without added oil/butter. New intake October 15; prior day unchanged."
+        },
+        {
+          "id": "tartar-sauce-4-tbsp",
+          "name": "Tartar sauce, approximately 4 tbsp",
+          "time": "Lunch",
+          "calories": 120,
+          "protein": 0,
+          "fat": 9.0,
+          "carbs": 8,
+          "sodium_mg": 380,
+          "saturated_fat": 1.0,
+          "sugar": 4,
+          "added_sugar": 4,
+          "estimated": true,
+          "note": "Photo label per 2 tbsp (30 g): 60 kcal, 4.5 g fat, 4 g carbs, 0 g protein, 190 mg sodium. User estimates 4 tbsp = two servings; brand not shown."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-10-15.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
