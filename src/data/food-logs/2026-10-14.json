@@ -13,6 +13,33 @@
       "sodium_mg": 1680,
       "estimated": false,
       "note": "User reported six pickles. Photo label per pickle (28 g): 0 calories, 0 g fat, 1 g carbohydrate, 0 g protein, 280 mg sodium. Multiplied by six. Calories recorded as labeled; rounded label-zero does not mean literally calorie-free. Brand/variant not visible."
+    },
+    {
+      "calories": 420,
+      "protein": 69,
+      "fat": 12,
+      "carbs": 0,
+      "sodium_mg": 180,
+      "id": "salmon-half-bag",
+      "name": "Weis keta salmon, half bag, air-fried",
+      "time": "Dinner",
+      "estimated": false,
+      "note": "Half of six-serving bag: three 4-oz label servings. Sauce and any cooking oil/butter unresolved and excluded, not assumed absent."
+    },
+    {
+      "calories": 900,
+      "protein": 42,
+      "fat": 6,
+      "carbs": 180,
+      "sodium_mg": 3420,
+      "id": "baked-beans-whole-can",
+      "name": "Baked beans, whole can",
+      "time": "Dinner",
+      "estimated": false,
+      "note": "Photo label about six half-cup (130 g) servings per can. Whole can eaten.",
+      "fiber": 30,
+      "added_sugar": 66,
+      "sugar": 72
     }
   ],
   "workouts": [],
