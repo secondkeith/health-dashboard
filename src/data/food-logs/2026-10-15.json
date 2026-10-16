@@ -28,6 +28,54 @@
       "added_sugar": 4,
       "estimated": true,
       "note": "Photo label per 2 tbsp (30 g): 60 kcal, 4.5 g fat, 4 g carbs, 0 g protein, 190 mg sodium. User estimates 4 tbsp = two servings; brand not shown."
+    },
+    {
+      "id": "hannas-bacon-scallops",
+      "name": "Harpoon Hanna\u2019s bacon-wrapped scallops appetizer",
+      "time": "Dinner",
+      "calories": 500,
+      "protein": 30,
+      "fat": 30,
+      "carbs": 28,
+      "estimated": true,
+      "note": "Provisional high-side restaurant estimate, NOT published nutrition. Assumes entire portion eaten; sharing/leftovers unconfirmed. Assumed full appetizer, roughly 4\u20136 bacon-wrapped scallops with orange sauce; actual count unknown.",
+      "source": "https://harpoonhannasrestaurant.com/app/uploads/2026/06/dinner.pdf"
+    },
+    {
+      "id": "hannas-bourbon-salmon",
+      "name": "Harpoon Hanna\u2019s bourbon-glazed salmon",
+      "time": "Dinner",
+      "calories": 650,
+      "protein": 48,
+      "fat": 34,
+      "carbs": 38,
+      "estimated": true,
+      "note": "Provisional high-side restaurant estimate, NOT published nutrition. Assumes entire portion eaten; sharing/leftovers unconfirmed. Assumed approximately 8 oz cooked salmon, bourbon glaze, peppers/onions and cooking fat.",
+      "source": "https://harpoonhannasrestaurant.com/app/uploads/2026/06/dinner.pdf"
+    },
+    {
+      "id": "hannas-spinach-salad",
+      "name": "Harpoon Hanna\u2019s side spinach salad with honey mustard",
+      "time": "Dinner",
+      "calories": 400,
+      "protein": 10,
+      "fat": 32,
+      "carbs": 18,
+      "estimated": true,
+      "note": "Provisional high-side restaurant estimate, NOT published nutrition. Assumes entire portion eaten; sharing/leftovers unconfirmed. Side-sized spinach salad with almonds, mushrooms, onions, egg and bacon as listed; honey mustard replaces ranch, assumed approximately 3 tbsp consumed.",
+      "source": "https://harpoonhannasrestaurant.com/app/uploads/2026/06/dinner.pdf"
+    },
+    {
+      "id": "hannas-loaded-potato",
+      "name": "Baked potato with butter, sour cream, cheese and bacon",
+      "time": "Dinner",
+      "calories": 650,
+      "protein": 17,
+      "fat": 34,
+      "carbs": 69,
+      "estimated": true,
+      "note": "Provisional high-side restaurant estimate, NOT published nutrition. Assumes entire portion eaten; sharing/leftovers unconfirmed. Assumed large potato, approximately 1 tbsp butter, 2 tbsp sour cream, 1 oz cheese and bacon topping.",
+      "source": "https://harpoonhannasrestaurant.com/app/uploads/2026/06/dinner.pdf"
     }
   ],
   "workouts": [],
