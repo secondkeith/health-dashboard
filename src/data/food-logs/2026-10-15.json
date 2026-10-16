@@ -76,6 +76,17 @@
       "estimated": true,
       "note": "Provisional high-side restaurant estimate, NOT published nutrition. Assumes entire portion eaten; sharing/leftovers unconfirmed. Assumed large potato, approximately 1 tbsp butter, 2 tbsp sour cream, 1 oz cheese and bacon topping.",
       "source": "https://harpoonhannasrestaurant.com/app/uploads/2026/06/dinner.pdf"
+    },
+    {
+      "id": "hannas-raisin-bread-butter",
+      "name": "Harpoon Hanna\u2019s raisin bread, 1 slice, with 3 pats of butter",
+      "time": "Dinner",
+      "calories": 300,
+      "protein": 4,
+      "fat": 16,
+      "carbs": 35,
+      "estimated": true,
+      "note": "High-side provisional estimate, not restaurant nutrition: substantial raisin-bread slice approximately 180 kcal, three butter pats approximately 120 kcal total (assumed about 5 g each). Slice and pat weights unknown; macros approximate. Additional bread butter, separate from baked-potato toppings."
     }
   ],
   "workouts": [],
