@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-16",
+  "weight": null,
+  "items": [
+    {
+      "id": "salad-kit-no-croutons",
+      "name": "Whole salad kit with included dressing, no croutons",
+      "time": "Meal",
+      "calories": 270,
+      "protein": 7,
+      "fat": 19,
+      "carbs": 17,
+      "estimated": true,
+      "note": "Label full kit: 330 kcal, 9 g protein, 21 g fat, 27 g carbs. Estimated omitted crouton packet: 60 kcal, 2 g protein, 2 g fat, 10 g carbs; packet not weighed or separately labeled. Conservative deduction."
+    },
+    {
+      "id": "red-salmon-half-can",
+      "name": "Canned red salmon, half can",
+      "time": "Meal",
+      "calories": 300.0,
+      "protein": 42.5,
+      "fat": 12.5,
+      "carbs": 0,
+      "estimated": false,
+      "note": "Half of five-serving can, 2.5 label servings. User latest planned portion half can, carried into this meal; adjust if final amount differs."
+    },
+    {
+      "id": "manzanilla-olives-can",
+      "name": "Manzanilla olives, whole small can",
+      "time": "Meal",
+      "calories": 60,
+      "protein": 0,
+      "fat": 6.0,
+      "carbs": 4,
+      "estimated": false,
+      "note": "About four servings per can per photographed label."
+    },
+    {
+      "id": "blue-cheese-half-container",
+      "name": "Blue cheese crumbles, half container (2 oz)",
+      "time": "Meal",
+      "calories": 180,
+      "protein": 10,
+      "fat": 14,
+      "carbs": 4,
+      "estimated": true,
+      "note": "Two of four 1-oz label servings. Calories, fat and carbs read from photo; protein cropped off, estimated at 5 g per oz. Saturated fat 9 g and sodium 840 mg for this portion from label."
+    },
+    {
+      "id": "balsamic-dressing-extra",
+      "name": "Extra Bolthouse balsamic dressing, approximately 2 fl oz",
+      "time": "Meal",
+      "calories": 60,
+      "protein": 0,
+      "fat": 1.0,
+      "carbs": 10,
+      "estimated": true,
+      "note": "User estimates 2 oz; interpreted as volume: 4 tbsp, two label servings. In addition to kit dressing. Label per 2 tbsp: 30 kcal, 0 g protein, 0.5 g fat, 5 g carbs."
+    }
+  ],
+  "workouts": [],
+  "complete_day": false
+}
