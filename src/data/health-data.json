@@ -4143,13 +4143,32 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null,
-      "meals": [],
+      "calories": 167,
+      "protein": 28.3,
+      "fat": 4.2,
+      "carbs": 10.0,
+      "meals": [
+        {
+          "id": "greek-yogurt-third-container",
+          "name": "Greek yogurt, about one third of five-serving container",
+          "time": "Meal",
+          "calories": 167,
+          "protein": 28.3,
+          "fat": 4.2,
+          "carbs": 10.0,
+          "saturated_fat": 1.7,
+          "sodium_mg": 92,
+          "cholesterol_mg": 25,
+          "sugar": 10.0,
+          "added_sugar": 0,
+          "estimated": true,
+          "note": "User estimates one third of container. Photo label: five servings per container; each 3/4 cup (170 g) has 100 kcal, 17 g protein, 2.5 g fat, 6 g carbs. Scaled by 5/3 servings; portion unweighed. No toppings included."
+        }
+      ],
       "workouts": [],
-      "complete_day": false
+      "complete_day": false,
+      "nutrition_source": "food-logs/2026-10-17.json",
+      "macros_complete": true
     }
   ]
 }
