@@ -4054,10 +4054,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 870.0,
-      "protein": 59.5,
-      "fat": 52.5,
-      "carbs": 35,
+      "calories": 1190.0,
+      "protein": 81.5,
+      "fat": 66.5,
+      "carbs": 59,
       "meals": [
         {
           "id": "salad-kit-no-croutons",
@@ -4113,6 +4113,22 @@
           "carbs": 10,
           "estimated": true,
           "note": "User estimates 2 oz; interpreted as volume: 4 tbsp, two label servings. In addition to kit dressing. Label per 2 tbsp: 30 kcal, 0 g protein, 0.5 g fat, 5 g carbs."
+        },
+        {
+          "id": "vanilla-whole-milk-skyr-two",
+          "name": "Vanilla whole-milk skyr, two 4.4-oz containers",
+          "time": "Snack",
+          "calories": 320,
+          "protein": 22,
+          "fat": 14,
+          "carbs": 24,
+          "saturated_fat": 10,
+          "sodium_mg": 80,
+          "cholesterol_mg": 50,
+          "sugar": 18,
+          "added_sugar": 12,
+          "estimated": false,
+          "note": "Photographed label per 125 g container: 160 kcal, 11 g protein, 7 g fat, 12 g carbs, 5 g saturated fat. User reports two containers; brand not visible."
         }
       ],
       "weight": null,
