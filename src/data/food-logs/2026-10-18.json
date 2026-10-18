@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-18",
+  "items": [
+    {
+      "id": "beans-whole-can",
+      "name": "Canned beans, whole can",
+      "time": "Dinner",
+      "calories": 315,
+      "protein": 17.5,
+      "fat": 0.0,
+      "carbs": 52.5,
+      "estimated": true,
+      "note": "Label: about 3.5 servings per can; bean variety not visible. Nutrition scaled from photographed label."
+    },
+    {
+      "id": "olives-whole-can",
+      "name": "Black olives, whole can",
+      "time": "Dinner",
+      "calories": 180,
+      "protein": 0,
+      "fat": 18.0,
+      "carbs": 12,
+      "estimated": true,
+      "note": "Label: about 12 servings per can. Nutrition scaled from photographed label."
+    },
+    {
+      "id": "ortega-taco-sauce",
+      "name": "Ortega mild taco sauce, about 3 tbsp",
+      "time": "Dinner",
+      "calories": 30,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 6,
+      "estimated": true,
+      "note": "User approximate tablespoon portion. Nutrition scaled from photographed label."
+    },
+    {
+      "id": "greek-yogurt-topping",
+      "name": "Greek yogurt, about 4 tbsp",
+      "time": "Dinner",
+      "calories": 33,
+      "protein": 5.7,
+      "fat": 0.8,
+      "carbs": 2.0,
+      "estimated": true,
+      "note": "4 tbsp = 1/4 cup = one third of label serving (3/4 cup). Approximate portion. Nutrition scaled from photographed label."
+    }
+  ],
+  "complete_day": false
+}
