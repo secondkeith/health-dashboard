@@ -17,6 +17,61 @@
       "added_sugar": 0,
       "estimated": true,
       "note": "User estimates one third of container. Photo label: five servings per container; each 3/4 cup (170 g) has 100 kcal, 17 g protein, 2.5 g fat, 6 g carbs. Scaled by 5/3 servings; portion unweighed. No toppings included."
+    },
+    {
+      "id": "china-one-general-tso-lunch",
+      "name": "China One General Tso\u2019s chicken, lunch-special portion",
+      "time": "Lunch/dinner",
+      "calories": 850,
+      "protein": 38,
+      "fat": 40,
+      "carbs": 85,
+      "estimated": true,
+      "note": "Generic high-side takeout estimate, NOT China One published nutrition; approximate macros. Full lunch-special chicken portion including sweet sauce; assumes approximately 1.5\u20132 cups of battered chicken with sauce, not a full dinner-size entree."
+    },
+    {
+      "id": "china-one-pork-fried-rice",
+      "name": "China One pork fried rice, lunch-special side",
+      "time": "Lunch/dinner",
+      "calories": 500,
+      "protein": 12,
+      "fat": 16,
+      "carbs": 77,
+      "estimated": true,
+      "note": "Generic high-side takeout estimate, NOT China One published nutrition; approximate macros. Assumes approximately 1.5 cups of pork fried rice; actual volume and oil unknown."
+    },
+    {
+      "id": "china-one-two-egg-rolls",
+      "name": "China One egg rolls, two",
+      "time": "Lunch/dinner",
+      "calories": 400,
+      "protein": 12,
+      "fat": 20,
+      "carbs": 43,
+      "estimated": true,
+      "note": "Generic high-side takeout estimate, NOT China One published nutrition; approximate macros. Two standard fried egg rolls, estimated 200 kcal each; no additional third egg roll assumed."
+    },
+    {
+      "id": "china-one-brown-sauce",
+      "name": "Brown sauce with egg rolls",
+      "time": "Lunch/dinner",
+      "calories": 100,
+      "protein": 1,
+      "fat": 4,
+      "carbs": 15,
+      "estimated": true,
+      "note": "Generic high-side takeout estimate, NOT China One published nutrition; approximate macros. Amount unspecified; provisional high-side allowance for about 1/4 cup. Separate from General Tso sauce."
+    },
+    {
+      "id": "china-one-wonton-egg-drop-soup",
+      "name": "China One wonton egg drop soup, one pint",
+      "time": "Lunch/dinner",
+      "calories": 200,
+      "protein": 12,
+      "fat": 6,
+      "carbs": 25,
+      "estimated": true,
+      "note": "Generic high-side takeout estimate, NOT China One published nutrition; approximate macros. Full pint (2 cups), with wontons and egg; count of wontons unknown."
     }
   ],
   "workouts": [],
