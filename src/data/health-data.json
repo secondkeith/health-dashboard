@@ -4206,7 +4206,8 @@
           "fat": 4,
           "carbs": 15,
           "estimated": true,
-          "note": "Generic high-side takeout estimate, NOT China One published nutrition; approximate macros. Amount unspecified; provisional high-side allowance for about 1/4 cup. Separate from General Tso sauce."
+          "note": "User clarified sauce was used only for dipping two egg rolls, at most one third of container, not a measured amount. Restaurant menu lists an 8-oz brown sauce side; if this was that size, upper bound is about 5.3 tbsp. Retain provisional 100 kcal allowance with approximate macros; recipe nutrition unavailable, upper bound not treated as exact intake. Separate from General Tso sauce.",
+          "source": "https://www.chinaonede.com/order"
         },
         {
           "id": "china-one-wonton-egg-drop-soup",
