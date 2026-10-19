@@ -4231,10 +4231,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 558,
-      "protein": 23.2,
-      "fat": 18.8,
-      "carbs": 72.5,
+      "calories": 1518,
+      "protein": 36.2,
+      "fat": 57.8,
+      "carbs": 211.5,
       "meals": [
         {
           "id": "beans-whole-can",
@@ -4279,6 +4279,50 @@
           "carbs": 2.0,
           "estimated": true,
           "note": "4 tbsp = 1/4 cup = one third of label serving (3/4 cup). Approximate portion. Nutrition scaled from photographed label."
+        },
+        {
+          "id": "cherry-dilly-bar",
+          "name": "DQ Cherry Dilly Bar, one",
+          "time": "Evening",
+          "calories": 210,
+          "protein": 3,
+          "fat": 12,
+          "carbs": 24,
+          "estimated": true,
+          "note": "Standard 88 g bar; third-party nutrition listing at https://fastfoodnutrition.org/dairy-queen/cherry-dilly-bar citing DQ. Official DQ site blocked. User explicitly assigned intake to October 18."
+        },
+        {
+          "id": "white-rice-carton",
+          "name": "White rice, small takeout carton",
+          "time": "Evening",
+          "calories": 450,
+          "protein": 9,
+          "fat": 1,
+          "carbs": 100,
+          "estimated": true,
+          "note": "High-side estimate assuming roughly two packed cups cooked rice; photo does not establish exact volume or weight. User explicitly assigned intake to October 18."
+        },
+        {
+          "id": "rice-butter",
+          "name": "Butter on rice, about 2 tbsp",
+          "time": "Evening",
+          "calories": 200,
+          "protein": 0,
+          "fat": 22,
+          "carbs": 0,
+          "estimated": true,
+          "note": "User said a couple tablespoons; interpreted as two. User explicitly assigned intake to October 18."
+        },
+        {
+          "id": "rice-brown-sauce",
+          "name": "Brown sauce on rice",
+          "time": "Evening",
+          "calories": 100,
+          "protein": 1,
+          "fat": 4,
+          "carbs": 15,
+          "estimated": true,
+          "note": "Amount unspecified: provisional high-side allowance for roughly 1/4 cup; generic nutrition, not restaurant-published. User explicitly assigned intake to October 18."
         }
       ],
       "weight": null,
