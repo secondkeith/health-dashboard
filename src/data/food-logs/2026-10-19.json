@@ -33,8 +33,19 @@
       "carbs": 4,
       "estimated": true,
       "note": "Current photographed label per 2 tbsp: 50 kcal, 2 g protein, 4 g fat, 2 g carbs. Interpreting 2 oz as 2 US fluid ounces = 4 tbsp. Additional to all kit dressing."
+    },
+    {
+      "id": "manzanilla-olives-can",
+      "name": "Manzanilla olives, whole small can",
+      "time": "Meal",
+      "calories": 60,
+      "protein": 0,
+      "fat": 6.0,
+      "carbs": 4,
+      "estimated": false,
+      "note": "User confirmed whole can. Photographed label: about four servings, each 15 kcal, 1.5 g fat, 1 g carbs, 0 g protein."
     }
   ],
   "complete_day": false,
-  "note": "Olives photographed; consumed quantity pending confirmation, not included in subtotal."
+  "note": "Whole can of olives confirmed and included."
 }
