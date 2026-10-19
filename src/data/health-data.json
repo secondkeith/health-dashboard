@@ -4330,6 +4330,56 @@
       "nutrition_source": "food-logs/2026-10-18.json",
       "macros_complete": true,
       "complete_day": false
+    },
+    {
+      "date": "2026-10-19",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 550,
+      "protein": 21,
+      "fat": 41,
+      "carbs": 25,
+      "meals": [
+        {
+          "id": "salad-kit-no-croutons",
+          "name": "Whole salad kit with included dressing, no croutons",
+          "time": "Meal",
+          "calories": 270,
+          "protein": 7,
+          "fat": 19,
+          "carbs": 17,
+          "estimated": true,
+          "note": "Current photographed full-kit label: 3 servings x 110 kcal, 3 g protein, 7 g fat, 9 g carbs. Includes kit dressing. Estimated crouton subtraction: 60 kcal, 2 g protein, 2 g fat, 10 g carbs; small deduction keeps estimate on high side."
+        },
+        {
+          "id": "blue-cheese-half-container",
+          "name": "Blue cheese crumbles, half container (2 oz)",
+          "time": "Meal",
+          "calories": 180,
+          "protein": 10,
+          "fat": 14,
+          "carbs": 4,
+          "estimated": true,
+          "note": "Two of four 1-oz label servings. Calories, fat and carbs read from photo; protein cropped off, estimated at 5 g per oz. Saturated fat 9 g and sodium 840 mg for this portion from label. Assumes same cheese container as October 16; current photos do not include cheese label."
+        },
+        {
+          "id": "blue-cheese-dressing-extra",
+          "name": "Extra Bolthouse blue cheese dressing, about 2 fl oz",
+          "time": "Meal",
+          "calories": 100,
+          "protein": 4,
+          "fat": 8,
+          "carbs": 4,
+          "estimated": true,
+          "note": "Current photographed label per 2 tbsp: 50 kcal, 2 g protein, 4 g fat, 2 g carbs. Interpreting 2 oz as 2 US fluid ounces = 4 tbsp. Additional to all kit dressing."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-10-19.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
