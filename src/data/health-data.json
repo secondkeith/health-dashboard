@@ -4336,10 +4336,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 610,
-      "protein": 21,
-      "fat": 47.0,
-      "carbs": 29,
+      "calories": 770,
+      "protein": 31,
+      "fat": 60.0,
+      "carbs": 30,
       "meals": [
         {
           "id": "salad-kit-no-croutons",
@@ -4384,6 +4384,17 @@
           "carbs": 4,
           "estimated": false,
           "note": "User confirmed whole can. Photographed label: about four servings, each 15 kcal, 1.5 g fat, 1 g carbs, 0 g protein."
+        },
+        {
+          "id": "salad-chopped-bacon",
+          "name": "Chopped cooked bacon, 4 tbsp",
+          "time": "Meal",
+          "calories": 160,
+          "protein": 10,
+          "fat": 13,
+          "carbs": 1,
+          "estimated": true,
+          "note": "User added 4 tbsp chopped bacon to this salad. Provisional high-side generic estimate for cooked pork bacon; brand, weight and packing density unknown. Not label-derived."
         }
       ],
       "weight": null,
