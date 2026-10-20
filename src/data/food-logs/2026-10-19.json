@@ -55,6 +55,35 @@
       "carbs": 1,
       "estimated": true,
       "note": "User added 4 tbsp chopped bacon to this salad. Provisional high-side generic estimate for cooked pork bacon; brand, weight and packing density unknown. Not label-derived."
+    },
+    {
+      "id": "spaghettios-can",
+      "name": "SpaghettiOs, whole can",
+      "time": "Dinner",
+      "calories": 530,
+      "protein": 22,
+      "fat": 15,
+      "carbs": 76,
+      "saturated_fat": 5,
+      "sodium_mg": 1420,
+      "cholesterol_mg": 40,
+      "fiber": 5,
+      "sugar": 25,
+      "added_sugar": 13,
+      "estimated": true,
+      "note": "Assumed whole can consumed. Nutrition directly from photographed per-container column, not rounded servings multiplication. Product variant not visible."
+    },
+    {
+      "id": "spaghettios-butter",
+      "name": "Butter added to SpaghettiOs, 1 tbsp",
+      "time": "Dinner",
+      "calories": 100,
+      "protein": 0,
+      "fat": 11,
+      "carbs": 0,
+      "saturated_fat": 7,
+      "estimated": true,
+      "note": "Reported one tablespoon; typical butter nutrition estimate, brand and salted/unsalted unknown."
     }
   ],
   "complete_day": false,
