@@ -4410,8 +4410,8 @@
           "fiber": 5,
           "sugar": 25,
           "added_sugar": 13,
-          "estimated": true,
-          "note": "Assumed whole can consumed. Nutrition directly from photographed per-container column, not rounded servings multiplication. Product variant not visible."
+          "estimated": false,
+          "note": "User confirmed whole can consumed. Nutrition directly from photographed per-container column, not rounded servings multiplication. Product variant not visible."
         },
         {
           "id": "spaghettios-butter",
