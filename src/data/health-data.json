@@ -4336,10 +4336,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1713,
+      "calories": 1760.0,
       "protein": 54,
-      "fat": 110.0,
-      "carbs": 126.7,
+      "fat": 111.0,
+      "carbs": 136.0,
       "meals": [
         {
           "id": "salad-kit-no-croutons",
@@ -4439,14 +4439,14 @@
         },
         {
           "id": "werthers-original-four",
-          "name": "Werther's Original hard caramels, 4 pieces",
+          "name": "Werther's Original hard caramels, 6 pieces",
           "time": "Snack",
-          "calories": 93,
+          "calories": 140.0,
           "protein": 0,
-          "fat": 2.0,
-          "carbs": 18.7,
+          "fat": 3.0,
+          "carbs": 28.0,
           "estimated": true,
-          "note": "User explicitly assigns four candies to October 19. Assumed classic regular hard caramel, provisional typical nutrition of 70 kcal, 14 g carbs, 1.5 g fat and 0 g protein per three pieces; not verified against package label."
+          "note": "User corrected total to six candies for October 19, replacing four. Assumed classic regular hard caramel, provisional typical nutrition of 70 kcal, 14 g carbs, 1.5 g fat and 0 g protein per three pieces; not verified against package label."
         }
       ],
       "weight": null,
