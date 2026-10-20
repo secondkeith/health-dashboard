@@ -84,6 +84,18 @@
       "saturated_fat": 7,
       "estimated": true,
       "note": "Reported one tablespoon; typical butter nutrition estimate, brand and salted/unsalted unknown."
+    },
+    {
+      "id": "heavy-cream-four-tbsp",
+      "name": "Heavy cream, 4 tbsp",
+      "time": "Evening",
+      "calories": 220,
+      "protein": 1,
+      "fat": 22,
+      "carbs": 2,
+      "saturated_fat": 14,
+      "estimated": true,
+      "note": "User reported 4 tablespoons. Generic high-side estimate, 55 kcal per tbsp; brand/label unavailable. Not assumed to be added to any particular food."
     }
   ],
   "complete_day": false,
