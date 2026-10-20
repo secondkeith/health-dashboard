@@ -4460,9 +4460,9 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 435.0,
-      "protein": 17.0,
-      "fat": 23.5,
+      "calories": 1055.0,
+      "protein": 74.0,
+      "fat": 67.5,
       "carbs": 45.0,
       "meals": [
         {
@@ -4515,6 +4515,23 @@
           "added_sugar": 0,
           "estimated": false,
           "note": "One additional tablespoon reported; half of photographed 2-tbsp serving. Additional to included salad ranch."
+        },
+        {
+          "id": "salmon-whole-package",
+          "name": "Salmon fillets, whole package",
+          "time": "Meal",
+          "calories": 620,
+          "protein": 57,
+          "fat": 44,
+          "carbs": 0,
+          "saturated_fat": 7,
+          "sodium_mg": 120,
+          "cholesterol_mg": 160,
+          "fiber": 0,
+          "sugar": 0,
+          "added_sugar": 0,
+          "estimated": false,
+          "note": "User reports whole package. Photographed per-container column used directly: 620 kcal, 57 g protein, 44 g fat. Salmon identification from visible contains statement. Brand not visible. Added cooking oil/butter or sauce not yet specified and excluded."
         }
       ],
       "weight": null,
