@@ -4460,10 +4460,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1065.0,
-      "protein": 74.0,
+      "calories": 1095.0,
+      "protein": 75.5,
       "fat": 67.5,
-      "carbs": 47.0,
+      "carbs": 53.0,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -4543,6 +4543,23 @@
           "carbs": 2,
           "estimated": true,
           "note": "User reports a sprinkle of spices and a drizzle of sauce. Unmeasured small amounts: 10 kcal high-side allowance, not verified label nutrition. Sodium not estimated because quantities unknown."
+        },
+        {
+          "id": "imitation-crab-serving",
+          "name": "Imitation crab leg style, 1 serving (28 g / 2 tbsp)",
+          "time": "Snack",
+          "calories": 30,
+          "protein": 1.5,
+          "fat": 0,
+          "carbs": 6,
+          "fiber": 0.5,
+          "saturated_fat": 0,
+          "sodium_mg": 148,
+          "cholesterol_mg": 3,
+          "sugar": 1.5,
+          "added_sugar": 0.5,
+          "estimated": false,
+          "note": "User reports one serving; nutrition directly from photographed label, 2 tbsp (28 g). Brand not visible."
         }
       ],
       "weight": null,
