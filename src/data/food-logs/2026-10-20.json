@@ -68,7 +68,18 @@
       "sugar": 0,
       "added_sugar": 0,
       "estimated": false,
-      "note": "User reports whole package. Photographed per-container column used directly: 620 kcal, 57 g protein, 44 g fat. Salmon identification from visible contains statement. Brand not visible. Added cooking oil/butter or sauce not yet specified and excluded."
+      "note": "User reports whole package. Photographed per-container column: 620 kcal, 57 g protein, 44 g fat. Salmon identification from visible contains statement. User confirms only smoked paprika, Tajin and a drizzle of Cholula chili garlic; no added oil or butter. Seasonings logged separately as a small estimated allowance."
+    },
+    {
+      "id": "salmon-seasonings",
+      "name": "Smoked paprika, Tajin and drizzle of Cholula chili garlic",
+      "time": "Meal",
+      "calories": 10,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 2,
+      "estimated": true,
+      "note": "User reports a sprinkle of spices and a drizzle of sauce. Unmeasured small amounts: 10 kcal high-side allowance, not verified label nutrition. Sodium not estimated because quantities unknown."
     }
   ],
   "workouts": [],
