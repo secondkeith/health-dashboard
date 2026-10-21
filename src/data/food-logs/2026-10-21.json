@@ -88,6 +88,24 @@
           "note": "Assumes reported 2 oz means 2 fluid oz = 4 tbsp, two label servings of 2 tbsp (30 g). Added to included kit dressing, not a replacement."
         }
       ]
+    },
+    {
+      "id": "imitation-crab-three-servings",
+      "time": "Snack",
+      "name": "Weis Dock imitation crab leg style, 3 servings (84 g)",
+      "calories": 90,
+      "protein": 4.5,
+      "fat": 0,
+      "carbs": 18,
+      "fiber": 1.5,
+      "sugar": 4.5,
+      "added_sugar": 1.5,
+      "saturated_fat": 0,
+      "trans_fat": 0,
+      "cholesterol_mg": 9,
+      "sodium_mg": 444,
+      "estimated": false,
+      "note": "Reported consumed October 21 Eastern. Photo label: each 2 tbsp (28 g), 30 kcal, protein 1.5 g, fat 0 g, carbs 6 g, fiber 0.5 g, sugars 1.5 g (added 0.5 g), saturated/trans fat 0 g, cholesterol 3 mg, sodium 148 mg. Three servings = 6 tbsp (84 g). Label-derived nutrition; separate from salad."
     }
   ],
   "workouts": [],
