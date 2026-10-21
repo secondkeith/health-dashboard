@@ -110,6 +110,23 @@
       "sodium_mg": 420,
       "estimated": true,
       "note": "Three tablespoons reported. High-side portion estimate treats this as approximately 1 oz (28 g); packing density unknown. Uses prior cheese label values of 90 kcal, 7 g fat, 2 g carbs per oz, with protein estimated at 5 g. Assumes same cheese as prior meals."
+    },
+    {
+      "id": "smoked-salmon-half-package",
+      "name": "Smoked Atlantic salmon, half package (6 oz)",
+      "time": "Evening",
+      "calories": 360.0,
+      "protein": 36.0,
+      "fat": 24.0,
+      "carbs": 0,
+      "saturated_fat": 6.0,
+      "sodium_mg": 1800.0,
+      "cholesterol_mg": 90.0,
+      "fiber": 0,
+      "sugar": 0,
+      "added_sugar": 0,
+      "estimated": false,
+      "note": "User reports half of this separate smoked salmon package. Label: six 2-oz servings per package; half is three servings. Values scaled directly from photographed label. Separate from earlier salmon fillets, not a correction."
     }
   ],
   "workouts": [],
