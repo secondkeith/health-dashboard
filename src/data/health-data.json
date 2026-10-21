@@ -4603,11 +4603,29 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1412.5,
-      "protein": 81.25,
-      "fat": 82.5,
-      "carbs": 86.25,
+      "calories": 1572.5,
+      "protein": 85.25,
+      "fat": 85.0,
+      "carbs": 120.25,
       "meals": [
+        {
+          "id": "quaker-oatmeal-packet",
+          "name": "Quaker high-fiber instant oatmeal, one 45 g packet",
+          "time": "Breakfast",
+          "calories": 160,
+          "protein": 4,
+          "fat": 2.5,
+          "carbs": 34,
+          "fiber": 10,
+          "soluble_fiber": 9,
+          "saturated_fat": 1,
+          "sodium_mg": 125,
+          "cholesterol_mg": 0,
+          "sugar": 8,
+          "added_sugar": 7,
+          "estimated": false,
+          "note": "One packet reported. Nutrition from photographed label. Flavor not visible. User confirmed prepared with water only, no milk or toppings."
+        },
         {
           "id": "salad-kit-olives-cheese-beans-smoked-salmon",
           "time": "Meal",
@@ -4618,7 +4636,7 @@
           "carbs": 68.25,
           "fiber": 10.0,
           "estimated": true,
-          "note": "Reported consumed on October 21 Eastern: whole salad kit except croutons, whole olive can, whole 4 oz cheese package, half bean can, half smoked salmon package, plus 2 oz dressing. Meal estimate includes approximately 50 kcal removed for unweighed croutons. Additional dressing assumed 2 fluid oz (4 tbsp), in addition to kit dressing. Fiber approximately 10 g. No breakfast reported; day incomplete.",
+          "note": "Reported consumed on October 21 Eastern: whole salad kit except croutons, whole olive can, whole 4 oz cheese package, half bean can, half smoked salmon package, plus 2 oz dressing. Meal estimate includes approximately 50 kcal removed for unweighed croutons. Additional dressing assumed 2 fluid oz (4 tbsp), in addition to kit dressing. Fiber approximately 10 g. Day incomplete.",
           "components": [
             {
               "name": "Salad kit, whole kit except croutons; included dressing retained",
