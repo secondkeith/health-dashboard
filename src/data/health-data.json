@@ -4750,6 +4750,41 @@
       "nutrition_source": "food-logs/2026-10-21.json",
       "macros_complete": true,
       "complete_day": false
+    },
+    {
+      "date": "2026-10-22",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 320,
+      "protein": 8,
+      "fat": 5,
+      "carbs": 68,
+      "meals": [
+        {
+          "id": "quaker-oatmeal-packets",
+          "name": "Quaker high-fiber instant oatmeal, two 45 g packets",
+          "time": "Breakfast",
+          "calories": 320,
+          "protein": 8,
+          "fat": 5,
+          "carbs": 68,
+          "fiber": 20,
+          "soluble_fiber": 18,
+          "saturated_fat": 2,
+          "sodium_mg": 250,
+          "cholesterol_mg": 0,
+          "sugar": 16,
+          "added_sugar": 14,
+          "estimated": false,
+          "note": "Two packets reported eaten this morning, October 22 Eastern. Assumes the same Quaker high-fiber instant oatmeal as the October 21 breakfast; nutrition is twice that photographed per-packet label. Flavor not visible. Water-only preparation, with no milk or toppings, is inherited as an assumption from October 21, not newly confirmed today. No unreported additions included. Day incomplete."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-10-22.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
