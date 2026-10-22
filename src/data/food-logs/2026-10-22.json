@@ -19,6 +19,93 @@
       "added_sugar": 14,
       "estimated": false,
       "note": "Two packets reported eaten this morning, October 22 Eastern. Assumes the same Quaker high-fiber instant oatmeal as the October 21 breakfast; nutrition is twice that photographed per-packet label. Flavor not visible. Water-only preparation, with no milk or toppings, is inherited as an assumption from October 21, not newly confirmed today. No unreported additions included. Day incomplete."
+    },
+    {
+      "id": "lunch-salad-kit-beans-olives-blue-cheese-smoked-salmon",
+      "time": "Lunch",
+      "name": "Big salad kit without croutons, half can beans, black olives, blue cheese, whole package smoked salmon and extra dressing",
+      "calories": 1562.5,
+      "protein": 104.75,
+      "fat": 97.16666666666666,
+      "carbs": 65.58333333333333,
+      "fiber": 10.0,
+      "estimated": true,
+      "note": "Reported consumed October 22 Eastern. Assumes the same products and package sizes as the October 21 salad: whole kit without croutons, whole can black olives, half can beans, two-thirds of the 4 oz blue cheese package (2 2/3 oz), whole 12 oz smoked salmon package, plus 2 oz of the 30-calorie dressing. Product/package identity is inherited as an assumption, not independently verified today. Kit dressing retained; extra dressing assumed 2 fluid oz = 4 tbsp, in addition to kit dressing. Unweighed crouton subtraction remains an estimate of about 50 kcal. Day incomplete; no psyllium reported or logged.",
+      "components": [
+        {
+          "name": "Salad kit, whole kit except croutons; included dressing retained",
+          "calories": 280,
+          "protein": 8,
+          "fat": 19,
+          "carbs": 17,
+          "fiber": 3,
+          "estimated": true,
+          "note": "Label approximately 3 servings, each 110 kcal, fat 7 g, saturated fat 1.5 g, carbs 9 g, fiber 1 g, protein 3 g, sodium 270 mg. Label includes dressing and toppings. Crouton removal estimated at 50 kcal; remaining kit macros and fiber approximate. Saturated fat and sodium after removal unknown."
+        },
+        {
+          "name": "Black olives, whole can",
+          "calories": 105,
+          "protein": 0,
+          "fat": 10.5,
+          "carbs": 7,
+          "fiber": 0,
+          "sodium_mg": 945,
+          "estimated": false,
+          "note": "Seven label servings; each 15 kcal, fat 1.5 g, carbs 1 g, protein 0 g, sodium 135 mg. Fiber not significant on label."
+        },
+        {
+          "name": "Blue cheese, two-thirds of 4 oz package (2 2/3 oz)",
+          "calories": 240.0,
+          "protein": 16.0,
+          "fat": 18.666666666666664,
+          "carbs": 5.333333333333333,
+          "fiber": 0.0,
+          "saturated_fat": 12.0,
+          "sodium_mg": 1120.0,
+          "cholesterol_mg": 80.0,
+          "estimated": true,
+          "note": "Assumed same cheese product and 4 oz package as October 21; two-thirds of prior whole-package label nutrition."
+        },
+        {
+          "name": "Canned beans, half can",
+          "calories": 157.5,
+          "protein": 8.75,
+          "fat": 0,
+          "carbs": 26.25,
+          "fiber": 7.0,
+          "saturated_fat": 0,
+          "sodium_mg": 805.0,
+          "estimated": false,
+          "note": "Half of 3.5 servings per can = 1.75 label servings. Bean type not visible; not inferred."
+        },
+        {
+          "name": "Smoked Atlantic salmon, whole 12 oz package",
+          "calories": 720,
+          "protein": 72,
+          "fat": 48,
+          "carbs": 0,
+          "fiber": 0,
+          "saturated_fat": 12,
+          "sodium_mg": 3600,
+          "cholesterol_mg": 180,
+          "estimated": true,
+          "note": "Assumed same salmon product and 12 oz package as October 21; six 2-oz label servings, twice the prior half-package portion."
+        },
+        {
+          "name": "Additional Bolthouse balsamic-type dressing, 2 oz reported",
+          "calories": 60,
+          "protein": 0,
+          "fat": 1.0,
+          "carbs": 10,
+          "fiber": 0,
+          "saturated_fat": 0,
+          "sodium_mg": 300,
+          "sugar": 10,
+          "added_sugar": 8,
+          "estimated": true,
+          "note": "Assumes reported 2 oz means 2 fluid oz = 4 tbsp, two label servings of 2 tbsp (30 g). Added to included kit dressing, not a replacement."
+        }
+      ]
     }
   ],
   "workouts": [],
