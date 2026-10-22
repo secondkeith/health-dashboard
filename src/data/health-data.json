@@ -4603,10 +4603,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1572.5,
-      "protein": 85.25,
-      "fat": 85.0,
-      "carbs": 120.25,
+      "calories": 1772.5,
+      "protein": 97.25,
+      "fat": 101.0,
+      "carbs": 122.25,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -4730,6 +4730,19 @@
           "sodium_mg": 444,
           "estimated": false,
           "note": "Reported consumed October 21 Eastern. Photo label: each 2 tbsp (28 g), 30 kcal, protein 1.5 g, fat 0 g, carbs 6 g, fiber 0.5 g, sugars 1.5 g (added 0.5 g), saturated/trans fat 0 g, cholesterol 3 mg, sodium 148 mg. Three servings = 6 tbsp (84 g). Label-derived nutrition; separate from salad."
+        },
+        {
+          "id": "gorgonzola-crumbles-two-oz",
+          "time": "Snack",
+          "name": "Gorgonzola crumbles, additional 2 oz (estimated)",
+          "calories": 200,
+          "protein": 12,
+          "fat": 16,
+          "carbs": 2,
+          "fiber": 0,
+          "saturated_fat": 10,
+          "estimated": true,
+          "note": "Reported consumed October 21 Eastern: an additional 2 oz gorgonzola crumbles, separate from the whole 4 oz cheese package already counted in the salad. Typical portion estimate: 200 kcal, protein 12 g, fat 16 g, carbs 2 g, saturated fat 10 g; exact product label not verified. Earlier cheese label does not identify gorgonzola, so its values were not reused. Day incomplete."
         }
       ],
       "weight": null,
