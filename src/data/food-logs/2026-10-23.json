@@ -16,6 +16,42 @@
       "sodium_mg": 370,
       "estimated": false,
       "note": "User confirmed eating the entire package and explicitly assigned it to today, October 23, 2026 Eastern. Label-derived nutrition from the photographed per-package column, not multiplied rounded per-serving values. Brand not established. Day incomplete."
+    },
+    {
+      "id": "rice-paper-caramelized-shrimp",
+      "time": "Dinner",
+      "name": "Rice Paper — caramelized shrimp in hot pot",
+      "portion": "entire entree assumed; actual shrimp size/quantity unknown",
+      "calories": 700,
+      "protein": 40,
+      "carbs": 40,
+      "fat": 42,
+      "estimated": true,
+      "note": "Reported consumed October 23, 2026 Eastern. Provisional high-side recipe/portion estimate, not published restaurant nutrition. Official location-linked ordering menu: https://www.fastordernow.com/order/menu/ricepaper (6775 Wilson Blvd, Falls Church). Menu lists Tom Rim Man as Caramelized Shrimp; hot-pot preparation is user-reported. Estimate includes shrimp, caramel sauce and cooking oil. Entire entree assumed; actual portion unknown. No pork belly or coconut ingredients assumed."
+    },
+    {
+      "id": "rice-paper-crispy-spring-rolls",
+      "time": "Dinner",
+      "name": "Rice Paper — crispy spring rolls, 2 rolls",
+      "portion": "2 rolls",
+      "calories": 350,
+      "protein": 10,
+      "carbs": 35,
+      "fat": 19,
+      "estimated": true,
+      "note": "Reported consumed October 23, 2026 Eastern. Provisional high-side recipe/portion estimate, not published restaurant nutrition. Official location-linked ordering menu: https://www.fastordernow.com/order/menu/ricepaper (6775 Wilson Blvd, Falls Church). Assumed menu Cha Gio (2 Rolls): ground pork, crab meat and shrimp; menu lists fish sauce and fresh vegetables alongside. Logged two crispy rolls as reported; accompaniments not separately claimed consumed."
+    },
+    {
+      "id": "rice-paper-white-rice",
+      "time": "Dinner",
+      "name": "Rice Paper — cooked white rice, about 1 cup",
+      "portion": "about 1 cup cooked",
+      "calories": 210,
+      "protein": 4,
+      "carbs": 46,
+      "fat": 0.5,
+      "estimated": true,
+      "note": "Reported consumed October 23, 2026 Eastern. Provisional high-side recipe/portion estimate, not published restaurant nutrition. Official location-linked ordering menu: https://www.fastordernow.com/order/menu/ricepaper (6775 Wilson Blvd, Falls Church). User-reported cooked white rice portion; generic portion estimate, not a measured serving."
     }
   ],
   "workouts": [],
