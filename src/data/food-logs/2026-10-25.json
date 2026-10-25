@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-25",
+  "weight": null,
+  "items": [
+    {
+      "id": "taco-bell-three-custom-soft-tacos",
+      "time": "Not specified",
+      "name": "Taco Bell — 3 soft tacos with sour cream, red sauce, and extra cheese",
+      "portion": "3 tacos, 260 calories each",
+      "calories": 780,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "estimated": false,
+      "note": "User reported eating all three today, October 25 Eastern, and seeing 260 calories per taco on the menu. Using that as the customized per-taco total, including sour cream, red sauce, and extra cheese; toppings not counted again. Protein type not specified. Macros unavailable, not zero. Calorie source is user-reported menu, not independently verified nutrition."
+    }
+  ],
+  "workouts": [],
+  "complete_day": false
+}
