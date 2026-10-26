@@ -13,6 +13,18 @@
       "fat": null,
       "estimated": false,
       "note": "User reported eating all three today, October 25 Eastern, and seeing 260 calories per taco on the menu. Using that as the customized per-taco total, including sour cream, red sauce, and extra cheese; toppings not counted again. Protein type not specified. Macros unavailable, not zero. Calorie source is user-reported menu, not independently verified nutrition."
+    },
+    {
+      "id": "breakers-blackened-salmon-dinner",
+      "time": "Dinner",
+      "name": "Breakers Sky Lounge — blackened salmon, white rice, asparagus and mango salsa",
+      "portion": "Entire restaurant plate, including bite taken before photo",
+      "calories": 1000,
+      "protein": 55,
+      "carbs": 75,
+      "fat": 52,
+      "estimated": true,
+      "note": "User confirmed entire plate eaten. High-side planning estimate from food photo and USDA ingredient values, not official restaurant nutrition or measured portions. Plausible range 800–1100 kcal. Assumed approximately 7–8 oz cooked salmon, 1.25 cups rice, asparagus, mango salsa and added cooking fat. USDA reference FDC IDs: salmon 175168, rice 168878, asparagus 168390. No external photo-estimation API used."
     }
   ],
   "workouts": [],
