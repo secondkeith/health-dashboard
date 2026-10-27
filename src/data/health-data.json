@@ -5043,6 +5043,47 @@
       "nutrition_source": "food-logs/2026-10-25.json",
       "macros_complete": false,
       "complete_day": false
+    },
+    {
+      "date": "2026-10-26",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 1610,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "meals": [
+        {
+          "id": "mcdonalds-egg-mcmuffin-no-cheese",
+          "time": "Breakfast",
+          "name": "McDonald's Egg McMuffin without cheese",
+          "portion": "1 sandwich",
+          "calories": 260,
+          "protein": null,
+          "carbs": null,
+          "fat": null,
+          "estimated": true,
+          "note": "User confirmed breakfast consumed October 26. Egg McMuffin variant inferred from prior no-cheese discussion. Official McDonald's item 200298: 310 kcal minus 50 kcal American cheese component. Approximate subtraction of rounded published values; default egg, Canadian bacon, muffin and butter retained. Modified macros not verified; unknown, not zero. Source: https://www.mcdonalds.com/us/en-us/product/egg-mcmuffin.html"
+        },
+        {
+          "id": "kanji-four-sushi-rolls",
+          "time": "Dinner",
+          "name": "Kanji Izakaya \u2014 Salmon Avocado, Tuna Avocado, Yellowtail Scallion, and Salmon Mango Avocado rolls",
+          "portion": "4 whole rolls, one of each; no edamame",
+          "calories": 1350,
+          "protein": null,
+          "carbs": null,
+          "fat": null,
+          "estimated": true,
+          "note": "User confirmed eating the four previously recommended rolls. Preserved agreed high-side estimate: Salmon Avocado 350, Tuna Avocado 350, Yellowtail Scallion 300, Salmon Mango Avocado 350 kcal. Meal range estimated 950\u20131350 kcal for standard portions; not published restaurant nutrition or measured weights. Composition verified on official Kanji Izakaya menu, 4301 Fairfax Dr, Arlington, https://kanjiizakaya.fronteats.com/. No drinks or extra sauces reported. Macros not verified; unknown rather than zero."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-10-26.json",
+      "macros_complete": false,
+      "complete_day": false
     }
   ]
 }
