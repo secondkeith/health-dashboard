@@ -5134,9 +5134,9 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 160,
-      "protein": 4,
-      "fat": 2.5,
+      "calories": 370,
+      "protein": 16,
+      "fat": 17.5,
       "carbs": 34,
       "meals": [
         {
@@ -5156,6 +5156,22 @@
           "added_sugar": 7,
           "estimated": false,
           "note": "User reported one of his usual oatmeal packets for breakfast October 28. Nutrition from previously photographed label. Packet only; no milk or toppings reported or counted."
+        },
+        {
+          "id": "babybel-original-three",
+          "time": "Snack",
+          "name": "Babybel Original cheese",
+          "portion": "3 pieces, 20 g each",
+          "calories": 210,
+          "protein": 12,
+          "carbs": 0,
+          "fat": 15,
+          "saturated_fat": 10.5,
+          "fiber": 0,
+          "sodium_mg": 450,
+          "cholesterol_mg": 45,
+          "estimated": false,
+          "note": "User reported eating three and confirmed regular variety. Official US Babybel Original nutrition per 20 g piece: 70 kcal, 4 g protein, 0 g carbs, 5 g fat, 3.5 g saturated fat, 150 mg sodium, 15 mg cholesterol. Source: https://babybel.com/product/babybel-original-cheese/ ."
         }
       ],
       "weight": null,
