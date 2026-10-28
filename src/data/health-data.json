@@ -5134,10 +5134,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 370,
-      "protein": 16,
-      "fat": 17.5,
-      "carbs": 34,
+      "calories": 1440,
+      "protein": 53,
+      "fat": 76.5,
+      "carbs": 130,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -5172,6 +5172,33 @@
           "cholesterol_mg": 45,
           "estimated": false,
           "note": "User reported eating three and confirmed regular variety. Official US Babybel Original nutrition per 20 g piece: 70 kcal, 4 g protein, 0 g carbs, 5 g fat, 3.5 g saturated fat, 150 mg sodium, 15 mg cholesterol. Source: https://babybel.com/product/babybel-original-cheese/ ."
+        },
+        {
+          "id": "burger-tots-dinner",
+          "time": "Dinner",
+          "name": "Beef burger with bun, mustard, Sweet Baby Ray's BBQ sauce, Hellmann's olive oil mayo, and tater tots",
+          "portion": "Whole pictured burger and all tots",
+          "calories": 1000,
+          "protein": 35,
+          "carbs": 90,
+          "fat": 55,
+          "saturated_fat": 15,
+          "estimated": true,
+          "note": "User confirmed everything eaten. Provisional high-side photo-based estimate; plausible range 800\u20131100 kcal. Patty weight and fat percentage, cooking method, and condiment amounts unknown. Assumes substantial beef patty, regular bun, approximately 1\u20132 tbsp each BBQ sauce and mayo, mustard, and pictured tots. No cheese reported. Macros approximate, not label-verified. Dressing recorded separately."
+        },
+        {
+          "id": "bolthouse-dressing-dinner",
+          "time": "Dinner",
+          "name": "Bolthouse Farms dressing",
+          "portion": "About 2 oz, interpreted as 2 fluid oz / 4 tbsp",
+          "calories": 70,
+          "protein": 2,
+          "carbs": 6,
+          "fat": 4,
+          "saturated_fat": 1,
+          "sodium_mg": 420,
+          "estimated": true,
+          "note": "User reported about 2 oz and confirmed everything consumed. Assumed fluid ounces rather than weight; portion approximate. Photographed label per 2 tbsp: 35 kcal, 1 g protein, 3 g carbs, 2 g fat, 0.5 g saturated fat, 210 mg sodium. Label-based nutrients scaled to two servings; flavor not verified."
         }
       ],
       "weight": null,
