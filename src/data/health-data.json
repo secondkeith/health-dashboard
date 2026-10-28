@@ -5084,6 +5084,50 @@
       "nutrition_source": "food-logs/2026-10-26.json",
       "macros_complete": false,
       "complete_day": false
+    },
+    {
+      "date": "2026-10-27",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 1300,
+      "protein": null,
+      "fat": null,
+      "carbs": null,
+      "meals": [
+        {
+          "id": "smartfood-cheddar-popcorn-lunch",
+          "time": "Lunch",
+          "name": "Smartfood cheddar popcorn",
+          "portion": "Whole bag",
+          "calories": 300,
+          "protein": 5,
+          "carbs": 28,
+          "fat": 19,
+          "fiber": 3,
+          "saturated_fat": 3.5,
+          "sodium_mg": 370,
+          "estimated": false,
+          "note": "User confirmed entire bag consumed. Nutrition from photographed per-bag label, not a photo-based portion estimate."
+        },
+        {
+          "id": "taco-bell-custom-burritos-cantina-dinner",
+          "time": "Dinner",
+          "name": "Taco Bell \u2014 2 customized Bean Burritos, Cantina Chicken Soft Taco, and Avocado Verde Salsa packet",
+          "portion": "All three items and one salsa packet consumed",
+          "calories": 1000,
+          "protein": null,
+          "carbs": null,
+          "fat": null,
+          "estimated": true,
+          "note": "User confirmed consumed yesterday, October 27 Eastern. Agreed corrected meal estimate 1000 kcal. Each burrito: cheese removed, reduced-fat sour cream added, extra red sauce. User-reported kiosk component calories: cheese 20, sour cream 20 (corrected from 30), additional red sauce 10. Taco cheese kept and pico de gallo removed. Total is a customized meal estimate, not verified official customized nutrition. Macros and saturated fat unknown; not zero."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-10-27.json",
+      "macros_complete": false,
+      "complete_day": false
     }
   ]
 }
