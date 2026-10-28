@@ -5134,10 +5134,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1440,
-      "protein": 53,
-      "fat": 76.5,
-      "carbs": 130,
+      "calories": 1491,
+      "protein": 53.43,
+      "fat": 81.92,
+      "carbs": 130.43,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -5199,6 +5199,19 @@
           "sodium_mg": 420,
           "estimated": true,
           "note": "User reported about 2 oz and confirmed everything consumed. Assumed fluid ounces rather than weight; portion approximate. Photographed label per 2 tbsp: 35 kcal, 1 g protein, 3 g carbs, 2 g fat, 0.5 g saturated fat, 210 mg sodium. Label-based nutrients scaled to two servings; flavor not verified."
+        },
+        {
+          "id": "heavy-whipping-cream-tablespoon",
+          "time": "Not specified",
+          "name": "Heavy whipping cream",
+          "portion": "1 tablespoon (USDA standard 15 g)",
+          "calories": 51,
+          "protein": 0.43,
+          "carbs": 0.43,
+          "fat": 5.42,
+          "saturated_fat": 3.45,
+          "estimated": true,
+          "note": "User reported 1 tablespoon. Generic USDA SR Legacy heavy whipping cream, FDC 170859; standard tbsp 15 g. Brand unknown; not whipped topping. Source https://fdc.nal.usda.gov/food-details/170859/nutrients"
         }
       ],
       "weight": null,
