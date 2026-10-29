@@ -5281,6 +5281,41 @@
       "nutrition_source": "food-logs/2026-10-28.json",
       "macros_complete": true,
       "complete_day": false
+    },
+    {
+      "date": "2026-10-29",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 160,
+      "protein": 4,
+      "fat": 2.5,
+      "carbs": 34,
+      "meals": [
+        {
+          "id": "quaker-oatmeal-packet",
+          "name": "Quaker high-fiber instant oatmeal, one 45 g packet",
+          "time": "Breakfast",
+          "calories": 160,
+          "protein": 4,
+          "fat": 2.5,
+          "carbs": 34,
+          "fiber": 10,
+          "soluble_fiber": 9,
+          "saturated_fat": 1,
+          "sodium_mg": 125,
+          "cholesterol_mg": 0,
+          "sugar": 8,
+          "added_sugar": 7,
+          "estimated": false,
+          "note": "User reported one usual oatmeal packet for breakfast October 29. Reuses previously photographed Quaker high-fiber 45 g packet label. Packet only; no milk or toppings reported or counted."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-10-29.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
