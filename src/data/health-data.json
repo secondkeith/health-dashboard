@@ -5287,10 +5287,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1330.0,
-      "protein": 80.0,
-      "fat": 52.0,
-      "carbs": 148.0,
+      "calories": 1885.0,
+      "protein": 118.4,
+      "fat": 83.6,
+      "carbs": 176.5,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -5390,6 +5390,19 @@
           "note": "One tablespoon (15 mL), photographed label. Additional to salad kit dressing.",
           "time": "Meal",
           "estimated": false
+        },
+        {
+          "id": "pork-potatoes-green-beans-dinner",
+          "time": "Dinner",
+          "name": "Pork chop, mashed potatoes with butter, small portion green beans",
+          "calories": 555,
+          "protein": 38.4,
+          "fat": 31.6,
+          "carbs": 28.5,
+          "fiber": 1.8,
+          "saturated_fat": 13,
+          "estimated": true,
+          "note": "Ate half of two pictured pork chops (about one chop) and one quarter of plated beans. Assumes all potatoes eaten: one third of four label servings (520 kcal batch) plus one third of 2 tbsp butter (68 kcal), total 241 kcal. Pork provisional high-side estimate 280 kcal, 30 g protein, 17 g fat; weight unmeasured, roughly 4 oz cooked assumed. Consumed beans estimated 8 kcal. User estimates 1 tbsp butter per pork and bean pan. Assumes pans shared equally among three, then applies consumed fractions: 1/6 tbsp pork butter plus 1/12 tbsp bean butter, about 26 kcal, counting full allocation despite possible pan residue. Rounded dinner 555 kcal; macros and saturated fat approximate. Potato label basis inherited from prior photographed label calculation. Fractions refer to plated food, not entire batches."
         }
       ],
       "weight": null,
