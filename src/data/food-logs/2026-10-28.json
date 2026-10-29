@@ -41,13 +41,75 @@
       "time": "Dinner",
       "name": "Beef burger with bun, mustard, Sweet Baby Ray's BBQ sauce, Hellmann's olive oil mayo, and tater tots",
       "portion": "Whole pictured burger and all tots",
-      "calories": 1000,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "saturated_fat": null,
+      "calories": 918,
+      "protein": 45.1,
+      "carbs": 73.9,
+      "fat": 47.2,
+      "saturated_fat": 13.6,
       "estimated": true,
-      "note": "User confirmed everything eaten. Provisional high-side photo-based estimate; plausible range 800\u20131100 kcal. User subsequently confirmed via his mother that the patty was 80/20 ground beef. Patty weight, cooking method/fat retention, and condiment amounts remain unknown. Existing high-side calorie and macro estimates retained; beef composition clarification does not establish portion size. Assumes substantial beef patty, regular bun, approximately 1\u20132 tbsp each BBQ sauce and mayo, mustard, and pictured tots. No cheese reported. Macros approximate, not label-verified. Dressing recorded separately. User selected 5 oz COOKED as the assumed patty weight after discussing photo dimensions and approximately half-inch thickness. Not weighed. USDA FDC 171797 cooked broiled 80/20 patty at 141.75 g: approximately 383 kcal, 36.6 g protein, 25.2 g fat, 9.6 g saturated fat, zero carbs. This is a component already included in the meal, not additional intake. Whole-meal calories remain the prior provisional allowance; whole-meal macros are now unknown pending component reconstruction rather than retaining an inconsistent protein total."
+      "note": "Rebuilt at user request from the photo using agreed 5 oz COOKED 80/20 patty assumption, not measured weight. Mother confirmed beef composition; user suggested medium and approximately half-inch thickness. Bun, sauce, mayo and tot portions remain photo-based assumptions. Whole pictured serving consumed, no cheese. Reasonable high-side component estimate, not upper bound. USDA cooked patty and ingredient references used; no Gemini-derived nutrient values used in saved calculation. Tots brand/cooking method and hidden mayo remain uncertain; no evidence of separately added frying oil. Bolthouse dressing retained as separate item, not included here.",
+      "components": [
+        {
+          "name": "80/20 beef patty",
+          "portion": "5 oz cooked, user-selected assumption",
+          "calories": 383,
+          "protein": 36.6,
+          "carbs": 0,
+          "fat": 25.2,
+          "saturated_fat": 9.6,
+          "source": "USDA FDC 171797, cooked broiled; not specifically medium"
+        },
+        {
+          "name": "Plain hamburger bun",
+          "portion": "Assumed about 57 g",
+          "calories": 160,
+          "protein": 5.6,
+          "carbs": 28.6,
+          "fat": 2.2,
+          "saturated_fat": 0.5,
+          "source": "USDA FDC 172796 generic plain roll; brand and weight unknown"
+        },
+        {
+          "name": "Hellmann olive oil mayonnaise dressing",
+          "portion": "Assumed 1.5 tbsp / 22.5 g",
+          "calories": 90,
+          "protein": 0,
+          "carbs": 1.5,
+          "fat": 9,
+          "saturated_fat": 1.5,
+          "source": "USDA FDC 2075010 Unilever olive oil mayonnaise dressing; hidden amount estimated"
+        },
+        {
+          "name": "Sweet Baby Rays BBQ sauce",
+          "portion": "Assumed 2 tbsp / 36 g",
+          "calories": 70,
+          "protein": 0,
+          "carbs": 17,
+          "fat": 0,
+          "saturated_fat": 0,
+          "source": "USDA FDC 2013494; original-style reference, flavor unconfirmed"
+        },
+        {
+          "name": "Mustard",
+          "portion": "About 1\u20132 tsp",
+          "calories": 5,
+          "protein": 0.3,
+          "carbs": 0.5,
+          "fat": 0.3,
+          "saturated_fat": 0,
+          "source": "Small generic estimate"
+        },
+        {
+          "name": "Tater tots",
+          "portion": "About 11\u201312 pictured pieces; assumed 113 g",
+          "calories": 210,
+          "protein": 2.6,
+          "carbs": 26.3,
+          "fat": 10.5,
+          "saturated_fat": 2,
+          "source": "USDA FDC 1593064 Ore-Ida-style reference (186 kcal/100g), brand unknown. Includes product oil; no separately assumed frying oil."
+        }
+      ]
     },
     {
       "id": "bolthouse-dressing-dinner",
