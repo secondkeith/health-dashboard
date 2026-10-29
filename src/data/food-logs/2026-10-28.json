@@ -42,12 +42,12 @@
       "name": "Beef burger with bun, mustard, Sweet Baby Ray's BBQ sauce, Hellmann's olive oil mayo, and tater tots",
       "portion": "Whole pictured burger and all tots",
       "calories": 1000,
-      "protein": 35,
-      "carbs": 90,
-      "fat": 55,
-      "saturated_fat": 15,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "saturated_fat": null,
       "estimated": true,
-      "note": "User confirmed everything eaten. Provisional high-side photo-based estimate; plausible range 800\u20131100 kcal. User subsequently confirmed via his mother that the patty was 80/20 ground beef. Patty weight, cooking method/fat retention, and condiment amounts remain unknown. Existing high-side calorie and macro estimates retained; beef composition clarification does not establish portion size. Assumes substantial beef patty, regular bun, approximately 1\u20132 tbsp each BBQ sauce and mayo, mustard, and pictured tots. No cheese reported. Macros approximate, not label-verified. Dressing recorded separately."
+      "note": "User confirmed everything eaten. Provisional high-side photo-based estimate; plausible range 800\u20131100 kcal. User subsequently confirmed via his mother that the patty was 80/20 ground beef. Patty weight, cooking method/fat retention, and condiment amounts remain unknown. Existing high-side calorie and macro estimates retained; beef composition clarification does not establish portion size. Assumes substantial beef patty, regular bun, approximately 1\u20132 tbsp each BBQ sauce and mayo, mustard, and pictured tots. No cheese reported. Macros approximate, not label-verified. Dressing recorded separately. User selected 5 oz COOKED as the assumed patty weight after discussing photo dimensions and approximately half-inch thickness. Not weighed. USDA FDC 171797 cooked broiled 80/20 patty at 141.75 g: approximately 383 kcal, 36.6 g protein, 25.2 g fat, 9.6 g saturated fat, zero carbs. This is a component already included in the meal, not additional intake. Whole-meal calories remain the prior provisional allowance; whole-meal macros are now unknown pending component reconstruction rather than retaining an inconsistent protein total."
     },
     {
       "id": "bolthouse-dressing-dinner",
