@@ -5287,10 +5287,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1885.0,
-      "protein": 118.4,
-      "fat": 83.6,
-      "carbs": 176.5,
+      "calories": 2240.0,
+      "protein": 149.6,
+      "fat": 106.5,
+      "carbs": 181.9,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -5394,15 +5394,15 @@
         {
           "id": "pork-potatoes-green-beans-dinner",
           "time": "Dinner",
-          "name": "Pork chop, mashed potatoes with butter, small portion green beans",
-          "calories": 555,
-          "protein": 38.4,
-          "fat": 31.6,
-          "carbs": 28.5,
-          "fiber": 1.8,
-          "saturated_fat": 13,
+          "name": "Two pork chops, mashed potatoes and green beans with butter (entire pictured plate)",
+          "calories": 910,
+          "protein": 69.6,
+          "fat": 54.5,
+          "carbs": 33.9,
+          "fiber": 3.2,
+          "saturated_fat": 22.6,
           "estimated": true,
-          "note": "Ate half of two pictured pork chops (about one chop) and one quarter of plated beans. Assumes all potatoes eaten: one third of four label servings (520 kcal batch) plus one third of 2 tbsp butter (68 kcal), total 241 kcal. Pork provisional high-side estimate 280 kcal, 30 g protein, 17 g fat; weight unmeasured, roughly 4 oz cooked assumed. Consumed beans estimated 8 kcal. User estimates 1 tbsp butter per pork and bean pan. Assumes pans shared equally among three, then applies consumed fractions: 1/6 tbsp pork butter plus 1/12 tbsp bean butter, about 26 kcal, counting full allocation despite possible pan residue. Rounded dinner 555 kcal; macros and saturated fat approximate. Potato label basis inherited from prior photographed label calculation. Fractions refer to plated food, not entire batches."
+          "note": "CORRECTED: user ate entire pictured plate, including 2 of 4 pork chops prepared and about 1/4 of the total pot of green beans, not fractions of plated food. Full potato portion is 1/3 of four label servings: 520/3 kcal plus 2/3 tbsp butter (68 kcal), about 241 kcal. Pork retains prior provisional high-side per-chop estimate, now TWO chops: 560 kcal, 60 g protein, 34 g fat; roughly 8 oz cooked total working assumption, not measured. Entire pictured green bean portion estimated 32 kcal. Cooking butter user estimated 1 tbsp per pan: pork share 1/2 tbsp (51 kcal), beans share 1/4 tbsp (25.5 kcal). No further division by number of diners. Full allocated cooking butter counted despite possible pan residue. Total 909.8 rounded to 910 kcal. Macros/fiber/saturated fat approximate; potato label values inherited from prior photographed-label calculation. Supersedes mistaken 555 kcal entry; no extra meal added."
         }
       ],
       "weight": null,
