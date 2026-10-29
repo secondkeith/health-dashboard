@@ -129,14 +129,14 @@
       "id": "heavy-whipping-cream-tablespoon",
       "time": "Not specified",
       "name": "Heavy whipping cream",
-      "portion": "1 tablespoon (USDA standard 15 g)",
-      "calories": 51,
-      "protein": 0.43,
-      "carbs": 0.43,
-      "fat": 5.42,
-      "saturated_fat": 3.45,
+      "portion": "2 tablespoons total (USDA standard 30 g)",
+      "calories": 102,
+      "protein": 0.85,
+      "carbs": 0.85,
+      "fat": 10.83,
+      "saturated_fat": 6.9,
       "estimated": true,
-      "note": "User reported 1 tablespoon. Generic USDA SR Legacy heavy whipping cream, FDC 170859; standard tbsp 15 g. Brand unknown; not whipped topping. Source https://fdc.nal.usda.gov/food-details/170859/nutrients"
+      "note": "User reported one tablespoon, then one additional tablespoon October 28: two tablespoons total. Generic USDA SR Legacy heavy whipping cream FDC 170859; 15 g per tablespoon. Brand unknown; not whipped topping. https://fdc.nal.usda.gov/food-details/170859/nutrients"
     }
   ],
   "workouts": [],
