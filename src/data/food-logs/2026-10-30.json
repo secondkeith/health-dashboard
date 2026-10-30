@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-30",
+  "weight": null,
+  "items": [
+    {
+      "id": "quaker-oatmeal-packet",
+      "name": "Quaker high-fiber instant oatmeal, one 45 g packet",
+      "time": "Breakfast",
+      "calories": 160,
+      "protein": 4,
+      "fat": 2.5,
+      "carbs": 34,
+      "fiber": 10,
+      "soluble_fiber": 9,
+      "saturated_fat": 1,
+      "sodium_mg": 125,
+      "cholesterol_mg": 0,
+      "sugar": 8,
+      "added_sugar": 7,
+      "estimated": false,
+      "note": "User reported usual oatmeal packet for breakfast October 30. Reuses verified Quaker high-fiber 45 g packet label; no additions reported."
+    },
+    {
+      "id": "chobani-protein-yogurt-cup",
+      "name": "Chobani yogurt, 20 g protein, one 190 g container (flavor not visible)",
+      "time": "Snack",
+      "calories": 140,
+      "protein": 20,
+      "fat": 3,
+      "carbs": 9,
+      "fiber": 2,
+      "saturated_fat": 2,
+      "sodium_mg": 100,
+      "cholesterol_mg": 20,
+      "sugar": 7,
+      "added_sugar": 0,
+      "estimated": false,
+      "note": "User reported having pictured cup now. Whole single-serve 190 g container assumed. Values read directly from photographed label; flavor not visible."
+    }
+  ],
+  "workouts": [],
+  "complete_day": false
+}
