@@ -70,6 +70,19 @@
       "cholesterol_mg": 0.0,
       "sugar": 7.0,
       "added_sugar": 5.25
+    },
+    {
+      "id": "chicken-pasta-veggies-cream-soup",
+      "name": "Chicken, pasta and mixed vegetables in cream-of-chicken soup with butter, pictured bowl",
+      "time": "Dinner",
+      "calories": 810,
+      "protein": 66,
+      "carbs": 85,
+      "fat": 23,
+      "fiber": 7,
+      "saturated_fat": 8,
+      "estimated": true,
+      "note": "User reports pictured bowl is their portion, about 1/3 of total batch. Three photos show same bowl, counted once. About 2 tbsp butter used to cook entire batch: allocated 2/3 tbsp, 68 kcal, NOT full 2 tbsp and NOT another division of pictured food. Provisional high-side component estimate using typical food values, not measured quantities or verified product labels: cooked pasta about 1.5 cups 300 kcal; cooked skinless chicken breast about 6 oz 280 kcal; mixed vegetables about 1/2-3/4 cup 60 kcal; cream-of-chicken soup sauce allowance 100 kcal; butter 68 kcal. Sum 808 rounded 810. Component portions are working photo assumptions; batch fraction only establishes butter share because total ingredient amounts are unknown. Macros and fiber/saturated fat estimated; soup brand, dilution and amount unknown. No separate cheese, cream or milk added to estimate; none specifically reported. Whole pictured bowl treated as reported meal."
     }
   ],
   "workouts": [],
