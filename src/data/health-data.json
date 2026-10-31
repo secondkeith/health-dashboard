@@ -5416,10 +5416,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1547.5,
-      "protein": 124.0,
-      "fat": 54.25,
-      "carbs": 151.0,
+      "calories": 1649.5,
+      "protein": 124.8,
+      "fat": 65.05,
+      "carbs": 151.8,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -5502,6 +5502,19 @@
           "saturated_fat": 8,
           "estimated": true,
           "note": "User reports pictured bowl is their portion, about 1/3 of total batch. Three photos show same bowl, counted once. About 2 tbsp butter used to cook entire batch: allocated 2/3 tbsp, 68 kcal, NOT full 2 tbsp and NOT another division of pictured food. Provisional high-side component estimate using typical food values, not measured quantities or verified product labels: cooked pasta about 1.5 cups 300 kcal; cooked skinless chicken breast about 6 oz 280 kcal; mixed vegetables about 1/2-3/4 cup 60 kcal; cream-of-chicken soup sauce allowance 100 kcal; butter 68 kcal. Sum 808 rounded 810. Component portions are working photo assumptions; batch fraction only establishes butter share because total ingredient amounts are unknown. Macros and fiber/saturated fat estimated; soup brand, dilution and amount unknown. No separate cheese, cream or milk added to estimate; none specifically reported. Whole pictured bowl treated as reported meal."
+        },
+        {
+          "id": "heavy-cream-two-tbsp",
+          "name": "Heavy whipping cream, 2 tablespoons, separately consumed",
+          "time": "Other",
+          "calories": 102,
+          "protein": 0.8,
+          "carbs": 0.8,
+          "fat": 10.8,
+          "saturated_fat": 7,
+          "fiber": 0,
+          "estimated": true,
+          "note": "User confirmed two tablespoons consumed separately on Friday October 30, not added to chicken-pasta batch and not October 31. Reuses previous generic heavy whipping cream estimate per tablespoon: 51 kcal, 5.4 g fat, 3.5 g saturated fat, 0.4 g protein and carbs. Brand/label not provided."
         }
       ],
       "weight": null,
