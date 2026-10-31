@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-31",
+  "weight": null,
+  "items": [
+    {
+      "id": "smoked-salmon-quarter-package",
+      "name": "Weis smoked salmon, quarter package (3 oz)",
+      "time": "Late-night snack",
+      "calories": 180,
+      "protein": 18,
+      "fat": 12,
+      "carbs": 0,
+      "fiber": 0,
+      "saturated_fat": 3,
+      "sodium_mg": 900,
+      "cholesterol_mg": 45,
+      "sugar": 0,
+      "added_sugar": 0,
+      "estimated": false,
+      "note": "Photographed label: six 2 oz servings per package. Quarter package = 1.5 servings. User explicitly assigns to Saturday October 31 despite not having slept yet."
+    },
+    {
+      "id": "weis-guacamole-four-tbsp",
+      "name": "Weis guacamole, 4 tablespoons (60 g)",
+      "time": "Late-night snack",
+      "calories": 100,
+      "protein": 1,
+      "fat": 8,
+      "carbs": 6,
+      "fiber": 4,
+      "saturated_fat": 1,
+      "sodium_mg": 230,
+      "cholesterol_mg": 0,
+      "sugar": 0,
+      "added_sugar": 0,
+      "estimated": false,
+      "note": "Photographed label scaled to two 2-tbsp servings. Protein label says <1 g per serving, hence <2 g total; numeric protein 1 g is midpoint placeholder, not exact label value. User assigns salmon and guacamole to Saturday October 31 before sleeping."
+    }
+  ],
+  "workouts": [],
+  "complete_day": false
+}
