@@ -5597,6 +5597,80 @@
       "nutrition_source": "food-logs/2026-10-31.json",
       "macros_complete": true,
       "complete_day": false
+    },
+    {
+      "date": "2026-11-01",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 719.75,
+      "protein": 33.275,
+      "fat": 29.1,
+      "carbs": 98.5,
+      "meals": [
+        {
+          "id": "bean-salad-seasoned-black-beans",
+          "time": "Lunch",
+          "name": "Bean salad: seasoned black beans, whole standard can",
+          "calories": 420,
+          "protein": 28,
+          "fat": 3.5,
+          "carbs": 77,
+          "fiber": 21,
+          "estimated": true,
+          "note": "Provisional product/portion estimate: assumes a standard 15\u201315.5 oz can. Uses October 29 seasoned-beans whole-can label values as a proxy (420 kcal, P28/F3.5/C77, fiber21); that prior bean variety was unknown. Today's black-bean brand, variant and label are NOT verified; this is not verified product identity. User reported whole can consumed in bean salad."
+        },
+        {
+          "id": "bean-salad-black-olives",
+          "time": "Lunch",
+          "name": "Bean salad: black olives, whole can",
+          "calories": 180,
+          "protein": 0,
+          "fat": 18,
+          "carbs": 12,
+          "estimated": true,
+          "note": "Provisional proxy from October 18 black-olive whole-can label estimate, about 12 label servings. User described a physically same-sized can as the beans; assumes a normal olive can with about 6 oz drained olives, NOT 15 oz drained olives. Today's brand/label and drained weight are unverified."
+        },
+        {
+          "id": "bean-salad-guacamole",
+          "time": "Lunch",
+          "name": "Bean salad: guacamole, 3 tbsp",
+          "calories": 75,
+          "protein": 1,
+          "fat": 7,
+          "carbs": 4,
+          "fiber": 3,
+          "estimated": true,
+          "note": "Generic typical estimate for reported 3 tbsp, not verified brand/product nutrition."
+        },
+        {
+          "id": "bean-salad-plain-greek-yogurt",
+          "time": "Lunch",
+          "name": "Bean salad: plain Greek yogurt, 3 tbsp",
+          "calories": 24.75,
+          "protein": 4.275,
+          "fat": 0.6,
+          "carbs": 1.5,
+          "estimated": true,
+          "note": "Provisional product proxy: October 18 Greek yogurt 4 tbsp values (33 kcal, P5.7/F0.8/C2) scaled by 3/4. Today's brand and fat percentage are unverified; numerical scaling does not establish label accuracy for this product."
+        },
+        {
+          "id": "bean-salad-ortega-red-sauce",
+          "time": "Lunch",
+          "name": "Bean salad: Ortega red sauce, 2 tbsp",
+          "calories": 20,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 4,
+          "estimated": true,
+          "note": "Provisional variant proxy: October 18 Ortega mild taco sauce 3 tbsp values (30 kcal, P0/F0/C6) scaled by 2/3. User reported Ortega red sauce; exact variant/label is NOT verified."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-11-01.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
