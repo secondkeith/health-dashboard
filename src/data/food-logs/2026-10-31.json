@@ -29,6 +29,34 @@
       "sodium_mg": 250,
       "estimated": true,
       "note": "Includes lettuce, avocado, and black olives. Includes 2 tablespoons of 35-calorie dressing."
+    },
+    {
+      "id": "smoked-salmon-remaining",
+      "name": "Smoked salmon (remaining 4.5 servings from package)",
+      "time": "Snack",
+      "calories": 540.0,
+      "protein": 54.0,
+      "fat": 36.0,
+      "carbs": 0,
+      "fiber": 0,
+      "saturated_fat": 4.5,
+      "sodium_mg": 2700.0,
+      "estimated": true,
+      "note": "Finishing the rest of the package from the previous night/session. 4.5 servings remaining (9 oz)."
+    },
+    {
+      "id": "salad-kit-lunch-oct31",
+      "name": "Whole salad kit with olives and olive oil",
+      "time": "Lunch",
+      "calories": 520,
+      "protein": 5,
+      "fat": 35,
+      "carbs": 15,
+      "fiber": 4,
+      "saturated_fat": 2,
+      "sodium_mg": 800,
+      "estimated": true,
+      "note": "Whole salad kit (approx 330 kcal) + small can of olives (approx 150 kcal) + 1 tsp olive oil (approx 40 kcal). Total 520 kcal."
     }
   ],
   "workouts": [],
