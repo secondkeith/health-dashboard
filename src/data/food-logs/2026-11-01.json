@@ -58,6 +58,17 @@
       "carbs": 4,
       "estimated": true,
       "note": "Provisional variant proxy: October 18 Ortega mild taco sauce 3 tbsp values (30 kcal, P0/F0/C6) scaled by 2/3. User reported Ortega red sauce; exact variant/label is NOT verified."
+    },
+    {
+      "id": "taco-bell-dinner-bean-burritos-soft-tacos",
+      "time": "Dinner",
+      "name": "Taco Bell: 2 standard Bean Burritos + 2 regular beef Soft Tacos with added sour cream and red sauce",
+      "calories": 1140,
+      "protein": 45,
+      "fat": 39,
+      "carbs": 150,
+      "estimated": true,
+      "note": "User reported: two normal bean burritos and two soft tacos with sour cream and red sauce added to them. Interpreted additions ONLY on each taco; burritos standard and cheese retained on all. Regular beef Soft Tacos (not Supreme) inherited from the preceding recommendation. Base-item reference: earlier exact FatSecret lookup this session, per standard Bean Burrito 360 kcal/P13/F10/C54 and per regular beef Soft Taco 180 kcal/P9/F8/C18; base total 1080 kcal/P44/F36/C144. Added calories use prior user-read kiosk values as provisional same-portion proxies, NOT newly verified customization nutrition: sour cream 20 kcal and red sauce 10 kcal per taco. Add-on macros are independent generic ingredient estimates, not FatSecret or official Taco Bell customization data: each sour-cream portion P0.5/F1.5/C1 and each red-sauce portion P0/F0/C2. Add-ons total 60 kcal/P1/F3/C6; dinner total 1140 kcal/P45/F39/C150. Actual add-on portions and formulation unverified. Reported as the last meal, but no inference that unreported breakfast/snacks were absent; day remains incomplete."
     }
   ],
   "workouts": [],
