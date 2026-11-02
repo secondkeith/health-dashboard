@@ -62,13 +62,13 @@
     {
       "id": "taco-bell-dinner-bean-burritos-soft-tacos",
       "time": "Dinner",
-      "name": "Taco Bell: 2 standard Bean Burritos + 2 regular beef Soft Tacos with added sour cream and red sauce",
-      "calories": 1140,
-      "protein": 45,
-      "fat": 39,
-      "carbs": 150,
+      "name": "Taco Bell: 2 standard Bean Burritos + 1 regular beef Soft Taco with added sour cream and red sauce (second taco uneaten)",
+      "calories": 930,
+      "protein": 35.5,
+      "fat": 29.5,
+      "carbs": 129,
       "estimated": true,
-      "note": "User reported: two normal bean burritos and two soft tacos with sour cream and red sauce added to them. Interpreted additions ONLY on each taco; burritos standard and cheese retained on all. Regular beef Soft Tacos (not Supreme) inherited from the preceding recommendation. Base-item reference: earlier exact FatSecret lookup this session, per standard Bean Burrito 360 kcal/P13/F10/C54 and per regular beef Soft Taco 180 kcal/P9/F8/C18; base total 1080 kcal/P44/F36/C144. Added calories use prior user-read kiosk values as provisional same-portion proxies, NOT newly verified customization nutrition: sour cream 20 kcal and red sauce 10 kcal per taco. Add-on macros are independent generic ingredient estimates, not FatSecret or official Taco Bell customization data: each sour-cream portion P0.5/F1.5/C1 and each red-sauce portion P0/F0/C2. Add-ons total 60 kcal/P1/F3/C6; dinner total 1140 kcal/P45/F39/C150. Actual add-on portions and formulation unverified. Reported as the last meal, but no inference that unreported breakfast/snacks were absent; day remains incomplete."
+      "note": "User initially reported two normal bean burritos and two soft tacos with sour cream and red sauce added to them, then corrected consumption: 'Didn't end up eating the second taco. I was already full'. Consumed portion: 2 standard Bean Burritos + 1 regular beef Soft Taco with added sour cream and red sauce; second taco uneaten. Additions ONLY on the consumed taco; burritos standard and cheese retained on all consumed items. Regular beef Soft Taco (not Supreme) inherited from the preceding recommendation. Base-item reference preserved from the prior entry: earlier exact FatSecret lookup that session, per standard Bean Burrito 360 kcal/P13/F10/C54 and per regular beef Soft Taco 180 kcal/P9/F8/C18; consumed base total 900 kcal/P35/F28/C126. Added calories use prior user-read kiosk values as provisional same-portion proxies, NOT newly verified customization nutrition: sour cream 20 kcal and red sauce 10 kcal per taco. Add-on macros are independent generic ingredient estimates, not FatSecret or official Taco Bell customization data: each sour-cream portion P0.5/F1.5/C1 and each red-sauce portion P0/F0/C2. Consumed add-ons total 30 kcal/P0.5/F1.5/C3; corrected dinner total 930 kcal/P35.5/F29.5/C129. Correction subtracts exactly the prior estimated uneaten taco including its additions: 210 kcal/P9.5/F9.5/C21 from 1140 kcal/P45/F39/C150. Actual add-on portions and formulation unverified. Reported as the last meal, but no inference that unreported breakfast/snacks were absent; day remains incomplete."
     }
   ],
   "workouts": [],
