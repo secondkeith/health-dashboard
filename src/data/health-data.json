@@ -5751,6 +5751,22 @@
       "nutrition_source": "food-logs/2026-11-02.json",
       "macros_complete": true,
       "complete_day": false
+    },
+    {
+      "date": "2026-11-03",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0,
+      "meals": [],
+      "weight": 277,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-11-03.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
