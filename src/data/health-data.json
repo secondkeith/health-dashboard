@@ -5688,10 +5688,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1482,
-      "protein": 102.8,
-      "fat": 54.6,
-      "carbs": 140.2,
+      "calories": 1662,
+      "protein": 104.8,
+      "fat": 62.6,
+      "carbs": 165.2,
       "meals": [
         {
           "id": "fighting-fish-dinner-sashimi-samurai-salmon-avocado-seaweed",
@@ -5733,6 +5733,17 @@
               "carbs": 19
             }
           ]
+        },
+        {
+          "id": "fighting-fish-furikake-fries-shared-10",
+          "time": "Dinner",
+          "name": "Fighting Fish Furikake Fries (~10 fries) with wasabi ketchup",
+          "calories": 180,
+          "protein": 2,
+          "fat": 8,
+          "carbs": 25,
+          "estimated": true,
+          "note": "User reports eating approximately 10 fries from a friend\u2019s Furikake Fries with wasabi sauce. Official menu identifies housemade fries, furikake seasoning, nori flakes and WASABI KETCHUP, not mayo: https://www.fightingfishrva.com/s/PRINT-FF-Dinner-Menu-May-2026-3.pdf . Provisional high-side estimate for ~10 fries plus a small dipping amount, assuming ~1 tablespoon wasabi ketchup. Fries size/weight and sauce amount were not measured; no photo. Menu verifies composition only, not nutrition. Separate addition to the main dinner, counted once."
         }
       ],
       "weight": null,
