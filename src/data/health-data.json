@@ -5682,6 +5682,64 @@
       "nutrition_source": "food-logs/2026-11-01.json",
       "macros_complete": true,
       "complete_day": false
+    },
+    {
+      "date": "2026-11-02",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 1482,
+      "protein": 102.8,
+      "fat": 54.6,
+      "carbs": 140.2,
+      "meals": [
+        {
+          "id": "fighting-fish-dinner-sashimi-samurai-salmon-avocado-seaweed",
+          "time": "Dinner",
+          "name": "Fighting Fish: Sashimi Trio, The Last Samurai, salmon avocado roll and seaweed salad (no edamame)",
+          "calories": 1482,
+          "protein": 102.8,
+          "fat": 54.6,
+          "carbs": 140.2,
+          "estimated": true,
+          "note": "User ordered these four dishes, forgot the photo and explicitly requested estimates. Full portions consumed is an assumption, not measured or separately confirmed. High-side ingredient-based estimate; no official nutrition verified, no food photo, no external nutrition API data used. Menu composition source: https://www.fightingfishrva.com/s/PRINT-FF-Dinner-Menu-May-2026-3.pdf . Sashimi Trio is 3 tuna + 3 salmon + 3 yellowtail pieces; assume 25 g per piece (225 g raw fish total). Last Samurai: salmon, cucumber and avocado roll topped with yellowtail, avocado, tobiko and scallions; no mayo/tempura listed, so none added to estimate. Assumed 180 g seasoned cooked rice, 50 g salmon, 50 g yellowtail, 70 g avocado across filling/topping, 30 g cucumber/scallions, 10 g tobiko, 2 g nori. Classic roll: 140 g seasoned cooked rice, 50 g salmon, 40 g avocado, 2 g nori. Seaweed salad: 130 g dressed serving, including sweetened sesame/oil dressing; dressing not counted again. No edamame; no unreported drinks or additional sauces included. Generic independent working nutrition per 100 g (kcal/P/F/C): tuna 130/29/0.6/0; salmon 208/20/13/0; yellowtail 146/23/5.2/0; seasoned cooked rice 150/2.5/0.3/34; avocado 160/2/14.7/8.5; cucumber/scallions 20/1/0/4; tobiko 140/22/6/2; nori 300/40/4/40; dressed seaweed salad 115.4/2.3/5.4/14.6. These are approximate generic ingredient assumptions, not restaurant measurements or newly retrieved database records. Calories and macros calculated independently, with component grams rounded to 0.1; precision is arithmetic, not measurement certainty. Planned only meal today does not confirm a complete intake history: reported total only; day remains incomplete. Explicit meal date November 2 retained; clock checked November 2 at 20:20 EST, not used as consumption time.",
+          "components": [
+            {
+              "name": "Sashimi Trio (9 pieces, assumed 225 g raw fish)",
+              "calories": 363,
+              "protein": 54,
+              "fat": 14.1,
+              "carbs": 0
+            },
+            {
+              "name": "The Last Samurai specialty roll (full roll)",
+              "calories": 585,
+              "protein": 30.7,
+              "fat": 20.6,
+              "carbs": 69.4
+            },
+            {
+              "name": "Classic salmon avocado roll (full roll)",
+              "calories": 384,
+              "protein": 15.1,
+              "fat": 12.9,
+              "carbs": 51.8
+            },
+            {
+              "name": "Seaweed salad (assumed 130 g dressed)",
+              "calories": 150,
+              "protein": 3,
+              "fat": 7,
+              "carbs": 19
+            }
+          ]
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-11-02.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
