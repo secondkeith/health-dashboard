@@ -1,7 +1,21 @@
 {
   "date": "2026-11-03",
   "weight": 277,
-  "items": [],
+  "items": [
+    {
+      "id": "fat-dragon-steamed-chili-dumplings",
+      "time": "Dinner",
+      "name": "Fat Dragon steamed chili pork dumplings (2 consumed so far)",
+      "portion": "2 dumplings plus clinging spicy chili/ponzu sauce",
+      "quantity": 2,
+      "calories": 200,
+      "protein": 8,
+      "carbs": 22,
+      "fat": 9,
+      "estimated": true,
+      "note": "User explicitly reports \"I already ate two chili dumplings.\" Only TWO consumed so far are counted. Photographed remaining plate (approximately six dumplings) is NOT counted; planned entree is NOT counted. Provisional high-side generic portion estimate, not published restaurant nutrition or measured weights. Prior official menu verification identifies handmade pork dumplings with spicy chili sauce and ponzu at Fat Dragon, 1200 N Arthur Ashe Boulevard, Richmond. Sanity-check assumption: two generous steamed pork dumplings at approximately 80 kcal each plus approximately 40 kcal clinging chili-oil/ponzu sauce; assumed roughly 35-40 g per dumpling, not photo-measured. Working macros for dumplings plus sauce: 8 g protein, 22 g carbohydrate, 9 g fat (201 kcal by 4/4/9, consistent with rounded 200 kcal). Actual wrapper thickness, pork fat and retained chili oil are unknown; approximately 150-250 kcal is a plausible working range, not a measured confidence interval. Sauce pooled on the uneaten plate is excluded. Eastern clock checked November 3, 2026; exact consumption time unknown. Stable ID retained for later quantity updates."
+    }
+  ],
   "workouts": [],
   "complete_day": false
 }
