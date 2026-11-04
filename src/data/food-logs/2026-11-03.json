@@ -14,6 +14,32 @@
       "fat": 9,
       "estimated": true,
       "note": "User explicitly reports \"I already ate two chili dumplings.\" Only TWO consumed so far are counted. Photographed remaining plate (approximately six dumplings) is NOT counted; planned entree is NOT counted. Provisional high-side generic portion estimate, not published restaurant nutrition or measured weights. Prior official menu verification identifies handmade pork dumplings with spicy chili sauce and ponzu at Fat Dragon, 1200 N Arthur Ashe Boulevard, Richmond. Sanity-check assumption: two generous steamed pork dumplings at approximately 80 kcal each plus approximately 40 kcal clinging chili-oil/ponzu sauce; assumed roughly 35-40 g per dumpling, not photo-measured. Working macros for dumplings plus sauce: 8 g protein, 22 g carbohydrate, 9 g fat (201 kcal by 4/4/9, consistent with rounded 200 kcal). Actual wrapper thickness, pork fat and retained chili oil are unknown; approximately 150-250 kcal is a plausible working range, not a measured confidence interval. Sauce pooled on the uneaten plate is excluded. Eastern clock checked November 3, 2026; exact consumption time unknown. Stable ID retained for later quantity updates."
+    },
+    {
+      "id": "fat-dragon-kung-pao-chicken",
+      "time": "Dinner",
+      "name": "Fat Dragon Kung Pao chicken (provisional full serving)",
+      "portion": "1 pictured entree; full consumption assumed, not yet confirmed",
+      "quantity": 1,
+      "calories": 900,
+      "protein": 70,
+      "carbs": 34,
+      "fat": 54,
+      "estimated": true,
+      "note": "User reports \"Entree, kung pow chicken and brown rice\" on November 3, 2026. Both supplied food photos inspected: substantial chicken stir-fry with bell pepper, celery, onion, peanuts, dried chilies and glossy sauce; separate rice bowl. Official menu previously verified Kung Pao with bell pepper, peanut, celery and house sauce; menu is composition evidence, not exact nutrition. Provisional high-side generic ingredient estimate, NOT measured portions or restaurant nutrition. Working components in protein/carbs/fat grams: approximately 200 g cooked chicken, mixed lean/thigh allowance (60/0/18; 402 kcal); 25 g peanuts (6/5/12; 152 kcal); 200 g vegetables (3/14/0; 68 kcal); 24 g retained cooking oil, approximately 1.75 tablespoons (0/0/24; 216 kcal); house sauce sugar/starch/seasoning allowance (1/15/0; 64 kcal). Sum 70 g protein, 34 g carbs, 54 g fat, 902 macro-kcal rounded to 900 kcal. Oil is separate from intrinsic chicken/peanut fat. Chicken cut, amount, oil retention and sauce are uncertain; reasonable working dish range approximately 700-1100 kcal, not a confidence interval. Full pictured serving provisionally counted; amount actually eaten and leftovers remain unresolved and must update this stable item rather than add another entree. Brown rice logged separately. Background vegetable plate excluded because consumption was not reported. Repeated two-dumpling message is the same report, not two additional dumplings; existing count remains two pending final count. Exact meal time unknown."
+    },
+    {
+      "id": "fat-dragon-brown-rice",
+      "time": "Dinner",
+      "name": "Fat Dragon brown rice (provisional full bowl)",
+      "portion": "1 pictured bowl, assumed approximately 1.25-1.5 cups cooked; full consumption unconfirmed",
+      "quantity": 1,
+      "calories": 300,
+      "protein": 6,
+      "carbs": 62,
+      "fat": 3,
+      "estimated": true,
+      "note": "User explicitly identifies brown rice; accepted despite photo lighting. Separate bowl accompanying Kung Pao entree, counted once separately from the chicken dish. Provisional generic cooked brown-rice estimate: approximately 1.4 cups, with plausible serving uncertainty around 1.25-1.5 cups; no measured weight or restaurant nutrition. Working macros 6 g protein, 62 g carbs and 3 g fat yield 299 kcal by 4/4/9, rounded to 300 kcal. No added butter/oil assumed for plain rice. Full bowl provisionally counted; actual amount consumed/leftovers unresolved. Correct this stable item when clarified, without altering chicken consumption automatically."
     }
   ],
   "workouts": [],
