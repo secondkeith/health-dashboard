@@ -5757,10 +5757,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1400,
-      "protein": 84,
-      "fat": 66,
-      "carbs": 118,
+      "calories": 980,
+      "protein": 58.6,
+      "fat": 46.8,
+      "carbs": 82.2,
       "meals": [
         {
           "id": "fat-dragon-steamed-chili-dumplings",
@@ -5778,28 +5778,28 @@
         {
           "id": "fat-dragon-kung-pao-chicken",
           "time": "Dinner",
-          "name": "Fat Dragon Kung Pao chicken (provisional full serving)",
-          "portion": "1 pictured entree; full consumption assumed, not yet confirmed",
+          "name": "Fat Dragon Kung Pao chicken (consumed portion; leftovers subtracted)",
+          "portion": "Approximately two-thirds of original pictured entree consumed; remaining mixed chicken/vegetables/sauce excluded",
           "quantity": 1,
-          "calories": 900,
-          "protein": 70,
-          "carbs": 34,
-          "fat": 54,
+          "calories": 600,
+          "protein": 47,
+          "carbs": 23,
+          "fat": 36,
           "estimated": true,
-          "note": "User reports \"Entree, kung pow chicken and brown rice\" on November 3, 2026. Both supplied food photos inspected: substantial chicken stir-fry with bell pepper, celery, onion, peanuts, dried chilies and glossy sauce; separate rice bowl. Official menu previously verified Kung Pao with bell pepper, peanut, celery and house sauce; menu is composition evidence, not exact nutrition. Provisional high-side generic ingredient estimate, NOT measured portions or restaurant nutrition. Working components in protein/carbs/fat grams: approximately 200 g cooked chicken, mixed lean/thigh allowance (60/0/18; 402 kcal); 25 g peanuts (6/5/12; 152 kcal); 200 g vegetables (3/14/0; 68 kcal); 24 g retained cooking oil, approximately 1.75 tablespoons (0/0/24; 216 kcal); house sauce sugar/starch/seasoning allowance (1/15/0; 64 kcal). Sum 70 g protein, 34 g carbs, 54 g fat, 902 macro-kcal rounded to 900 kcal. Oil is separate from intrinsic chicken/peanut fat. Chicken cut, amount, oil retention and sauce are uncertain; reasonable working dish range approximately 700-1100 kcal, not a confidence interval. Full pictured serving provisionally counted; amount actually eaten and leftovers remain unresolved and must update this stable item rather than add another entree. Brown rice logged separately. Background vegetable plate excluded because consumption was not reported. Repeated two-dumpling message is the same report, not two additional dumplings; existing count remains two pending final count. Exact meal time unknown."
+          "note": "Original provisional full-entree estimate was 900 kcal, 70 g protein, 34 g carbs, 54 g fat, based on chicken, peanuts, vegetables, retained oil and house sauce; not restaurant nutrition or weighed food. Comparing the large original platter with the shallow leftover mound supports roughly one-third of the entree remaining. Subtracted estimated uneaten entree 300 kcal, 23 g protein, 11 g carbs and 18 g fat, yielding consumed 600 kcal, 47 g protein, 23 g carbs and 36 g fat (604 macro-kcal; rounding). Rice subtraction is separate, with sauce/oil assigned here to avoid double-counting. Correction: user explicitly reports \"Leftover chicken and brown rice. About a half full standard takeout container. This is the part I didn't eat today.\" Inspected original photos img_390e822ab91e.jpeg and img_bbc96a349000.jpeg and leftover photos img_39891a0527ed.jpeg, img_6054ff1739c8.jpeg and img_48211bd63ed4.jpeg. The latter are THREE ANGLES OF ONE UNEATEN PORTION, not three portions. Half-full takeout container is not half the original platter plus rice bowl. The shallow mixed mound contains chicken, vegetables, peanuts, sauce and dispersed rice, with substantial container floor exposed. Working subtraction is 420 kcal total (300 entree + 120 rice); roughly 400-500 kcal is a plausible leftover working range, not measured nutrition. A smaller reasonable subtraction retains a higher-side consumed estimate. Container dimensions, hidden rice, oil and weights remain uncertain. Leftovers are excluded from November 3 intake and are not prelogged for tomorrow. Two dumplings remain the separately confirmed count so far, not an assumed final count; day remains incomplete."
         },
         {
           "id": "fat-dragon-brown-rice",
           "time": "Dinner",
-          "name": "Fat Dragon brown rice (provisional full bowl)",
-          "portion": "1 pictured bowl, assumed approximately 1.25-1.5 cups cooked; full consumption unconfirmed",
+          "name": "Fat Dragon brown rice (consumed portion; leftovers subtracted)",
+          "portion": "Approximately 0.85 cup cooked consumed from original estimated 1.4-cup bowl; approximately 0.55 cup uneaten",
           "quantity": 1,
-          "calories": 300,
-          "protein": 6,
-          "carbs": 62,
-          "fat": 3,
+          "calories": 180,
+          "protein": 3.6,
+          "carbs": 37.2,
+          "fat": 1.8,
           "estimated": true,
-          "note": "User explicitly identifies brown rice; accepted despite photo lighting. Separate bowl accompanying Kung Pao entree, counted once separately from the chicken dish. Provisional generic cooked brown-rice estimate: approximately 1.4 cups, with plausible serving uncertainty around 1.25-1.5 cups; no measured weight or restaurant nutrition. Working macros 6 g protein, 62 g carbs and 3 g fat yield 299 kcal by 4/4/9, rounded to 300 kcal. No added butter/oil assumed for plain rice. Full bowl provisionally counted; actual amount consumed/leftovers unresolved. Correct this stable item when clarified, without altering chicken consumption automatically."
+          "note": "User identifies brown rice despite original photo lighting. Original provisional full bowl was 300 kcal, 6 g protein, 62 g carbs and 3 g fat, approximately 1.4 cups cooked. Rice is dispersed through the mixed leftover mound rather than a second full bowl. Working uneaten rice estimate approximately 0.55 cup (about 40% of original bowl): subtract 120 kcal, 2.4 g protein, 24.8 g carbs and 1.2 g fat. Revised consumed estimate 180 kcal, 3.6 g protein, 37.2 g carbs and 1.8 g fat (179.4 macro-kcal). Cup amounts are visual assumptions, not measurements. No separate added oil assumed for rice; mixed house sauce remains in entree accounting. Correction: user explicitly reports \"Leftover chicken and brown rice. About a half full standard takeout container. This is the part I didn't eat today.\" Inspected original photos img_390e822ab91e.jpeg and img_bbc96a349000.jpeg and leftover photos img_39891a0527ed.jpeg, img_6054ff1739c8.jpeg and img_48211bd63ed4.jpeg. The latter are THREE ANGLES OF ONE UNEATEN PORTION, not three portions. Half-full takeout container is not half the original platter plus rice bowl. The shallow mixed mound contains chicken, vegetables, peanuts, sauce and dispersed rice, with substantial container floor exposed. Working subtraction is 420 kcal total (300 entree + 120 rice); roughly 400-500 kcal is a plausible leftover working range, not measured nutrition. A smaller reasonable subtraction retains a higher-side consumed estimate. Container dimensions, hidden rice, oil and weights remain uncertain. Leftovers are excluded from November 3 intake and are not prelogged for tomorrow. Two dumplings remain the separately confirmed count so far, not an assumed final count; day remains incomplete."
         }
       ],
       "weight": 277,
