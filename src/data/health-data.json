@@ -5807,6 +5807,60 @@
       "nutrition_source": "food-logs/2026-11-03.json",
       "macros_complete": true,
       "complete_day": false
+    },
+    {
+      "date": "2026-11-04",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 460,
+      "protein": 22,
+      "fat": 32,
+      "carbs": 15,
+      "meals": [
+        {
+          "id": "wawa-cobb-salad-with-turkey",
+          "time": "Lunch",
+          "name": "Wawa Cobb Salad with Turkey",
+          "portion": "1 container (266 g)",
+          "quantity": 1,
+          "calories": 260,
+          "protein": 22,
+          "carbs": 7,
+          "fat": 16,
+          "saturated_fat": 7,
+          "fiber": 3,
+          "sugar": 4,
+          "sodium_mg": 620,
+          "cholesterol_mg": 200,
+          "estimated": false,
+          "note": "User-reported lunch; nutrition from photographed per-container label (img_4c1073ceecb7.jpeg), read by parent agent. One 266 g container consumed. Added sugar not established from supplied label evidence. Dressing is logged separately. Date confirmed November 4, 2026 America/New_York; 13:54 was the verified report-time clock check, not an asserted time eaten. Label only; no external photo inference."
+        },
+        {
+          "id": "kens-lite-balsamic-olive-oil-vinaigrette-two-packets",
+          "time": "Lunch",
+          "name": "Ken's Lite Balsamic with Olive Oil Vinaigrette (2 packets)",
+          "portion": "2 packets, each 43 g (1.5 oz); 86 g total",
+          "quantity": 2,
+          "calories": 200,
+          "protein": 0,
+          "carbs": 8,
+          "fat": 16,
+          "saturated_fat": 2,
+          "fiber": 0,
+          "sugar": 6,
+          "added_sugar": 6,
+          "sodium_mg": 740,
+          "cholesterol_mg": 0,
+          "estimated": false,
+          "note": "User explicitly confirmed TWO dressing packets consumed. Photographed label (img_04341a9899fc.jpeg), read by parent agent, per 43 g/1.5 oz packet: 100 kcal, protein 0 g, carbs 4 g, fat 8 g, saturated fat 1 g, fiber 0 g, sugar 3 g including 3 g added sugar, sodium 370 mg, cholesterol 0 mg. All values multiplied by two. Separate from salad; label only, no external photo inference."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-11-04.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
