@@ -5813,10 +5813,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 460,
-      "protein": 22,
-      "fat": 32,
-      "carbs": 15,
+      "calories": 2360,
+      "protein": 109,
+      "fat": 144,
+      "carbs": 150,
       "meals": [
         {
           "id": "wawa-cobb-salad-with-turkey",
@@ -5854,6 +5854,45 @@
           "cholesterol_mg": 0,
           "estimated": false,
           "note": "User explicitly confirmed TWO dressing packets consumed. Photographed label (img_04341a9899fc.jpeg), read by parent agent, per 43 g/1.5 oz packet: 100 kcal, protein 0 g, carbs 4 g, fat 8 g, saturated fat 1 g, fiber 0 g, sugar 3 g including 3 g added sugar, sodium 370 mg, cholesterol 0 mg. All values multiplied by two. Separate from salad; label only, no external photo inference."
+        },
+        {
+          "id": "plaza-aztec-birria-ramen",
+          "time": "Dinner",
+          "name": "Plaza Aztec birria ramen (provisional; sides excluded)",
+          "portion": "1 bowl; assumed 110 g dry ramen equivalent, 170 g cooked beef, broth/fat and aromatics",
+          "quantity": 1,
+          "calories": 1000,
+          "protein": 62,
+          "carbs": 68,
+          "fat": 53,
+          "estimated": true,
+          "note": "User reports dinner November 4, 2026 at Plaza Aztec; exact location/name not verified. Provisional high-side ingredient estimate, NOT restaurant-published nutrition. Photo img_7c14c59a433e.jpeg shows noodles, beef, orange oily broth, onion/cilantro and separate tortilla-looking sides. Portions are assumptions, not measurements. Two side items remain unresolved and EXCLUDED pending confirmation. Working model: 110 g dry ramen equivalent (USDA 171177: 484 kcal, P11.22 C66.33 F19.36), 170 g braised chuck eye with fat (USDA 173099: 428.4 kcal, P50.83 C0 F24.99), about 9 g additional broth fat (81 kcal), and roughly 10 kcal onion/cilantro/chile (about 2 g carbs). Rounded to 1000 kcal, P62 C68 F53. Beef cut, noodle quantity, broth consumed and retained fat are unknown; full reported bowl is the working consumption assumption. Sources: https://fdc.nal.usda.gov/food-details/171177/nutrients ; https://fdc.nal.usda.gov/food-details/173099/nutrients ."
+        },
+        {
+          "id": "plaza-aztec-queso-three-quarters",
+          "time": "Dinner",
+          "name": "Plaza Aztec queso appetizer, about three quarters",
+          "portion": "About 3/4 appetizer; assumes original 8 fl oz and consumed 6 fl oz (approximately 180 g)",
+          "quantity": 0.75,
+          "calories": 450,
+          "protein": 19,
+          "carbs": 10,
+          "fat": 37,
+          "estimated": true,
+          "note": "User reports dinner November 4, 2026 at Plaza Aztec; exact location/name not verified. Provisional high-side ingredient estimate, NOT restaurant-published nutrition. Photo img_7c14c59a433e.jpeg shows noodles, beef, orange oily broth, onion/cilantro and separate tortilla-looking sides. Portions are assumptions, not measurements. Two side items remain unresolved and EXCLUDED pending confirmation. No queso is pictured. Original dip size is unknown; 8 fl oz original / 6 fl oz consumed is a highly uncertain working assumption, not a menu size. Model: approximately 180 g prepared cheese sauce (USDA 172200: 354.6 kcal, P18.54 C9.864 F26.82) plus 10 g fat-equivalent allowance for a richer restaurant formulation (90 kcal); rounded 450 kcal, P19 C10 F37. This extra richness is assumed, not confirmed added oil. Sources: https://fdc.nal.usda.gov/food-details/172200/nutrients ."
+        },
+        {
+          "id": "plaza-aztec-associated-tortilla-chips",
+          "time": "Dinner",
+          "name": "Tortilla chips with queso (provisional portion)",
+          "portion": "Assumed about 3 oz by weight (85 g) consumed; actual quantity unknown",
+          "quantity": 1,
+          "calories": 450,
+          "protein": 6,
+          "carbs": 57,
+          "fat": 22,
+          "estimated": true,
+          "note": "User reports dinner November 4, 2026 at Plaza Aztec; exact location/name not verified. Provisional high-side ingredient estimate, NOT restaurant-published nutrition. Photo img_7c14c59a433e.jpeg shows noodles, beef, orange oily broth, onion/cilantro and separate tortilla-looking sides. Portions are assumptions, not measurements. Two side items remain unresolved and EXCLUDED pending confirmation. Chips were reported with queso; 85 g is an assumed consumed amount, NOT the entire pictured basket or any refills. USDA 173143 plain salted tortilla chips at 85 g: 422.45 kcal, P5.627 C57.29 F18.955; about 3 g additional frying-fat allowance (27 kcal) yields rounded 450 kcal, P6 C57 F22. Actual frying fat and consumed quantity unknown. Source: https://fdc.nal.usda.gov/food-details/173143/nutrients ."
         }
       ],
       "weight": null,
