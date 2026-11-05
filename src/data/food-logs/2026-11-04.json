@@ -42,7 +42,7 @@
     {
       "id": "plaza-aztec-birria-ramen",
       "time": "Dinner",
-      "name": "Plaza Aztec birria ramen (provisional; sides excluded)",
+      "name": "Plaza Azteca birria ramen (rolls logged separately)",
       "portion": "1 bowl; assumed 110 g dry ramen equivalent, 170 g cooked beef, broth/fat and aromatics",
       "quantity": 1,
       "calories": 1000,
@@ -50,20 +50,20 @@
       "carbs": 68,
       "fat": 53,
       "estimated": true,
-      "note": "User reports dinner November 4, 2026 at Plaza Aztec; exact location/name not verified. Provisional high-side ingredient estimate, NOT restaurant-published nutrition. Photo img_7c14c59a433e.jpeg shows noodles, beef, orange oily broth, onion/cilantro and separate tortilla-looking sides. Portions are assumptions, not measurements. Two side items remain unresolved and EXCLUDED pending confirmation. Working model: 110 g dry ramen equivalent (USDA 171177: 484 kcal, P11.22 C66.33 F19.36), 170 g braised chuck eye with fat (USDA 173099: 428.4 kcal, P50.83 C0 F24.99), about 9 g additional broth fat (81 kcal), and roughly 10 kcal onion/cilantro/chile (about 2 g carbs). Rounded to 1000 kcal, P62 C68 F53. Beef cut, noodle quantity, broth consumed and retained fat are unknown; full reported bowl is the working consumption assumption. Sources: https://fdc.nal.usda.gov/food-details/171177/nutrients ; https://fdc.nal.usda.gov/food-details/173099/nutrients ."
+      "note": "User reports dinner November 4, 2026 at Plaza Aztec; exact location/name not verified. Provisional high-side ingredient estimate, NOT restaurant-published nutrition. Photo img_7c14c59a433e.jpeg shows noodles, beef, orange oily broth, onion/cilantro and separate tortilla-looking sides. Portions are assumptions, not measurements. Follow-up confirms both tortilla sides consumed; logged separately as two birria rolls based on the official Virginia menu. Exact branch remains unknown. Working model: 110 g dry ramen equivalent (USDA 171177: 484 kcal, P11.22 C66.33 F19.36), 170 g braised chuck eye with fat (USDA 173099: 428.4 kcal, P50.83 C0 F24.99), about 9 g additional broth fat (81 kcal), and roughly 10 kcal onion/cilantro/chile (about 2 g carbs). Rounded to 1000 kcal, P62 C68 F53. Beef cut, noodle quantity, broth consumed and retained fat are unknown; full reported bowl is the working consumption assumption. Sources: https://fdc.nal.usda.gov/food-details/171177/nutrients ; https://fdc.nal.usda.gov/food-details/173099/nutrients ."
     },
     {
       "id": "plaza-aztec-queso-three-quarters",
       "time": "Dinner",
-      "name": "Plaza Aztec queso appetizer, about three quarters",
-      "portion": "About 3/4 appetizer; assumes original 8 fl oz and consumed 6 fl oz (approximately 180 g)",
+      "name": "Plaza Azteca queso, 3/4 cup consumed",
+      "portion": "3/4 US cup consumed (6 fl oz); approximately 180 g assumed for nutrient estimation",
       "quantity": 0.75,
       "calories": 450,
       "protein": 19,
       "carbs": 10,
       "fat": 37,
       "estimated": true,
-      "note": "User reports dinner November 4, 2026 at Plaza Aztec; exact location/name not verified. Provisional high-side ingredient estimate, NOT restaurant-published nutrition. Photo img_7c14c59a433e.jpeg shows noodles, beef, orange oily broth, onion/cilantro and separate tortilla-looking sides. Portions are assumptions, not measurements. Two side items remain unresolved and EXCLUDED pending confirmation. No queso is pictured. Original dip size is unknown; 8 fl oz original / 6 fl oz consumed is a highly uncertain working assumption, not a menu size. Model: approximately 180 g prepared cheese sauce (USDA 172200: 354.6 kcal, P18.54 C9.864 F26.82) plus 10 g fat-equivalent allowance for a richer restaurant formulation (90 kcal); rounded 450 kcal, P19 C10 F37. This extra richness is assumed, not confirmed added oil. Sources: https://fdc.nal.usda.gov/food-details/172200/nutrients ."
+      "note": "User clarified actual amount CONSUMED was 3/4 cup, not three quarters of an unknown appetizer. Original appetizer size is irrelevant and unknown. Exact Plaza Azteca branch unknown. Retains prior 450 kcal, P19 C10 F37 high-side estimate because its modeled consumed volume was already 6 fl oz, equivalent to 3/4 US cup. Volume is user-reported; approximately 180 g density conversion and sauce richness remain assumptions. No queso is pictured. Model: approximately 180 g prepared cheese sauce (USDA 172200: 354.6 kcal, P18.54 C9.864 F26.82) plus 10 g fat-equivalent richness allowance (90 kcal), not confirmed added oil. NOT restaurant-published nutrition. Source: https://fdc.nal.usda.gov/food-details/172200/nutrients ."
     },
     {
       "id": "plaza-aztec-associated-tortilla-chips",
@@ -76,7 +76,20 @@
       "carbs": 57,
       "fat": 22,
       "estimated": true,
-      "note": "User reports dinner November 4, 2026 at Plaza Aztec; exact location/name not verified. Provisional high-side ingredient estimate, NOT restaurant-published nutrition. Photo img_7c14c59a433e.jpeg shows noodles, beef, orange oily broth, onion/cilantro and separate tortilla-looking sides. Portions are assumptions, not measurements. Two side items remain unresolved and EXCLUDED pending confirmation. Chips were reported with queso; 85 g is an assumed consumed amount, NOT the entire pictured basket or any refills. USDA 173143 plain salted tortilla chips at 85 g: 422.45 kcal, P5.627 C57.29 F18.955; about 3 g additional frying-fat allowance (27 kcal) yields rounded 450 kcal, P6 C57 F22. Actual frying fat and consumed quantity unknown. Source: https://fdc.nal.usda.gov/food-details/173143/nutrients ."
+      "note": "User reports dinner November 4, 2026 at Plaza Aztec; exact location/name not verified. Provisional high-side ingredient estimate, NOT restaurant-published nutrition. Photo img_7c14c59a433e.jpeg shows noodles, beef, orange oily broth, onion/cilantro and separate tortilla-looking sides. Portions are assumptions, not measurements. Follow-up confirms both tortilla sides consumed; logged separately as two birria rolls based on the official Virginia menu. Exact branch remains unknown. Chips were reported with queso; 85 g is an assumed consumed amount, NOT the entire pictured basket or any refills. USDA 173143 plain salted tortilla chips at 85 g: 422.45 kcal, P5.627 C57.29 F18.955; about 3 g additional frying-fat allowance (27 kcal) yields rounded 450 kcal, P6 C57 F22. Actual frying fat and consumed quantity unknown. Source: https://fdc.nal.usda.gov/food-details/173143/nutrients ."
+    },
+    {
+      "id": "plaza-azteca-birria-rolls-two",
+      "time": "Dinner",
+      "name": "Plaza Azteca birria rolls (both sides)",
+      "portion": "2 rolls consumed; tortilla, meat and frying-fat amounts estimated",
+      "quantity": 2,
+      "calories": 550,
+      "protein": 32,
+      "carbs": 42,
+      "fat": 29,
+      "estimated": true,
+      "note": "User explicitly confirms eating BOTH tortilla sides shown in img_7c14c59a433e.jpeg. Official Virginia menu describes Birria Ramen: \"Ramen noodles in a rich consom\u00e9 with tender meat, topped with onions and cilantro. Served with a 2 birria rolls perfect to dip in your ramen.\" Thus recorded as two birria rolls, not verified cheese taquitos. Menu verifies accompaniment identity/count, NOT nutrition or exact filling recipe. Exact branch unknown; this menu is linked for multiple Richmond-area locations, not proof of branch visited. Provisional high-side ingredient model for BOTH rolls together: two flour tortillas totaling about 80 g (~250 kcal, P7 C42 F6), about 85 g cooked beef (~214 kcal, P25 C0 F12.5; same USDA 173099 basis as ramen), and 10 g retained frying fat (~90 kcal, F10). Sum ~554 kcal, P32 C42 F28.5, rounded to 550 kcal, P32 C42 F29. Tortilla type/weight, filling and retained oil are unmeasured assumptions; cheese is not separately assumed. Nutrition is an ingredient estimate, NOT restaurant-published nutrition. Added once separately from unchanged 1000-kcal ramen and unchanged 450-kcal chips. Menu source: https://plazaazteca.com/wp-content/uploads/2025/01/PA-FOOD-MENU-VIRGINIA-1224-V2-25.5x11-WEB-SMALL.pdf ; beef source: https://fdc.nal.usda.gov/food-details/173099/nutrients ."
     }
   ],
   "workouts": [],
