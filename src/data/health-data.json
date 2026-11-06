@@ -5956,6 +5956,75 @@
       "nutrition_source": "food-logs/2026-11-05.json",
       "macros_complete": true,
       "complete_day": false
+    },
+    {
+      "date": "2026-11-06",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 1680,
+      "protein": 75,
+      "fat": 56,
+      "carbs": 219,
+      "meals": [
+        {
+          "id": "akida-salmon-avocado-roll",
+          "time": "Meal",
+          "name": "Akida (reported Akido) salmon avocado roll",
+          "portion": "1 whole roll order; piece count unverified",
+          "quantity": 1,
+          "calories": 350,
+          "protein": 15,
+          "carbs": 45,
+          "fat": 12,
+          "estimated": true,
+          "note": "Reported November 6, 2026; one whole order assumed consumed. Meal time not specified. Likely Akida Japanese Restaurant, 606 N Sheppard St, Richmond, verified as a business via https://www.google.com/maps/search/Akida+Richmond ; restaurant identity still subject to user confirmation. Maps links https://www.facebook.com/Akida-Japanese-Restaurant-122588479252/ but its menu was not accessible without login. Secondary menu https://places.singleplatform.com/akida-japanese-restaurant/menu lists Salmon Avocado Roll but at a DIFFERENT address, 9039 W Broad St; not verified as the current Sheppard menu. Generic high-side portion estimate, not published nutrition: roughly 140 g seasoned cooked rice, 50 g salmon, 35 g avocado, nori. Ingredient weights are assumptions, not measured. Plausible range 270-420 kcal. No extra sauce, sides or drinks reported or separately added."
+        },
+        {
+          "id": "akida-benhana-roll",
+          "time": "Meal",
+          "name": "Akida (reported Akido) Benhana roll \u2014 provisional menu match",
+          "portion": "1 whole roll order; piece count unverified",
+          "quantity": 1,
+          "calories": 450,
+          "protein": 29,
+          "carbs": 57,
+          "fat": 12,
+          "estimated": true,
+          "note": "User spelling Benhana matches the secondary Akida menu exactly; do not normalize to Benihana. https://places.singleplatform.com/akida-japanese-restaurant/menu describes: tuna on top with salmon and cucumber inside. However that listing is at 9039 W Broad St, not the likely 606 N Sheppard St restaurant, so this recipe match is PROVISIONAL, not location-verified. No piece count or restaurant nutrition obtained. High-side working estimate assumes about 180 g seasoned cooked rice, 60 g salmon, 50 g tuna, cucumber and nori; weights unmeasured, no fried filling or mayonnaise asserted. Approximate range 350-550 kcal. One full order assumed consumed November 6; meal time unspecified. Ask whether this was Akida on Sheppard and whether this roll had tuna on top with salmon/cucumber inside."
+        },
+        {
+          "id": "akida-california-roll",
+          "time": "Meal",
+          "name": "Akida (reported Akido) California roll",
+          "portion": "1 whole roll order; piece count unverified",
+          "quantity": 1,
+          "calories": 330,
+          "protein": 9,
+          "carbs": 51,
+          "fat": 10,
+          "estimated": true,
+          "note": "One full order assumed consumed November 6; meal time unspecified. https://places.singleplatform.com/akida-japanese-restaurant/menu lists California Roll without a filling description and at 9039 W Broad St, not the likely Sheppard St location. Generic high-side estimate assumes a conventional crab-stick, avocado and cucumber roll with approximately 140 g seasoned cooked rice, 45 g crab stick, 35 g avocado and nori. This is a standard-recipe assumption, NOT a verified restaurant ingredient list. No mayonnaise specifically confirmed. Approximate range 250-400 kcal. No published nutrition or piece count verified."
+        },
+        {
+          "id": "akida-sunset-roll",
+          "time": "Meal",
+          "name": "Akida (reported Akido) Sunset roll \u2014 provisional estimate",
+          "portion": "1 whole specialty-roll order; ingredients and piece count unverified",
+          "quantity": 1,
+          "calories": 550,
+          "protein": 22,
+          "carbs": 66,
+          "fat": 22,
+          "estimated": true,
+          "note": "One full order assumed consumed November 6; meal time unspecified. Sunset was not found on the accessible secondary Akida menu https://places.singleplatform.com/akida-japanese-restaurant/menu and the likely Sheppard restaurant's Maps-linked Facebook menu could not be read. Ingredients, preparation, sauce and piece count remain UNKNOWN; nothing inferred as fact from the name. Temporary high-side specialty-roll category allowance, not an ingredient-verified calculation or official nutrition; roughly 550 kcal with illustrative P22 C66 F22. Broad plausible range 350-800 kcal; macros particularly uncertain. Do not interpret this placeholder as evidence of a specific fish, fried filling, cream cheese or mayonnaise. Ask for the Sunset roll's menu description or a menu photo to replace this provisional allowance. Day remains incomplete; this is a new meal, not yesterday's leftovers."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-11-06.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
