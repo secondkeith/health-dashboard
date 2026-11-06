@@ -4,6 +4,7 @@ import {
   BarChart,
   CartesianGrid,
   Cell,
+  ComposedChart,
   Legend,
   Line,
   LineChart,
@@ -17,7 +18,7 @@ import {
   YAxis,
 } from 'recharts';
 import healthData from './data/health-data.json';
-import { averageNutrient, formatMacro, macroPercentages, rollingWindow, type Nutrients } from './nutrition';
+import { averageNutrient, calorieTrend, formatMacro, macroPercentages, rollingWindow, type Nutrients } from './nutrition';
 
 type Meal = Nutrients & {
   time: string;
@@ -50,6 +51,12 @@ const views: View[] = ['Dashboard', 'Nutrition', 'Activity', 'Workouts', 'Next W
 // Moderate deficit zone: 2,000 - 2,500 cal/day for steady weight loss
 const targetCalories = { min: 2000, max: 2500 };
 const bmr = 2150;
+const averageLabel = '7-day average (kcal/day)';
+const averageDescription = 'Trailing 7 calendar days, including plotted date. Known calories only; incomplete days excluded (legacy unflagged days included). Missing days are not zero. Tooltip shows eligible days out of 7; gaps mean no eligible data.';
+const calorieTooltip = (value: number | string | Array<number | string>, name: string | number, item: { dataKey?: string | number; payload?: { calorieAverageCount?: number } }) =>
+  item.dataKey === 'calorieAverage'
+    ? [`${Number(value).toFixed(1)} kcal/day (${item.payload?.calorieAverageCount ?? 0}/7 eligible days)`, averageLabel]
+    : [value, name];
 
 const formatShortDate = (date: string) =>
   new Date(`${date}T00:00:00`).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
@@ -86,7 +93,9 @@ const App = () => {
 
   const latestDay = days[days.length - 1];
 
-  const caloriesData = rollingWindow(days, latestDay.date).map((day) => ({
+  const calorieSeries = calorieTrend(days);
+  const caloriesData = rollingWindow(calorieSeries, latestDay.date).map((day) => ({
+    ...day,
     date: formatShortDate(day.date),
     calories: day.calories,
     inRange: day.complete_day !== false && day.calories !== null && day.calories >= targetCalories.min && day.calories <= targetCalories.max,
@@ -106,7 +115,9 @@ const App = () => {
       weight: day.weight,
     }));
 
-  const activityData = days.map((day) => ({
+  const activityData = calorieSeries.map((day) => ({
+    calorieAverage: day.calorieAverage,
+    calorieAverageCount: day.calorieAverageCount,
     date: formatShortDate(day.date),
     steps: day.steps,
     consumed: day.calories,
@@ -114,12 +125,13 @@ const App = () => {
     restingHR: day.restingHR,
   }));
 
-  const rollingAverages = days.map((day) => {
+  const rollingAverages = calorieSeries.map((day) => {
     const window = rollingWindow(days, day.date);
 
     return {
       date: formatShortDate(day.date),
-      calories: averageNutrient(window, 'calories'),
+      calorieAverage: day.calorieAverage,
+      calorieAverageCount: day.calorieAverageCount,
       protein: averageNutrient(window, 'protein'),
       fat: averageNutrient(window, 'fat'),
       carbs: averageNutrient(window, 'carbs'),
@@ -245,25 +257,28 @@ const App = () => {
           {view === 'Dashboard' && (
             <section className="space-y-4 md:space-y-6">
               <div className="grid gap-4 lg:grid-cols-2">
-                <div className="card h-80">
+                <div className="card">
                   <h2 className="mb-3 text-lg font-medium">Daily Calories (Last 7 Days)</h2>
-                  <ResponsiveContainer width="100%" height="100%">
-                    <BarChart data={caloriesData} margin={{ top: 10, right: 12, left: -10, bottom: 0 }}>
+                  <p className="mb-3 text-xs text-slate-400">{averageDescription}</p>
+                  <ResponsiveContainer width="100%" height={280}>
+                    <ComposedChart accessibilityLayer data={caloriesData} margin={{ top: 10, right: 12, left: -10, bottom: 0 }}>
                       <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
                       <XAxis dataKey="date" stroke="#94a3b8" />
                       <YAxis stroke="#94a3b8" domain={[0, 3200]} />
-                      <Tooltip contentStyle={{ background: '#0f172a', border: '1px solid #1e293b' }} />
+                      <Tooltip formatter={calorieTooltip} contentStyle={{ background: '#0f172a', border: '1px solid #1e293b' }} />
+                      <Legend />
                       {/* Ideal caloric intake zone */}
                       <ReferenceArea y1={targetCalories.min} y2={targetCalories.max} fill="#22d3ee" fillOpacity={0.08} />
                       <ReferenceLine y={targetCalories.min} stroke="#22d3ee" strokeDasharray="4 4" strokeOpacity={0.5} label={{ value: `${targetCalories.min} min`, position: 'right', fill: '#22d3ee', fontSize: 11 }} />
                       <ReferenceLine y={targetCalories.max} stroke="#22d3ee" strokeDasharray="4 4" strokeOpacity={0.5} label={{ value: `${targetCalories.max} max`, position: 'right', fill: '#22d3ee', fontSize: 11 }} />
                       <ReferenceLine y={bmr} stroke="#f43f5e" strokeDasharray="6 3" strokeOpacity={0.4} label={{ value: `BMR ${bmr}`, position: 'left', fill: '#f43f5e', fontSize: 11 }} />
-                      <Bar dataKey="calories" radius={[6, 6, 0, 0]}>
+                      <Bar dataKey="calories" name="Daily intake (kcal)" radius={[6, 6, 0, 0]}>
                         {caloriesData.map((entry) => (
                           <Cell key={entry.date} fill={entry.inRange ? '#06b6d4' : '#f97316'} />
                         ))}
                       </Bar>
-                    </BarChart>
+                      <Line type="linear" dataKey="calorieAverage" name={averageLabel} stroke="#c4b5fd" strokeWidth={3} strokeDasharray="6 3" connectNulls={false} dot={{ r: 3 }} />
+                    </ComposedChart>
                   </ResponsiveContainer>
                 </div>
 
@@ -365,17 +380,17 @@ const App = () => {
                   </ResponsiveContainer>}
                 </div>
 
-                <div className="card h-80">
+                <div className="card">
                   <h2 className="mb-3 text-lg font-medium">7-Day Rolling Averages</h2>
-                  <p className="text-xs text-slate-400">Known values only; incomplete days excluded. Gaps mean no eligible data.</p>
-                  <ResponsiveContainer width="100%" height="100%">
-                    <LineChart data={rollingAverages} margin={{ top: 10, right: 12, left: -10, bottom: 0 }}>
+                  <p className="mb-3 text-xs text-slate-400">{averageDescription} Macros use known values in g/day.</p>
+                  <ResponsiveContainer width="100%" height={280}>
+                    <LineChart accessibilityLayer data={rollingAverages} margin={{ top: 10, right: 12, left: -10, bottom: 0 }}>
                       <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
                       <XAxis dataKey="date" stroke="#94a3b8" />
                       <YAxis stroke="#94a3b8" />
-                      <Tooltip contentStyle={{ background: '#0f172a', border: '1px solid #1e293b' }} />
+                      <Tooltip formatter={calorieTooltip} contentStyle={{ background: '#0f172a', border: '1px solid #1e293b' }} />
                       <Legend />
-                      <Line type="monotone" dataKey="calories" stroke="#38bdf8" strokeWidth={2} />
+                      <Line type="linear" dataKey="calorieAverage" name={averageLabel} stroke="#c4b5fd" strokeWidth={3} strokeDasharray="6 3" connectNulls={false} dot={{ r: 3 }} />
                       <Line type="monotone" dataKey="protein" stroke="#22d3ee" strokeWidth={2} />
                       <Line type="monotone" dataKey="fat" stroke="#f59e0b" strokeWidth={2} />
                       <Line type="monotone" dataKey="carbs" stroke="#34d399" strokeWidth={2} />
@@ -444,17 +459,19 @@ const App = () => {
                 </ResponsiveContainer>
               </div>
 
-              <div className="card h-80">
+              <div className="card">
                 <h2 className="mb-3 text-lg font-medium">Calories Burned vs Consumed</h2>
-                <ResponsiveContainer width="100%" height="100%">
-                  <LineChart data={activityData} margin={{ top: 10, right: 12, left: -10, bottom: 0 }}>
+                <p className="mb-3 text-xs text-slate-400">{averageDescription}</p>
+                <ResponsiveContainer width="100%" height={280}>
+                  <LineChart accessibilityLayer data={activityData} margin={{ top: 10, right: 12, left: -10, bottom: 0 }}>
                     <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
                     <XAxis dataKey="date" stroke="#94a3b8" />
                     <YAxis stroke="#94a3b8" />
-                    <Tooltip contentStyle={{ background: '#0f172a', border: '1px solid #1e293b' }} />
+                    <Tooltip formatter={calorieTooltip} contentStyle={{ background: '#0f172a', border: '1px solid #1e293b' }} />
                     <Legend />
-                    <Line type="monotone" dataKey="consumed" name="Consumed" stroke="#34d399" strokeWidth={3} />
-                    <Line type="monotone" dataKey="burned" name="Burned" stroke="#f97316" strokeWidth={3} />
+                    <Line type="monotone" dataKey="consumed" name="Consumed (kcal)" stroke="#34d399" strokeWidth={3} />
+                    <Line type="monotone" dataKey="burned" name="Burned (kcal)" stroke="#f97316" strokeWidth={3} />
+                    <Line type="linear" dataKey="calorieAverage" name={averageLabel} stroke="#c4b5fd" strokeWidth={3} strokeDasharray="6 3" connectNulls={false} dot={{ r: 3 }} />
                   </LineChart>
                 </ResponsiveContainer>
               </div>

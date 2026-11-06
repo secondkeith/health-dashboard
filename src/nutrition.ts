@@ -7,6 +7,17 @@ export type Nutrients = {
 
 type NutritionDay = Nutrients & { date: string; complete_day?: boolean };
 
+// Enrich existing observations only; never fill absent dates with zero.
+export const calorieTrend = <T extends { date: string; calories?: number | null; complete_day?: boolean }>(days: T[]) =>
+  days.slice().sort((a, b) => a.date.localeCompare(b.date)).map(day => {
+    const values = rollingWindow(days, day.date)
+      .filter(entry => entry.complete_day !== false)
+      .map(entry => entry.calories)
+      .filter((value): value is number => typeof value === 'number' && Number.isFinite(value));
+    return { ...day, calorieAverage: values.length ? values.reduce((sum, value) => sum + value, 0) / values.length : null,
+      calorieAverageCount: values.length };
+  });
+
 export const formatMacro = (value: number | null) => value === null ? 'Pending' : `${value}g`;
 
 export const macroPercentages = ({ protein, fat, carbs }: Pick<Nutrients, 'protein' | 'fat' | 'carbs'>) => {
