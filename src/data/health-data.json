@@ -5913,6 +5913,49 @@
       "nutrition_source": "food-logs/2026-11-04.json",
       "macros_complete": true,
       "complete_day": false
+    },
+    {
+      "date": "2026-11-05",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 420,
+      "protein": 25.4,
+      "fat": 19.2,
+      "carbs": 35.8,
+      "meals": [
+        {
+          "id": "fat-dragon-kung-pao-chicken-leftovers-from-2026-11-03",
+          "time": "Meal",
+          "name": "Fat Dragon Kung Pao chicken leftovers from November 3",
+          "portion": "Remaining mixed chicken, vegetables, peanuts and sauce from Tuesday's entree",
+          "quantity": 1,
+          "calories": 300,
+          "protein": 23,
+          "carbs": 11,
+          "fat": 18,
+          "estimated": true,
+          "note": "User reported on November 6, 2026 that yesterday they ate their leftover Chinese food from Tuesday; consumed November 5, not November 4. Meal time unspecified. Reuses the existing November 3 leftover subtraction model, not a new food estimate: original full entree 900 kcal, P70 C34 F54 minus Tuesday consumed 600 kcal, P47 C23 F36 equals these leftovers 300 kcal, P23 C11 F18. Original portions and nutrition were provisional photo estimates, not weighed or restaurant-published nutrition. Rice is separate; sauce/oil remain assigned to this entree. All dumplings were eaten Tuesday, so none are logged as leftovers. November 3 intake remains unchanged."
+        },
+        {
+          "id": "fat-dragon-brown-rice-leftovers-from-2026-11-03",
+          "time": "Meal",
+          "name": "Fat Dragon brown rice leftovers from November 3",
+          "portion": "Remaining rice dispersed in the mixed leftover portion; approximately 0.55 cup in the existing model",
+          "quantity": 1,
+          "calories": 120,
+          "protein": 2.4,
+          "carbs": 24.8,
+          "fat": 1.2,
+          "estimated": true,
+          "note": "Consumed November 5, 2026 per user's November 6 report of eating Tuesday's leftovers yesterday; meal time unspecified. Reuses the existing November 3 subtraction model: original rice 300 kcal, P6 C62 F3 minus Tuesday consumed 180 kcal, P3.6 C37.2 F1.8 equals these leftovers 120 kcal, P2.4 C24.8 F1.2. Cup amount is a visual assumption, not a measurement. No new estimate and no separate rice oil; mixed sauce/oil are accounted for in chicken. Combined leftovers are 420 kcal, P25.4 C35.8 F19.2. This meal report does not confirm the entire day's completeness."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-11-05.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
