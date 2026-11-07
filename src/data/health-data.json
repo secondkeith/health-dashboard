@@ -6025,6 +6025,38 @@
       "nutrition_source": "food-logs/2026-11-06.json",
       "macros_complete": true,
       "complete_day": false
+    },
+    {
+      "date": "2026-11-07",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 696,
+      "protein": 34,
+      "fat": 46,
+      "carbs": 41,
+      "meals": [
+        {
+          "id": "helens-huevos-rancheros",
+          "time": "Brunch",
+          "name": "Helen's Richmond huevos rancheros \u2014 no salsa or potatoes",
+          "portion": "1 full served portion provisionally assumed consumed; weights unmeasured",
+          "quantity": 1,
+          "calories": 696,
+          "protein": 34,
+          "fat": 46,
+          "carbs": 41,
+          "fiber": 18.0,
+          "saturated_fat": 13.5,
+          "estimated": true,
+          "note": "November 7, 2026 brunch. User ordered no salsa and explicitly confirmed no potatoes, over-easy eggs and normal cheese. Official sample menu https://www.helensrva.com/wp-content/uploads/2021/11/brunch-pdf.pdf lists black beans, salsa, feta and cheddar, avocado, and two eggs any style; composition source, NOT restaurant nutrition or portion weights. No salsa or potatoes included. Tortillas are not listed in that description and were not confirmed, so none are assumed or counted. No photo or measured quantities. Full served portion is a provisional consumption assumption, not explicit confirmation of finishing it. Plausible high-side ingredient model: 2 large eggs (100 g raw edible egg before cooking; FDC 171287), 3/4 cup cooked black beans (129 g; FDC 173735), 1/2 avocado (100.5 g edible, from USDA 201 g whole-avocado reference; FDC 171705), 1.5 oz total normal cheese assumed equal feta and cheddar (21.2625 g each; FDC 173420 and 173414), and 2 tsp cooking oil (9 g; olive oil proxy FDC 171413). Oil is the single retained cooking-fat allowance for the plate; raw egg nutrients plus separate oil avoid double-counting frying fat. Cheese amount/split, avocado size, bean preparation and oil type/retention are assumptions, not restaurant-confirmed. Retrieved USDA FoodData Central free API SR Legacy ingredient data; public-domain nutrient references, not photo estimation. Component-summed values before rounding: calories 695.6735, protein 33.8835, fat 45.5917, carbs 41.4201, fiber 17.9565, saturated_fat 13.5242. Calories and macros rounded once; database energy may differ from 4/4/9 due to fiber and specific energy factors. Estimated saturated fat and fiber use the same ingredient model; restaurant salt/sodium unverified. Day remains incomplete."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-11-07.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
