@@ -5,7 +5,7 @@
     {
       "id": "akida-salmon-avocado-roll",
       "time": "Meal",
-      "name": "Akida (reported Akido) salmon avocado roll",
+      "name": "Akida salmon avocado roll",
       "portion": "1 whole roll order; piece count unverified",
       "quantity": 1,
       "calories": 350,
@@ -13,12 +13,12 @@
       "carbs": 45,
       "fat": 12,
       "estimated": true,
-      "note": "Reported November 6, 2026; one whole order assumed consumed. Meal time not specified. Likely Akida Japanese Restaurant, 606 N Sheppard St, Richmond, verified as a business via https://www.google.com/maps/search/Akida+Richmond ; restaurant identity still subject to user confirmation. Maps links https://www.facebook.com/Akida-Japanese-Restaurant-122588479252/ but its menu was not accessible without login. Secondary menu https://places.singleplatform.com/akida-japanese-restaurant/menu lists Salmon Avocado Roll but at a DIFFERENT address, 9039 W Broad St; not verified as the current Sheppard menu. Generic high-side portion estimate, not published nutrition: roughly 140 g seasoned cooked rice, 50 g salmon, 35 g avocado, nori. Ingredient weights are assumptions, not measured. Plausible range 270-420 kcal. No extra sauce, sides or drinks reported or separately added."
+      "note": "Reported November 6, 2026; one whole order assumed consumed. Meal time not specified. User confirmed Akida Japanese Restaurant, 606 N Sheppard St, Richmond; business lookup: https://www.google.com/maps/search/Akida+Richmond ; restaurant identity is user-confirmed. Maps links https://www.facebook.com/Akida-Japanese-Restaurant-122588479252/ but its menu was not accessible without login. Secondary menu https://places.singleplatform.com/akida-japanese-restaurant/menu lists Salmon Avocado Roll but at a DIFFERENT address, 9039 W Broad St; not verified as the current Sheppard menu. Generic high-side portion estimate, not published nutrition: roughly 140 g seasoned cooked rice, 50 g salmon, 35 g avocado, nori. Ingredient weights are assumptions, not measured. Plausible range 270-420 kcal. No extra sauce, sides or drinks reported or separately added."
     },
     {
       "id": "akida-benhana-roll",
       "time": "Meal",
-      "name": "Akida (reported Akido) Benhana roll — provisional menu match",
+      "name": "Akida Benhana roll \u2014 provisional menu match",
       "portion": "1 whole roll order; piece count unverified",
       "quantity": 1,
       "calories": 450,
@@ -26,12 +26,12 @@
       "carbs": 57,
       "fat": 12,
       "estimated": true,
-      "note": "User spelling Benhana matches the secondary Akida menu exactly; do not normalize to Benihana. https://places.singleplatform.com/akida-japanese-restaurant/menu describes: tuna on top with salmon and cucumber inside. However that listing is at 9039 W Broad St, not the likely 606 N Sheppard St restaurant, so this recipe match is PROVISIONAL, not location-verified. No piece count or restaurant nutrition obtained. High-side working estimate assumes about 180 g seasoned cooked rice, 60 g salmon, 50 g tuna, cucumber and nori; weights unmeasured, no fried filling or mayonnaise asserted. Approximate range 350-550 kcal. One full order assumed consumed November 6; meal time unspecified. Ask whether this was Akida on Sheppard and whether this roll had tuna on top with salmon/cucumber inside."
+      "note": "User spelling Benhana matches the secondary Akida menu exactly; do not normalize to Benihana. https://places.singleplatform.com/akida-japanese-restaurant/menu describes: tuna on top with salmon and cucumber inside. However that listing is at 9039 W Broad St, not the user-confirmed 606 N Sheppard St restaurant, so this recipe match is PROVISIONAL, not location-verified. No piece count or restaurant nutrition obtained. High-side working estimate assumes about 180 g seasoned cooked rice, 60 g salmon, 50 g tuna, cucumber and nori; weights unmeasured, no fried filling or mayonnaise asserted. Approximate range 350-550 kcal. One full order assumed consumed November 6; meal time unspecified. Restaurant location is user-confirmed as Akida, 606 N Sheppard St, Richmond. Benhana recipe remains provisional: the earlier ambiguous \"sounds right\" is NOT confirmation of this recipe; the explicit ingredient confirmation applies to Sunset only."
     },
     {
       "id": "akida-california-roll",
       "time": "Meal",
-      "name": "Akida (reported Akido) California roll",
+      "name": "Akida California roll",
       "portion": "1 whole roll order; piece count unverified",
       "quantity": 1,
       "calories": 330,
@@ -39,20 +39,20 @@
       "carbs": 51,
       "fat": 10,
       "estimated": true,
-      "note": "One full order assumed consumed November 6; meal time unspecified. https://places.singleplatform.com/akida-japanese-restaurant/menu lists California Roll without a filling description and at 9039 W Broad St, not the likely Sheppard St location. Generic high-side estimate assumes a conventional crab-stick, avocado and cucumber roll with approximately 140 g seasoned cooked rice, 45 g crab stick, 35 g avocado and nori. This is a standard-recipe assumption, NOT a verified restaurant ingredient list. No mayonnaise specifically confirmed. Approximate range 250-400 kcal. No published nutrition or piece count verified."
+      "note": "One full order assumed consumed November 6; meal time unspecified. https://places.singleplatform.com/akida-japanese-restaurant/menu lists California Roll without a filling description and at 9039 W Broad St, not the user-confirmed Sheppard St location. Generic high-side estimate assumes a conventional crab-stick, avocado and cucumber roll with approximately 140 g seasoned cooked rice, 45 g crab stick, 35 g avocado and nori. This is a standard-recipe assumption, NOT a verified restaurant ingredient list. No mayonnaise specifically confirmed. Approximate range 250-400 kcal. No published nutrition or piece count verified."
     },
     {
       "id": "akida-sunset-roll",
       "time": "Meal",
-      "name": "Akida (reported Akido) Sunset roll — provisional estimate",
-      "portion": "1 whole specialty-roll order; ingredients and piece count unverified",
+      "name": "Akida Sunset roll \u2014 confirmed ingredients, estimated portions",
+      "portion": "1 whole specialty-roll order; ingredients user-confirmed, weights and piece count unmeasured",
       "quantity": 1,
-      "calories": 550,
-      "protein": 22,
+      "calories": 482,
+      "protein": 29,
       "carbs": 66,
-      "fat": 22,
+      "fat": 11,
       "estimated": true,
-      "note": "One full order assumed consumed November 6; meal time unspecified. Sunset was not found on the accessible secondary Akida menu https://places.singleplatform.com/akida-japanese-restaurant/menu and the likely Sheppard restaurant's Maps-linked Facebook menu could not be read. Ingredients, preparation, sauce and piece count remain UNKNOWN; nothing inferred as fact from the name. Temporary high-side specialty-roll category allowance, not an ingredient-verified calculation or official nutrition; roughly 550 kcal with illustrative P22 C66 F22. Broad plausible range 350-800 kcal; macros particularly uncertain. Do not interpret this placeholder as evidence of a specific fish, fried filling, cream cheese or mayonnaise. Ask for the Sunset roll's menu description or a menu photo to replace this provisional allowance. Day remains incomplete; this is a new meal, not yesterday's leftovers."
+      "note": "One full order assumed consumed November 6, 2026; meal time unspecified. User confirmed Akida Japanese Restaurant, 606 N Sheppard St, Richmond, and the SUNSET recipe: tuna and lemon on top, with salmon, crab stick, cucumber, and avocado inside. Generous/high-side portion model, not measured portions or official restaurant nutrition: 180 g finished seasoned sushi rice modeled as 170 g cooked short-grain white rice + 6 g sugar + 4 g vinegar; 50 g raw tuna, 40 g raw salmon, 30 g crab stick, 35 g avocado, 20 g cucumber, 10 g lemon, and 3 g dried nori. Rice seasoning and nori are modeling assumptions; fish species and brands are unverified. No mayonnaise, cream cheese, frying, or extra sauce assumed. USDA FoodData Central free API ingredient references (per-100-g data): 170 g Rice, white, short-grain, cooked, unenriched (FDC 168932); 6 g Sugars, granulated (FDC 169655); 4 g Vinegar, distilled (FDC 172237); 50 g Fish, tuna, fresh, yellowfin, raw (FDC 175159); 40 g Fish, salmon, Atlantic, farmed, raw (FDC 175167); 30 g Crustaceans, crab, alaska king, imitation, made from surimi (FDC 174203); 35 g Avocados, raw, all commercial varieties (FDC 171705); 20 g Cucumber, with peel, raw (FDC 168409); 10 g Lemons, raw, without peel (FDC 167746); 3 g Seaweed, dried (FDC 2709988). Yellowfin tuna, farmed Atlantic salmon, imitation crab, generic dried seaweed, and distilled vinegar are nutrient proxies, not restaurant-confirmed species/products. Component-summed estimate before rounding: calories 481.9800, protein 28.5532, carbs 65.5068, fat 11.3833. Log rounds the sum once to whole kcal/grams; food-database energy need not equal 4/4/9 energy exactly. Portions remain uncertain, so estimated=true despite confirmed ingredients. Replaces the prior unknown-recipe 550-kcal allowance, not an additional roll. Day remains incomplete."
     }
   ],
   "workouts": [],
