@@ -6031,10 +6031,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 696,
-      "protein": 34,
-      "fat": 46,
-      "carbs": 41,
+      "calories": 1537,
+      "protein": 109,
+      "fat": 82,
+      "carbs": 94,
       "meals": [
         {
           "id": "helens-huevos-rancheros",
@@ -6050,6 +6050,20 @@
           "saturated_fat": 13.5,
           "estimated": true,
           "note": "November 7, 2026 brunch. User ordered no salsa and explicitly confirmed no potatoes, over-easy eggs and normal cheese. Official sample menu https://www.helensrva.com/wp-content/uploads/2021/11/brunch-pdf.pdf lists black beans, salsa, feta and cheddar, avocado, and two eggs any style; composition source, NOT restaurant nutrition or portion weights. No salsa or potatoes included. Tortillas are not listed in that description and were not confirmed, so none are assumed or counted. No photo or measured quantities. Full served portion is a provisional consumption assumption, not explicit confirmation of finishing it. Plausible high-side ingredient model: 2 large eggs (100 g raw edible egg before cooking; FDC 171287), 3/4 cup cooked black beans (129 g; FDC 173735), 1/2 avocado (100.5 g edible, from USDA 201 g whole-avocado reference; FDC 171705), 1.5 oz total normal cheese assumed equal feta and cheddar (21.2625 g each; FDC 173420 and 173414), and 2 tsp cooking oil (9 g; olive oil proxy FDC 171413). Oil is the single retained cooking-fat allowance for the plate; raw egg nutrients plus separate oil avoid double-counting frying fat. Cheese amount/split, avocado size, bean preparation and oil type/retention are assumptions, not restaurant-confirmed. Retrieved USDA FoodData Central free API SR Legacy ingredient data; public-domain nutrient references, not photo estimation. Component-summed values before rounding: calories 695.6735, protein 33.8835, fat 45.5917, carbs 41.4201, fiber 17.9565, saturated_fat 13.5242. Calories and macros rounded once; database energy may differ from 4/4/9 due to fiber and specific energy factors. Estimated saturated fat and fiber use the same ingredient model; restaurant salt/sodium unverified. Day remains incomplete."
+        },
+        {
+          "id": "peking-szechuan-chicken-no-rice",
+          "time": "Dinner",
+          "name": "Peking Szechuan chicken \u2014 full entr\u00e9e, no rice",
+          "portion": "1 full restaurant entr\u00e9e; ingredient quantities assumed, not measured",
+          "quantity": 1,
+          "calories": 841,
+          "protein": 75,
+          "fat": 36,
+          "carbs": 53,
+          "fiber": 8.5,
+          "estimated": true,
+          "note": "November 7 dinner. User reported Szechuan chicken and only the entree, no rice; interpreted as full entree consumed. Peking in Henrico, Virginia; exact branch unconfirmed. Supplied menu describes shredded chicken breast stir-fried with celery, tree mushrooms and water chestnuts in spicy Szechuan sauce, not battered. Menu is composition evidence only, NOT official restaurant nutrition. No meal/portion photo or measured weights; menu image was not uploaded to any external inference service. High-side plausible ingredient estimate using authenticated free USDA FoodData Central SR Legacy lookup: 227 g (about 8 oz) cooked skinless chicken breast (roasted plain proxy FDC 171477); 27 g retained cooking oil (about 2 tbsp, soybean proxy FDC 171411); 150 g celery before cooking (169988); tree mushrooms modeled as 5 g dried cloud ears before rehydration (168581); 75 g edible raw water chestnuts (170066, raw-solids proxy rather than canned solids-and-liquid reference); sauce/velveting allowance of 15 g cornstarch (169698), 12 g sugar (169655), and 30 g regular soy sauce (174277), plus water/spices. These are assumed quantities and recipe proxies, not measured portions or confirmed restaurant recipe. The oil allowance includes cooking/chili oil once; no light-oil request was confirmed. Sauce starch is not a battered/fried coating. No rice, Hunan chicken, appetizers or other sides included. Component sum 840.67 kcal, 75.3985 g protein, 53.204 g carbohydrate, 35.6489 g fat, 8.53 g fiber; rounded once for logging. Calories may differ from 4/4/9 due to database energy factors/fiber. Hidden oil and portion size remain the main uncertainties; plausible broad range roughly 700\u2013950 kcal. Public-domain USDA ingredient references https://fdc.nal.usda.gov/food-details/171477/nutrients and corresponding listed FDC IDs; not restaurant-official nutrition. Sodium and saturated fat not logged because exact sauce/oil recipe is unknown. Day remains incomplete."
         }
       ],
       "weight": null,
