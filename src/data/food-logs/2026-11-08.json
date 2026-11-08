@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-08",
+  "weight": null,
+  "items": [
+    {
+      "id": "wawa-breakfast-protein-yogurt-drink",
+      "time": "Breakfast",
+      "name": "Wawa breakfast \u2014 protein yogurt drink (brand not visible)",
+      "portion": "1 full bottle (414 mL)",
+      "quantity": 1,
+      "calories": 230,
+      "protein": 30,
+      "fat": 4.5,
+      "carbs": 18,
+      "saturated_fat": 2.5,
+      "trans_fat": 0,
+      "cholesterol_mg": 30,
+      "sodium_mg": 270,
+      "fiber": null,
+      "fiber_label": "<1 g",
+      "sugar": 15,
+      "added_sugar": 0,
+      "calcium_mg": 450,
+      "iron_mg": 0.4,
+      "potassium_mg": 570,
+      "vitamin_d_mcg": 0,
+      "vitamin_b12_mcg": 2.7,
+      "estimated": false,
+      "source": "User-provided nutrition label photo img_38cea0003214.jpeg; read locally with native vision",
+      "note": "User confirmed \"I chose these\" for November 8 Wawa breakfast. One full bottle assumed consumed. Label serving is 1 bottle (414 mL); values transcribed directly, not estimated. Fiber is labeled less than 1 g; numeric fiber left null rather than inventing a point value. Brand/flavor not visible. No oatmeal, fruit or other recommended food logged. Label not uploaded to an external inference service."
+    },
+    {
+      "id": "wawa-breakfast-zero-sugar-beverage",
+      "time": "Breakfast",
+      "name": "Wawa breakfast \u2014 zero-sugar beverage (brand not visible)",
+      "portion": "1 full container; per-container label column",
+      "quantity": 1,
+      "calories": 15,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 9,
+      "sodium_mg": 570,
+      "sugar": 0,
+      "added_sugar": 0,
+      "erythritol": 4,
+      "estimated": false,
+      "source": "User-provided nutrition label photo img_3eac130e8b20.jpeg; read locally with native vision",
+      "note": "User confirmed \"I chose these\" for November 8 Wawa breakfast. One full container assumed consumed. Used PER CONTAINER values: 15 calories, 9 g carbs, 0 g fat, 0 g protein, 570 mg sodium, 0 g total/added sugars and 4 g erythritol. The 12 fl oz (355 mL) PER SERVING column is not the whole container and lists 10 calories, 5 g carbs, 290 mg sodium and 2 g erythritol; do not multiply rounded serving values. Per-container vitamin daily values: riboflavin 390%, niacin 380%, B6 350%, B12 750%. Other nutrients described as not significant sources, not quantified as exact zero. Brand/flavor not visible. Label calories retained despite differing simple 4/4/9 energy; erythritol included in label carbohydrate. Label not uploaded to external inference."
+    }
+  ],
+  "workouts": [],
+  "complete_day": false
+}
