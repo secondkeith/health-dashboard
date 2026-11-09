@@ -14,8 +14,8 @@
       "carbs": 33.7,
       "fiber": 28.0,
       "estimated": true,
-      "source": "USDA FoodData Central SR Legacy records 171287 (whole raw egg), 173414 (cheddar), 173410 (salted butter), retrieved via free USDA API; official Mission Carb Balance burrito tortilla label (provisional proxy only).",
-      "note": "User reported breakfast made by mom: 2 eggs and 1/4 cup cheese in a low-carb tortilla, cooked with a pat of butter. Egg count and cheese volume are user-confirmed. Egg size assumed large (50 g edible each); cheese type unknown, cheddar proxy at approximately 28 g shredded; butter pat assumed 5 g, all consumed. Tortilla brand and size unknown: provisionally use one burrito-size Mission Carb Balance flour tortilla (71 g); this is NOT a confirmed product match. Total carbs include fiber, not net carbs. Label calories retained independently of 4/4/9 arithmetic. Raw egg reference models ingredients before cooking with butter counted separately. No meat, salsa, extra oil or other unreported ingredients included. Revise when tortilla label/size or cheese type becomes known.",
+      "source": "USDA FoodData Central SR Legacy records 171287 (whole raw egg), 173414 (cheddar), 173410 (salted butter); actual user-supplied tortilla Nutrition Facts label photo (71 g serving).",
+      "note": "User reported breakfast made by mom: 2 eggs and 1/4 cup cheese in a low-carb tortilla, cooked with a pat of butter. Egg count and cheese volume are user-confirmed. Egg size assumed large (50 g edible each); cheese type unknown, cheddar proxy at approximately 28 g shredded; butter pat assumed 5 g, all consumed. Tortilla nutrients are confirmed from the actual user-supplied label: one tortilla (71 g). Brand appears Mission but exact variant is not fully visible; no exact SKU asserted. Total carbs include fiber, not net carbs. Label calories retained independently of 4/4/9 arithmetic. Raw egg reference models ingredients before cooking with butter counted separately. No meat, salsa, extra oil or other unreported ingredients included. Whole meal remains estimated because eggs, cheese and butter use portion/type assumptions.",
       "components": [
         {
           "name": "Eggs \u2014 2, assumed large",
@@ -48,15 +48,24 @@
           "source": "https://fdc.nal.usda.gov/food-details/173410/nutrients"
         },
         {
-          "name": "Low-carb burrito tortilla \u2014 provisional Mission Carb Balance proxy, NOT confirmed brand/size",
-          "assumed_grams": 71,
+          "name": "Low-carb tortilla \u2014 actual label, 1 tortilla (71 g)",
+          "serving_grams": 71,
           "calories": 110,
           "protein": 10,
           "fat": 6,
           "carbs": 32,
           "fiber": 28,
-          "source": "https://www.missionfoods.com/products/carb-balance-burrito-flour-tortillas/",
-          "label_source": "https://www.missionfoods.com/wp-content/uploads/2023/09/carb-balance-burrito-product-nutrition-new.png"
+          "saturated_fat": 2,
+          "trans_fat": 0,
+          "cholesterol_mg": 0,
+          "sodium_mg": 550,
+          "sugar": 0,
+          "added_sugar": 0,
+          "calcium_mg": 114,
+          "potassium_mg": 24,
+          "estimated": false,
+          "source": "User-supplied Nutrition Facts label photo, img_01aa2513b9f4.jpeg; no external upload",
+          "note": "Brand appears Mission; exact variant not fully visible. Total carbohydrate is 32 g, including 28 g dietary fiber."
         }
       ]
     }
