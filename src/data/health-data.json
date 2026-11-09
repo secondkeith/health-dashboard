@@ -6077,10 +6077,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 875.0,
-      "protein": 52.0,
-      "fat": 28.5,
-      "carbs": 105.0,
+      "calories": 1105.0,
+      "protein": 61.0,
+      "fat": 40.5,
+      "carbs": 126.0,
       "meals": [
         {
           "id": "wawa-breakfast-protein-yogurt-drink",
@@ -6141,23 +6141,23 @@
           "calories_estimated": false,
           "macros_estimated": true,
           "source": "User customized Taco Bell kiosk photo img_fe85d8e62674.jpeg: 400 kcal per item; user-confirmed quantity. Official lookup attempted: https://www.tacobell.com/food/burritos/bean-burrito and https://www.tacobell.com/nutrition/info (unavailable). Macros: explicitly estimated component model.",
-          "note": "Correction: user ate only one burrito and one taco, felt satisfied, and stopped. One additional burrito and taco remain uneaten and are NOT logged; add only after explicit confirmation of later consumption. Regular cheese retained; no sour cream added or subtracted (standard non-Supreme items have none). No drinks/sides. Customized kiosk headline calories already include guacamole and red sauce; do not add their 35/10 calories again. Photos read locally with native vision only. Official Taco Bell product/nutrition URLs attempted but HTTP 403/protocol error/timeouts prevented retrieving customized macros. Macros are reasonable component estimates, NOT verified official nutrition; label calories retained independently of macro energy. Per burrito estimated standard bean burrito P13/C54/F9 g plus guacamole and incremental red sauce combined P0/C3/F3 g."
+          "note": "User initially ate one burrito and one taco, then confirmed eating the second taco later on November 8. November 8 consumption totals one burrito and two tacos. The remaining burrito was consumed at lunch November 9 and is logged only on that date. Regular cheese retained; no sour cream added or subtracted (standard non-Supreme items have none). No drinks/sides. Customized kiosk headline calories already include guacamole and red sauce; do not add their 35/10 calories again. Photos read locally with native vision only. Official Taco Bell product/nutrition URLs attempted but HTTP 403/protocol error/timeouts prevented retrieving customized macros. Macros are reasonable component estimates, NOT verified official nutrition; label calories retained independently of macro energy. Per burrito estimated standard bean burrito P13/C54/F9 g plus guacamole and incremental red sauce combined P0/C3/F3 g."
         },
         {
           "id": "taco-bell-dinner-beef-soft-tacos",
           "time": "Dinner",
-          "name": "Taco Bell \u2014 1 regular beef Soft Taco, added red sauce + guacamole",
-          "portion": "1 item consumed; nutrients below are for this single item",
-          "quantity": 1,
-          "calories": 230.0,
-          "protein": 9.0,
-          "carbs": 21.0,
-          "fat": 12.0,
+          "name": "Taco Bell \u2014 2 regular beef Soft Tacos, added red sauce + guacamole",
+          "portion": "2 items consumed November 8, second eaten later; nutrients below are the combined total",
+          "quantity": 2,
+          "calories": 460.0,
+          "protein": 18.0,
+          "carbs": 42.0,
+          "fat": 24.0,
           "estimated": true,
           "calories_estimated": false,
           "macros_estimated": true,
           "source": "User customized Taco Bell kiosk photo img_b82aa39b2402.jpeg: 230 kcal per item; user-confirmed quantity. Official lookup attempted: https://www.tacobell.com/food/tacos/soft-taco and https://www.tacobell.com/nutrition/info (unavailable). Macros: explicitly estimated component model.",
-          "note": "Correction: user ate only one burrito and one taco, felt satisfied, and stopped. One additional burrito and taco remain uneaten and are NOT logged; add only after explicit confirmation of later consumption. Regular cheese retained; no sour cream added or subtracted (standard non-Supreme items have none). No drinks/sides. Customized kiosk headline calories already include guacamole and red sauce; do not add their 35/10 calories again. Photos read locally with native vision only. Official Taco Bell product/nutrition URLs attempted but HTTP 403/protocol error/timeouts prevented retrieving customized macros. Macros are reasonable component estimates, NOT verified official nutrition; label calories retained independently of macro energy. Per taco estimated standard beef soft taco P9/C18/F9 g plus guacamole and red sauce combined P0/C3/F3 g."
+          "note": "User initially ate one burrito and one taco, then confirmed eating the second taco later on November 8. November 8 consumption totals one burrito and two tacos. The remaining burrito was consumed at lunch November 9 and is logged only on that date. Regular cheese retained; no sour cream added or subtracted (standard non-Supreme items have none). No drinks/sides. Customized kiosk headline calories already include guacamole and red sauce; do not add their 35/10 calories again. Photos read locally with native vision only. Official Taco Bell product/nutrition URLs attempted but HTTP 403/protocol error/timeouts prevented retrieving customized macros. Macros are reasonable component estimates, NOT verified official nutrition; label calories retained independently of macro energy. Per taco estimated standard beef soft taco P9/C18/F9 g plus guacamole and red sauce combined P0/C3/F3 g."
         }
       ],
       "weight": null,
@@ -6171,10 +6171,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 401.7,
-      "protein": 29.0,
-      "fat": 28.9,
-      "carbs": 33.7,
+      "calories": 801.7,
+      "protein": 42.0,
+      "fat": 40.9,
+      "carbs": 90.7,
       "meals": [
         {
           "id": "homemade-breakfast-egg-cheese-low-carb-burrito",
@@ -6242,6 +6242,22 @@
               "note": "Brand appears Mission; exact variant not fully visible. Total carbohydrate is 32 g, including 28 g dietary fiber."
             }
           ]
+        },
+        {
+          "id": "taco-bell-lunch-leftover-bean-burrito-2026-11-08",
+          "time": "Lunch",
+          "name": "Taco Bell \u2014 leftover Bean Burrito, extra red sauce + guacamole",
+          "portion": "1 leftover burrito consumed November 9; purchased November 8",
+          "quantity": 1,
+          "calories": 400.0,
+          "protein": 13.0,
+          "carbs": 57.0,
+          "fat": 12.0,
+          "estimated": true,
+          "calories_estimated": false,
+          "macros_estimated": true,
+          "source": "November 9 user consumption confirmation at 14:07 America/New_York; November 8 customized Taco Bell kiosk photo img_fe85d8e62674.jpeg (400 kcal per burrito); reused November 8 single-burrito estimated macro model.",
+          "note": "User reported: \"For lunch I ate the left over bean burrito from yesterday\". Purchased November 8, 2026; this remaining burrito consumed at lunch November 9, 2026, not on purchase day. Regular cheese retained; extra red sauce and added guacamole; no sour cream. Customized kiosk 400 kcal already includes additions; do not add their calories again. Macros P13/C57/F12 g are estimates reused from the actual November 8 single-burrito model, not newly verified official nutrition. Calories retained independently of macro energy. The second taco was consumed later on November 8 and is logged on November 8, not November 9; no unreported sides or drinks included."
         }
       ],
       "weight": 273.8,

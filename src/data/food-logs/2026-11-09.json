@@ -68,6 +68,22 @@
           "note": "Brand appears Mission; exact variant not fully visible. Total carbohydrate is 32 g, including 28 g dietary fiber."
         }
       ]
+    },
+    {
+      "id": "taco-bell-lunch-leftover-bean-burrito-2026-11-08",
+      "time": "Lunch",
+      "name": "Taco Bell \u2014 leftover Bean Burrito, extra red sauce + guacamole",
+      "portion": "1 leftover burrito consumed November 9; purchased November 8",
+      "quantity": 1,
+      "calories": 400.0,
+      "protein": 13.0,
+      "carbs": 57.0,
+      "fat": 12.0,
+      "estimated": true,
+      "calories_estimated": false,
+      "macros_estimated": true,
+      "source": "November 9 user consumption confirmation at 14:07 America/New_York; November 8 customized Taco Bell kiosk photo img_fe85d8e62674.jpeg (400 kcal per burrito); reused November 8 single-burrito estimated macro model.",
+      "note": "User reported: \"For lunch I ate the left over bean burrito from yesterday\". Purchased November 8, 2026; this remaining burrito consumed at lunch November 9, 2026, not on purchase day. Regular cheese retained; extra red sauce and added guacamole; no sour cream. Customized kiosk 400 kcal already includes additions; do not add their calories again. Macros P13/C57/F12 g are estimates reused from the actual November 8 single-burrito model, not newly verified official nutrition. Calories retained independently of macro energy. The second taco was consumed later on November 8 and is logged on November 8, not November 9; no unreported sides or drinks included."
     }
   ],
   "workouts": [],
