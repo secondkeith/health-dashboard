@@ -46,6 +46,38 @@
       "estimated": false,
       "source": "User-provided nutrition label photo img_3eac130e8b20.jpeg; read locally with native vision",
       "note": "User confirmed \"I chose these\" for November 8 Wawa breakfast. One full container assumed consumed. Used PER CONTAINER values: 15 calories, 9 g carbs, 0 g fat, 0 g protein, 570 mg sodium, 0 g total/added sugars and 4 g erythritol. The 12 fl oz (355 mL) PER SERVING column is not the whole container and lists 10 calories, 5 g carbs, 290 mg sodium and 2 g erythritol; do not multiply rounded serving values. Per-container vitamin daily values: riboflavin 390%, niacin 380%, B6 350%, B12 750%. Other nutrients described as not significant sources, not quantified as exact zero. Brand/flavor not visible. Label calories retained despite differing simple 4/4/9 energy; erythritol included in label carbohydrate. Label not uploaded to external inference."
+    },
+    {
+      "id": "taco-bell-dinner-bean-burritos",
+      "time": "Dinner",
+      "name": "Taco Bell \u2014 2 Bean Burritos, extra red sauce + guacamole",
+      "portion": "2 items; nutrients below are total for both",
+      "quantity": 2,
+      "calories": 800,
+      "protein": 26,
+      "carbs": 114,
+      "fat": 24,
+      "estimated": true,
+      "calories_estimated": false,
+      "macros_estimated": true,
+      "source": "User customized Taco Bell kiosk photo img_fe85d8e62674.jpeg: 400 kcal per item; user-confirmed quantity. Official lookup attempted: https://www.tacobell.com/food/burritos/bean-burrito and https://www.tacobell.com/nutrition/info (unavailable). Macros: explicitly estimated component model.",
+      "note": "User confirmed two of each. Regular cheese retained; no sour cream added or subtracted (standard non-Supreme items have none). No drinks/sides. Customized kiosk headline calories already include guacamole and red sauce; do not add their 35/10 calories again. Photos read locally with native vision only. Official Taco Bell product/nutrition URLs attempted but HTTP 403/protocol error/timeouts prevented retrieving customized macros. Macros are reasonable component estimates, NOT verified official nutrition; label calories retained independently of macro energy. Per burrito estimated standard bean burrito P13/C54/F9 g plus guacamole and incremental red sauce combined P0/C3/F3 g. Screenshot quantity 1 overridden by user-confirmed quantity 2."
+    },
+    {
+      "id": "taco-bell-dinner-beef-soft-tacos",
+      "time": "Dinner",
+      "name": "Taco Bell \u2014 2 regular beef Soft Tacos, added red sauce + guacamole",
+      "portion": "2 items; nutrients below are total for both",
+      "quantity": 2,
+      "calories": 460,
+      "protein": 18,
+      "carbs": 42,
+      "fat": 24,
+      "estimated": true,
+      "calories_estimated": false,
+      "macros_estimated": true,
+      "source": "User customized Taco Bell kiosk photo img_b82aa39b2402.jpeg: 230 kcal per item; user-confirmed quantity. Official lookup attempted: https://www.tacobell.com/food/tacos/soft-taco and https://www.tacobell.com/nutrition/info (unavailable). Macros: explicitly estimated component model.",
+      "note": "User confirmed two of each. Regular cheese retained; no sour cream added or subtracted (standard non-Supreme items have none). No drinks/sides. Customized kiosk headline calories already include guacamole and red sauce; do not add their 35/10 calories again. Photos read locally with native vision only. Official Taco Bell product/nutrition URLs attempted but HTTP 403/protocol error/timeouts prevented retrieving customized macros. Macros are reasonable component estimates, NOT verified official nutrition; label calories retained independently of macro energy. Per taco estimated standard beef soft taco P9/C18/F9 g plus guacamole and red sauce combined P0/C3/F3 g."
     }
   ],
   "workouts": [],
