@@ -1,7 +1,66 @@
 {
   "date": "2026-11-09",
   "weight": 273.8,
-  "items": [],
+  "items": [
+    {
+      "id": "homemade-breakfast-egg-cheese-low-carb-burrito",
+      "time": "Breakfast",
+      "name": "Homemade egg and cheese breakfast burrito, low-carb tortilla, butter",
+      "portion": "1 burrito: 2 eggs, 1/4 cup cheese, 1 low-carb tortilla, 1 pat butter",
+      "quantity": 1,
+      "calories": 401.7,
+      "protein": 29.0,
+      "fat": 28.9,
+      "carbs": 33.7,
+      "fiber": 28.0,
+      "estimated": true,
+      "source": "USDA FoodData Central SR Legacy records 171287 (whole raw egg), 173414 (cheddar), 173410 (salted butter), retrieved via free USDA API; official Mission Carb Balance burrito tortilla label (provisional proxy only).",
+      "note": "User reported breakfast made by mom: 2 eggs and 1/4 cup cheese in a low-carb tortilla, cooked with a pat of butter. Egg count and cheese volume are user-confirmed. Egg size assumed large (50 g edible each); cheese type unknown, cheddar proxy at approximately 28 g shredded; butter pat assumed 5 g, all consumed. Tortilla brand and size unknown: provisionally use one burrito-size Mission Carb Balance flour tortilla (71 g); this is NOT a confirmed product match. Total carbs include fiber, not net carbs. Label calories retained independently of 4/4/9 arithmetic. Raw egg reference models ingredients before cooking with butter counted separately. No meat, salsa, extra oil or other unreported ingredients included. Revise when tortilla label/size or cheese type becomes known.",
+      "components": [
+        {
+          "name": "Eggs \u2014 2, assumed large",
+          "assumed_grams": 100,
+          "calories": 143.0,
+          "protein": 12.56,
+          "fat": 9.51,
+          "carbs": 0.72,
+          "fiber": 0.0,
+          "source": "https://fdc.nal.usda.gov/food-details/171287/nutrients"
+        },
+        {
+          "name": "Cheese \u2014 1/4 cup, cheddar proxy",
+          "assumed_grams": 28,
+          "calories": 112.84,
+          "protein": 6.4,
+          "fat": 9.33,
+          "carbs": 0.94,
+          "fiber": 0.0,
+          "source": "https://fdc.nal.usda.gov/food-details/173414/nutrients"
+        },
+        {
+          "name": "Butter \u2014 1 pat, assumed 5 g",
+          "assumed_grams": 5,
+          "calories": 35.85,
+          "protein": 0.04,
+          "fat": 4.06,
+          "carbs": 0.0,
+          "fiber": 0.0,
+          "source": "https://fdc.nal.usda.gov/food-details/173410/nutrients"
+        },
+        {
+          "name": "Low-carb burrito tortilla \u2014 provisional Mission Carb Balance proxy, NOT confirmed brand/size",
+          "assumed_grams": 71,
+          "calories": 110,
+          "protein": 10,
+          "fat": 6,
+          "carbs": 32,
+          "fiber": 28,
+          "source": "https://www.missionfoods.com/products/carb-balance-burrito-flour-tortillas/",
+          "label_source": "https://www.missionfoods.com/wp-content/uploads/2023/09/carb-balance-burrito-product-nutrition-new.png"
+        }
+      ]
+    }
+  ],
   "workouts": [],
   "complete_day": false
 }
