@@ -197,6 +197,32 @@
           "note": "Assumed 2:1 mayo-to-mustard by weight in consumed dip; recipe ratio unknown."
         }
       ]
+    },
+    {
+      "id": "evening-snack-greek-yogurt-2026-11-09",
+      "time": "Evening snack",
+      "name": "Greek yogurt — actual Nutrition Facts label",
+      "portion": "1.5 cups (340 g; two 3/4-cup label servings)",
+      "quantity": 1,
+      "serving_grams": 340,
+      "calories": 200,
+      "protein": 34,
+      "carbs": 12,
+      "fat": 5,
+      "saturated_fat": 2,
+      "trans_fat": 0,
+      "cholesterol_mg": 30,
+      "sodium_mg": 110,
+      "fiber": 0,
+      "sugar": 12,
+      "added_sugar": 0,
+      "calcium_mg": 380,
+      "potassium_mg": 520,
+      "vitamin_d_mcg": 0,
+      "iron_mg": 0,
+      "estimated": false,
+      "source": "Actual user-supplied Nutrition Facts label photo img_1ae996cb3456.jpeg, read natively; no external image upload.",
+      "note": "User reported 1.5 cups Greek yogurt as an evening snack November 9, 2026. Label per 3/4 cup (170 g): 100 kcal, protein 17 g, total carbohydrate 6 g, fat 2.5 g, saturated fat 1 g, trans fat 0 g, cholesterol 15 mg, sodium 55 mg, fiber 0 g, sugar 6 g, added sugar 0 g, calcium 190 mg, potassium 260 mg, vitamin D 0 mcg, iron 0 mg. All nutrients doubled for two servings; quantity represents the entire consumed portion, not a further multiplier. Label calories retained independently of macro arithmetic; total carbohydrate retained. No toppings or other additions reported or counted. Exact brand/variant not asserted."
     }
   ],
   "workouts": [],
