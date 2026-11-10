@@ -6404,6 +6404,58 @@
       "nutrition_source": "food-logs/2026-11-09.json",
       "macros_complete": true,
       "complete_day": false
+    },
+    {
+      "date": "2026-11-10",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 373.33333333333337,
+      "protein": 9.333333333333332,
+      "fat": 18.5,
+      "carbs": 39.333333333333336,
+      "meals": [
+        {
+          "id": "quaker-oatmeal-packet",
+          "name": "Quaker high-fiber instant oatmeal, one 45 g packet",
+          "time": "Breakfast",
+          "calories": 160,
+          "protein": 4,
+          "fat": 2.5,
+          "carbs": 34,
+          "fiber": 10,
+          "soluble_fiber": 9,
+          "saturated_fat": 1,
+          "sodium_mg": 125,
+          "cholesterol_mg": 0,
+          "sugar": 8,
+          "added_sugar": 7,
+          "estimated": false,
+          "note": "One usual 45 g packet reported November 10, not the two packets reported October 22. Nutrition from photographed October 21 label; same product assumed. Half-and-half preparation logged separately; no toppings reported or included."
+        },
+        {
+          "id": "breakfast-half-and-half",
+          "name": "Regular half-and-half, 2/3 US cup (brand unknown)",
+          "time": "Breakfast",
+          "calories": 213.33333333333334,
+          "protein": 5.333333333333333,
+          "fat": 16.0,
+          "carbs": 5.333333333333333,
+          "saturated_fat": 10.666666666666666,
+          "sodium_mg": 80.0,
+          "cholesterol_mg": 80.0,
+          "sugar": 5.333333333333333,
+          "fiber": 0.0,
+          "added_sugar": 0.0,
+          "estimated": true,
+          "note": "Reported used instead of 2/3 cup water in oatmeal. Assumes regular dairy half-and-half, not fat-free or heavy cream. Brand unknown; manufacturer proxy Horizon Organic Half & Half, retrieved November 10 2026: per 2 tbsp (30 mL), 40 kcal, protein 1 g, total carbs 1 g, fat 3 g, saturated fat 2 g, sugar 1 g, sodium 15 mg, cholesterol 15 mg; fiber and added sugar not significant. 2/3 US cup = 10 2/3 tbsp = 5 1/3 label servings. All half-and-half nutrients estimated, not a confirmed personal product label. Source: https://horizon.com/organic-dairy-products/organic-half-and-half/organic-half-and-half/"
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-11-10.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
