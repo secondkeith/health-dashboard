@@ -6514,10 +6514,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 530,
-      "protein": 48,
-      "fat": 24,
-      "carbs": 33,
+      "calories": 1015.0,
+      "protein": 98.5,
+      "fat": 45.5,
+      "carbs": 78.5,
       "meals": [
         {
           "id": "smoked-salmon-whole-package-2026-11-10",
@@ -6554,6 +6554,70 @@
           "caffeine_mg": 0,
           "estimated": false,
           "note": "Consumption confirmed by user: Did you get the soda as well? User explicitly clarified that the salmon and soda were consumed after midnight on November 11, 2026; moved to that consumption date, overriding the previous November 10 evening-continuity assumption. Actual photographed can label: 130 kcal, total carbohydrate 33 g, total sugars 33 g including 33 g added sugars, protein 0 g, fat 0 g, sodium 50 mg; caffeine free. This later confirmation supersedes the earlier beverage-excluded note on salmon. Yogurt remains excluded. Label photo retained locally, not published."
+        },
+        {
+          "id": "turkey-carb-smart-wrap-2026-11-11",
+          "time": "Lunch",
+          "name": "Turkey wrap with carb smart tortilla, mayo and brown deli mustard",
+          "portion": "1 tortilla, entire 9 oz turkey package, 1 tbsp mayo, 1 tsp mustard",
+          "quantity": 1,
+          "estimated": true,
+          "components": [
+            {
+              "name": "Turkey breast \u2014 entire package",
+              "portion": "4.5 servings of 2 oz (56 g); 9 oz (252 g) total",
+              "calories": 270.0,
+              "protein": 40.5,
+              "carbs": 13.5,
+              "fat": 4.5,
+              "saturated_fat": 0,
+              "trans_fat": 0,
+              "cholesterol_mg": 112.5,
+              "sodium_mg": 2340.0,
+              "fiber": 0,
+              "sugar": 4.5,
+              "estimated": false,
+              "source": "Actual user-supplied turkey Nutrition Facts label; read natively, no external upload"
+            },
+            {
+              "name": "Carb smart tortilla \u2014 one, assumed same as prior label",
+              "portion": "1 tortilla, assumed 71 g",
+              "calories": 110,
+              "protein": 10,
+              "carbs": 32,
+              "fat": 6,
+              "fiber": 28,
+              "saturated_fat": 2,
+              "sodium_mg": 550,
+              "estimated": true,
+              "source": "Prior user-supplied 71 g tortilla label from November 9; same product assumed, exact SKU unconfirmed"
+            },
+            {
+              "name": "Regular mayonnaise",
+              "portion": "1 tablespoon",
+              "calories": 100,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 11,
+              "estimated": true,
+              "source": "Typical regular mayonnaise estimate; brand/label not supplied"
+            },
+            {
+              "name": "Brown deli mustard",
+              "portion": "1 teaspoon",
+              "calories": 5,
+              "protein": 0,
+              "carbs": 0,
+              "fat": 0,
+              "estimated": true,
+              "source": "Approximate condiment estimate; macros rounded to zero, not exact label values"
+            }
+          ],
+          "note": "User reported: Carb smart tortilla, this package of turkey, tablespoon of mayo, teaspoon of brown deli mustard. Entire turkey package counted as 4.5 label servings. One tortilla assumed to match the earlier 71 g, 110 kcal label; exact SKU is not confirmed. Mayo assumed regular and mustard is a typical estimate; condiment macros are approximate rounded values. Total carbs include fiber, not net carbs. Label calories retained independently of 4/4/9 arithmetic. Turkey label image stays private and local. No unreported ingredients included.",
+          "calories": 485.0,
+          "protein": 50.5,
+          "carbs": 45.5,
+          "fat": 21.5
         }
       ],
       "weight": null,
