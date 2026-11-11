@@ -88,6 +88,26 @@
       "estimated": true,
       "source": "https://www.crimsoncoward.com/wp-content/uploads/2026/07/crimson-coward-nutritional-info.pdf",
       "note": "Full ONE cup consumed per 'Ate it all!' reply. Other circular object is sauce-smeared lid, NOT a second cup; no separate lid serving. Official CRIMSON SAUCE side row: 260 kcal, 27 g fat, 5 g carbs, 0 g protein. PDF Size is dash with no grams/fluid ounces: assuming pictured full side cup equals one listed side serving, so portion mapping estimated, nutrient values official. This is separate dip only; standard sauce within sandwich not counted again. Nug proxy contains no dip."
+    },
+    {
+      "id": "smoked-salmon-whole-package-2026-11-10",
+      "name": "Smoked salmon \u2014 entire 8 oz (224 g) package",
+      "time": "Late-night snack",
+      "portion": "4 label servings of 2 oz (56 g)",
+      "estimated": false,
+      "calories": 400,
+      "protein": 48,
+      "fat": 24,
+      "carbs": 0,
+      "saturated_fat": 4,
+      "sodium_mg": 2600,
+      "cholesterol_mg": 140,
+      "fiber": 0,
+      "sugar": 0,
+      "added_sugar": 0,
+      "vitamin_d_mcg": 17.6,
+      "potassium_mg": 920,
+      "note": "User confirmed 'No yogurt and all the smoked salmon.' Actual package nutrition label: 4 servings per container, 2 oz (56 g) each; all nutrients scaled fourfold. Confirmation received after midnight November 11 Eastern (approximately 00:46); assigned to November 10 evening continuity following dinner/snack photos, not a claimed exact eating time. Pictured yogurt explicitly not consumed and excluded. Earlier pictured beverage has no confirmed amount/consumption and is excluded. Brand not inferred from nutrition panel."
     }
   ],
   "workouts": [],
