@@ -6410,10 +6410,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 2300.0733333333337,
-      "protein": 137.07333333333332,
-      "fat": 112.43,
-      "carbs": 184.42333333333335,
+      "calories": 1770.0733333333335,
+      "protein": 89.07333333333332,
+      "fat": 88.43,
+      "carbs": 151.42333333333335,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -6501,7 +6501,24 @@
           "estimated": true,
           "source": "https://www.crimsoncoward.com/wp-content/uploads/2026/07/crimson-coward-nutritional-info.pdf",
           "note": "Full ONE cup consumed per 'Ate it all!' reply. Other circular object is sauce-smeared lid, NOT a second cup; no separate lid serving. Official CRIMSON SAUCE side row: 260 kcal, 27 g fat, 5 g carbs, 0 g protein. PDF Size is dash with no grams/fluid ounces: assuming pictured full side cup equals one listed side serving, so portion mapping estimated, nutrient values official. This is separate dip only; standard sauce within sandwich not counted again. Nug proxy contains no dip."
-        },
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-11-10.json",
+      "macros_complete": true,
+      "complete_day": false
+    },
+    {
+      "date": "2026-11-11",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 530,
+      "protein": 48,
+      "fat": 24,
+      "carbs": 33,
+      "meals": [
         {
           "id": "smoked-salmon-whole-package-2026-11-10",
           "name": "Smoked salmon \u2014 entire 8 oz (224 g) package",
@@ -6520,7 +6537,7 @@
           "added_sugar": 0,
           "vitamin_d_mcg": 17.6,
           "potassium_mg": 920,
-          "note": "User confirmed 'No yogurt and all the smoked salmon.' Actual package nutrition label: 4 servings per container, 2 oz (56 g) each; all nutrients scaled fourfold. Confirmation received after midnight November 11 Eastern (approximately 00:46); assigned to November 10 evening continuity following dinner/snack photos, not a claimed exact eating time. Pictured yogurt explicitly not consumed and excluded. Earlier pictured beverage has no confirmed amount/consumption and is excluded. Brand not inferred from nutrition panel."
+          "note": "User confirmed 'No yogurt and all the smoked salmon.' Actual package nutrition label: 4 servings per container, 2 oz (56 g) each; all nutrients scaled fourfold. User explicitly clarified: I ate the salmon and drank the soda after midnight, so it is technically the 11th. Consumption assigned to November 11, 2026; this overrides the previous November 10 evening-continuity assumption. Pictured yogurt explicitly not consumed and excluded. Canada Dry ginger ale consumption subsequently confirmed and logged separately on November 11. Brand not inferred from nutrition panel."
         },
         {
           "id": "canada-dry-ginger-ale-can-2026-11-10",
@@ -6536,12 +6553,12 @@
           "sodium_mg": 50,
           "caffeine_mg": 0,
           "estimated": false,
-          "note": "Consumption confirmed by user: Did you get the soda as well? One can logged with November 10 evening salmon. Actual photographed can label: 130 kcal, total carbohydrate 33 g, total sugars 33 g including 33 g added sugars, protein 0 g, fat 0 g, sodium 50 mg; caffeine free. This later confirmation supersedes the earlier beverage-excluded note on salmon. Yogurt remains excluded. Label photo retained locally, not published."
+          "note": "Consumption confirmed by user: Did you get the soda as well? User explicitly clarified that the salmon and soda were consumed after midnight on November 11, 2026; moved to that consumption date, overriding the previous November 10 evening-continuity assumption. Actual photographed can label: 130 kcal, total carbohydrate 33 g, total sugars 33 g including 33 g added sugars, protein 0 g, fat 0 g, sodium 50 mg; caffeine free. This later confirmation supersedes the earlier beverage-excluded note on salmon. Yogurt remains excluded. Label photo retained locally, not published."
         }
       ],
       "weight": null,
       "workouts": [],
-      "nutrition_source": "food-logs/2026-11-10.json",
+      "nutrition_source": "food-logs/2026-11-11.json",
       "macros_complete": true,
       "complete_day": false
     }
