@@ -101,6 +101,53 @@
       "protein": 50.5,
       "carbs": 45.5,
       "fat": 21.5
+    },
+    {
+      "id": "chicken-pasta-alfredo-dinner-2026-11-11",
+      "time": "Dinner",
+      "name": "Pasta Alfredo with two chicken breasts",
+      "portion": "2 cups cooked pasta, 2 chicken breasts (assumed 340 g cooked), confirmed 1/2 cup jarred Alfredo sauce",
+      "estimated": true,
+      "components": [
+        {
+          "name": "Cooked pasta",
+          "portion": "2 cups cooked; proxy: unpacked spaghetti, 124 g/cup",
+          "estimated": true,
+          "source": "https://fdc.nal.usda.gov/food-details/169737/nutrients",
+          "source_description": "Pasta, cooked, enriched, without added salt",
+          "calories": 391.8,
+          "protein": 14.4,
+          "carbs": 76.5,
+          "fat": 2.3
+        },
+        {
+          "name": "Skinless chicken breast, cooked",
+          "portion": "2 breasts; assumed approximately 12 oz / 340 g cooked total",
+          "estimated": true,
+          "source": "https://fdc.nal.usda.gov/food-details/171477/nutrients",
+          "source_description": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+          "calories": 561.0,
+          "protein": 105.5,
+          "carbs": 0.0,
+          "fat": 12.1
+        },
+        {
+          "name": "Jarred Alfredo sauce, brand unknown",
+          "portion": "Confirmed 1/2 cup; generic USDA Alfredo proxy, 130 g",
+          "estimated": true,
+          "source": "https://fdc.nal.usda.gov/food-details/2705809/nutrients",
+          "source_description": "Alfredo sauce",
+          "calories": 195.0,
+          "protein": 2.8,
+          "carbs": 2.3,
+          "fat": 19.5
+        }
+      ],
+      "note": "User reported 2 cups pasta Alfredo and a couple chicken breasts, then confirmed jarred sauce and HALF CUP. Pasta interpreted as 2 cups cooked, separate from sauce; shape/packing unknown, modeled as 248 g unpacked cooked spaghetti. Chicken assumed cooked skinless breast, approximately 12 oz / 340 g total, not measured. Sauce brand unknown; USDA generic Alfredo (150 kcal/100 g; 260 g/cup) is a proxy, not the actual jar label. Manufacturer pages were inaccessible (HTTP 403); USDA FoodData Central records retrieved successfully. Portion weight, pasta shape and sauce formulation are the main uncertainties. No additional cheese, oil or butter invented. Total carbs, not net carbs. Day remains incomplete.",
+      "calories": 1147.8,
+      "protein": 122.7,
+      "carbs": 78.8,
+      "fat": 33.9
     }
   ],
   "workouts": [],
