@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-13",
+  "weight": null,
+  "items": [
+    {
+      "id": "quaker-oatmeal-packet",
+      "name": "Quaker high-fiber instant oatmeal, one 45 g packet",
+      "time": "Breakfast",
+      "calories": 160,
+      "protein": 4,
+      "carbs": 34,
+      "fat": 2.5,
+      "fiber": 10,
+      "soluble_fiber": 9,
+      "saturated_fat": 1,
+      "sodium_mg": 125,
+      "cholesterol_mg": 0,
+      "sugar": 8,
+      "added_sugar": 7,
+      "estimated": false,
+      "note": "Usual 45 g Quaker high-fiber oatmeal packet consumed for breakfast November 13, 2026 (Eastern date verified 15:42). Reuses prior photographed product label. Water-only preparation is an assumption. No additions or toppings; no milk or half-and-half included."
+    },
+    {
+      "id": "bushs-canned-beans-half-can",
+      "name": "Bush's canned beans, half can",
+      "time": "Lunch",
+      "calories": 360,
+      "protein": 21,
+      "carbs": 78,
+      "fat": 1.5,
+      "fiber": 36,
+      "saturated_fat": 0,
+      "trans_fat": 0,
+      "cholesterol_mg": 0,
+      "sodium_mg": 1800,
+      "sugar": 3,
+      "added_sugar": 0,
+      "calcium_mg": 150,
+      "iron_mg": 5.1,
+      "potassium_mg": 1080,
+      "vitamin_d_mcg": 0,
+      "estimated": true,
+      "note": "Half can consumed for lunch November 13, 2026, no additions or toppings. Actual photographed label inspected natively: about 6 servings per can; 1/2 cup (130 g) per serving. Half can modeled as 3 servings, approximately 1.5 cups (390 g). Per serving: 120 kcal, 7 g protein, 26 g total carbs, 0.5 g fat, 12 g fiber, 600 mg sodium, 1 g sugar, 0 g added sugar, 0 g saturated/trans fat, 0 mg cholesterol, 50 mg calcium, 1.7 mg iron, 360 mg potassium, 0 mcg vitamin D. Label includes soluble corn fiber; retain the actual high-fiber value rather than substituting generic beans. Bush's logo visible; exact variety unknown. Estimated flag reflects about-six-serving can basis, not generic nutrition. Label image not externally uploaded."
+    }
+  ],
+  "complete_day": false
+}
