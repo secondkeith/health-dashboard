@@ -6887,10 +6887,10 @@
       "restingHR": null,
       "weight": null,
       "workouts": [],
-      "calories": 695,
-      "protein": 29.7,
-      "carbs": 122.5,
-      "fat": 18.0,
+      "calories": 1032.5,
+      "protein": 39.7,
+      "carbs": 147.5,
+      "fat": 39.25,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -6945,6 +6945,28 @@
           "sodium_mg": 198,
           "estimated": true,
           "note": "User reported one third of a salad kit, possibly 'southeast' with avocado dressing; likely Southwest-style, but brand, exact kit and bag size are unknown and bag discarded. Photos inspected natively: lettuce/cabbage, crunchy strips and creamy dressing; no extras inferred from counter items. Higher-side comparable-kit proxy, not product identification: Taylor Farms Southwest Chopped Kit nutrition panel lists about 3.5 servings/bag, 100 g per serving, 150 kcal, 4 g protein, 9 g total carbs, 12 g fat, 2 g fiber, 2 g saturated fat, 170 mg sodium. One third bag = 3.5/3 servings (about 117 g as a proxy, not weighed), giving 175 kcal. Uses nutrition-panel 3.5 servings rather than conflicting FAQ's 3. The avocado-ranch comparator is 130 kcal x 3.5/3 = about 152 kcal; Southwest proxy is the higher-side match for crunchy strips. Included dressing and toppings assumed distributed proportionately: one third of each, not the entire dressing packet. No additional dressing or other foods logged. All nutrients estimated; no reuse of usual 330-calorie kit. Sources: https://www.taylorfarms.com/products/southwest-chopped-kit/ and https://www.taylorfarms.com/products/avocado-ranch-chopped-kit/ . Eastern date verified November 13, 2026 at 17:35; Dinner assigned by reporting time."
+        },
+        {
+          "id": "seapak-coconut-shrimp-five",
+          "name": "SeaPak coconut shrimp, 5 shrimp (sauce not included)",
+          "time": "Dinner",
+          "calories": 337.5,
+          "protein": 10.0,
+          "carbs": 25.0,
+          "fat": 21.25,
+          "saturated_fat": 10.0,
+          "trans_fat": 0.0,
+          "cholesterol_mg": 68.75,
+          "sodium_mg": 862.5,
+          "fiber": 2.5,
+          "sugar": 5.0,
+          "added_sugar": 3.75,
+          "vitamin_d_mcg": 1.125,
+          "calcium_mg": 37.5,
+          "iron_mg": 1.25,
+          "potassium_mg": 162.5,
+          "estimated": true,
+          "note": "User reported 5 shrimp for November 13, 2026. Actual photographed package label inspected natively; shrimp column is separate from sauce. Serving is 3 oz (85 g/about 4 shrimp); 5 shrimp modeled as 1.25 servings, approximately 106.25 g, not weighed. All nutrients scaled from actual label: 270 kcal, 8 g protein, 20 g total carbs, 17 g fat, 8 g saturated fat, 0 g trans fat, 55 mg cholesterol, 690 mg sodium, 2 g fiber, 4 g sugar, 3 g added sugar, 0.9 mcg vitamin D, 30 mg calcium, 1 mg iron, 130 mg potassium per serving. Estimated flag reflects approximate count-to-serving basis only. Sauce is a separate 60 kcal per 2 tbsp (28 g) column; sauce consumption pending confirmation, not logged. No added cooking oil inferred or logged. Label image not externally uploaded."
         }
       ],
       "nutrition_source": "food-logs/2026-11-13.json",
