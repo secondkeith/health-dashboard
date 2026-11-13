@@ -99,6 +99,24 @@
       "potassium_mg": 20,
       "estimated": false,
       "note": "User confirmed consuming one third of the entire included dipping sauce packet with November 13 dinner. Actual package label inspected natively: entire sauce container has THREE servings; one third packet equals ONE serving of 2 tbsp (28 g), 60 kcal, not 20 kcal. Sauce column is separate from shrimp. All nutrients copied from sauce label; no duplicate sauce entry. Label image not externally uploaded."
+    },
+    {
+      "id": "tartar-sauce-one-fluid-ounce",
+      "name": "Regular tartar sauce, 1 fl oz (2 tbsp; unknown brand estimate)",
+      "time": "Dinner",
+      "calories": 140,
+      "protein": 0,
+      "carbs": 3,
+      "fat": 14,
+      "fiber": 0,
+      "saturated_fat": 2.5,
+      "trans_fat": 0,
+      "cholesterol_mg": 15,
+      "sodium_mg": 150,
+      "sugar": 2,
+      "added_sugar": 2,
+      "estimated": true,
+      "note": "User requested adding 1 oz tartar sauce for November 13 dinner. Because the preceding discussion concerned sauce volume, interpreted as 1 US FLUID ounce = 2 tbsp, not one ounce by weight. Roughly 30 g typical; this reference labels 2 tbsp as 27 g, not a measured weight. Brand unknown: regular mayonnaise-based tartar sauce estimated using higher-side Ken's Foodservice KE0666 manufacturer reference, 140 kcal, 0 g protein, 3 g total carbs, 14 g fat per 2 tbsp (27 g). Reference: https://www.kensfoodservice.com/products/ke0666-tartar-sauce . Added separately; does not replace the existing SeaPak orange dipping sauce or six shrimp. Three reported calamari rings remain unlogged pending portion-estimate authorization."
     }
   ],
   "complete_day": false
