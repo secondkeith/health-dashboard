@@ -6887,10 +6887,10 @@
       "restingHR": null,
       "weight": null,
       "workouts": [],
-      "calories": 520,
-      "protein": 25,
-      "carbs": 112,
-      "fat": 4.0,
+      "calories": 695,
+      "protein": 29.7,
+      "carbs": 122.5,
+      "fat": 18.0,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -6931,6 +6931,20 @@
           "vitamin_d_mcg": 0,
           "estimated": true,
           "note": "Half can consumed for lunch November 13, 2026, no additions or toppings. Actual photographed label inspected natively: about 6 servings per can; 1/2 cup (130 g) per serving. Half can modeled as 3 servings, approximately 1.5 cups (390 g). Per serving: 120 kcal, 7 g protein, 26 g total carbs, 0.5 g fat, 12 g fiber, 600 mg sodium, 1 g sugar, 0 g added sugar, 0 g saturated/trans fat, 0 mg cholesterol, 50 mg calcium, 1.7 mg iron, 360 mg potassium, 0 mcg vitamin D. Label includes soluble corn fiber; retain the actual high-fiber value rather than substituting generic beans. Bush's logo visible; exact variety unknown. Estimated flag reflects about-six-serving can basis, not generic nutrition. Label image not externally uploaded."
+        },
+        {
+          "id": "salad-kit-avocado-dressing-one-third",
+          "name": "One third salad kit with avocado dressing (unknown brand; Southwest-style estimate)",
+          "time": "Dinner",
+          "calories": 175,
+          "protein": 4.7,
+          "carbs": 10.5,
+          "fat": 14,
+          "fiber": 2.3,
+          "saturated_fat": 2.3,
+          "sodium_mg": 198,
+          "estimated": true,
+          "note": "User reported one third of a salad kit, possibly 'southeast' with avocado dressing; likely Southwest-style, but brand, exact kit and bag size are unknown and bag discarded. Photos inspected natively: lettuce/cabbage, crunchy strips and creamy dressing; no extras inferred from counter items. Higher-side comparable-kit proxy, not product identification: Taylor Farms Southwest Chopped Kit nutrition panel lists about 3.5 servings/bag, 100 g per serving, 150 kcal, 4 g protein, 9 g total carbs, 12 g fat, 2 g fiber, 2 g saturated fat, 170 mg sodium. One third bag = 3.5/3 servings (about 117 g as a proxy, not weighed), giving 175 kcal. Uses nutrition-panel 3.5 servings rather than conflicting FAQ's 3. The avocado-ranch comparator is 130 kcal x 3.5/3 = about 152 kcal; Southwest proxy is the higher-side match for crunchy strips. Included dressing and toppings assumed distributed proportionately: one third of each, not the entire dressing packet. No additional dressing or other foods logged. All nutrients estimated; no reuse of usual 330-calorie kit. Sources: https://www.taylorfarms.com/products/southwest-chopped-kit/ and https://www.taylorfarms.com/products/avocado-ranch-chopped-kit/ . Eastern date verified November 13, 2026 at 17:35; Dinner assigned by reporting time."
         }
       ],
       "nutrition_source": "food-logs/2026-11-13.json",
