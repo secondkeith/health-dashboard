@@ -6702,10 +6702,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1736.6666666666665,
-      "protein": 105.5,
-      "fat": 107.55,
-      "carbs": 91.23333333333332,
+      "calories": 1732.5166666666664,
+      "protein": 105.04,
+      "fat": 107.94333333333333,
+      "carbs": 89.1,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -6815,10 +6815,10 @@
           "time": "Dinner",
           "name": "Home dinner: Weis New York strip steak and avocado-cucumber salad with Bolthouse blue cheese",
           "estimated": true,
-          "calories": 1125,
-          "protein": 89.5,
-          "fat": 77.3,
-          "carbs": 17.4,
+          "calories": 1120.85,
+          "protein": 89.04,
+          "fat": 77.69333333333333,
+          "carbs": 15.266666666666666,
           "components": [
             {
               "name": "New York strip steak, whole, cooked lean and fat",
@@ -6832,12 +6832,12 @@
             },
             {
               "name": "Avocado",
-              "calories": 120,
-              "protein": 1.5,
-              "fat": 11,
-              "carbs": 6.4,
-              "portion": "Provisional half medium avocado, about 75 g edible",
-              "note": "Generic composition estimate; user confirmed avocado, amount unknown."
+              "calories": 80.0,
+              "protein": 1.0,
+              "fat": 7.333333333333333,
+              "carbs": 4.266666666666667,
+              "portion": "User-confirmed 1/3 medium avocado; approximately 50 g edible (estimated mass)",
+              "note": "Latest user correction confirms ONE THIRD, replacing the provisional half. Existing generic 75 g avocado nutrient estimate scaled by 2/3 to 50 g; edible mass remains estimated, not weighed."
             },
             {
               "name": "Lettuce and cucumber salad vegetables",
@@ -6857,9 +6857,21 @@
               "portion": "4 tbsp (60 g), upper end of approximate 3-4 tbsp visible dressing",
               "source": "https://www.bolthouse.com/product/chunky-blue-cheese/",
               "note": "Current official panel: 2 tbsp (30 g) = 50 kcal, 2 g protein, 4 g fat, 2 g carbs. Chunky Blue Cheese yogurt-based version used provisionally; exact bottle not inspected. Not regular high-fat blue cheese dressing."
+            },
+            {
+              "name": "Butter \u2014 1 pat, assumed 5 g",
+              "assumed_grams": 5,
+              "calories": 35.85,
+              "protein": 0.04,
+              "fat": 4.06,
+              "carbs": 0.0,
+              "fiber": 0.0,
+              "source": "https://fdc.nal.usda.gov/food-details/173410/nutrients",
+              "portion": "User-confirmed one pat finishing butter; assumed 5 g, all consumed",
+              "note": "Reused existing USDA salted-butter proxy (SR Legacy 173410); brand and salted/unsalted unknown. This is the only added cooking/finishing fat allowance, not an extra pat stacked on another allowance. Original dinner counted no added cooking fat."
             }
           ],
-          "note": "November 12 home meal from Weis, NOT a restaurant. User ate the whole steak and whole salad; thinks steak was New York strip but does not know weight. Four food photos inspected natively. Credible high-side estimate: about 11 oz COOKED steak, half medium avocado, lettuce/cucumber and 4 tbsp Bolthouse dressing. Approximate whole-meal range 850-1300 kcal, not a confidence interval; steak thickness, edible fat and portion dominate uncertainty. No added cooking fat counted: sheen cannot identify butter/oil and USDA lean-plus-fat already includes intrinsic steak fat. Added cooking fat remains unknown and can be added if confirmed. No inferred drinks or sides. Manufacturer nutrition verified; portions and exact dressing variant remain provisional."
+          "note": "November 12 home meal from Weis, NOT a restaurant. User ate the whole steak and whole salad; thinks steak was New York strip but does not know weight. Four food photos inspected natively. Credible high-side estimate: about 11 oz COOKED steak, user-confirmed one-third medium avocado (~50 g edible estimated), and one pat finishing butter (~5 g estimated), lettuce/cucumber and 4 tbsp Bolthouse dressing. Approximate whole-meal range 850-1300 kcal, not a confidence interval; steak thickness, edible fat and portion dominate uncertainty. Latest user confirmation: ONE THIRD avocado and ONE PAT butter. Butter is counted once as the sole added-fat allowance; USDA lean-plus-fat steak already includes intrinsic fat. No additional oil or butter assumed. No inferred drinks or sides. Manufacturer nutrition verified; portions and exact dressing variant remain provisional."
         }
       ],
       "weight": null,
