@@ -6702,10 +6702,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 611.6666666666666,
-      "protein": 16,
-      "fat": 30.25,
-      "carbs": 73.83333333333333,
+      "calories": 1736.6666666666665,
+      "protein": 105.5,
+      "fat": 107.55,
+      "carbs": 91.23333333333332,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -6809,6 +6809,57 @@
           "added_sugar": 4,
           "estimated": false,
           "note": "One photographed 2 tbsp (30 g) serving, additional to ALL dressing and toppings already counted in the whole kit."
+        },
+        {
+          "id": "weis-home-strip-steak-salad-dinner",
+          "time": "Dinner",
+          "name": "Home dinner: Weis New York strip steak and avocado-cucumber salad with Bolthouse blue cheese",
+          "estimated": true,
+          "calories": 1125,
+          "protein": 89.5,
+          "fat": 77.3,
+          "carbs": 17.4,
+          "components": [
+            {
+              "name": "New York strip steak, whole, cooked lean and fat",
+              "calories": 870,
+              "protein": 82,
+              "fat": 58,
+              "carbs": 0,
+              "portion": "Approximately 11 oz cooked (312 g); plausible photo range 8-12 oz, not raw package/menu weight",
+              "source": "https://fdc.nal.usda.gov/food-details/168718/nutrients",
+              "note": "USDA Choice top loin, separable lean and fat, trimmed to 1/8 inch, cooked grilled: 278 kcal, 26.16 g protein, 18.45 g fat per 100 g. Rounded high-side portion estimate, not a measured weight; cut and grade provisional."
+            },
+            {
+              "name": "Avocado",
+              "calories": 120,
+              "protein": 1.5,
+              "fat": 11,
+              "carbs": 6.4,
+              "portion": "Provisional half medium avocado, about 75 g edible",
+              "note": "Generic composition estimate; user confirmed avocado, amount unknown."
+            },
+            {
+              "name": "Lettuce and cucumber salad vegetables",
+              "calories": 35,
+              "protein": 2,
+              "fat": 0.3,
+              "carbs": 7,
+              "portion": "Approximately 2 cups lettuce and 1/2-1 cup cucumber; small visible mixed-vegetable bits included in allowance",
+              "note": "Approximate vegetable allowance; no inferred cheese, croutons, meat, or other calorie-dense toppings."
+            },
+            {
+              "name": "Bolthouse Farms Chunky Blue Cheese dressing",
+              "calories": 100,
+              "protein": 4,
+              "fat": 8,
+              "carbs": 4,
+              "portion": "4 tbsp (60 g), upper end of approximate 3-4 tbsp visible dressing",
+              "source": "https://www.bolthouse.com/product/chunky-blue-cheese/",
+              "note": "Current official panel: 2 tbsp (30 g) = 50 kcal, 2 g protein, 4 g fat, 2 g carbs. Chunky Blue Cheese yogurt-based version used provisionally; exact bottle not inspected. Not regular high-fat blue cheese dressing."
+            }
+          ],
+          "note": "November 12 home meal from Weis, NOT a restaurant. User ate the whole steak and whole salad; thinks steak was New York strip but does not know weight. Four food photos inspected natively. Credible high-side estimate: about 11 oz COOKED steak, half medium avocado, lettuce/cucumber and 4 tbsp Bolthouse dressing. Approximate whole-meal range 850-1300 kcal, not a confidence interval; steak thickness, edible fat and portion dominate uncertainty. No added cooking fat counted: sheen cannot identify butter/oil and USDA lean-plus-fat already includes intrinsic steak fat. Added cooking fat remains unknown and can be added if confirmed. No inferred drinks or sides. Manufacturer nutrition verified; portions and exact dressing variant remain provisional."
         }
       ],
       "weight": null,
