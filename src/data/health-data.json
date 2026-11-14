@@ -6887,10 +6887,10 @@
       "restingHR": null,
       "weight": null,
       "workouts": [],
-      "calories": 1300.0,
-      "protein": 41.7,
-      "carbs": 170.5,
-      "fat": 57.5,
+      "calories": 1515.04,
+      "protein": 48.870000000000005,
+      "carbs": 186.43,
+      "fat": 71.03999999999999,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -7006,7 +7006,29 @@
           "sugar": 2,
           "added_sugar": 2,
           "estimated": true,
-          "note": "User requested adding 1 oz tartar sauce for November 13 dinner. Because the preceding discussion concerned sauce volume, interpreted as 1 US FLUID ounce = 2 tbsp, not one ounce by weight. Roughly 30 g typical; this reference labels 2 tbsp as 27 g, not a measured weight. Brand unknown: regular mayonnaise-based tartar sauce estimated using higher-side Ken's Foodservice KE0666 manufacturer reference, 140 kcal, 0 g protein, 3 g total carbs, 14 g fat per 2 tbsp (27 g). Reference: https://www.kensfoodservice.com/products/ke0666-tartar-sauce . Added separately; does not replace the existing SeaPak orange dipping sauce or six shrimp. Three reported calamari rings remain unlogged pending portion-estimate authorization."
+          "note": "User requested adding 1 oz tartar sauce for November 13 dinner. Because the preceding discussion concerned sauce volume, interpreted as 1 US FLUID ounce = 2 tbsp, not one ounce by weight. Roughly 30 g typical; this reference labels 2 tbsp as 27 g, not a measured weight. Brand unknown: regular mayonnaise-based tartar sauce estimated using higher-side Ken's Foodservice KE0666 manufacturer reference, 140 kcal, 0 g protein, 3 g total carbs, 14 g fat per 2 tbsp (27 g). Reference: https://www.kensfoodservice.com/products/ke0666-tartar-sauce . Added separately; does not replace the existing SeaPak orange dipping sauce or six shrimp."
+        },
+        {
+          "id": "breaded-calamari-three-rings",
+          "name": "Breaded calamari, 3 large rings (photo estimate: 90 g)",
+          "time": "Dinner",
+          "calories": 215.04,
+          "protein": 7.17,
+          "carbs": 15.93,
+          "fat": 13.54,
+          "saturated_fat": 1.99,
+          "trans_fat": 0.0,
+          "cholesterol_mg": 107.52,
+          "sodium_mg": 99.56,
+          "fiber": 0.8,
+          "sugar": 1.59,
+          "added_sugar": 1.59,
+          "vitamin_d_mcg": 0.0,
+          "calcium_mg": 26.28,
+          "iron_mg": 0.45,
+          "potassium_mg": 406.99,
+          "estimated": true,
+          "note": "Three calamari rings consumed November 13. User explicitly requested a photo-based estimate. Three large thick breaded rings estimated at 90 g total; plausible visual range about 75\u2013113 g, not weighed. Actual photographed label independently inspected: 1/2 cup (113 g), 270 kcal, 9 g protein, 20 g total carbs, 17 g fat; all captured label nutrients scaled by 90/113. Nutrition basis is the actual label; estimated flag reflects uncertain photo-derived portion. No extra cooking oil inferred or added. Coconut shrimp and both sauces already logged separately and not counted again. Images inspected locally, not externally uploaded."
         }
       ],
       "nutrition_source": "food-logs/2026-11-13.json",
