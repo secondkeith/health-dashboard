@@ -212,6 +212,31 @@
         }
       ],
       "note": "ONE salad shown before and after dressing, not multiple servings. Generous visible coating estimated as 4 tbsp dressing; actual Litehouse label takes precedence, not the lunch Bolthouse label. Avocado about half medium (75 g), greens about 2\u20133 cups (modeled as 3), cucumber about half cup. All portions estimated, not weighed. Roughly 450 kcal; component-derived total retained."
+    },
+    {
+      "id": "snack-siggis-skyr-half-container",
+      "name": "Siggi's plain nonfat cultured dairy (skyr), half container",
+      "time": "Snack",
+      "servings": 2,
+      "grams": 340,
+      "cups": 1.5,
+      "calories": 200,
+      "protein": 38,
+      "carbs": 14,
+      "fat": 0,
+      "saturated_fat": 0,
+      "trans_fat": 0,
+      "cholesterol_mg": 20,
+      "sodium_mg": 130,
+      "fiber": 0,
+      "sugar": 10,
+      "added_sugar": 0,
+      "vitamin_d_mcg": 0,
+      "calcium_mg": 340,
+      "iron_mg": 0,
+      "potassium_mg": 420,
+      "estimated": false,
+      "note": "November 14 snack: half of pictured container, 2 of 4 labeled servings; 1.5 cups (340 g). Actual label per 3/4 cup (170 g): 100 kcal, protein 19 g, total carbohydrate 7 g, fat 0 g. Label calories retained despite macro-energy rounding discrepancy. Milk & Skyr distributor and hello@siggis visible; exact product variant not independently established. No toppings reported or added. Label inspected natively; no external image upload."
     }
   ],
   "complete_day": false
