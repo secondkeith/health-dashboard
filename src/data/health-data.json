@@ -7040,10 +7040,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 1660.668333333333,
+      "calories": 1790.668333333333,
       "protein": 96.8202,
       "fat": 102.7778,
-      "carbs": 89.97676666666666,
+      "carbs": 122.97676666666666,
       "meals": [
         {
           "id": "salad-kit-whole",
@@ -7280,6 +7280,22 @@
           "potassium_mg": 420,
           "estimated": false,
           "note": "November 14 snack: half of pictured container, 2 of 4 labeled servings; 1.5 cups (340 g). Actual label per 3/4 cup (170 g): 100 kcal, protein 19 g, total carbohydrate 7 g, fat 0 g. Label calories retained despite macro-energy rounding discrepancy. Milk & Skyr distributor and hello@siggis visible; exact product variant not independently established. No toppings reported or added. Label inspected natively; no external image upload."
+        },
+        {
+          "id": "canada-dry-ginger-ale-one-can",
+          "name": "Canada Dry ginger ale, 1 can",
+          "time": "Drink",
+          "servings": 1,
+          "calories": 130,
+          "protein": 0,
+          "carbs": 33,
+          "fat": 0,
+          "sodium_mg": 50,
+          "sugar": 33,
+          "added_sugar": 33,
+          "caffeine_mg": 0,
+          "estimated": false,
+          "note": "User explicitly requested adding this newly reported can to yesterday, November 14, 2026. Actual label: serving size 1 can, 130 kcal, total carbohydrate 33 g, total sugars 33 g including 33 g added sugars, sodium 50 mg, protein 0 g, fat 0 g; caffeine free. Can volume not shown and not inferred. Label inspected natively; no external image upload. Separate from the historical November 10 soda."
         }
       ],
       "weight": 269.8,
