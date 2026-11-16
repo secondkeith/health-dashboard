@@ -92,6 +92,26 @@
       "added_sugar": 0,
       "estimated": true,
       "note": "Entire can confirmed: about 4 servings of 2 tbsp (16 g). Actual sodium is 125 mg per serving, 500 mg per can. Monounsaturated fat 1 g per serving (4 g total). Micronutrients shown only as 0% DV, not exact amounts. Estimated flag reflects approximate package serving count only. Actual label inspected natively; no external image upload. Label calories retained; total carbohydrates include fiber."
+    },
+    {
+      "id": "black-olives-large-12-serving-can",
+      "name": "Black olives, whole large can (about 12 servings)",
+      "time": "Meal",
+      "servings": 12,
+      "grams": 192,
+      "calories": 180,
+      "protein": 0,
+      "carbs": 12,
+      "fat": 18.0,
+      "saturated_fat": 0,
+      "trans_fat": 0,
+      "polyunsaturated_fat": 0,
+      "monounsaturated_fat": 12,
+      "cholesterol_mg": 0,
+      "sodium_mg": 1500,
+      "iron_mg": 3.6,
+      "estimated": true,
+      "note": "Whole additional can assigned by user to November 15, 2026 (reported after midnight November 16). Distinct from the earlier 4-serving, 60-kcal can, which remains logged. About 12 servings per container; serving size 2 tbsp (16 g). Actual label inspected natively; no external image upload. Estimated flag reflects approximate package serving count only; grams are label-derived, not weighed. Label calories retained; total carbohydrates include fiber. Label states not a significant source of dietary fiber, total sugars, added sugars, vitamin D, calcium, or potassium; exact amounts are not provided and are not recorded as zeros."
     }
   ],
   "complete_day": false
