@@ -7583,10 +7583,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 160,
-      "protein": 4,
-      "fat": 2.5,
-      "carbs": 34,
+      "calories": 3260,
+      "protein": 144,
+      "fat": 211.5,
+      "carbs": 200,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -7607,6 +7607,173 @@
           "note": "One usual packet reported consumed for breakfast on November 17, 2026. Nutrition reused from prior photographed Quaker high-fiber 45 g packet label. Assumed prepared with water only; no milk, toppings, or additions carried forward. Preparation not explicitly reconfirmed today.",
           "servings": 1,
           "grams": 45
+        },
+        {
+          "id": "1776-birthday-scallop-chips",
+          "name": "1776 Steakhouse \u2014 Scallop chips with horseradish cream",
+          "time": "Dinner",
+          "calories": 550,
+          "protein": 22,
+          "fat": 36,
+          "carbs": 34,
+          "estimated": true,
+          "calorie_range": [
+            400,
+            700
+          ],
+          "note": "Assume one appetizer portion eaten, roughly 4\u20135 oz scallops plus panko, absorbed frying oil and about 2 tbsp horseradish cream. Menu identifies preparation, not weights or nutrition.",
+          "sources": [
+            "https://1776steakhouse.com/menus/"
+          ]
+        },
+        {
+          "id": "1776-birthday-lump-crab-appetizer",
+          "name": "1776 Steakhouse \u2014 Jumbo lump crabmeat appetizer",
+          "time": "Dinner",
+          "calories": 110,
+          "protein": 22,
+          "fat": 2,
+          "carbs": 1,
+          "estimated": true,
+          "calorie_range": [
+            90,
+            140
+          ],
+          "note": "Assume menu 4 oz raw-bar lump crab serving consumed. Generic cooked-crab reference; species and any light accompaniments uncertain. Separate from crab atop salmon; no separate unreported sauce added.",
+          "sources": [
+            "https://1776steakhouse.com/menus/",
+            "https://fdc.nal.usda.gov/food-details/174205/nutrients"
+          ]
+        },
+        {
+          "id": "1776-birthday-potato-leek-soup",
+          "name": "1776 Steakhouse \u2014 Potato leek soup",
+          "time": "Dinner",
+          "calories": 350,
+          "protein": 6,
+          "fat": 24,
+          "carbs": 28,
+          "estimated": true,
+          "calorie_range": [
+            250,
+            450
+          ],
+          "note": "Assume roughly 1 cup rich restaurant soup including crispy onions and creme fraiche. Cream/butter and serving size unknown; ingredient-based estimate, not official restaurant nutrition.",
+          "sources": [
+            "https://1776steakhouse.com/menus/",
+            "https://fdc.nal.usda.gov/food-details/170093/nutrients",
+            "https://fdc.nal.usda.gov/food-details/173410/nutrients"
+          ]
+        },
+        {
+          "id": "1776-birthday-seared-salmon",
+          "name": "1776 Steakhouse \u2014 Seared salmon, including cooking fat",
+          "time": "Dinner",
+          "calories": 600,
+          "protein": 50,
+          "fat": 44,
+          "carbs": 0,
+          "estimated": true,
+          "calorie_range": [
+            480,
+            720
+          ],
+          "note": "User explicitly reported seared salmon, NOT salmon Wellington. Assume about 8 oz cooked Atlantic salmon plus roughly 1 tbsp cooking fat. No pastry counted; crab and bearnaise logged separately.",
+          "sources": [
+            "https://fdc.nal.usda.gov/food-details/175168/nutrients",
+            "https://fdc.nal.usda.gov/food-details/173410/nutrients"
+          ]
+        },
+        {
+          "id": "1776-birthday-crab-topping",
+          "name": "1776 Steakhouse \u2014 Crab topping on salmon",
+          "time": "Dinner",
+          "calories": 90,
+          "protein": 18,
+          "fat": 1,
+          "carbs": 0,
+          "estimated": true,
+          "calorie_range": [
+            50,
+            130
+          ],
+          "note": "Assume about 3 oz crab topping, plausible 2\u20134 oz, distinct from 4 oz appetizer. Generic cooked crab reference; no second butter allowance because cooking fat and bearnaise are separate.",
+          "sources": [
+            "https://fdc.nal.usda.gov/food-details/174205/nutrients"
+          ]
+        },
+        {
+          "id": "1776-birthday-bearnaise",
+          "name": "1776 Steakhouse \u2014 Bearnaise sauce on salmon",
+          "time": "Dinner",
+          "calories": 300,
+          "protein": 1,
+          "fat": 33,
+          "carbs": 1,
+          "estimated": true,
+          "calorie_range": [
+            180,
+            400
+          ],
+          "note": "Assume about 4 tbsp (1/4 cup) butter-rich bearnaise consumed. Sauce recipe and actual amount unknown; butter/egg-based generic estimate, not bottled light sauce.",
+          "sources": [
+            "https://fdc.nal.usda.gov/food-details/173410/nutrients"
+          ]
+        },
+        {
+          "id": "1776-birthday-twice-baked-potato",
+          "name": "1776 Steakhouse \u2014 Twice-baked potato side",
+          "time": "Dinner",
+          "calories": 550,
+          "protein": 12,
+          "fat": 34,
+          "carbs": 50,
+          "estimated": true,
+          "calorie_range": [
+            400,
+            700
+          ],
+          "note": "One substantial restaurant side portion, not two whole potatoes: double baked describes preparation. Assume about 230\u2013250 g potato with butter, cheese and creamy filling. No bacon inferred.",
+          "sources": [
+            "https://fdc.nal.usda.gov/food-details/170093/nutrients",
+            "https://fdc.nal.usda.gov/food-details/173410/nutrients"
+          ]
+        },
+        {
+          "id": "1776-birthday-cheesecake",
+          "name": "1776 Steakhouse \u2014 Small slice of cheesecake",
+          "time": "Dinner",
+          "calories": 300,
+          "protein": 5,
+          "fat": 21,
+          "carbs": 24,
+          "estimated": true,
+          "calorie_range": [
+            200,
+            380
+          ],
+          "note": "Assume small roughly 90 g rich cheesecake slice. Generic USDA cheesecake is 321 kcal/100 g; restaurant richness and slice weight uncertain.",
+          "sources": [
+            "https://fdc.nal.usda.gov/food-details/172711/nutrients"
+          ]
+        },
+        {
+          "id": "1776-birthday-amaretto-cherry-ice-cream",
+          "name": "1776 Steakhouse \u2014 Scoop of amaretto cherry ice cream",
+          "time": "Dinner",
+          "calories": 250,
+          "protein": 4,
+          "fat": 14,
+          "carbs": 28,
+          "estimated": true,
+          "calorie_range": [
+            180,
+            320
+          ],
+          "note": "Assume one roughly 1/2 cup generous premium scoop (about 90\u2013110 g). USDA vanilla ice cream is a generic base only; allow higher richness and cherry/amaretto mix-ins. Not an exact flavor label.",
+          "sources": [
+            "https://fdc.nal.usda.gov/food-details/167575/nutrients"
+          ]
         }
       ],
       "weight": null,
