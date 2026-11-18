@@ -7882,16 +7882,16 @@
         },
         {
           "id": "peas-assumed-half-can",
-          "name": "Peas, assumed half can",
+          "name": "Peas, half can",
           "time": "Meal",
           "calories": 87.5,
           "protein": 5.25,
           "carbs": 17.5,
           "fat": 0,
-          "estimated": true,
+          "estimated": false,
           "fiber": 5.25,
           "sodium_mg": 26.25,
-          "note": "Assumed half can, not independently confirmed portion; scaled verified label."
+          "note": "User confirmed half can of peas; nutrition scaled from verified label. Portion previously assumed, now user-confirmed; nutrient values unchanged."
         },
         {
           "id": "taco-sauce-two-tbsp",
