@@ -7787,10 +7787,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 937.5,
+      "calories": 1854.835,
       "protein": null,
-      "fat": 24.625,
-      "carbs": 158.5,
+      "fat": 89.6528,
+      "carbs": 197.3101,
       "meals": [
         {
           "id": "quaker-oatmeal-packet",
@@ -7935,6 +7935,131 @@
           "sodium_mg": 230,
           "protein_upper_bound_g": 2,
           "note": "User-reported 4 tbsp; nutrition scaled from verified label. Protein <2 g for consumed portion; exact protein unknown, not zero. Unprovided nutrient values remain unknown."
+        },
+        {
+          "id": "dinner-beefburger-thousand-island-brown-mustard",
+          "name": "Beefburger on white bun, Thousand Island and brown mustard (no cheese)",
+          "time": "Dinner",
+          "calories": 625.185,
+          "protein": 41.5004,
+          "fat": 37.7756,
+          "carbs": 27.0278,
+          "fiber": 1.432,
+          "estimated": true,
+          "components": [
+            {
+              "name": "Beef patty, estimated 5 oz cooked; 80/20 broiled proxy",
+              "estimated_grams": 141.75,
+              "source": "https://fdc.nal.usda.gov/food-details/171797/nutrients",
+              "reference_description": "Beef, ground, 80% lean meat / 20% fat, patty, cooked, broiled",
+              "calories": 382.725,
+              "protein": 36.5006,
+              "fat": 25.2032,
+              "carbs": 0.0,
+              "fiber": 0.0
+            },
+            {
+              "name": "One standard white hamburger bun",
+              "estimated_grams": 44,
+              "source": "https://fdc.nal.usda.gov/food-details/172796/nutrients",
+              "reference_description": "Rolls, hamburger or hotdog, plain",
+              "calories": 122.76,
+              "protein": 4.2988,
+              "fat": 1.7204,
+              "carbs": 22.0528,
+              "fiber": 0.792
+            },
+            {
+              "name": "Regular Thousand Island, estimated 2 tbsp",
+              "estimated_grams": 30,
+              "source": "https://fdc.nal.usda.gov/food-details/171402/nutrients",
+              "reference_description": "Salad dressing, thousand island, commercial, regular",
+              "calories": 113.7,
+              "protein": 0.327,
+              "fat": 10.518,
+              "carbs": 4.392,
+              "fiber": 0.24
+            },
+            {
+              "name": "Brown mustard, estimated 2 tsp; generic prepared mustard proxy",
+              "estimated_grams": 10,
+              "source": "https://fdc.nal.usda.gov/food-details/172234/nutrients",
+              "reference_description": "Mustard, prepared, yellow",
+              "calories": 6.0,
+              "protein": 0.374,
+              "fat": 0.334,
+              "carbs": 0.583,
+              "fiber": 0.4
+            }
+          ],
+          "note": "November 18: user reported one of the usual homemade burgers. Reused November 14 estimated recipe: 5 oz cooked 80/20 beef proxy, white bun, 2 tbsp Thousand Island and 2 tsp brown mustard, no cheese. Burger not pictured today; bun and condiments assumed from usual recipe, not reconfirmed today. No tots or other sides added. Portions and beef leanness remain estimates."
+        },
+        {
+          "id": "dinner-side-salad-avocado-litehouse-blue-cheese",
+          "name": "Side salad with cucumber, avocado and Litehouse blue cheese dressing",
+          "time": "Dinner",
+          "calories": 292.15,
+          "protein": 4.3198,
+          "fat": 27.2522,
+          "carbs": 11.7823,
+          "fiber": 6.8455,
+          "estimated": true,
+          "components": [
+            {
+              "name": "Mixed greens, estimated 3 cups; green-leaf lettuce proxy",
+              "estimated_grams": 108,
+              "source": "https://fdc.nal.usda.gov/food-details/169249/nutrients",
+              "reference_description": "Lettuce, green leaf, raw",
+              "calories": 16.2,
+              "protein": 1.4688,
+              "fat": 0.162,
+              "carbs": 3.0996,
+              "fiber": 1.404
+            },
+            {
+              "name": "Peeled cucumber, estimated half cup sliced",
+              "estimated_grams": 59.5,
+              "source": "https://fdc.nal.usda.gov/food-details/169225/nutrients",
+              "reference_description": "Cucumber, peeled, raw",
+              "calories": 5.95,
+              "protein": 0.351,
+              "fat": 0.0952,
+              "carbs": 1.2852,
+              "fiber": 0.4165
+            },
+            {
+              "name": "Avocado, estimated half medium (75 g)",
+              "estimated_grams": 75,
+              "source": "https://fdc.nal.usda.gov/food-details/171705/nutrients",
+              "reference_description": "Avocados, raw, all commercial varieties",
+              "calories": 120.0,
+              "protein": 1.5,
+              "fat": 10.995,
+              "carbs": 6.3975,
+              "fiber": 5.025
+            },
+            {
+              "name": "Litehouse blue cheese dressing, user-reported 2 tbsp (30 mL)",
+              "calories": 150.0,
+              "protein": 1.0,
+              "fat": 16.0,
+              "carbs": 1.0,
+              "fiber": 0.0,
+              "saturated_fat": 3.0,
+              "trans_fat": 0.0,
+              "cholesterol_mg": 15.0,
+              "sodium_mg": 200.0,
+              "sugar": 1.0,
+              "added_sugar": null,
+              "added_sugar_upper_bound_g": 1.0,
+              "vitamin_d_mcg": 0.0,
+              "calcium_mg": 40.0,
+              "iron_mg": 0.1,
+              "potassium_mg": 20.0,
+              "source": "Actual user label inspected natively; per 2 tbsp (30 mL): 150 kcal, fat 16 g, carbs 1 g, protein 1 g. Added sugars less than 1 g per serving; not exact zero."
+            }
+          ],
+          "note": "November 18: ONE salad across two photos. User reported avocado and exactly 2 tablespoons blue cheese dressing; verified Litehouse label reused (150 kcal for 2 tbsp), overriding prior visual dressing estimate. Greens modeled as 3 cups (108 g), cucumber half cup (59.5 g), avocado half medium (75 g), estimated from photos using November 14 proxies, not weighed. Dressing added sugars remain unknown, less than 1 g; no unlisted nutrients imputed."
         }
       ],
       "weight": null,
