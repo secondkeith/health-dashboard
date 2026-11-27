@@ -8496,6 +8496,61 @@
       "nutrition_source": "food-logs/2026-11-24.json",
       "macros_complete": true,
       "complete_day": false
+    },
+    {
+      "date": "2026-11-27",
+      "steps": null,
+      "caloriesBurned": null,
+      "restingHR": null,
+      "calories": 660.0,
+      "protein": 37.0,
+      "fat": 40.0,
+      "carbs": 42.0,
+      "meals": [
+        {
+          "id": "2026-11-27-first-watch-standard",
+          "time": "Breakfast",
+          "name": "First Watch Avocado Toast with standard two basted eggs (assumed)",
+          "estimated": true,
+          "calories": 580.0,
+          "protein": 24.0,
+          "fat": 39.0,
+          "carbs": 38.0,
+          "saturated_fat": 9.0,
+          "trans_fat": 0.0,
+          "cholesterol_mg": 425.0,
+          "sodium_mg": 1290.0,
+          "fiber": 14.0,
+          "sugar": 7.0,
+          "added_sugar": 4.0,
+          "source": "https://firstwatch.com/menu/avocado-toast",
+          "note": "User reported avocado toast. Standard menu serving includes two basted eggs; eggs and standard preparation assumed pending clarification. Earlier suggested poached swap was NOT confirmed and is NOT logged. Official current dish webpage nutrition retrieved November 27, 2026; standard 580 kcal includes eggs, counted once. Whole standard serving assumed; no other sides or beverages reported."
+        },
+        {
+          "id": "2026-11-27-first-watch-salmon",
+          "time": "Breakfast",
+          "name": "First Watch added smoked salmon",
+          "estimated": true,
+          "calories": 80,
+          "protein": 13,
+          "fat": 1,
+          "carbs": 4,
+          "saturated_fat": 0,
+          "trans_fat": 0,
+          "cholesterol_mg": 15,
+          "sodium_mg": 660,
+          "fiber": 2,
+          "sugar": 1,
+          "added_sugar": 0,
+          "source": "https://firstwatch.com/menu/avocado-toast",
+          "note": "User explicitly added smoked salmon, not a replacement for eggs. One standard add-on assumed. Current dish customization payload retrieved November 27, 2026: 80 kcal, protein 13 g, fat 1 g, carbs 4 g, fiber 2 g, sodium 660 mg. Linked official guide core-menu section is dated August 2026 and differs (protein 12 g, carbs 2 g, fiber 1 g, sodium 650 mg); current dish-specific website values used, not blended. Actual restaurant portion/recipe unconfirmed."
+        }
+      ],
+      "weight": null,
+      "workouts": [],
+      "nutrition_source": "food-logs/2026-11-27.json",
+      "macros_complete": true,
+      "complete_day": false
     }
   ]
 }
