@@ -8502,10 +8502,10 @@
       "steps": null,
       "caloriesBurned": null,
       "restingHR": null,
-      "calories": 660.0,
-      "protein": 37.0,
-      "fat": 40.0,
-      "carbs": 42.0,
+      "calories": 1380.0,
+      "protein": 73.0,
+      "fat": 72.0,
+      "carbs": 114.0,
       "meals": [
         {
           "id": "2026-11-27-first-watch-standard",
@@ -8544,6 +8544,25 @@
           "added_sugar": 0,
           "source": "https://firstwatch.com/menu/avocado-toast",
           "note": "User explicitly added smoked salmon, not a replacement for eggs. One standard add-on assumed. Current dish customization payload retrieved November 27, 2026: 80 kcal, protein 13 g, fat 1 g, carbs 4 g, fiber 2 g, sodium 660 mg. Linked official guide core-menu section is dated August 2026 and differs (protein 12 g, carbs 2 g, fiber 1 g, sodium 650 mg); current dish-specific website values used, not blended. Actual restaurant portion/recipe unconfirmed."
+        },
+        {
+          "id": "2026-11-27-taco-bell-standard-soft-tacos",
+          "name": "Taco Bell standard seasoned beef Soft Tacos (4; no additions)",
+          "estimated": true,
+          "calories": 720,
+          "protein": 36,
+          "carbs": 72,
+          "fat": 32,
+          "saturated_fat": 16,
+          "trans_fat": 0,
+          "cholesterol_mg": 100,
+          "sodium_mg": 2000,
+          "fiber": 12,
+          "sugar": 4,
+          "added_sugar": null,
+          "added_sugar_upper_bound": 4,
+          "source": "https://www.nutritionix.com/taco-bell/menu/premium",
+          "note": "User reported 4 normal Taco Bell soft tacos, no additions. Interpreted as standard seasoned beef, lettuce and cheddar cheese in flour tortillas; not Supreme, no extras. No past custom taco recipe reused. No meal time reported. Official Taco Bell product endpoints /food/tacos/22110 and /food/tacos/soft-taco and /nutrition/info returned access-denied responses. Fallback: directly retrieved Taco Bell full nutrition table hosted by Nutritionix, row Soft Taco - Beef (item 166975), on November 27, 2026; not a successful direct tacobell.com nutrition retrieval. Per taco: 180 kcal, protein 9 g, carbs 18 g, fat 8 g, saturated fat 4 g, trans fat 0 g, cholesterol 25 mg, sodium 500 mg, fiber 3 g, sugar 1 g, added sugar <1 g. Four servings calculated from published rounded values; added sugar <4 g, exact amount unknown."
         }
       ],
       "weight": null,
